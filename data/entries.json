@@ -92,6 +92,37 @@
           "name": "Chris Gotterup"
         }
       ]
+    },
+    {
+      "source": "form",
+      "displayName": "Pat's Moms Sister",
+      "submittedAt": "2026-04-09T07:07:27+00:00",
+      "picks": [
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "9780",
+          "name": "Jon Rahm"
+        },
+        {
+          "id": "10046",
+          "name": "Bryson DeChambeau"
+        },
+        {
+          "id": "10140",
+          "name": "Xander Schauffele"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        },
+        {
+          "id": "4425906",
+          "name": "Cameron Young"
+        }
+      ]
     }
   ],
   "rejected": []
