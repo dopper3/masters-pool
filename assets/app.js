@@ -231,6 +231,83 @@ function renderLeaderboard(players) {
   root.appendChild(table);
 }
 
+function renderRejected(rejected) {
+  const root = document.getElementById("pending-fixes");
+  root.innerHTML = "";
+  if (!rejected || !rejected.length) return;
+
+  const header = el("h2", { class: "pending-header" }, [
+    "Pending fixes ",
+    el("span", { class: "pending-count" }, `(${rejected.length})`),
+  ]);
+  root.appendChild(header);
+
+  root.appendChild(
+    el(
+      "p",
+      { class: "pending-hint" },
+      "These form submissions couldn't be matched against the field. The friend " +
+        "should resubmit the form using the same display name (latest submission " +
+        "replaces the old one). Owner can also fix names directly in the linked " +
+        "Google Sheet.",
+    ),
+  );
+
+  for (const r of rejected) {
+    const card = el("div", { class: "rejected-entry" });
+    card.appendChild(
+      el("div", { class: "rejected-entry-header" }, [
+        el("span", { class: "name" }, r.displayName || "(no name)"),
+        r.submittedAt
+          ? el(
+              "span",
+              { class: "ts" },
+              new Date(r.submittedAt).toLocaleString(),
+            )
+          : null,
+      ]),
+    );
+
+    // Map errors by pickIndex for fast lookup
+    const errsByPick = new Map();
+    let entryLevelErrors = [];
+    for (const e of r.errors || []) {
+      if (e.pickIndex && e.pickIndex >= 1 && e.pickIndex <= 6) {
+        errsByPick.set(e.pickIndex, e);
+      } else {
+        entryLevelErrors.push(e);
+      }
+    }
+
+    const list = el("ol", { class: "rejected-picks" });
+    const raw = r.rawPicks || [];
+    for (let i = 0; i < 6; i++) {
+      const text = raw[i] || "";
+      const err = errsByPick.get(i + 1);
+      if (err) {
+        const li = el("li", { class: "bad" }, [
+          el("span", { class: "input" }, text || "(empty)"),
+          el("span", { class: "msg" }, err.message),
+        ]);
+        list.appendChild(li);
+      } else {
+        list.appendChild(
+          el("li", { class: "ok" }, [el("span", { class: "input" }, text)]),
+        );
+      }
+    }
+    card.appendChild(list);
+
+    for (const e of entryLevelErrors) {
+      card.appendChild(
+        el("p", { class: "entry-error" }, e.message),
+      );
+    }
+
+    root.appendChild(card);
+  }
+}
+
 let allFieldPlayers = [];
 function renderField(players) {
   allFieldPlayers = players.slice();
@@ -353,6 +430,7 @@ async function main() {
 
   renderHeader(scores.tournament);
   renderPoolStandings(entriesData.entries || [], byId);
+  renderRejected(entriesData.rejected || []);
   renderLeaderboard(players);
   renderField(players);
 }

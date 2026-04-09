@@ -162,7 +162,14 @@ def save_entries(data):
 # ---------- main ----------
 
 def process_rows(rows, headers, field):
-    """Yield (entry_dict | None, log_line) for each row."""
+    """Yield (status, payload, log_line) for each row.
+
+    status is one of: "accepted", "rejected", "skipped".
+    "accepted" payload is a complete entry dict.
+    "rejected" payload is a dict with displayName, submittedAt, rawPicks, errors.
+    "skipped" payload is None (used for rows with no display name — no actionable
+    feedback we can give the friend, so they don't get surfaced on the site).
+    """
     name_col = find_column(headers, "display name", "name")
     pick_cols = find_pick_columns(headers)
     ts_col = find_column(headers, "timestamp")
@@ -182,32 +189,62 @@ def process_rows(rows, headers, field):
     for row in rows:
         display_name = (row.get(name_col) or "").strip()
         if not display_name:
-            yield None, "skipped row with no display name"
+            yield "skipped", None, "skipped row with no display name"
             continue
 
-        picks_text = [(row.get(c) or "").strip() for c in pick_cols]
-        if not all(picks_text):
-            yield None, f"{display_name!r}: missing one or more picks — skipped"
-            continue
+        submitted_at = parse_form_timestamp(row.get(ts_col, "")) or None
+        raw_picks = [(row.get(c) or "").strip() for c in pick_cols]
 
-        try:
-            resolved = [match_pick(pt, field) for pt in picks_text]
-        except ValueError as e:
-            yield None, f"{display_name!r}: {e} — skipped"
-            continue
+        # Collect ALL errors per row (not just the first) so the friend sees the
+        # full picture in one place.
+        resolved = []
+        errors = []
+        for i, pt in enumerate(raw_picks, 1):
+            if not pt:
+                errors.append(
+                    {"pickIndex": i, "input": "", "message": "missing"}
+                )
+                continue
+            try:
+                p = match_pick(pt, field)
+                resolved.append((i, pt, p))
+            except ValueError as e:
+                errors.append(
+                    {"pickIndex": i, "input": pt, "message": str(e)}
+                )
 
-        ids = [r["id"] for r in resolved]
-        if len(set(ids)) != len(ids):
-            yield None, f"{display_name!r}: duplicate golfer in picks — skipped"
+        # Even if all 6 matched, check for duplicates within the entry.
+        if not errors:
+            ids = [p["id"] for _, _, p in resolved]
+            if len(set(ids)) != len(ids):
+                errors.append(
+                    {
+                        "pickIndex": 0,
+                        "input": "",
+                        "message": "duplicate golfer in picks",
+                    }
+                )
+
+        if errors:
+            rejection = {
+                "displayName": display_name,
+                "submittedAt": submitted_at,
+                "rawPicks": raw_picks,
+                "errors": errors,
+            }
+            err_summary = "; ".join(
+                f"pick {e['pickIndex']}: {e['message']}" for e in errors
+            )
+            yield "rejected", rejection, f"{display_name!r}: {err_summary}"
             continue
 
         entry = {
             "source": "form",
             "displayName": display_name,
-            "submittedAt": parse_form_timestamp(row.get(ts_col, "")) or None,
-            "picks": [{"id": p["id"], "name": p["name"]} for p in resolved],
+            "submittedAt": submitted_at,
+            "picks": [{"id": p["id"], "name": p["name"]} for _, _, p in resolved],
         }
-        yield entry, f"{display_name!r}: ok"
+        yield "accepted", entry, f"{display_name!r}: ok"
 
 
 def main():
@@ -237,49 +274,47 @@ def main():
     if not field:
         raise SystemExit("Field is empty in scores.json — cannot validate picks.")
 
-    new_form_entries = []
-    accepted = 0
-    rejected = 0
-    for entry, log in process_rows(rows, headers, field):
+    # Collect every row's verdict in submission order so cross-list dedup is
+    # straightforward (latest submission of a given displayName wins, regardless
+    # of whether the latest is accepted or rejected).
+    results = []  # list of (status, payload)
+    counts = {"accepted": 0, "rejected": 0, "skipped": 0}
+    for status, payload, log in process_rows(rows, headers, field):
         print("  " + log, file=sys.stderr)
-        if entry is None:
-            rejected += 1
-        else:
-            new_form_entries.append(entry)
-            accepted += 1
+        counts[status] += 1
+        if status != "skipped":
+            results.append((status, payload))
 
-    # Dedup by display name slug — latest submission wins. Sort the rows by
-    # parsed timestamp ascending so the later ones overwrite the earlier ones.
-    def ts_key(e):
-        ts = e.get("submittedAt") or ""
-        return ts
+    def ts_key(item):
+        return (item[1].get("submittedAt") or "")
 
-    new_form_entries.sort(key=ts_key)
-    by_slug = {}
-    for e in new_form_entries:
-        by_slug[slug(e["displayName"])] = e
-    deduped = list(by_slug.values())
+    results.sort(key=ts_key)
+    by_slug = {}  # slug(displayName) -> (status, payload)
+    for item in results:
+        by_slug[slug(item[1]["displayName"])] = item
 
-    if accepted != len(deduped):
-        print(
-            f"Deduped to {len(deduped)} unique displayName entries "
-            f"(latest submission wins).",
-            file=sys.stderr,
-        )
+    accepted_entries = [p for s, p in by_slug.values() if s == "accepted"]
+    rejected_entries = [p for s, p in by_slug.values() if s == "rejected"]
 
     data = load_entries()
     existing = data.get("entries", [])
     # Keep everything that ISN'T from the form
     kept = [e for e in existing if e.get("source") != "form"]
-    data["entries"] = kept + deduped
+    data["entries"] = kept + accepted_entries
+    data["rejected"] = rejected_entries
     save_entries(data)
 
     print(
-        f"Wrote entries.json: {len(deduped)} form entries + {len(kept)} other.",
+        f"Wrote entries.json: "
+        f"{len(accepted_entries)} accepted form entries, "
+        f"{len(rejected_entries)} rejected, "
+        f"{len(kept)} other.",
         file=sys.stderr,
     )
     print(
-        f"Summary: accepted={accepted} rejected={rejected} unique={len(deduped)}",
+        f"Summary: accepted={counts['accepted']} "
+        f"rejected={counts['rejected']} skipped={counts['skipped']} "
+        f"unique-after-dedup={len(by_slug)}",
         file=sys.stderr,
     )
     return 0

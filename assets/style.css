@@ -269,6 +269,108 @@ main {
   font-style: italic;
 }
 
+/* ---------- Pending fixes (rejected form rows) ---------- */
+.pending-header {
+  font-family: var(--serif);
+  color: #8a6d00;
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 6px;
+}
+.pending-count {
+  background: var(--gold);
+  color: #2a2200;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: var(--sans);
+  font-weight: 700;
+  margin-left: 6px;
+  vertical-align: middle;
+  letter-spacing: 0;
+}
+.pending-hint {
+  font-size: 12px;
+  color: #6b5e30;
+  margin: 0 0 14px;
+  line-height: 1.5;
+  padding-left: 12px;
+  border-left: 3px solid var(--gold);
+}
+.rejected-entry {
+  background: var(--gold-soft);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(160, 130, 0, 0.08);
+}
+.rejected-entry-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 11px 16px;
+  background: linear-gradient(90deg, var(--gold) 0%, #f1c40f 100%);
+  color: #2a2200;
+  border-bottom: 1px solid #c9a800;
+}
+.rejected-entry-header .name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+.rejected-entry-header .ts {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: #4a3a00;
+}
+.rejected-picks {
+  list-style: decimal inside;
+  margin: 0;
+  padding: 10px 16px;
+  font-size: 13px;
+}
+.rejected-picks li {
+  padding: 4px 0;
+  border-bottom: 1px dotted rgba(160, 130, 0, 0.25);
+}
+.rejected-picks li:last-child {
+  border-bottom: none;
+}
+.rejected-picks li.ok .input {
+  color: #4a3a00;
+}
+.rejected-picks li.bad .input {
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: underline wavy var(--red);
+  text-underline-offset: 3px;
+}
+.rejected-picks li.bad .msg {
+  display: block;
+  font-size: 11px;
+  color: #6b5e30;
+  font-style: italic;
+  margin-top: 2px;
+  margin-left: 0;
+}
+.entry-error {
+  margin: 0;
+  padding: 10px 16px;
+  background: #fff;
+  border-top: 1px dotted rgba(160, 130, 0, 0.3);
+  color: var(--red);
+  font-size: 13px;
+  font-weight: 600;
+}
+
 /* ---------- Tournament leaderboard / field tables ---------- */
 .lb-table,
 .field-table {
