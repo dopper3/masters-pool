@@ -79,6 +79,12 @@ def parse_event(ev):
         ctype = cstatus.get("type") or {}
         position = (cstatus.get("position") or {}).get("displayName") or "-"
         score = c.get("score") or {}
+        # ESPN's `score` field reflects the *current round* only. The cumulative
+        # tournament to-par lives in the `statistics` array under name=scoreToPar.
+        stats_by_name = {
+            (s.get("name") or ""): s for s in (c.get("statistics") or [])
+        }
+        stp = stats_by_name.get("scoreToPar") or {}
 
         players.append(
             {
@@ -87,8 +93,10 @@ def parse_event(ev):
                 "shortName": ath.get("shortName"),
                 "country": (ath.get("flag") or {}).get("alt"),
                 "position": position,
-                "scoreToPar": score.get("value"),
-                "scoreDisplay": score.get("displayValue") or "-",
+                "scoreToPar": stp.get("value"),
+                "scoreDisplay": stp.get("displayValue")
+                or score.get("displayValue")
+                or "-",
                 "thru": cstatus.get("thru"),
                 "teeTime": cstatus.get("teeTime"),
                 "status": normalize_status(ctype),
