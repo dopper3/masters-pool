@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T21:55:03.618053+00:00"
+    "lastUpdated": "2026-04-09T21:58:59.316487+00:00"
   },
   "players": [
     {
@@ -247,6 +247,24 @@
       ]
     },
     {
+      "id": "5054388",
+      "name": "Jacob Bridgeman",
+      "shortName": "J. Bridgeman",
+      "country": "United States",
+      "position": "T11",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 18,
+      "teeTime": "2026-04-09T16:27Z",
+      "status": "final",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -256,24 +274,6 @@
       "scoreDisplay": "-1",
       "thru": 14,
       "teeTime": "2026-04-09T17:20Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4921329",
-      "name": "Michael Brennan",
-      "shortName": "M. Brennan",
-      "country": "United States",
-      "position": "T11",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 16,
-      "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
         -1,
@@ -391,24 +391,6 @@
       ]
     },
     {
-      "id": "5054388",
-      "name": "Jacob Bridgeman",
-      "shortName": "J. Bridgeman",
-      "country": "United States",
-      "position": "T18",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 17,
-      "teeTime": "2026-04-09T16:27Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4848",
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
@@ -491,6 +473,24 @@
       "thru": 18,
       "teeTime": "2026-04-09T11:50Z",
       "status": "final",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4921329",
+      "name": "Michael Brennan",
+      "shortName": "M. Brennan",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 17,
+      "teeTime": "2026-04-09T16:44Z",
+      "status": "active",
       "rounds": [
         0,
         null,
@@ -776,7 +776,7 @@
       "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T17:08Z",
       "status": "active",
       "rounds": [
@@ -905,24 +905,6 @@
       "thru": 18,
       "teeTime": "2026-04-09T12:26Z",
       "status": "final",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4589438",
-      "name": "Harry Hall",
-      "shortName": "H. Hall",
-      "country": "England",
-      "position": "T49",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 16,
-      "teeTime": "2026-04-09T16:44Z",
-      "status": "active",
       "rounds": [
         3,
         null,
@@ -1043,7 +1025,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1061,7 +1043,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1079,7 +1061,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1097,7 +1079,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1115,7 +1097,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1133,7 +1115,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1151,7 +1133,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 12,
@@ -1169,7 +1151,7 @@
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1187,7 +1169,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T58",
+      "position": "T57",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1205,7 +1187,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1223,7 +1205,7 @@
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1237,11 +1219,29 @@
       ]
     },
     {
+      "id": "4589438",
+      "name": "Harry Hall",
+      "shortName": "H. Hall",
+      "country": "England",
+      "position": "T66",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 17,
+      "teeTime": "2026-04-09T16:44Z",
+      "status": "active",
+      "rounds": [
+        5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5289811",
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1259,7 +1259,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 16,
@@ -1277,7 +1277,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1295,7 +1295,7 @@
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1313,7 +1313,7 @@
       "name": "Ryan Fox",
       "shortName": "R. Fox",
       "country": "New Zealand",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1352,7 +1352,7 @@
       "position": "T74",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T17:08Z",
       "status": "active",
       "rounds": [
