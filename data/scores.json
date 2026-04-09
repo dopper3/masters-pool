@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T18:37:00.724953+00:00"
+    "lastUpdated": "2026-04-09T18:39:01.397048+00:00"
   },
   "players": [
     {
@@ -31,11 +31,29 @@
       ]
     },
     {
+      "id": "3470",
+      "name": "Rory McIlroy",
+      "shortName": "R. McIlroy",
+      "country": "Northern Ireland",
+      "position": "2",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 14,
+      "teeTime": "2026-04-09T14:31Z",
+      "status": "active",
+      "rounds": [
+        -4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10906",
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
@@ -53,7 +71,7 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 16,
@@ -71,7 +89,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -89,7 +107,7 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 16,
@@ -103,29 +121,11 @@
       ]
     },
     {
-      "id": "3470",
-      "name": "Rory McIlroy",
-      "shortName": "R. McIlroy",
-      "country": "Northern Ireland",
-      "position": "T2",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 13,
-      "teeTime": "2026-04-09T14:31Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 3,
@@ -143,7 +143,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 16,
@@ -272,7 +272,7 @@
       "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -308,7 +308,7 @@
       "position": "T16",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T17:08Z",
       "status": "active",
       "rounds": [
@@ -578,7 +578,7 @@
       "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -1010,7 +1010,7 @@
       "position": "T54",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
@@ -1118,7 +1118,7 @@
       "position": "T61",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
