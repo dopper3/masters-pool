@@ -1,29 +1,4 @@
 {
   "entries": [],
-  "rejected": [
-    {
-      "displayName": "Sarah K.",
-      "submittedAt": "2026-04-09T01:23:45+00:00",
-      "rawPicks": [
-        "Scottie Scheffler",
-        "Rory McIlroy",
-        "Tigerwoods",
-        "Schefler",
-        "Jon Rahm",
-        "Collin Morikawa"
-      ],
-      "errors": [
-        {
-          "pickIndex": 3,
-          "input": "Tigerwoods",
-          "message": "no field player matches 'Tigerwoods'"
-        },
-        {
-          "pickIndex": 4,
-          "input": "Schefler",
-          "message": "no field player matches 'Schefler'"
-        }
-      ]
-    }
-  ]
+  "rejected": []
 }
