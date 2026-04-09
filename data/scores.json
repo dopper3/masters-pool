@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T17:05:02.950267+00:00"
+    "lastUpdated": "2026-04-09T17:07:01.389670+00:00"
   },
   "players": [
     {
@@ -17,7 +17,7 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "1",
+      "position": "T1",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 10,
@@ -31,11 +31,29 @@
       ]
     },
     {
+      "id": "9938",
+      "name": "Sam Burns",
+      "shortName": "S. Burns",
+      "country": "United States",
+      "position": "T1",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 13,
+      "teeTime": "2026-04-09T13:19Z",
+      "status": "active",
+      "rounds": [
+        -4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4348470",
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 14,
@@ -49,29 +67,11 @@
       ]
     },
     {
-      "id": "9938",
-      "name": "Sam Burns",
-      "shortName": "S. Burns",
-      "country": "United States",
-      "position": "T2",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 12,
-      "teeTime": "2026-04-09T13:19Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5539",
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 10,
@@ -128,7 +128,7 @@
       "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T16:03Z",
       "status": "active",
       "rounds": [
@@ -418,24 +418,6 @@
       "scoreDisplay": "E",
       "thru": 10,
       "teeTime": "2026-04-09T14:07Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9131",
-      "name": "Cameron Smith",
-      "shortName": "C. Smith",
-      "country": "Australia",
-      "position": "T20",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 12,
-      "teeTime": "2026-04-09T13:19Z",
       "status": "active",
       "rounds": [
         0,
@@ -967,6 +949,24 @@
       ]
     },
     {
+      "id": "11119",
+      "name": "Wyndham Clark",
+      "shortName": "W. Clark",
+      "country": "United States",
+      "position": "T20",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 6,
+      "teeTime": "2026-04-09T15:27Z",
+      "status": "active",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
@@ -994,6 +994,24 @@
       "scoreDisplay": "+1",
       "thru": 8,
       "teeTime": "2026-04-09T14:43Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "9131",
+      "name": "Cameron Smith",
+      "shortName": "C. Smith",
+      "country": "Australia",
+      "position": "T36",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 13,
+      "teeTime": "2026-04-09T13:19Z",
       "status": "active",
       "rounds": [
         1,
@@ -1064,7 +1082,7 @@
       "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
@@ -1102,24 +1120,6 @@
       "scoreDisplay": "+1",
       "thru": 6,
       "teeTime": "2026-04-09T15:15Z",
-      "status": "active",
-      "rounds": [
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11119",
-      "name": "Wyndham Clark",
-      "shortName": "W. Clark",
-      "country": "United States",
-      "position": "T36",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 5,
-      "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
         1,
@@ -1291,24 +1291,6 @@
       ]
     },
     {
-      "id": "453",
-      "name": "Mike Weir",
-      "shortName": "M. Weir",
-      "country": "Canada",
-      "position": "T53",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 5,
-      "teeTime": "2026-04-09T15:27Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
@@ -1316,7 +1298,7 @@
       "position": "T53",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1331,10 +1313,10 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T56",
+      "position": "T55",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
@@ -1349,7 +1331,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T56",
+      "position": "T55",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 8,
@@ -1367,7 +1349,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T56",
+      "position": "T55",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 17,
@@ -1385,7 +1367,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T56",
+      "position": "T55",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1403,11 +1385,29 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T56",
+      "position": "T55",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T13:31Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Mike Weir",
+      "shortName": "M. Weir",
+      "country": "Canada",
+      "position": "T55",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 6,
+      "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
         4,
@@ -1421,7 +1421,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T56",
+      "position": "T55",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 14,
@@ -1550,7 +1550,7 @@
       "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
