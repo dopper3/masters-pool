@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:08:58.935596+00:00"
+    "lastUpdated": "2026-04-09T19:10:58.489029+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "T1",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
@@ -128,9 +128,9 @@
       "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-09T13:55Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         -3,
         null,
@@ -686,7 +686,7 @@
       "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
@@ -709,6 +709,24 @@
       "status": "active",
       "rounds": [
         0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4419142",
+      "name": "Akshay Bhatia",
+      "shortName": "A. Bhatia",
+      "country": "United States",
+      "position": "T40",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 18,
+      "teeTime": "2026-04-09T13:55Z",
+      "status": "final",
+      "rounds": [
+        1,
         null,
         null,
         null
@@ -917,29 +935,11 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T51",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 10,
       "teeTime": "2026-04-09T16:03Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4419142",
-      "name": "Akshay Bhatia",
-      "shortName": "A. Bhatia",
-      "country": "United States",
-      "position": "T51",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 17,
-      "teeTime": "2026-04-09T13:55Z",
       "status": "active",
       "rounds": [
         2,
@@ -989,7 +989,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T51",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
@@ -1381,6 +1381,24 @@
       ]
     },
     {
+      "id": "453",
+      "name": "Mike Weir",
+      "shortName": "M. Weir",
+      "country": "Canada",
+      "position": "T75",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 13,
+      "teeTime": "2026-04-09T15:27Z",
+      "status": "active",
+      "rounds": [
+        5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4858859",
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
@@ -1421,7 +1439,7 @@
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T79",
+      "position": "T80",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 15,
@@ -1435,29 +1453,11 @@
       ]
     },
     {
-      "id": "453",
-      "name": "Mike Weir",
-      "shortName": "M. Weir",
-      "country": "Canada",
-      "position": "T79",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 12,
-      "teeTime": "2026-04-09T15:27Z",
-      "status": "active",
-      "rounds": [
-        6,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T79",
+      "position": "T80",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 18,
