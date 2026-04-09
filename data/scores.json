@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T21:02:58.084566+00:00"
+    "lastUpdated": "2026-04-09T21:04:11.400002+00:00"
   },
   "players": [
     {
@@ -1291,24 +1291,6 @@
       ]
     },
     {
-      "id": "5327297",
-      "name": "Fifa Laopakdee",
-      "shortName": "F. Laopakdee",
-      "country": "Thailand",
-      "position": "T70",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 15,
-      "teeTime": "2026-04-09T16:15Z",
-      "status": "active",
-      "rounds": [
-        5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5289811",
       "name": "Mason Howell",
       "shortName": "M. Howell",
@@ -1399,11 +1381,29 @@
       ]
     },
     {
+      "id": "5327297",
+      "name": "Fifa Laopakdee",
+      "shortName": "F. Laopakdee",
+      "country": "Thailand",
+      "position": "T77",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 16,
+      "teeTime": "2026-04-09T16:15Z",
+      "status": "active",
+      "rounds": [
+        6,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "78",
+      "position": "T77",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 18,
