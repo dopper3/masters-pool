@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T17:40:25.211362+00:00"
+    "lastUpdated": "2026-04-09T17:40:59.550916+00:00"
   },
   "players": [
     {
@@ -848,7 +848,7 @@
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T16:03Z",
       "status": "active",
       "rounds": [
@@ -940,24 +940,6 @@
       "scoreDisplay": "+1",
       "thru": 5,
       "teeTime": "2026-04-09T16:03Z",
-      "status": "active",
-      "rounds": [
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5327297",
-      "name": "Fifa Laopakdee",
-      "shortName": "F. Laopakdee",
-      "country": "Thailand",
-      "position": "T38",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 4,
-      "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
         1,
@@ -1115,7 +1097,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 11,
@@ -1129,11 +1111,29 @@
       ]
     },
     {
+      "id": "5327297",
+      "name": "Fifa Laopakdee",
+      "shortName": "F. Laopakdee",
+      "country": "Thailand",
+      "position": "T52",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 5,
+      "teeTime": "2026-04-09T16:15Z",
+      "status": "active",
+      "rounds": [
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9843",
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 14,
@@ -1151,7 +1151,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
@@ -1169,7 +1169,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 14,
@@ -1187,7 +1187,7 @@
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 8,
@@ -1205,7 +1205,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
