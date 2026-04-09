@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T21:34:10.823759+00:00"
+    "lastUpdated": "2026-04-09T21:34:58.279274+00:00"
   },
   "players": [
     {
@@ -49,24 +49,6 @@
       ]
     },
     {
-      "id": "569",
-      "name": "Justin Rose",
-      "shortName": "J. Rose",
-      "country": "England",
-      "position": "3",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 13,
-      "teeTime": "2026-04-09T17:20Z",
-      "status": "active",
-      "rounds": [
-        -4,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "1680",
       "name": "Jason Day",
       "shortName": "J. Day",
@@ -79,6 +61,24 @@
       "status": "final",
       "rounds": [
         -3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "569",
+      "name": "Justin Rose",
+      "shortName": "J. Rose",
+      "country": "England",
+      "position": "3",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 13,
+      "teeTime": "2026-04-09T17:20Z",
+      "status": "active",
+      "rounds": [
+        -4,
         null,
         null,
         null
