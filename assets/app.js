@@ -138,9 +138,46 @@ function renderHeader(t) {
   }
 }
 
+function renderPreCutoffEntries(root, entries) {
+  const card = el("div", { class: "precutoff" });
+  card.appendChild(
+    el("h2", { class: "precutoff-title" }, "Picks are hidden until the deadline"),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "precutoff-body" },
+      `Teams unlock at ${formatCutoffLocal()}. Until then you'll just see who has entered.`,
+    ),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "precutoff-count" },
+      `${entries.length} ${entries.length === 1 ? "entry" : "entries"} submitted so far`,
+    ),
+  );
+
+  const list = el("ul", { class: "precutoff-list" });
+  // Sort alphabetically by display name so the order doesn't leak submission timing.
+  const names = entries
+    .map((e) => e.displayName || "(no name)")
+    .sort((a, b) => a.localeCompare(b));
+  for (const name of names) {
+    list.appendChild(el("li", {}, name));
+  }
+  card.appendChild(list);
+  root.appendChild(card);
+}
+
 function renderPoolStandings(entries, byId) {
   const root = document.getElementById("pool-standings");
   root.innerHTML = "";
+
+  // Hide the "best 4 of 6 / shaded in green" hint pre-cutoff — it's confusing
+  // when there are no picks displayed.
+  const hint = document.getElementById("pool-hint");
+  if (hint) hint.hidden = !isPastCutoff();
 
   if (!entries.length) {
     root.appendChild(
@@ -150,6 +187,13 @@ function renderPoolStandings(entries, byId) {
         " tab.",
       ]),
     );
+    return;
+  }
+
+  // Before the submission deadline, show only the list of submitters — no
+  // picks, no scores. Keeps people from copying each other's teams.
+  if (!isPastCutoff()) {
+    renderPreCutoffEntries(root, entries);
     return;
   }
 

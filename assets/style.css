@@ -779,6 +779,58 @@ main {
   margin-bottom: 0;
 }
 
+/* Pre-cutoff "picks hidden" card on the Pool standings tab */
+.precutoff {
+  background: white;
+  border: 1px solid var(--green-line);
+  border-left: 5px solid var(--gold-bright);
+  border-radius: 4px;
+  padding: 32px 28px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 56, 42, 0.06);
+}
+.precutoff-title {
+  font-family: var(--serif);
+  color: var(--green-primary);
+  font-size: 26px;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+}
+.precutoff-body {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+.precutoff-count {
+  font-size: 13px;
+  color: var(--green-primary);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 18px 0 10px;
+}
+.precutoff-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 520px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 8px;
+}
+.precutoff-list li {
+  background: #f2f6f3;
+  border: 1px solid var(--green-line);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font-size: 13px;
+  color: var(--text);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   font-size: 11px;
