@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T14:57:07.077309+00:00"
+    "lastUpdated": "2026-04-09T14:58:10.499217+00:00"
   },
   "players": [
     {
@@ -25,6 +25,24 @@
       "status": "active",
       "rounds": [
         -3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4419142",
+      "name": "Akshay Bhatia",
+      "shortName": "A. Bhatia",
+      "country": "United States",
+      "position": "T2",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 4,
+      "teeTime": "2026-04-09T13:55Z",
+      "status": "active",
+      "rounds": [
+        -2,
         null,
         null,
         null
@@ -85,29 +103,11 @@
       ]
     },
     {
-      "id": "4419142",
-      "name": "Akshay Bhatia",
-      "shortName": "A. Bhatia",
-      "country": "United States",
-      "position": "T5",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 3,
-      "teeTime": "2026-04-09T13:55Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3448",
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -121,11 +121,29 @@
       ]
     },
     {
+      "id": "4901368",
+      "name": "Matt McCarty",
+      "shortName": "M. McCarty",
+      "country": "United States",
+      "position": "T6",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 8,
+      "teeTime": "2026-04-09T12:38Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 11,
@@ -143,7 +161,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 5,
@@ -157,11 +175,29 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T6",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 2,
+      "teeTime": "2026-04-09T14:19Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 5,
@@ -179,7 +215,7 @@
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -197,7 +233,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -359,7 +395,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 8,
@@ -395,7 +431,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 2,
@@ -593,7 +629,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 2,
@@ -647,7 +683,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -773,7 +809,7 @@
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -809,29 +845,11 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 2,
       "teeTime": "2026-04-09T14:07Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4901368",
-      "name": "Matt McCarty",
-      "shortName": "M. McCarty",
-      "country": "United States",
-      "position": "T12",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 7,
-      "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
         0,
@@ -863,7 +881,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 8,
@@ -1007,29 +1025,11 @@
       "name": "Rory McIlroy",
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
       "teeTime": "2026-04-09T14:31Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T12",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 1,
-      "teeTime": "2026-04-09T14:19Z",
       "status": "active",
       "rounds": [
         0,
@@ -1115,7 +1115,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T12",
+      "position": "T14",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 4,
