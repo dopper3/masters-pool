@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T17:27:02.464241+00:00"
+    "lastUpdated": "2026-04-09T17:28:59.911224+00:00"
   },
   "players": [
     {
@@ -49,11 +49,29 @@
       ]
     },
     {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "T3",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 4,
+      "teeTime": "2026-04-09T16:27Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4587",
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "3",
+      "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 13,
@@ -67,29 +85,11 @@
       ]
     },
     {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "T4",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 3,
-      "teeTime": "2026-04-09T16:27Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 4,
@@ -107,7 +107,7 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 13,
@@ -125,7 +125,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 15,
@@ -143,10 +143,10 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T12:50Z",
       "status": "active",
       "rounds": [
@@ -161,7 +161,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 13,
@@ -179,10 +179,10 @@
       "name": "Rory McIlroy",
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
@@ -197,7 +197,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 12,
@@ -215,7 +215,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 11,
@@ -254,7 +254,7 @@
       "position": "T13",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T15:15Z",
       "status": "active",
       "rounds": [
@@ -308,7 +308,7 @@
       "position": "T17",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T15:15Z",
       "status": "active",
       "rounds": [
@@ -866,7 +866,7 @@
       "position": "T17",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T15:39Z",
       "status": "active",
       "rounds": [
@@ -1334,7 +1334,7 @@
       "position": "T61",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
