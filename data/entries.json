@@ -247,6 +247,37 @@
           "name": "Tommy Fleetwood"
         }
       ]
+    },
+    {
+      "source": "form",
+      "displayName": "Claude 5.0",
+      "submittedAt": "2026-04-09T09:49:23+00:00",
+      "picks": [
+        {
+          "id": "10046",
+          "name": "Bryson DeChambeau"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "329",
+          "name": "José María Olazábal"
+        },
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
+        {
+          "id": "9780",
+          "name": "Jon Rahm"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        }
+      ]
     }
   ],
   "rejected": []
