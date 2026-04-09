@@ -23,6 +23,30 @@ const FORM_PREFILL = {
   ],
 };
 
+// Submission deadline. Must match SUBMISSION_CUTOFF in scripts/poll_form.py.
+// 8:00 PM Eastern on Thursday April 9, 2026 == 00:00 UTC April 10, 2026.
+const SUBMISSION_CUTOFF = new Date("2026-04-10T00:00:00Z");
+
+function isPastCutoff() {
+  return Date.now() >= SUBMISSION_CUTOFF.getTime();
+}
+
+function formatCutoffLocal() {
+  // Render the deadline in the visitor's local time.
+  try {
+    return SUBMISSION_CUTOFF.toLocaleString(undefined, {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
+  } catch (e) {
+    return SUBMISSION_CUTOFF.toString();
+  }
+}
+
 // ---------- helpers ----------
 async function loadJson(path) {
   const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
@@ -372,6 +396,11 @@ let pickerFiltered = [];
 
 function initPicker(players) {
   try {
+    if (isPastCutoff()) {
+      renderPickerClosed();
+      return;
+    }
+
     pickerPlayers = (players || [])
       .slice()
       .sort((a, b) => (a.name || "").localeCompare(b.name || ""));
@@ -399,6 +428,7 @@ function initPicker(players) {
 
     drawPickerField();
     updatePickerCount();
+    renderDeadlineNote();
   } catch (e) {
     console.error("initPicker failed:", e);
     const root = document.getElementById("picker-field");
@@ -409,6 +439,50 @@ function initPicker(players) {
         ". Use the fallback Google Form link below.</div>";
     }
   }
+}
+
+function renderPickerClosed() {
+  const panel = document.getElementById("tab-pick");
+  if (!panel) return;
+  // Replace the entire picker UI with a "submissions closed" card so there's
+  // no way to confuse the visitor into thinking the form might still accept
+  // their entry.
+  panel.innerHTML = "";
+  const card = el("div", { class: "picker-closed" });
+  card.appendChild(
+    el("h2", { class: "picker-closed-title" }, "Submissions are closed"),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "picker-closed-body" },
+      `The deadline was ${formatCutoffLocal()}. New picks won't be counted.`,
+    ),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "picker-closed-body" },
+      "Head over to the Pool standings tab to see how everyone is doing.",
+    ),
+  );
+  panel.appendChild(card);
+}
+
+function renderDeadlineNote() {
+  // Add a small "deadline: ..." note above the green picks bar so visitors
+  // know how much time they have left.
+  const bar = document.getElementById("picker-count");
+  if (!bar) return;
+  let note = document.getElementById("picker-deadline-note");
+  if (!note) {
+    note = el("p", { id: "picker-deadline-note", class: "picker-deadline" });
+    const barContainer = bar.closest(".picker-bar");
+    if (barContainer && barContainer.parentNode) {
+      barContainer.parentNode.insertBefore(note, barContainer);
+    }
+  }
+  note.textContent = `Deadline: ${formatCutoffLocal()}`;
 }
 
 function drawPickerField() {
@@ -512,6 +586,14 @@ function flashPickerStatus(msg, kind) {
 }
 
 function handlePickerSubmit() {
+  if (isPastCutoff()) {
+    flashPickerStatus(
+      `Submissions closed at ${formatCutoffLocal()}.`,
+      "error",
+    );
+    return;
+  }
+
   const nameEl = document.getElementById("picker-name");
   const name = (nameEl && nameEl.value.trim()) || "";
 

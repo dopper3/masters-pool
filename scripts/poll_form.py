@@ -28,6 +28,12 @@ SCORES_FILE = ROOT / "data" / "scores.json"
 
 PICKS_REQUIRED = 6
 
+# Submission deadline. Submissions with a parsed timestamp at or after this
+# moment are dropped (not added to entries OR rejected — they just disappear).
+# 8:00 PM Eastern on Thursday April 9, 2026 == 00:00 UTC April 10, 2026.
+# Edit this single constant if the deadline changes.
+SUBMISSION_CUTOFF = datetime(2026, 4, 10, 0, 0, 0, tzinfo=timezone.utc)
+
 
 # ---------- helpers (intentionally duplicated from ingest_entry.py to keep
 # the two ingest paths independent and avoid cross-script breakage) ----------
@@ -125,6 +131,21 @@ def parse_form_timestamp(s):
     return s  # give up, store the raw string
 
 
+def is_past_cutoff(submitted_at_iso):
+    """Return True if the submission timestamp is at or past SUBMISSION_CUTOFF.
+    Unparseable timestamps return False (give the friend the benefit of the
+    doubt — better to accept a late entry than to drop a valid one)."""
+    if not submitted_at_iso:
+        return False
+    try:
+        dt = datetime.fromisoformat(submitted_at_iso)
+    except (ValueError, TypeError):
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt >= SUBMISSION_CUTOFF
+
+
 # ---------- IO ----------
 
 def fetch_csv(url):
@@ -193,6 +214,16 @@ def process_rows(rows, headers, field):
             continue
 
         submitted_at = parse_form_timestamp(row.get(ts_col, "")) or None
+
+        if is_past_cutoff(submitted_at):
+            yield (
+                "late",
+                None,
+                f"{display_name!r}: LATE — submitted at {submitted_at} "
+                f"(past cutoff {SUBMISSION_CUTOFF.isoformat()})",
+            )
+            continue
+
         raw_picks = [(row.get(c) or "").strip() for c in pick_cols]
 
         # Collect ALL errors per row (not just the first) so the friend sees the
@@ -278,11 +309,11 @@ def main():
     # straightforward (latest submission of a given displayName wins, regardless
     # of whether the latest is accepted or rejected).
     results = []  # list of (status, payload)
-    counts = {"accepted": 0, "rejected": 0, "skipped": 0}
+    counts = {"accepted": 0, "rejected": 0, "skipped": 0, "late": 0}
     for status, payload, log in process_rows(rows, headers, field):
         print("  " + log, file=sys.stderr)
         counts[status] += 1
-        if status != "skipped":
+        if status not in ("skipped", "late"):
             results.append((status, payload))
 
     def ts_key(item):
@@ -314,7 +345,7 @@ def main():
     print(
         f"Summary: accepted={counts['accepted']} "
         f"rejected={counts['rejected']} skipped={counts['skipped']} "
-        f"unique-after-dedup={len(by_slug)}",
+        f"late={counts['late']} unique-after-dedup={len(by_slug)}",
         file=sys.stderr,
     )
     return 0

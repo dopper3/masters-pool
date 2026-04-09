@@ -172,10 +172,17 @@ GitHub is busy — fine for golf, not fine for stock trading.
 
 | Where | What |
 | --- | --- |
-| `assets/app.js` top | `PENALTY_WD`, `PENALTY_NULL`, `BEST_OF`, `PICKS_REQUIRED` |
+| `assets/app.js` top | `PENALTY_WD`, `PENALTY_NULL`, `BEST_OF`, `PICKS_REQUIRED`, `SUBMISSION_CUTOFF` |
+| `scripts/poll_form.py` top | `SUBMISSION_CUTOFF` (must match `app.js`) |
 | `.github/workflows/update-scores.yml` | Cron schedule for score fetch |
 | `.github/workflows/poll-form.yml` | Cron schedule for form poll |
 | `scripts/fetch_scores.py` | ESPN endpoint, status mapping |
+
+> **Submission deadline:** the cutoff is enforced in two places — the picker
+> UI hides itself after the deadline, and the poller drops any form rows with
+> a `submittedAt` timestamp at or after the cutoff. Both constants must match
+> if you change one. The default is `2026-04-10T00:00:00Z` (8 PM EDT on
+> Thursday April 9, 2026).
 
 ## Local preview
 
