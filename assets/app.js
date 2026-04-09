@@ -369,25 +369,17 @@ function wireTabs() {
 }
 
 function wireRepoLinks() {
-  // Detect repo from the current GitHub Pages URL so the README placeholder
-  // doesn't have to be hand-edited.
-  const host = location.hostname; // e.g. user.github.io
+  // Detect repo from the current GitHub Pages URL so the footer link works
+  // wherever this site is deployed.
+  const host = location.hostname;
   const path = location.pathname.replace(/^\/+|\/+$/g, "").split("/");
-  let owner = null;
-  let repo = null;
   if (host.endsWith(".github.io")) {
-    owner = host.split(".")[0];
-    repo = path[0] || `${owner}.github.io`;
-  }
-  if (owner && repo) {
-    const base = `https://github.com/${owner}/${repo}`;
-    document.getElementById("repo-link").href = base;
-    document.getElementById("entry-link").href =
-      `${base}/issues/new?template=pool-entry.yml`;
+    const owner = host.split(".")[0];
+    const repo = path[0] || `${owner}.github.io`;
+    document.getElementById("repo-link").href =
+      `https://github.com/${owner}/${repo}`;
   } else {
-    // Local preview — leave a sensible default
     document.getElementById("repo-link").href = "https://github.com";
-    document.getElementById("entry-link").href = "https://github.com";
   }
 }
 

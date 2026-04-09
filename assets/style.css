@@ -72,13 +72,65 @@ body {
 .header-inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.header-left {
+  display: flex;
+  align-items: center;
   gap: 18px;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .flagmark {
   width: 46px;
   height: 60px;
   flex-shrink: 0;
+}
+
+.entry-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
+  background: linear-gradient(180deg, #fff200 0%, var(--gold-bright) 100%);
+  color: var(--green-deep);
+  text-decoration: none;
+  font-family: var(--serif);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 1.5px solid #d9bb00;
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.25),
+    0 0 0 3px rgba(0, 56, 42, 0.4);
+  transition: transform 120ms ease, box-shadow 120ms ease,
+    background 120ms ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.entry-button:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 5px 12px rgba(0, 0, 0, 0.3),
+    0 0 0 3px rgba(0, 56, 42, 0.5);
+  background: linear-gradient(180deg, #fff700 0%, #ffe21a 100%);
+}
+.entry-button:active {
+  transform: translateY(0);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.25),
+    0 0 0 3px rgba(0, 56, 42, 0.4);
+}
+.entry-button span {
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 2px;
 }
 
 .site-header h1 {
@@ -513,6 +565,15 @@ main {
   .site-header h1 {
     font-size: 22px;
     letter-spacing: 1px;
+  }
+  .header-inner {
+    gap: 14px;
+  }
+  .entry-button {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 20px;
+    font-size: 13px;
   }
   .flagmark {
     width: 36px;

@@ -2,8 +2,8 @@
 
 A tiny, self-hosted fantasy pool for the Masters Tournament. Pick six golfers,
 your best four scores each round count, lowest team total wins. Friends submit
-entries by opening a GitHub issue from a template; scores refresh automatically
-every ~15 minutes via GitHub Actions.
+entries through a Google Form; scores refresh automatically every ~15 minutes
+via GitHub Actions.
 
 Everything is static — there is no server. The site lives on GitHub Pages and
 the data lives in JSON files committed to the repo.
@@ -18,21 +18,18 @@ the data lives in JSON files committed to the repo.
 │   └── style.css
 ├── data/
 │   ├── scores.json         # auto-updated by the fetch workflow
-│   └── entries.json        # auto-updated when an entry issue is approved
+│   └── entries.json        # auto-updated by the form-poll workflow
 ├── scripts/
 │   ├── fetch_scores.py     # pulls from ESPN, writes data/scores.json
-│   └── ingest_entry.py     # parses an entry issue, writes data/entries.json
-└── .github/
-    ├── ISSUE_TEMPLATE/pool-entry.yml
-    └── workflows/
-        ├── update-scores.yml      # cron every ~15 min during Masters week
-        └── ingest-entry.yml       # fires when you label an issue "approved"
+│   └── poll_form.py        # pulls from the Google Form sheet, writes entries.json
+└── .github/workflows/
+    ├── update-scores.yml   # cron every ~15 min during Masters week
+    └── poll-form.yml       # cron every ~5 min, polls the form
 ```
 
 ## One-time setup
 
-1. **Create a public repo on GitHub** (e.g. `masters-pool`) and push this
-   directory to it. From a shell in `C:\git\Masters`:
+1. **Create a public repo on GitHub** and push this directory to it.
    ```bash
    git init
    git add .
@@ -42,51 +39,31 @@ the data lives in JSON files committed to the repo.
    git push -u origin main
    ```
 
-2. **Enable GitHub Pages.** In the repo: `Settings → Pages → Build and
-   deployment → Source: Deploy from a branch → main / (root) → Save`. After a
-   minute the site will be live at
-   `https://<you>.github.io/masters-pool/`.
+2. **Enable GitHub Pages.** `Settings → Pages → Build and deployment → Source:
+   Deploy from a branch → main / (root) → Save`. After a minute the site is
+   live at `https://<you>.github.io/masters-pool/`.
 
 3. **Allow Actions to write to the repo.** `Settings → Actions → General →
    Workflow permissions → Read and write permissions → Save`. Without this the
    automated commits will fail.
 
-4. **Create the `approved` label.** `Issues → Labels → New label → Name:
-   `approved` → Create`. This is the trigger the ingest workflow listens for.
-
-5. **Kick off the first scores fetch.** `Actions → Update Masters scores → Run
+4. **Kick off the first scores fetch.** `Actions → Update Masters scores → Run
    workflow → main`. This populates `data/scores.json` with the field so picks
-   can be validated. After it finishes, the site will show the field on the
-   **The field** tab.
+   can be validated and the **Field** tab on the site can show the player list.
 
-## How friends enter
+5. **Create the Google Form** (see next section) and set the `FORM_CSV_URL`
+   repo variable.
 
-Send your friends the Pages URL. They click **Rules & how to enter →
-Submit your entry**, which opens a pre-filled GitHub issue:
+## The Google Form
 
-- Display name (how they'll appear on the leaderboard)
-- Six picks, full names
+Friends submit entries through a Google Form you create. Form responses land
+in a linked sheet; the site polls a CSV export of the sheet every five minutes
+and merges new submissions into the leaderboard.
 
-When they submit, you (the owner) get an issue notification. Glance at it,
-then add the **`approved`** label. The ingest workflow runs, parses the picks,
-validates them against the field, commits the entry to `data/entries.json`,
-closes the issue with a confirmation comment, and the new entry appears on
-the site within ~30 seconds.
+### Setup
 
-If a pick is misspelled or ambiguous, the workflow comments back with the
-problem and removes the label so the friend (or you) can fix it.
-
-## Friends without GitHub: the Google Form path
-
-If some of your friends don't want to make a GitHub account, you can wire up
-a Google Form. Form responses get auto-ingested into the leaderboard alongside
-the GitHub-issue entries — both submission paths work side by side.
-
-### One-time setup
-
-1. **Create a Google Form.** Add these short-answer questions, in this order,
-   with these exact labels (the parser is loose about case but strict about
-   names):
+1. **Create a Google Form.** Add these short-answer questions in this order
+   with these exact labels (case-insensitive but otherwise strict):
    - `Display name`
    - `Pick 1`
    - `Pick 2`
@@ -101,60 +78,52 @@ the GitHub-issue entries — both submission paths work side by side.
 2. **Link a sheet.** In the form, `Responses → Link to Sheets → Create new
    spreadsheet`.
 
-3. **Publish the sheet as CSV.** Open the sheet, then `File → Share →
-   Publish to web`. Pick `Entire document` on the left and `Comma-separated
-   values (.csv)` on the right. Click `Publish`. Copy the URL it gives you —
-   it'll look like
+3. **Publish the sheet as CSV.** Open the sheet, then `File → Share → Publish
+   to web`. Pick `Entire document` on the left and `Comma-separated values
+   (.csv)` on the right. Click `Publish`. Copy the URL — it'll look like
    `https://docs.google.com/spreadsheets/d/e/2PACX-1v.../pub?output=csv`.
 
-   This URL is read-only and contains no auth info. It's safe to put in a
-   repo variable, but it does technically expose the responses to anyone who
-   guesses the URL — fine for a private pool.
+   The URL is read-only and unguessable, but it's not auth-protected — anyone
+   who has it can read the responses. Fine for a private pool.
 
-4. **Set the repo variable.** In the GitHub repo:
-   `Settings → Secrets and variables → Actions → Variables tab → New
-   repository variable`. Name it `FORM_CSV_URL` and paste the CSV URL as the
-   value.
+4. **Set the repo variable.** `Settings → Secrets and variables → Actions →
+   Variables tab → New repository variable`. Name it `FORM_CSV_URL`, paste
+   the CSV URL.
 
-5. **Trigger the first poll.** `Actions → Poll Google Form → Run workflow →
-   main`. After it runs, any responses already in the sheet are now on the
-   leaderboard.
+5. **Update the entry button on the site.** The "Submit Your Entry" button in
+   the header and the link on the Rules tab both point to a Google Form
+   `viewform` URL hardcoded in `index.html`. Search for `docs.google.com/forms`
+   and replace both occurrences with your form's public URL (the one you get
+   from the form's `Send → link icon` dialog, ending in `/viewform`).
 
-That's it. The poll workflow then runs every 5 minutes during Masters week
-and will pick up any new submissions automatically.
+6. **Trigger the first poll.** `Actions → Poll Google Form → Run workflow →
+   main`. After it runs, any responses already in the sheet are on the board.
+
+After step 6 you're done — the form-poll workflow runs every 5 minutes during
+Masters week and picks up new submissions automatically.
 
 ### How dedup works
 
-- Each form row produces one entry on the leaderboard. The `displayName`
-  field is the dedup key — if two rows have the same display name, the
-  **latest submission wins** (and the older one is dropped).
-- That means a friend can resubmit by filling out the form again with the
-  same display name; the new picks replace the old.
+- Each form row produces one entry. The `displayName` field is the dedup key:
+  if two rows share the same display name, the **latest submission wins** and
+  the older one is dropped.
+- A friend can resubmit by filling out the form again with the same display
+  name; the new picks replace the old.
 - Two friends with the same display name will collide. Tell them to add a
   last initial.
-- If you delete a row in the linked sheet, it disappears from the
-  leaderboard on the next poll.
+- If you delete a row in the linked sheet, it disappears from the leaderboard
+  on the next poll.
 
-### When something is wrong
+### When a pick doesn't match a real golfer
 
-The poll workflow logs the result of every row to the workflow run. If a
-friend says "I submitted but I'm not on the board," check
-`Actions → Poll Google Form → most recent run → poll job`. You'll see one
-line per row, e.g.:
+The poller validates every pick against the live field. Misspelled or
+ambiguous picks don't quietly disappear — they show up on the leaderboard
+under a **Pending fixes** section with the bad picks highlighted in red, so
+the friend can self-diagnose and resubmit.
 
-```
-'Dave D.': ok
-'Sarah K.': no field player matches 'Tigerwoods' — skipped
-```
-
-Fix the row in the sheet (or have your friend resubmit) and the next poll
-will pick it up.
-
-### If you don't want the form path
-
-The poll workflow stays dormant if `FORM_CSV_URL` is unset — it ships in
-the repo and runs on the cron, but exits cleanly with "not configured" until
-you set the variable. Nothing to remove.
+The poll workflow also logs every row's verdict in the workflow run. If you
+want a more granular view: `Actions → Poll Google Form → most recent run →
+poll job`.
 
 ## Scoring rules
 
@@ -170,17 +139,18 @@ These constants live at the top of `assets/app.js` if you want to tweak them.
 
 ## How the automation works
 
-- **`update-scores.yml`** runs on a cron during Masters week (Apr 9–13 2026)
+- **`update-scores.yml`** runs on cron during Masters week (Apr 9–13 2026)
   every 15 minutes. It runs `scripts/fetch_scores.py`, which hits ESPN's
   public golf leaderboard endpoint and rewrites `data/scores.json`. If
-  scores changed, it commits and pushes. The site reads `scores.json` on
-  page load (with cache busting) and re-renders.
+  scores changed it commits and pushes. The site reads `scores.json` on
+  every page load (with cache busting) and re-renders.
 
-- **`ingest-entry.yml`** fires when you add the `approved` label to an issue.
-  It runs `scripts/ingest_entry.py`, which parses the issue body, fuzzy-matches
-  picks against the current field, and writes `data/entries.json`. On success
-  it comments and closes the issue. On failure it comments the error and
-  removes the label.
+- **`poll-form.yml`** runs every 5 minutes during the same window. It runs
+  `scripts/poll_form.py`, which fetches the published-CSV form responses,
+  validates picks against the current field, dedups by display name, and
+  rewrites `data/entries.json`. The poller is **stateless** — every run
+  rebuilds the form portion of the file from the current sheet contents,
+  so deleting a row in the sheet eventually removes it from the leaderboard.
 
 GitHub Actions cron is best-effort and may be delayed several minutes when
 GitHub is busy — fine for golf, not fine for stock trading.
@@ -188,20 +158,23 @@ GitHub is busy — fine for golf, not fine for stock trading.
 ## If something breaks mid-tournament
 
 - **Manual score refresh:** `Actions → Update Masters scores → Run workflow`.
+- **Manual form poll:** `Actions → Poll Google Form → Run workflow`.
 - **ESPN endpoint changes:** edit `scripts/fetch_scores.py`. The shape it
   expects is documented in the parsing functions. Worst case, write the
-  fields you care about straight into `data/scores.json` by hand and commit
-  — the site only cares about the file's shape, not where it came from.
-- **A friend can't get their entry to validate:** check that the player name
-  on the **Field** tab matches what they typed. The ingest script accepts
-  full names, partial substrings, or unique last names.
+  fields you care about into `data/scores.json` by hand and commit — the
+  site only cares about the file's shape, not where it came from.
+- **A friend can't get their entry to validate:** check the **Pending fixes**
+  section on the site, or open the latest poll workflow run. Names are
+  matched against the **Field** tab — case-insensitive, accent-insensitive,
+  unique substrings and unique last names work, but typos don't fuzzy-match.
 
 ## Tweakable constants
 
 | Where | What |
 | --- | --- |
 | `assets/app.js` top | `PENALTY_WD`, `PENALTY_NULL`, `BEST_OF`, `PICKS_REQUIRED` |
-| `.github/workflows/update-scores.yml` | Cron schedule |
+| `.github/workflows/update-scores.yml` | Cron schedule for score fetch |
+| `.github/workflows/poll-form.yml` | Cron schedule for form poll |
 | `scripts/fetch_scores.py` | ESPN endpoint, status mapping |
 
 ## Local preview

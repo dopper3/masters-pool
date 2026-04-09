@@ -15,46 +15,56 @@
   <body>
     <header class="site-header">
       <div class="wrap header-inner">
-        <svg
-          class="flagmark"
-          viewBox="0 0 46 60"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-        >
-          <!-- flagstick -->
-          <line
-            x1="9"
-            y1="4"
-            x2="9"
-            y2="56"
-            stroke="#fed925"
-            stroke-width="2"
-            stroke-linecap="round"
-          />
-          <!-- pennant -->
-          <path
-            d="M9 6 L40 12 L9 20 Z"
-            fill="#fed925"
-            stroke="#fed925"
-            stroke-width="1"
-            stroke-linejoin="round"
-          />
-          <!-- ground line -->
-          <line
-            x1="3"
-            y1="56"
-            x2="36"
-            y2="56"
-            stroke="#fed925"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            opacity="0.6"
-          />
-        </svg>
-        <div>
-          <h1>Nettzone Masters Pool - heyooooooooo</h1>
-          <p id="tournament-status" class="status">Loading…</p>
+        <div class="header-left">
+          <svg
+            class="flagmark"
+            viewBox="0 0 46 60"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <!-- flagstick -->
+            <line
+              x1="9"
+              y1="4"
+              x2="9"
+              y2="56"
+              stroke="#fed925"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <!-- pennant -->
+            <path
+              d="M9 6 L40 12 L9 20 Z"
+              fill="#fed925"
+              stroke="#fed925"
+              stroke-width="1"
+              stroke-linejoin="round"
+            />
+            <!-- ground line -->
+            <line
+              x1="3"
+              y1="56"
+              x2="36"
+              y2="56"
+              stroke="#fed925"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              opacity="0.6"
+            />
+          </svg>
+          <div>
+            <h1>Nettzone Masters Pool - heyooooooooo</h1>
+            <p id="tournament-status" class="status">Loading…</p>
+          </div>
         </div>
+        <a
+          class="entry-button"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeelvfCHACF3PS6APNsjlpASJfIRR4fNuQj2wKsIAoZdqa6dQ/viewform"
+          target="_blank"
+          rel="noopener"
+        >
+          Submit Your Entry <span aria-hidden="true">→</span>
+        </a>
       </div>
     </header>
 
@@ -120,20 +130,31 @@
         <h2>How to enter</h2>
         <ol>
           <li>
-            Click
-            <a id="entry-link" href="#" target="_blank" rel="noopener"
-              >Submit your entry</a
+            Click the
+            <a
+              id="entry-link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeelvfCHACF3PS6APNsjlpASJfIRR4fNuQj2wKsIAoZdqa6dQ/viewform"
+              target="_blank"
+              rel="noopener"
+              ><strong>Submit Your Entry</strong></a
             >
-            (opens a GitHub Issue with the entry form pre-loaded).
+            button at the top of the page (opens a Google Form in a new tab).
           </li>
           <li>
             Fill in your display name and your six picks. Use full names as
             shown on the <a href="#" data-jump="field">Field</a> tab.
           </li>
-          <li>Submit the issue.</li>
+          <li>Submit the form.</li>
           <li>
-            The pool owner will label your issue <code>approved</code> and your
-            entry will appear here automatically within a minute or two.
+            Your entry shows up on the leaderboard within ~5 minutes — the site
+            polls the form automatically.
+          </li>
+          <li>
+            Made a typo? Just resubmit the form with the
+            <strong>same display name</strong> and your new picks replace the
+            old ones. If something doesn't match a real golfer, you'll see your
+            entry pop up under <strong>Pending fixes</strong> below the
+            standings with the bad picks highlighted.
           </li>
         </ol>
       </section>
