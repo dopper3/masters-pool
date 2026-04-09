@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:53:00.963056+00:00"
+    "lastUpdated": "2026-04-09T19:53:21.607461+00:00"
   },
   "players": [
     {
@@ -175,6 +175,24 @@
       ]
     },
     {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "shortName": "J. Spieth",
+      "country": "United States",
+      "position": "T13",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 8,
+      "teeTime": "2026-04-09T17:20Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4848",
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
@@ -311,24 +329,6 @@
       "thru": 18,
       "teeTime": "2026-04-09T11:40Z",
       "status": "final",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "shortName": "J. Spieth",
-      "country": "United States",
-      "position": "T13",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 8,
-      "teeTime": "2026-04-09T17:20Z",
-      "status": "active",
       "rounds": [
         -1,
         null,
