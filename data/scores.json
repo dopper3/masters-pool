@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T18:34:12.478995+00:00"
+    "lastUpdated": "2026-04-09T18:35:00.298076+00:00"
   },
   "players": [
     {
@@ -157,29 +157,11 @@
       ]
     },
     {
-      "id": "5539",
-      "name": "Tommy Fleetwood",
-      "shortName": "T. Fleetwood",
-      "country": "England",
-      "position": "T2",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 15,
-      "teeTime": "2026-04-09T13:55Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 7,
@@ -197,7 +179,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 3,
@@ -215,7 +197,7 @@
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 4,
@@ -233,7 +215,7 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 4,
@@ -251,7 +233,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 5,
@@ -265,11 +247,29 @@
       ]
     },
     {
+      "id": "5539",
+      "name": "Tommy Fleetwood",
+      "shortName": "T. Fleetwood",
+      "country": "England",
+      "position": "T9",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 16,
+      "teeTime": "2026-04-09T13:55Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
