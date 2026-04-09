@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 7,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T15:33:02.669933+00:00"
+    "lastUpdated": "2026-04-09T15:35:00.705540+00:00"
   },
   "players": [
     {
@@ -38,7 +38,7 @@
       "position": "T1",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T13:55Z",
       "status": "active",
       "rounds": [
@@ -1417,29 +1417,11 @@
       ]
     },
     {
-      "id": "392",
-      "name": "Vijay Singh",
-      "shortName": "V. Singh",
-      "country": "Fiji",
-      "position": "T37",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 9,
-      "teeTime": "2026-04-09T12:38Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344766",
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T41",
+      "position": "T40",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 11,
@@ -1457,7 +1439,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T41",
+      "position": "T40",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 15,
@@ -1475,7 +1457,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T41",
+      "position": "T40",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 10,
@@ -1493,11 +1475,29 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T41",
+      "position": "T40",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 11,
       "teeTime": "2026-04-09T12:14Z",
+      "status": "active",
+      "rounds": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "392",
+      "name": "Vijay Singh",
+      "shortName": "V. Singh",
+      "country": "Fiji",
+      "position": "T40",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 10,
+      "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
         3,
