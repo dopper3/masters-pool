@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T14:55:01.443827+00:00"
+    "lastUpdated": "2026-04-09T14:57:07.077309+00:00"
   },
   "players": [
     {
@@ -38,7 +38,7 @@
       "position": "T2",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T12:02Z",
       "status": "active",
       "rounds": [
@@ -128,7 +128,7 @@
       "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T11:50Z",
       "status": "active",
       "rounds": [
@@ -398,7 +398,7 @@
       "position": "T12",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T14:19Z",
       "status": "active",
       "rounds": [
@@ -596,7 +596,7 @@
       "position": "T12",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T14:19Z",
       "status": "active",
       "rounds": [
@@ -1381,24 +1381,6 @@
       ]
     },
     {
-      "id": "2201886",
-      "name": "Brandon Holtz",
-      "shortName": "B. Holtz",
-      "country": "United States",
-      "position": "T30",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 6,
-      "teeTime": "2026-04-09T13:02Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4610056",
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
@@ -1417,15 +1399,15 @@
       ]
     },
     {
-      "id": "5217048",
-      "name": "Johnny Keefer",
-      "shortName": "J. Keefer",
-      "country": "United States",
+      "id": "4408316",
+      "name": "Nico Echavarria",
+      "shortName": "N. Echavarria",
+      "country": "Colombia",
       "position": "T30",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 12,
-      "teeTime": "2026-04-09T11:40Z",
+      "thru": 7,
+      "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
         2,
@@ -1442,7 +1424,7 @@
       "position": "T30",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
@@ -1478,7 +1460,7 @@
       "position": "T30",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
@@ -1489,29 +1471,11 @@
       ]
     },
     {
-      "id": "780",
-      "name": "Bubba Watson",
-      "shortName": "B. Watson",
-      "country": "United States",
-      "position": "T36",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 6,
-      "teeTime": "2026-04-09T13:02Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344766",
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T36",
+      "position": "T35",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 9,
@@ -1525,11 +1489,29 @@
       ]
     },
     {
+      "id": "5217048",
+      "name": "Johnny Keefer",
+      "shortName": "J. Keefer",
+      "country": "United States",
+      "position": "T35",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 13,
+      "teeTime": "2026-04-09T11:40Z",
+      "status": "active",
+      "rounds": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4513",
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T36",
+      "position": "T35",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 5,
@@ -1543,36 +1525,54 @@
       ]
     },
     {
-      "id": "4837226",
-      "name": "Naoyuki Kataoka",
-      "shortName": "N. Kataoka",
-      "country": "Japan",
-      "position": "T36",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 10,
-      "teeTime": "2026-04-09T11:50Z",
+      "id": "2201886",
+      "name": "Brandon Holtz",
+      "shortName": "B. Holtz",
+      "country": "United States",
+      "position": "T38",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
-        3,
+        4,
         null,
         null,
         null
       ]
     },
     {
-      "id": "4408316",
-      "name": "Nico Echavarria",
-      "shortName": "N. Echavarria",
-      "country": "Colombia",
-      "position": "T36",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 6,
+      "id": "780",
+      "name": "Bubba Watson",
+      "shortName": "B. Watson",
+      "country": "United States",
+      "position": "T38",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
-        3,
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4837226",
+      "name": "Naoyuki Kataoka",
+      "shortName": "N. Kataoka",
+      "country": "Japan",
+      "position": "T38",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 11,
+      "teeTime": "2026-04-09T11:50Z",
+      "status": "active",
+      "rounds": [
+        4,
         null,
         null,
         null
@@ -1583,14 +1583,14 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T36",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 8,
+      "position": "T38",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 9,
       "teeTime": "2026-04-09T12:14Z",
       "status": "active",
       "rounds": [
-        3,
+        4,
         null,
         null,
         null
@@ -1622,7 +1622,7 @@
       "position": "T43",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T12:02Z",
       "status": "active",
       "rounds": [
@@ -1640,7 +1640,7 @@
       "position": "T43",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T11:50Z",
       "status": "active",
       "rounds": [
