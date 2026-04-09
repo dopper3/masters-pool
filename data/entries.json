@@ -1,4 +1,36 @@
 {
-  "entries": [],
+  "entries": [
+    {
+      "source": "form",
+      "displayName": "Pat's Mom's Friend",
+      "submittedAt": "2026-04-08T21:23:22+00:00",
+      "picks": [
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "10140",
+          "name": "Xander Schauffele"
+        },
+        {
+          "id": "5860",
+          "name": "Hideki Matsuyama"
+        },
+        {
+          "id": "3448",
+          "name": "Dustin Johnson"
+        },
+        {
+          "id": "10046",
+          "name": "Bryson DeChambeau"
+        }
+      ]
+    }
+  ],
   "rejected": []
 }
