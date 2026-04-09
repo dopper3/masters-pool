@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T15:21:00.617587+00:00"
+    "lastUpdated": "2026-04-09T15:23:03.375213+00:00"
   },
   "players": [
     {
@@ -128,7 +128,7 @@
       "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T13:43Z",
       "status": "active",
       "rounds": [
@@ -146,7 +146,7 @@
       "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T13:31Z",
       "status": "active",
       "rounds": [
@@ -1136,7 +1136,7 @@
       "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1280,7 +1280,7 @@
       "position": "T25",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T13:43Z",
       "status": "active",
       "rounds": [
@@ -1417,24 +1417,6 @@
       ]
     },
     {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "T36",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 9,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4858859",
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
@@ -1475,7 +1457,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 10,
@@ -1493,7 +1475,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 14,
@@ -1507,15 +1489,15 @@
       ]
     },
     {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "shortName": "K. Bradley",
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 6,
-      "teeTime": "2026-04-09T13:31Z",
+      "thru": 10,
+      "teeTime": "2026-04-09T12:26Z",
       "status": "active",
       "rounds": [
         3,
@@ -1529,7 +1511,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 8,
@@ -1547,11 +1529,29 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 8,
       "teeTime": "2026-04-09T13:02Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "shortName": "K. Bradley",
+      "country": "United States",
+      "position": "T42",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-09T13:31Z",
       "status": "active",
       "rounds": [
         4,
@@ -1579,24 +1579,6 @@
       ]
     },
     {
-      "id": "4251",
-      "name": "Ryan Fox",
-      "shortName": "R. Fox",
-      "country": "New Zealand",
-      "position": "T45",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 9,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "65",
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
@@ -1609,6 +1591,24 @@
       "status": "active",
       "rounds": [
         5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4251",
+      "name": "Ryan Fox",
+      "shortName": "R. Fox",
+      "country": "New Zealand",
+      "position": "47",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 10,
+      "teeTime": "2026-04-09T12:26Z",
+      "status": "active",
+      "rounds": [
+        6,
         null,
         null,
         null
