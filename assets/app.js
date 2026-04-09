@@ -65,6 +65,23 @@ function fmtToPar(n) {
   return n > 0 ? `+${n}` : `${n}`;
 }
 
+// Returns a small round headshot <img> for an ESPN golfer id, or null. The
+// URL pattern is ESPN's standard headshot CDN; if a player has no portrait
+// uploaded the onerror handler hides the img so it doesn't leave a broken
+// icon in the row.
+function playerAvatar(id) {
+  if (!id) return null;
+  const img = document.createElement("img");
+  img.className = "player-avatar";
+  img.src = `https://a.espncdn.com/i/headshots/golf/players/full/${id}.png`;
+  img.alt = "";
+  img.loading = "lazy";
+  img.onerror = function () {
+    this.style.display = "none";
+  };
+  return img;
+}
+
 function el(tag, props = {}, children = []) {
   const node = document.createElement(tag);
   for (const [k, v] of Object.entries(props)) {
@@ -262,7 +279,10 @@ function renderPoolStandings(entries, byId) {
     });
     for (const p of ordered) {
       const row = el("tr", { class: p.counted ? "counted" : "dropped" });
-      const nameCell = el("td", { class: "name" }, p.name);
+      const nameCell = el("td", { class: "name" });
+      const poolAvatar = playerAvatar(p.id);
+      if (poolAvatar) nameCell.appendChild(poolAvatar);
+      nameCell.appendChild(document.createTextNode(p.name));
       if (p.penalty) {
         nameCell.appendChild(el("span", { class: "badge-penalty" }, "PEN"));
       }
@@ -313,7 +333,11 @@ function renderLeaderboard(players) {
       p.status === "cut" || p.status === "wd" || p.status === "dq";
     const row = el("tr", isCut ? { class: "cut" } : {});
     row.appendChild(el("td", { class: "pos" }, p.position || "—"));
-    row.appendChild(el("td", {}, p.name || "—"));
+    const lbNameCell = el("td", { class: "player" });
+    const lbAvatar = playerAvatar(p.id);
+    if (lbAvatar) lbNameCell.appendChild(lbAvatar);
+    lbNameCell.appendChild(document.createTextNode(p.name || "—"));
+    row.appendChild(lbNameCell);
     row.appendChild(el("td", { class: "num" }, fmtToPar(p.scoreToPar)));
     row.appendChild(
       el(
@@ -437,11 +461,12 @@ function drawFieldList(list) {
   );
   const tbody = el("tbody");
   for (const p of list) {
+    const fieldNameCell = el("td", { class: "player" });
+    const fieldAvatar = playerAvatar(p.id);
+    if (fieldAvatar) fieldNameCell.appendChild(fieldAvatar);
+    fieldNameCell.appendChild(document.createTextNode(p.name || "—"));
     tbody.appendChild(
-      el("tr", {}, [
-        el("td", {}, p.name || "—"),
-        el("td", {}, p.country || ""),
-      ]),
+      el("tr", {}, [fieldNameCell, el("td", {}, p.country || "")]),
     );
   }
   table.appendChild(tbody);
@@ -594,6 +619,8 @@ function drawPickerField() {
     nameSpan.textContent = p.name || "—";
 
     label.appendChild(cb);
+    const pickerAvatar = playerAvatar(p.id);
+    if (pickerAvatar) label.appendChild(pickerAvatar);
     label.appendChild(nameSpan);
 
     if (p.country) {

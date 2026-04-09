@@ -423,6 +423,19 @@ main {
   font-weight: 600;
 }
 
+/* ---------- Player avatars (round headshots beside names) ---------- */
+.player-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+  background: var(--paper);
+  border: 1px solid var(--green-line);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 /* ---------- Tournament leaderboard / field tables ---------- */
 .lb-table,
 .field-table {
