@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T18:45:02.745447+00:00"
+    "lastUpdated": "2026-04-09T18:47:00.358432+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T16:27Z",
       "status": "active",
       "rounds": [
@@ -229,6 +229,24 @@
       ]
     },
     {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T9",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 8,
+      "teeTime": "2026-04-09T16:27Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4587",
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
@@ -287,7 +305,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T16",
+      "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -305,7 +323,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T16",
+      "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -323,7 +341,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T16",
+      "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 5,
@@ -341,7 +359,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T16",
+      "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -359,7 +377,7 @@
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
       "country": "Scotland",
-      "position": "T16",
+      "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -377,29 +395,11 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T16",
+      "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
       "teeTime": "2026-04-09T17:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T16",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 7,
-      "teeTime": "2026-04-09T16:27Z",
       "status": "active",
       "rounds": [
         -1,
@@ -758,7 +758,7 @@
       "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T15:39Z",
       "status": "active",
       "rounds": [
@@ -920,7 +920,7 @@
       "position": "T43",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T15:03Z",
       "status": "active",
       "rounds": [
@@ -1010,7 +1010,7 @@
       "position": "T53",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T14:19Z",
       "status": "active",
       "rounds": [
@@ -1154,7 +1154,7 @@
       "position": "T59",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T17:56Z",
       "status": "active",
       "rounds": [
