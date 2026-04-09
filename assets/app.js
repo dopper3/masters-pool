@@ -363,44 +363,57 @@ function drawFieldList(list) {
 }
 
 // ---------- picker (custom selection page) ----------
-// State: ordered list of player ids the user has selected. Insertion order
-// becomes Pick 1..Pick 6 in the form.
+// Uses native <input type="checkbox"> elements so the browser handles all
+// the click/hover/focus state. We track selection in pickerSelected as an
+// ordered list of ids — insertion order becomes Pick 1..Pick 6 in the form.
 let pickerSelected = [];
-let pickerPlayers = []; // alphabetized field for picker
-let pickerFiltered = []; // current search-filtered view
+let pickerPlayers = [];
+let pickerFiltered = [];
 
 function initPicker(players) {
-  pickerPlayers = players
-    .slice()
-    .sort((a, b) => (a.name || "").localeCompare(b.name || ""));
-  pickerFiltered = pickerPlayers;
+  try {
+    pickerPlayers = (players || [])
+      .slice()
+      .sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+    pickerFiltered = pickerPlayers;
 
-  const search = document.getElementById("picker-search");
-  search.addEventListener("input", () => {
-    const q = search.value.trim().toLowerCase();
-    pickerFiltered = q
-      ? pickerPlayers.filter(
-          (p) =>
-            (p.name || "").toLowerCase().includes(q) ||
-            (p.country || "").toLowerCase().includes(q),
-        )
-      : pickerPlayers;
+    const search = document.getElementById("picker-search");
+    if (search) {
+      search.addEventListener("input", () => {
+        const q = search.value.trim().toLowerCase();
+        pickerFiltered = q
+          ? pickerPlayers.filter(
+              (p) =>
+                (p.name || "").toLowerCase().includes(q) ||
+                (p.country || "").toLowerCase().includes(q),
+            )
+          : pickerPlayers;
+        drawPickerField();
+      });
+    }
+
+    const submitBtn = document.getElementById("picker-submit");
+    if (submitBtn) {
+      submitBtn.addEventListener("click", handlePickerSubmit);
+    }
+
     drawPickerField();
-  });
-
-  const nameInput = document.getElementById("picker-name");
-  nameInput.addEventListener("input", updatePickerSubmitState);
-
-  const submitBtn = document.getElementById("picker-submit");
-  submitBtn.addEventListener("click", handlePickerSubmit);
-
-  drawPickerField();
-  drawPickerSelected();
-  updatePickerSubmitState();
+    updatePickerCount();
+  } catch (e) {
+    console.error("initPicker failed:", e);
+    const root = document.getElementById("picker-field");
+    if (root) {
+      root.innerHTML =
+        '<div class="empty">Picker failed to load: ' +
+        (e && e.message ? e.message : "unknown error") +
+        ". Use the fallback Google Form link below.</div>";
+    }
+  }
 }
 
 function drawPickerField() {
   const root = document.getElementById("picker-field");
+  if (!root) return;
   root.innerHTML = "";
 
   if (!pickerPlayers.length) {
@@ -408,7 +421,7 @@ function drawPickerField() {
       el(
         "div",
         { class: "empty" },
-        "Field hasn't loaded yet. Try again after the next score fetch.",
+        "Field hasn't loaded yet. Try refreshing in a minute.",
       ),
     );
     return;
@@ -421,117 +434,99 @@ function drawPickerField() {
     return;
   }
 
-  const list = el("ul", { class: "picker-field-list" });
+  const atMax = pickerSelected.length >= PICKS_REQUIRED;
+
   for (const p of pickerFiltered) {
     const id = String(p.id);
-    const isSelected = pickerSelected.includes(id);
-    const li = el("li", {
-      class: "picker-field-row" + (isSelected ? " selected" : ""),
-      "data-id": id,
-      onclick: () => togglePick(id),
+    const isChecked = pickerSelected.includes(id);
+
+    const label = document.createElement("label");
+    label.className = "picker-row" + (isChecked ? " checked" : "");
+
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.className = "picker-checkbox";
+    cb.value = id;
+    cb.checked = isChecked;
+    cb.disabled = atMax && !isChecked;
+    cb.addEventListener("change", function () {
+      handleCheckboxChange(id, cb);
     });
-    li.appendChild(
-      el(
-        "span",
-        { class: "picker-check" },
-        isSelected ? "\u2713" : "",
-      ),
-    );
-    li.appendChild(el("span", { class: "picker-name" }, p.name || "—"));
+
+    const nameSpan = document.createElement("span");
+    nameSpan.className = "picker-row-name";
+    nameSpan.textContent = p.name || "—";
+
+    label.appendChild(cb);
+    label.appendChild(nameSpan);
+
     if (p.country) {
-      li.appendChild(el("span", { class: "picker-country" }, p.country));
+      const countrySpan = document.createElement("span");
+      countrySpan.className = "picker-row-country";
+      countrySpan.textContent = p.country;
+      label.appendChild(countrySpan);
     }
-    list.appendChild(li);
+
+    root.appendChild(label);
   }
-  root.appendChild(list);
 }
 
-function togglePick(id) {
-  const idx = pickerSelected.indexOf(id);
-  if (idx >= 0) {
-    pickerSelected.splice(idx, 1);
-  } else {
+function handleCheckboxChange(id, cb) {
+  if (cb.checked) {
     if (pickerSelected.length >= PICKS_REQUIRED) {
+      cb.checked = false;
       flashPickerStatus(
-        `You've already picked ${PICKS_REQUIRED}. Remove one before adding another.`,
+        `You've already picked ${PICKS_REQUIRED}. Uncheck one before adding another.`,
+        "error",
       );
       return;
     }
     pickerSelected.push(id);
+  } else {
+    const idx = pickerSelected.indexOf(id);
+    if (idx >= 0) pickerSelected.splice(idx, 1);
   }
+  updatePickerCount();
+  // Redraw so other checkboxes pick up the right disabled state when we
+  // cross the cap in either direction.
   drawPickerField();
-  drawPickerSelected();
-  updatePickerSubmitState();
 }
 
-function drawPickerSelected() {
-  const root = document.getElementById("picker-selected");
+function updatePickerCount() {
   const counter = document.getElementById("picker-count");
-  root.innerHTML = "";
-  counter.textContent = `${pickerSelected.length} / ${PICKS_REQUIRED}`;
-
-  if (!pickerSelected.length) {
-    root.appendChild(
-      el(
-        "li",
-        { class: "picker-selected-empty" },
-        "No picks yet — click golfers below to add them.",
-      ),
-    );
-    return;
+  if (counter) {
+    counter.textContent = `${pickerSelected.length} / ${PICKS_REQUIRED} picked`;
   }
-
-  const byId = new Map(pickerPlayers.map((p) => [String(p.id), p]));
-  pickerSelected.forEach((id, i) => {
-    const p = byId.get(id);
-    const li = el("li", { class: "picker-selected-row" });
-    li.appendChild(el("span", { class: "picker-selected-num" }, `${i + 1}.`));
-    li.appendChild(
-      el("span", { class: "picker-selected-name" }, (p && p.name) || id),
-    );
-    li.appendChild(
-      el(
-        "button",
-        {
-          class: "picker-remove",
-          type: "button",
-          "aria-label": "Remove pick",
-          onclick: (e) => {
-            e.stopPropagation();
-            togglePick(id);
-          },
-        },
-        "\u00d7",
-      ),
-    );
-    root.appendChild(li);
-  });
-}
-
-function updatePickerSubmitState() {
-  const nameInput = document.getElementById("picker-name");
-  const btn = document.getElementById("picker-submit");
-  const ready =
-    nameInput.value.trim().length > 0 &&
-    pickerSelected.length === PICKS_REQUIRED;
-  btn.disabled = !ready;
 }
 
 let pickerStatusTimer = null;
-function flashPickerStatus(msg) {
+function flashPickerStatus(msg, kind) {
   const status = document.getElementById("picker-status");
+  if (!status) return;
   status.textContent = msg;
-  status.classList.add("visible");
+  status.className = "picker-status visible " + (kind || "info");
   if (pickerStatusTimer) clearTimeout(pickerStatusTimer);
   pickerStatusTimer = setTimeout(() => {
     status.classList.remove("visible");
-  }, 3500);
+  }, 4500);
 }
 
 function handlePickerSubmit() {
-  const name = document.getElementById("picker-name").value.trim();
-  if (!name) return;
-  if (pickerSelected.length !== PICKS_REQUIRED) return;
+  const nameEl = document.getElementById("picker-name");
+  const name = (nameEl && nameEl.value.trim()) || "";
+
+  if (!name) {
+    flashPickerStatus("Enter a display name first.", "error");
+    if (nameEl) nameEl.focus();
+    return;
+  }
+  if (pickerSelected.length !== PICKS_REQUIRED) {
+    flashPickerStatus(
+      `Pick exactly ${PICKS_REQUIRED} golfers — you have ${pickerSelected.length}.`,
+      "error",
+    );
+    return;
+  }
 
   const byId = new Map(pickerPlayers.map((p) => [String(p.id), p]));
   const params = new URLSearchParams();
@@ -545,7 +540,8 @@ function handlePickerSubmit() {
   const url = `${FORM_PREFILL.base}?${params.toString()}`;
   window.open(url, "_blank", "noopener");
   flashPickerStatus(
-    "Form opened in a new tab — click Submit on the form to finalize your entry.",
+    "Form opened in a new tab — click Submit on the form to finalize.",
+    "success",
   );
 }
 

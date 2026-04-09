@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css?v=2" />
   </head>
   <body>
     <header class="site-header">
@@ -90,14 +90,15 @@
 
       <section id="tab-pick" class="tab-panel">
         <p class="hint">
-          Type your display name, then click 6 golfers from the field below.
-          When you're done, hit <strong>Submit picks</strong> — that opens the
-          Google Form in a new tab with everything filled in. Click
-          <strong>Submit</strong> on the form to finalize.
+          Enter your name, check exactly <strong>6 golfers</strong>, hit
+          <strong>Submit picks</strong>. The Google Form opens in a new tab
+          pre-filled — click Submit on the form to finalize.
         </p>
 
         <div class="picker-form">
-          <label class="picker-label" for="picker-name">Your display name</label>
+          <label class="picker-label" for="picker-name"
+            >Your display name</label
+          >
           <input
             id="picker-name"
             type="text"
@@ -105,36 +106,26 @@
             autocomplete="off"
             maxlength="40"
           />
-          <p class="picker-name-hint">
-            Use the same name every time you submit. Resubmitting with the same
-            display name replaces your old picks.
-          </p>
         </div>
 
-        <div class="picker-summary">
-          <div class="picker-summary-header">
-            <span class="picker-summary-title">Your picks</span>
-            <span id="picker-count" class="picker-count">0 / 6</span>
-          </div>
-          <ol id="picker-selected" class="picker-selected"></ol>
-        </div>
-
-        <div class="picker-controls">
-          <input
-            id="picker-search"
-            type="search"
-            placeholder="Search the field…"
-            autocomplete="off"
-          />
-        </div>
-
-        <div id="picker-field" class="picker-field"></div>
-
-        <div class="picker-actions">
-          <button id="picker-submit" class="picker-submit" disabled>
+        <div class="picker-bar">
+          <span id="picker-count" class="picker-count">0 / 6 picked</span>
+          <button id="picker-submit" class="picker-submit" type="button">
             Submit picks
           </button>
-          <p id="picker-status" class="picker-status"></p>
+        </div>
+
+        <p id="picker-status" class="picker-status"></p>
+
+        <input
+          id="picker-search"
+          type="search"
+          placeholder="Search the field…"
+          autocomplete="off"
+        />
+
+        <div id="picker-field" class="picker-field">
+          <p class="picker-loading">Loading the field…</p>
         </div>
 
         <p class="picker-fallback">
@@ -226,6 +217,6 @@
       <p id="last-updated"></p>
     </footer>
 
-    <script src="assets/app.js"></script>
+    <script src="assets/app.js?v=2"></script>
   </body>
 </html>
