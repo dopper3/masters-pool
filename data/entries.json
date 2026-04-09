@@ -216,6 +216,37 @@
           "name": "Brooks Koepka"
         }
       ]
+    },
+    {
+      "source": "form",
+      "displayName": "Pat's Mom's Dildo",
+      "submittedAt": "2026-04-09T09:09:48+00:00",
+      "picks": [
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "10140",
+          "name": "Xander Schauffele"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        },
+        {
+          "id": "4364873",
+          "name": "Viktor Hovland"
+        },
+        {
+          "id": "5860",
+          "name": "Hideki Matsuyama"
+        },
+        {
+          "id": "5539",
+          "name": "Tommy Fleetwood"
+        }
+      ]
     }
   ],
   "rejected": []
