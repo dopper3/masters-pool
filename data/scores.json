@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T17:33:00.016959+00:00"
+    "lastUpdated": "2026-04-09T17:35:00.049048+00:00"
   },
   "players": [
     {
@@ -200,7 +200,7 @@
       "position": "T5",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -668,7 +668,7 @@
       "position": "T16",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
@@ -812,7 +812,7 @@
       "position": "T16",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T16:56Z",
       "status": "active",
       "rounds": [
@@ -920,7 +920,7 @@
       "position": "T35",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
@@ -974,7 +974,7 @@
       "position": "T35",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T16:56Z",
       "status": "active",
       "rounds": [
@@ -1226,7 +1226,7 @@
       "position": "T50",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-09T15:03Z",
       "status": "active",
       "rounds": [
@@ -1316,7 +1316,7 @@
       "position": "T61",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
@@ -1514,29 +1514,11 @@
       "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
         6,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "2201886",
-      "name": "Brandon Holtz",
-      "shortName": "B. Holtz",
-      "country": "United States",
-      "position": "T73",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 14,
-      "teeTime": "2026-04-09T13:02Z",
-      "status": "active",
-      "rounds": [
-        7,
         null,
         null,
         null
@@ -1550,9 +1532,9 @@
       "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         7,
         null,
@@ -1579,11 +1561,29 @@
       ]
     },
     {
+      "id": "2201886",
+      "name": "Brandon Holtz",
+      "shortName": "B. Holtz",
+      "country": "United States",
+      "position": "T75",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 15,
+      "teeTime": "2026-04-09T13:02Z",
+      "status": "active",
+      "rounds": [
+        8,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5532",
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
@@ -1601,7 +1601,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
