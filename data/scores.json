@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T16:48:58.843740+00:00"
+    "lastUpdated": "2026-04-09T16:50:59.277686+00:00"
   },
   "players": [
     {
@@ -17,28 +17,10 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "1",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 9,
-      "teeTime": "2026-04-09T13:55Z",
-      "status": "active",
-      "rounds": [
-        -5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5539",
-      "name": "Tommy Fleetwood",
-      "shortName": "T. Fleetwood",
-      "country": "England",
-      "position": "2",
+      "position": "T1",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T13:55Z",
       "status": "active",
       "rounds": [
@@ -79,6 +61,24 @@
       "status": "active",
       "rounds": [
         -3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5539",
+      "name": "Tommy Fleetwood",
+      "shortName": "T. Fleetwood",
+      "country": "England",
+      "position": "T1",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 9,
+      "teeTime": "2026-04-09T13:55Z",
+      "status": "active",
+      "rounds": [
+        -4,
         null,
         null,
         null
@@ -1615,29 +1615,11 @@
       ]
     },
     {
-      "id": "4837226",
-      "name": "Naoyuki Kataoka",
-      "shortName": "N. Kataoka",
-      "country": "Japan",
-      "position": "69",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 17,
-      "teeTime": "2026-04-09T11:50Z",
-      "status": "active",
-      "rounds": [
-        10,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5080439",
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
-      "position": "70",
+      "position": "69",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 17,
@@ -1645,6 +1627,24 @@
       "status": "active",
       "rounds": [
         11,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4837226",
+      "name": "Naoyuki Kataoka",
+      "shortName": "N. Kataoka",
+      "country": "Japan",
+      "position": "70",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
+      "thru": 18,
+      "teeTime": "2026-04-09T11:50Z",
+      "status": "final",
+      "rounds": [
+        12,
         null,
         null,
         null
