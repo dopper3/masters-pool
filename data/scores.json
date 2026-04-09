@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 5,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T15:51:01.649702+00:00"
+    "lastUpdated": "2026-04-09T15:53:07.004028+00:00"
   },
   "players": [
     {
@@ -38,7 +38,7 @@
       "position": "T2",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T13:55Z",
       "status": "active",
       "rounds": [
@@ -56,7 +56,7 @@
       "position": "T2",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T13:55Z",
       "status": "active",
       "rounds": [
@@ -1046,7 +1046,7 @@
       "position": "T15",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T15:03Z",
       "status": "active",
       "rounds": [
@@ -1136,7 +1136,7 @@
       "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1174,6 +1174,24 @@
       "scoreDisplay": "+1",
       "thru": 10,
       "teeTime": "2026-04-09T12:50Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T27",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 12,
+      "teeTime": "2026-04-09T12:26Z",
       "status": "active",
       "rounds": [
         1,
@@ -1298,7 +1316,7 @@
       "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1327,29 +1345,11 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T38",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 11,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5289811",
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 4,
@@ -1367,7 +1367,7 @@
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 13,
@@ -1385,7 +1385,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 8,
@@ -1399,29 +1399,11 @@
       ]
     },
     {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "shortName": "V. Hovland",
-      "country": "Norway",
-      "position": "T38",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 3,
-      "teeTime": "2026-04-09T14:43Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344766",
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -1439,7 +1421,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 16,
@@ -1457,7 +1439,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -1475,11 +1457,29 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 10,
       "teeTime": "2026-04-09T12:38Z",
+      "status": "active",
+      "rounds": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "shortName": "V. Hovland",
+      "country": "Norway",
+      "position": "T42",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 4,
+      "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
         3,
@@ -1525,29 +1525,11 @@
       ]
     },
     {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 11,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        4,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "780",
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 9,
@@ -1561,11 +1543,29 @@
       ]
     },
     {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
+      "country": "United States",
+      "position": "T49",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 12,
+      "teeTime": "2026-04-09T12:26Z",
+      "status": "active",
+      "rounds": [
+        5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "65",
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 12,
