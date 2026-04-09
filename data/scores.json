@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T14:51:01.356654+00:00"
+    "lastUpdated": "2026-04-09T14:53:00.696885+00:00"
   },
   "players": [
     {
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "9938",
-      "name": "Sam Burns",
-      "shortName": "S. Burns",
-      "country": "United States",
-      "position": "T2",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 5,
-      "teeTime": "2026-04-09T13:19Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5539",
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
@@ -107,7 +89,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T6",
+      "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 3,
@@ -125,7 +107,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T6",
+      "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -143,7 +125,7 @@
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T6",
+      "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 10,
@@ -161,10 +143,10 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T6",
+      "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-09T13:31Z",
       "status": "active",
       "rounds": [
@@ -179,7 +161,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T6",
+      "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 5,
@@ -193,11 +175,29 @@
       ]
     },
     {
+      "id": "9938",
+      "name": "Sam Burns",
+      "shortName": "S. Burns",
+      "country": "United States",
+      "position": "T5",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 6,
+      "teeTime": "2026-04-09T13:19Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T6",
+      "position": "T5",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -650,7 +650,7 @@
       "position": "T12",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T13:19Z",
       "status": "active",
       "rounds": [
@@ -1280,7 +1280,7 @@
       "position": "T23",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T13:19Z",
       "status": "active",
       "rounds": [
