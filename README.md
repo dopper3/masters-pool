@@ -181,7 +181,7 @@ GitHub is busy — fine for golf, not fine for stock trading.
 > **Submission deadline:** the cutoff is enforced in two places — the picker
 > UI hides itself after the deadline, and the poller drops any form rows with
 > a `submittedAt` timestamp at or after the cutoff. Both constants must match
-> if you change one. The default is `2026-04-10T00:00:00Z` (8 PM EDT on
+> if you change one. The default is `2026-04-09T14:00:00Z` (10 AM EDT on
 > Thursday April 9, 2026).
 
 ## Local preview

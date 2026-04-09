@@ -24,8 +24,8 @@ const FORM_PREFILL = {
 };
 
 // Submission deadline. Must match SUBMISSION_CUTOFF in scripts/poll_form.py.
-// 8:00 PM Eastern on Thursday April 9, 2026 == 00:00 UTC April 10, 2026.
-const SUBMISSION_CUTOFF = new Date("2026-04-10T00:00:00Z");
+// 10:00 AM Eastern on Thursday April 9, 2026 == 14:00 UTC April 9, 2026.
+const SUBMISSION_CUTOFF = new Date("2026-04-09T14:00:00Z");
 
 function isPastCutoff() {
   return Date.now() >= SUBMISSION_CUTOFF.getTime();

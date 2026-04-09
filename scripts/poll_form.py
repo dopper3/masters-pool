@@ -30,9 +30,9 @@ PICKS_REQUIRED = 6
 
 # Submission deadline. Submissions with a parsed timestamp at or after this
 # moment are dropped (not added to entries OR rejected — they just disappear).
-# 8:00 PM Eastern on Thursday April 9, 2026 == 00:00 UTC April 10, 2026.
+# 10:00 AM Eastern on Thursday April 9, 2026 == 14:00 UTC April 9, 2026.
 # Edit this single constant if the deadline changes.
-SUBMISSION_CUTOFF = datetime(2026, 4, 10, 0, 0, 0, tzinfo=timezone.utc)
+SUBMISSION_CUTOFF = datetime(2026, 4, 9, 14, 0, 0, tzinfo=timezone.utc)
 
 
 # ---------- helpers (intentionally duplicated from ingest_entry.py to keep
