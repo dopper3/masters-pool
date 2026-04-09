@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:36:58.943262+00:00"
+    "lastUpdated": "2026-04-09T19:38:59.187985+00:00"
   },
   "players": [
     {
@@ -164,7 +164,7 @@
       "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T17:44Z",
       "status": "active",
       "rounds": [
@@ -182,7 +182,7 @@
       "position": "T10",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T17:44Z",
       "status": "active",
       "rounds": [
@@ -866,7 +866,7 @@
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T17:44Z",
       "status": "active",
       "rounds": [
@@ -1021,24 +1021,6 @@
       ]
     },
     {
-      "id": "8974",
-      "name": "Michael Kim",
-      "shortName": "M. Kim",
-      "country": "United States",
-      "position": "T51",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 13,
-      "teeTime": "2026-04-09T15:39Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -1061,7 +1043,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T59",
+      "position": "T58",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
@@ -1079,7 +1061,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T59",
+      "position": "T58",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -1097,7 +1079,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T59",
+      "position": "T58",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 8,
@@ -1111,11 +1093,29 @@
       ]
     },
     {
+      "id": "8974",
+      "name": "Michael Kim",
+      "shortName": "M. Kim",
+      "country": "United States",
+      "position": "T58",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 14,
+      "teeTime": "2026-04-09T15:39Z",
+      "status": "active",
+      "rounds": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T59",
+      "position": "T58",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 16,
