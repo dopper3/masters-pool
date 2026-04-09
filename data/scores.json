@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:49:00.218807+00:00"
+    "lastUpdated": "2026-04-09T19:49:13.416156+00:00"
   },
   "players": [
     {
@@ -43,24 +43,6 @@
       "status": "final",
       "rounds": [
         -5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "T3",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 10,
-      "teeTime": "2026-04-09T16:27Z",
-      "status": "active",
-      "rounds": [
-        -3,
         null,
         null,
         null
@@ -157,11 +139,29 @@
       ]
     },
     {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "T8",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 11,
+      "teeTime": "2026-04-09T16:27Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T9",
+      "position": "T8",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 7,
@@ -179,7 +179,7 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T9",
+      "position": "T8",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 8,
@@ -197,7 +197,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T9",
+      "position": "T8",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -215,7 +215,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T9",
+      "position": "T8",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
