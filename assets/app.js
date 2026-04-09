@@ -5,6 +5,11 @@
 
 const PENALTY_WD = 10; // strokes added on top of last to-par for WD/DQ
 const PENALTY_NULL = 20; // strokes if the golfer never posted a score
+// Each round a cut player didn't play is treated as if they shot an 80
+// (par 72 at Augusta + 8). Cut always means 2 missed weekend rounds, so
+// the effective penalty is +16 on top of the 36-hole to-par.
+const CUT_ROUND_ASSUMED_TO_PAR = 8;
+const CUT_MISSED_ROUNDS = 2;
 const PICKS_REQUIRED = 6;
 const BEST_OF = 4;
 
@@ -89,6 +94,19 @@ function golferEffectiveScore(player) {
     return {
       score: base + PENALTY_WD,
       label: `${fmtToPar(base)} (${status.toUpperCase()})`,
+      penalty: true,
+    };
+  }
+
+  if (status === "cut") {
+    // Cut players are scored as if they shot CUT_ROUND_ASSUMED_TO_PAR for
+    // each of the two weekend rounds they didn't play. Their team-total
+    // score reflects the full 4-round assumed cumulative.
+    const base = s == null ? 0 : s;
+    const adjusted = base + CUT_MISSED_ROUNDS * CUT_ROUND_ASSUMED_TO_PAR;
+    return {
+      score: adjusted,
+      label: `${fmtToPar(adjusted)} (CUT)`,
       penalty: true,
     };
   }
