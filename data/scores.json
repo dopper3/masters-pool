@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T13:42:05.302317+00:00"
+    "lastUpdated": "2026-04-09T13:47:52.589793+00:00"
   },
   "players": [
     {
@@ -715,24 +715,6 @@
       ]
     },
     {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "shortName": "K. Bradley",
-      "country": "United States",
-      "position": "-",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
-      "teeTime": "2026-04-09T13:31Z",
-      "status": "scheduled",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4348470",
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
@@ -877,24 +859,6 @@
       ]
     },
     {
-      "id": "8973",
-      "name": "Max Homa",
-      "shortName": "M. Homa",
-      "country": "United States",
-      "position": "T5",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 6,
-      "teeTime": "2026-04-09T11:50Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4921329",
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
@@ -971,14 +935,14 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "-",
+      "position": "T5",
       "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
+      "scoreDisplay": "E",
+      "thru": 1,
       "teeTime": "2026-04-09T13:31Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
-        null,
+        0,
         null,
         null,
         null
@@ -1120,24 +1084,6 @@
       "scoreDisplay": "-",
       "thru": 0,
       "teeTime": "2026-04-09T14:19Z",
-      "status": "scheduled",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "shortName": "R. Gerard",
-      "country": "United States",
-      "position": "-",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
-      "teeTime": "2026-04-09T13:31Z",
       "status": "scheduled",
       "rounds": [
         null,
@@ -1525,6 +1471,42 @@
       ]
     },
     {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "shortName": "K. Bradley",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 1,
+      "teeTime": "2026-04-09T13:31Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "8973",
+      "name": "Max Homa",
+      "shortName": "M. Homa",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 7,
+      "teeTime": "2026-04-09T11:50Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4858859",
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
@@ -1534,6 +1516,24 @@
       "scoreDisplay": "+1",
       "thru": 6,
       "teeTime": "2026-04-09T12:02Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "shortName": "R. Gerard",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 1,
+      "teeTime": "2026-04-09T13:31Z",
       "status": "active",
       "rounds": [
         1,
@@ -1565,7 +1565,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T22",
+      "position": "25",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 8,
@@ -1579,29 +1579,11 @@
       ]
     },
     {
-      "id": "4251",
-      "name": "Ryan Fox",
-      "shortName": "R. Fox",
-      "country": "New Zealand",
-      "position": "T22",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 4,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4837226",
       "name": "Naoyuki Kataoka",
       "shortName": "N. Kataoka",
       "country": "Japan",
-      "position": "24",
+      "position": "T26",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 7,
@@ -1615,11 +1597,29 @@
       ]
     },
     {
+      "id": "4251",
+      "name": "Ryan Fox",
+      "shortName": "R. Fox",
+      "country": "New Zealand",
+      "position": "T26",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 5,
+      "teeTime": "2026-04-09T12:26Z",
+      "status": "active",
+      "rounds": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5080439",
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
-      "position": "25",
+      "position": "28",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 6,
@@ -1637,10 +1637,10 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "26",
+      "position": "29",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T11:50Z",
       "status": "active",
       "rounds": [
