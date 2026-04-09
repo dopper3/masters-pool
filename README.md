@@ -1,4 +1,4 @@
-# Masters Fantasy Pool
+# Nettzone Masters Pool - heyooooooooo
 
 A tiny, self-hosted fantasy pool for the Masters Tournament. Pick six golfers,
 your best four scores each round count, lowest team total wins. Friends submit
