@@ -123,6 +123,99 @@
           "name": "Cameron Young"
         }
       ]
+    },
+    {
+      "source": "form",
+      "displayName": "Three-Time Champ 2.0",
+      "submittedAt": "2026-04-09T08:20:30+00:00",
+      "picks": [
+        {
+          "id": "569",
+          "name": "Justin Rose"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        },
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
+        {
+          "id": "9126",
+          "name": "Corey Conners"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "10046",
+          "name": "Bryson DeChambeau"
+        }
+      ]
+    },
+    {
+      "source": "form",
+      "displayName": "Three-Time Champ 3.0",
+      "submittedAt": "2026-04-09T08:22:51+00:00",
+      "picks": [
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "9780",
+          "name": "Jon Rahm"
+        },
+        {
+          "id": "10046",
+          "name": "Bryson DeChambeau"
+        },
+        {
+          "id": "10140",
+          "name": "Xander Schauffele"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        },
+        {
+          "id": "5860",
+          "name": "Hideki Matsuyama"
+        }
+      ]
+    },
+    {
+      "source": "form",
+      "displayName": "Cleo",
+      "submittedAt": "2026-04-09T08:23:09+00:00",
+      "picks": [
+        {
+          "id": "9780",
+          "name": "Jon Rahm"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "10046",
+          "name": "Bryson DeChambeau"
+        },
+        {
+          "id": "4425906",
+          "name": "Cameron Young"
+        },
+        {
+          "id": "6798",
+          "name": "Brooks Koepka"
+        }
+      ]
     }
   ],
   "rejected": []
