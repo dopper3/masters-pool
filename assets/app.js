@@ -8,6 +8,21 @@ const PENALTY_NULL = 20; // strokes if the golfer never posted a score
 const PICKS_REQUIRED = 6;
 const BEST_OF = 4;
 
+// Google Form prefill mapping. The form's entry IDs were captured from a
+// "Get pre-filled link" URL — if you ever rebuild the form, regenerate these.
+const FORM_PREFILL = {
+  base: "https://docs.google.com/forms/d/e/1FAIpQLSeelvfCHACF3PS6APNsjlpASJfIRR4fNuQj2wKsIAoZdqa6dQ/viewform",
+  displayName: "entry.1320310589",
+  picks: [
+    "entry.1445693168",
+    "entry.1565091201",
+    "entry.159174347",
+    "entry.693170565",
+    "entry.1082352039",
+    "entry.1944105469",
+  ],
+};
+
 // ---------- helpers ----------
 async function loadJson(path) {
   const res = await fetch(path + "?t=" + Date.now(), { cache: "no-store" });
@@ -347,6 +362,193 @@ function drawFieldList(list) {
   root.appendChild(table);
 }
 
+// ---------- picker (custom selection page) ----------
+// State: ordered list of player ids the user has selected. Insertion order
+// becomes Pick 1..Pick 6 in the form.
+let pickerSelected = [];
+let pickerPlayers = []; // alphabetized field for picker
+let pickerFiltered = []; // current search-filtered view
+
+function initPicker(players) {
+  pickerPlayers = players
+    .slice()
+    .sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+  pickerFiltered = pickerPlayers;
+
+  const search = document.getElementById("picker-search");
+  search.addEventListener("input", () => {
+    const q = search.value.trim().toLowerCase();
+    pickerFiltered = q
+      ? pickerPlayers.filter(
+          (p) =>
+            (p.name || "").toLowerCase().includes(q) ||
+            (p.country || "").toLowerCase().includes(q),
+        )
+      : pickerPlayers;
+    drawPickerField();
+  });
+
+  const nameInput = document.getElementById("picker-name");
+  nameInput.addEventListener("input", updatePickerSubmitState);
+
+  const submitBtn = document.getElementById("picker-submit");
+  submitBtn.addEventListener("click", handlePickerSubmit);
+
+  drawPickerField();
+  drawPickerSelected();
+  updatePickerSubmitState();
+}
+
+function drawPickerField() {
+  const root = document.getElementById("picker-field");
+  root.innerHTML = "";
+
+  if (!pickerPlayers.length) {
+    root.appendChild(
+      el(
+        "div",
+        { class: "empty" },
+        "Field hasn't loaded yet. Try again after the next score fetch.",
+      ),
+    );
+    return;
+  }
+
+  if (!pickerFiltered.length) {
+    root.appendChild(
+      el("div", { class: "empty" }, "No players match that search."),
+    );
+    return;
+  }
+
+  const list = el("ul", { class: "picker-field-list" });
+  for (const p of pickerFiltered) {
+    const id = String(p.id);
+    const isSelected = pickerSelected.includes(id);
+    const li = el("li", {
+      class: "picker-field-row" + (isSelected ? " selected" : ""),
+      "data-id": id,
+      onclick: () => togglePick(id),
+    });
+    li.appendChild(
+      el(
+        "span",
+        { class: "picker-check" },
+        isSelected ? "\u2713" : "",
+      ),
+    );
+    li.appendChild(el("span", { class: "picker-name" }, p.name || "—"));
+    if (p.country) {
+      li.appendChild(el("span", { class: "picker-country" }, p.country));
+    }
+    list.appendChild(li);
+  }
+  root.appendChild(list);
+}
+
+function togglePick(id) {
+  const idx = pickerSelected.indexOf(id);
+  if (idx >= 0) {
+    pickerSelected.splice(idx, 1);
+  } else {
+    if (pickerSelected.length >= PICKS_REQUIRED) {
+      flashPickerStatus(
+        `You've already picked ${PICKS_REQUIRED}. Remove one before adding another.`,
+      );
+      return;
+    }
+    pickerSelected.push(id);
+  }
+  drawPickerField();
+  drawPickerSelected();
+  updatePickerSubmitState();
+}
+
+function drawPickerSelected() {
+  const root = document.getElementById("picker-selected");
+  const counter = document.getElementById("picker-count");
+  root.innerHTML = "";
+  counter.textContent = `${pickerSelected.length} / ${PICKS_REQUIRED}`;
+
+  if (!pickerSelected.length) {
+    root.appendChild(
+      el(
+        "li",
+        { class: "picker-selected-empty" },
+        "No picks yet — click golfers below to add them.",
+      ),
+    );
+    return;
+  }
+
+  const byId = new Map(pickerPlayers.map((p) => [String(p.id), p]));
+  pickerSelected.forEach((id, i) => {
+    const p = byId.get(id);
+    const li = el("li", { class: "picker-selected-row" });
+    li.appendChild(el("span", { class: "picker-selected-num" }, `${i + 1}.`));
+    li.appendChild(
+      el("span", { class: "picker-selected-name" }, (p && p.name) || id),
+    );
+    li.appendChild(
+      el(
+        "button",
+        {
+          class: "picker-remove",
+          type: "button",
+          "aria-label": "Remove pick",
+          onclick: (e) => {
+            e.stopPropagation();
+            togglePick(id);
+          },
+        },
+        "\u00d7",
+      ),
+    );
+    root.appendChild(li);
+  });
+}
+
+function updatePickerSubmitState() {
+  const nameInput = document.getElementById("picker-name");
+  const btn = document.getElementById("picker-submit");
+  const ready =
+    nameInput.value.trim().length > 0 &&
+    pickerSelected.length === PICKS_REQUIRED;
+  btn.disabled = !ready;
+}
+
+let pickerStatusTimer = null;
+function flashPickerStatus(msg) {
+  const status = document.getElementById("picker-status");
+  status.textContent = msg;
+  status.classList.add("visible");
+  if (pickerStatusTimer) clearTimeout(pickerStatusTimer);
+  pickerStatusTimer = setTimeout(() => {
+    status.classList.remove("visible");
+  }, 3500);
+}
+
+function handlePickerSubmit() {
+  const name = document.getElementById("picker-name").value.trim();
+  if (!name) return;
+  if (pickerSelected.length !== PICKS_REQUIRED) return;
+
+  const byId = new Map(pickerPlayers.map((p) => [String(p.id), p]));
+  const params = new URLSearchParams();
+  params.set("usp", "pp_url");
+  params.set(FORM_PREFILL.displayName, name);
+  pickerSelected.forEach((id, i) => {
+    const p = byId.get(id);
+    params.set(FORM_PREFILL.picks[i], (p && p.name) || id);
+  });
+
+  const url = `${FORM_PREFILL.base}?${params.toString()}`;
+  window.open(url, "_blank", "noopener");
+  flashPickerStatus(
+    "Form opened in a new tab — click Submit on the form to finalize your entry.",
+  );
+}
+
 // ---------- tabs + setup ----------
 function wireTabs() {
   const tabs = document.querySelectorAll(".tab");
@@ -425,6 +627,7 @@ async function main() {
   renderRejected(entriesData.rejected || []);
   renderLeaderboard(players);
   renderField(players);
+  initPicker(players);
 }
 
 main();

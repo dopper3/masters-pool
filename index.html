@@ -59,9 +59,8 @@
         </div>
         <a
           class="entry-button"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeelvfCHACF3PS6APNsjlpASJfIRR4fNuQj2wKsIAoZdqa6dQ/viewform"
-          target="_blank"
-          rel="noopener"
+          href="#"
+          data-jump="pick"
         >
           Submit Your Entry <span aria-hidden="true">→</span>
         </a>
@@ -70,6 +69,7 @@
 
     <nav class="tabs wrap">
       <button class="tab active" data-tab="pool">Pool standings</button>
+      <button class="tab" data-tab="pick">Make picks</button>
       <button class="tab" data-tab="leaderboard">Tournament leaderboard</button>
       <button class="tab" data-tab="field">The field</button>
       <button class="tab" data-tab="rules">Rules &amp; how to enter</button>
@@ -86,6 +86,67 @@
         </p>
         <div id="pool-standings"></div>
         <div id="pending-fixes"></div>
+      </section>
+
+      <section id="tab-pick" class="tab-panel">
+        <p class="hint">
+          Type your display name, then click 6 golfers from the field below.
+          When you're done, hit <strong>Submit picks</strong> — that opens the
+          Google Form in a new tab with everything filled in. Click
+          <strong>Submit</strong> on the form to finalize.
+        </p>
+
+        <div class="picker-form">
+          <label class="picker-label" for="picker-name">Your display name</label>
+          <input
+            id="picker-name"
+            type="text"
+            placeholder="e.g. Pat M."
+            autocomplete="off"
+            maxlength="40"
+          />
+          <p class="picker-name-hint">
+            Use the same name every time you submit. Resubmitting with the same
+            display name replaces your old picks.
+          </p>
+        </div>
+
+        <div class="picker-summary">
+          <div class="picker-summary-header">
+            <span class="picker-summary-title">Your picks</span>
+            <span id="picker-count" class="picker-count">0 / 6</span>
+          </div>
+          <ol id="picker-selected" class="picker-selected"></ol>
+        </div>
+
+        <div class="picker-controls">
+          <input
+            id="picker-search"
+            type="search"
+            placeholder="Search the field…"
+            autocomplete="off"
+          />
+        </div>
+
+        <div id="picker-field" class="picker-field"></div>
+
+        <div class="picker-actions">
+          <button id="picker-submit" class="picker-submit" disabled>
+            Submit picks
+          </button>
+          <p id="picker-status" class="picker-status"></p>
+        </div>
+
+        <p class="picker-fallback">
+          Picker not working?
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeelvfCHACF3PS6APNsjlpASJfIRR4fNuQj2wKsIAoZdqa6dQ/viewform"
+            target="_blank"
+            rel="noopener"
+            >Use the Google Form directly</a
+          >
+          and type your picks by hand.
+        </p>
       </section>
 
       <section id="tab-leaderboard" class="tab-panel">
@@ -130,31 +191,27 @@
         <h2>How to enter</h2>
         <ol>
           <li>
-            Click the
-            <a
-              id="entry-link"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeelvfCHACF3PS6APNsjlpASJfIRR4fNuQj2wKsIAoZdqa6dQ/viewform"
-              target="_blank"
-              rel="noopener"
-              ><strong>Submit Your Entry</strong></a
-            >
-            button at the top of the page (opens a Google Form in a new tab).
+            Click the <strong>Submit Your Entry</strong> button in the header
+            (or the <a href="#" data-jump="pick">Make picks</a> tab).
           </li>
           <li>
-            Fill in your display name and your six picks. Use full names as
-            shown on the <a href="#" data-jump="field">Field</a> tab.
-          </li>
-          <li>Submit the form.</li>
-          <li>
-            Your entry shows up on the leaderboard within ~5 minutes — the site
-            polls the form automatically.
+            Type your display name, then click 6 golfers from the list. The
+            order you click them in is the order they'll be recorded as Pick
+            1–6.
           </li>
           <li>
-            Made a typo? Just resubmit the form with the
-            <strong>same display name</strong> and your new picks replace the
-            old ones. If something doesn't match a real golfer, you'll see your
-            entry pop up under <strong>Pending fixes</strong> below the
-            standings with the bad picks highlighted.
+            Hit <strong>Submit picks</strong>. A Google Form opens in a new
+            tab with your name and picks already filled in — click
+            <strong>Submit</strong> on that form to finalize.
+          </li>
+          <li>
+            Your entry shows up on the Pool standings within ~5 minutes — the
+            site polls the form automatically.
+          </li>
+          <li>
+            Want to change your picks? Just go through the picker again with
+            the <strong>same display name</strong>. The latest submission
+            replaces the old one.
           </li>
         </ol>
       </section>
