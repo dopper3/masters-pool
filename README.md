@@ -76,6 +76,86 @@ the site within ~30 seconds.
 If a pick is misspelled or ambiguous, the workflow comments back with the
 problem and removes the label so the friend (or you) can fix it.
 
+## Friends without GitHub: the Google Form path
+
+If some of your friends don't want to make a GitHub account, you can wire up
+a Google Form. Form responses get auto-ingested into the leaderboard alongside
+the GitHub-issue entries — both submission paths work side by side.
+
+### One-time setup
+
+1. **Create a Google Form.** Add these short-answer questions, in this order,
+   with these exact labels (the parser is loose about case but strict about
+   names):
+   - `Display name`
+   - `Pick 1`
+   - `Pick 2`
+   - `Pick 3`
+   - `Pick 4`
+   - `Pick 5`
+   - `Pick 6`
+
+   Mark all of them required. Don't collect emails — none of the parsing
+   needs them.
+
+2. **Link a sheet.** In the form, `Responses → Link to Sheets → Create new
+   spreadsheet`.
+
+3. **Publish the sheet as CSV.** Open the sheet, then `File → Share →
+   Publish to web`. Pick `Entire document` on the left and `Comma-separated
+   values (.csv)` on the right. Click `Publish`. Copy the URL it gives you —
+   it'll look like
+   `https://docs.google.com/spreadsheets/d/e/2PACX-1v.../pub?output=csv`.
+
+   This URL is read-only and contains no auth info. It's safe to put in a
+   repo variable, but it does technically expose the responses to anyone who
+   guesses the URL — fine for a private pool.
+
+4. **Set the repo variable.** In the GitHub repo:
+   `Settings → Secrets and variables → Actions → Variables tab → New
+   repository variable`. Name it `FORM_CSV_URL` and paste the CSV URL as the
+   value.
+
+5. **Trigger the first poll.** `Actions → Poll Google Form → Run workflow →
+   main`. After it runs, any responses already in the sheet are now on the
+   leaderboard.
+
+That's it. The poll workflow then runs every 5 minutes during Masters week
+and will pick up any new submissions automatically.
+
+### How dedup works
+
+- Each form row produces one entry on the leaderboard. The `displayName`
+  field is the dedup key — if two rows have the same display name, the
+  **latest submission wins** (and the older one is dropped).
+- That means a friend can resubmit by filling out the form again with the
+  same display name; the new picks replace the old.
+- Two friends with the same display name will collide. Tell them to add a
+  last initial.
+- If you delete a row in the linked sheet, it disappears from the
+  leaderboard on the next poll.
+
+### When something is wrong
+
+The poll workflow logs the result of every row to the workflow run. If a
+friend says "I submitted but I'm not on the board," check
+`Actions → Poll Google Form → most recent run → poll job`. You'll see one
+line per row, e.g.:
+
+```
+'Dave D.': ok
+'Sarah K.': no field player matches 'Tigerwoods' — skipped
+```
+
+Fix the row in the sheet (or have your friend resubmit) and the next poll
+will pick it up.
+
+### If you don't want the form path
+
+The poll workflow stays dormant if `FORM_CSV_URL` is unset — it ships in
+the repo and runs on the cron, but exits cleanly with "not configured" until
+you set the variable. Nothing to remove.
+
 ## Scoring rules
 
 - 6 picks per entry, **best 4 scores each round count** toward the team total.

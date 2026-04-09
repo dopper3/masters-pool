@@ -1,0 +1,67 @@
+name: Poll Google Form
+
+on:
+  workflow_dispatch:
+
+  # Every 5 minutes during Masters week. GitHub Actions cron is best-effort
+  # and may run several minutes late under load.
+  schedule:
+    - cron: "*/5 9-23 9-13 4 *"
+    - cron: "*/5 0-3 9-13 4 *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll-form
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skip if FORM_CSV_URL is not set
+        id: gate
+        env:
+          FORM_CSV_URL: ${{ vars.FORM_CSV_URL }}
+        run: |
+          if [ -z "$FORM_CSV_URL" ]; then
+            echo "FORM_CSV_URL repo variable is not set — form ingestion not configured."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.gate.outputs.configured == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ensure scores.json exists (so picks can be validated)
+        if: steps.gate.outputs.configured == 'true'
+        run: |
+          if [ ! -f data/scores.json ] || [ ! -s data/scores.json ]; then
+            python scripts/fetch_scores.py
+          fi
+
+      - name: Poll form
+        if: steps.gate.outputs.configured == 'true'
+        env:
+          FORM_CSV_URL: ${{ vars.FORM_CSV_URL }}
+        run: python scripts/poll_form.py
+
+      - name: Commit updated entries
+        if: steps.gate.outputs.configured == 'true'
+        run: |
+          git config user.name "masters-pool-bot"
+          git config user.email "masters-pool-bot@users.noreply.github.com"
+          if git diff --quiet -- data/entries.json; then
+            echo "No entry changes."
+            exit 0
+          fi
+          git add data/entries.json
+          git commit -m "form: sync entries $(date -u +'%Y-%m-%d %H:%MZ')"
+          git push

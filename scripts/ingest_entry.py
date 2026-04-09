@@ -178,6 +178,7 @@ def main():
     entries = [e for e in entries if e.get("githubUser") != args.issue_user]
     entries.append(
         {
+            "source": "github-issue",
             "displayName": display_name,
             "githubUser": args.issue_user,
             "issueNumber": args.issue_number,
