@@ -3,12 +3,11 @@ name: Poll Google Form
 on:
   workflow_dispatch:
 
-  # Every 5 minutes for the entire month of April so the picker is live for
-  # the whole pre-tournament submission window plus all of Masters week.
-  # GitHub Actions cron is best-effort and may run several minutes late
-  # under load — that's fine for a fantasy pool.
-  schedule:
-    - cron: "*/5 * * 4 *"
+  # Scheduled polling disabled after the submission cutoff (10 AM EDT
+  # Thu Apr 9, 2026). Re-enable by uncommenting the schedule block below
+  # if you ever need to ingest entries on a recurring basis again.
+  # schedule:
+  #   - cron: "*/5 * * 4 *"
 
 permissions:
   contents: write
