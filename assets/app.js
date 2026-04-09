@@ -94,6 +94,25 @@ function playerAvatar(id) {
   return img;
 }
 
+// DiceBear cartoon avatar for a team. Deterministic from displayName, so the
+// same name always gets the same character. Style is a one-line swap — see
+// https://www.dicebear.com/styles/ for options like "adventurer",
+// "avataaars", "fun-emoji", "bottts", "personas", "croodles", "pixel-art".
+const TEAM_AVATAR_STYLE = "adventurer";
+function teamAvatar(name) {
+  if (!name) return null;
+  const seed = encodeURIComponent(name);
+  const img = document.createElement("img");
+  img.className = "team-avatar";
+  img.src = `https://api.dicebear.com/9.x/${TEAM_AVATAR_STYLE}/svg?seed=${seed}`;
+  img.alt = "";
+  img.loading = "lazy";
+  img.onerror = function () {
+    this.style.display = "none";
+  };
+  return img;
+}
+
 // Returns a clickable button styled as a player-name link. Wraps an optional
 // avatar + the player name. Skips wiring the click if we don't have both an
 // athlete id and an event id (e.g. for picks whose golfer isn't in the field).
@@ -502,13 +521,12 @@ function renderPoolStandings(entries, byId) {
     const rankLabel = (tieCounts[t.rank] > 1 ? "T" : "") + t.rank;
     const card = el("div", { class: "pool-entry" });
 
-    card.appendChild(
-      el("div", { class: "pool-entry-header" }, [
-        el("span", { class: "rank" }, rankLabel),
-        el("span", { class: "name" }, t.displayName),
-        el("span", { class: "total" }, fmtToPar(t.total)),
-      ]),
-    );
+    const headerKids = [el("span", { class: "rank" }, rankLabel)];
+    const tAvatar = teamAvatar(t.displayName);
+    if (tAvatar) headerKids.push(tAvatar);
+    headerKids.push(el("span", { class: "name" }, t.displayName));
+    headerKids.push(el("span", { class: "total" }, fmtToPar(t.total)));
+    card.appendChild(el("div", { class: "pool-entry-header" }, headerKids));
 
     const table = el("table");
     const thead = el("thead", {}, [
