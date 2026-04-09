@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T18:35:00.298076+00:00"
+    "lastUpdated": "2026-04-09T18:37:00.724953+00:00"
   },
   "players": [
     {
@@ -164,7 +164,7 @@
       "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
@@ -704,7 +704,7 @@
       "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
@@ -1165,24 +1165,6 @@
       ]
     },
     {
-      "id": "5344763",
-      "name": "Mateo Pulcini",
-      "shortName": "M. Pulcini",
-      "country": "Argentina",
-      "position": "T61",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 10,
-      "teeTime": "2026-04-09T15:27Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
@@ -1208,7 +1190,7 @@
       "position": "T61",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
@@ -1241,10 +1223,10 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1259,7 +1241,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1277,10 +1259,10 @@
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
@@ -1295,7 +1277,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1313,7 +1295,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1327,14 +1309,32 @@
       ]
     },
     {
+      "id": "5344763",
+      "name": "Mateo Pulcini",
+      "shortName": "M. Pulcini",
+      "country": "Argentina",
+      "position": "T68",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 11,
+      "teeTime": "2026-04-09T15:27Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "6007",
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1349,7 +1349,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 12,
@@ -1442,7 +1442,7 @@
       "position": "T79",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
@@ -1478,7 +1478,7 @@
       "position": "T82",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
