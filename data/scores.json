@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T20:49:11.059046+00:00"
+    "lastUpdated": "2026-04-09T20:50:56.958274+00:00"
   },
   "players": [
     {
@@ -148,24 +148,6 @@
       "scoreDisplay": "-2",
       "thru": 14,
       "teeTime": "2026-04-09T16:27Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "91",
-      "name": "Fred Couples",
-      "shortName": "F. Couples",
-      "country": "United States",
-      "position": "T8",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 14,
-      "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
         -2,
@@ -776,7 +758,7 @@
       "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T16:56Z",
       "status": "active",
       "rounds": [
@@ -835,6 +817,24 @@
       "status": "active",
       "rounds": [
         2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Fred Couples",
+      "shortName": "F. Couples",
+      "country": "United States",
+      "position": "T8",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 14,
+      "teeTime": "2026-04-09T16:15Z",
+      "status": "active",
+      "rounds": [
+        -2,
         null,
         null,
         null
@@ -1244,7 +1244,7 @@
       "position": "T61",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T16:56Z",
       "status": "active",
       "rounds": [
