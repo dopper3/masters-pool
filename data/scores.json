@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T13:36:14.232172+00:00"
+    "lastUpdated": "2026-04-09T13:42:05.302317+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "1",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T12:02Z",
       "status": "active",
       "rounds": [
@@ -31,15 +31,15 @@
       ]
     },
     {
-      "id": "5344766",
-      "name": "Jackson Herrington",
-      "shortName": "J. Herrington",
-      "country": "United States",
+      "id": "4610056",
+      "name": "Casey Jarvis",
+      "shortName": "C. Jarvis",
+      "country": "South Africa",
       "position": "T2",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
-      "teeTime": "2026-04-09T12:14Z",
+      "thru": 3,
+      "teeTime": "2026-04-09T12:50Z",
       "status": "active",
       "rounds": [
         -1,
@@ -56,7 +56,7 @@
       "position": "T2",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T12:50Z",
       "status": "active",
       "rounds": [
@@ -200,7 +200,7 @@
       "position": "T5",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
@@ -295,24 +295,6 @@
       "status": "scheduled",
       "rounds": [
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4610056",
-      "name": "Casey Jarvis",
-      "shortName": "C. Jarvis",
-      "country": "South Africa",
-      "position": "T5",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 2,
-      "teeTime": "2026-04-09T12:50Z",
-      "status": "active",
-      "rounds": [
-        0,
         null,
         null,
         null
@@ -589,6 +571,24 @@
       ]
     },
     {
+      "id": "5344766",
+      "name": "Jackson Herrington",
+      "shortName": "J. Herrington",
+      "country": "United States",
+      "position": "T5",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 5,
+      "teeTime": "2026-04-09T12:14Z",
+      "status": "active",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5054388",
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
@@ -740,7 +740,7 @@
       "position": "T5",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T12:50Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T5",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
@@ -992,7 +992,7 @@
       "position": "T5",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
@@ -1051,6 +1051,24 @@
       "status": "scheduled",
       "rounds": [
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T5",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 4,
+      "teeTime": "2026-04-09T12:38Z",
+      "status": "active",
+      "rounds": [
+        0,
         null,
         null,
         null
@@ -1172,7 +1190,7 @@
       "position": "T5",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-09T12:14Z",
       "status": "active",
       "rounds": [
@@ -1352,7 +1370,7 @@
       "position": "T5",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
@@ -1435,24 +1453,6 @@
       ]
     },
     {
-      "id": "65",
-      "name": "Ángel Cabrera",
-      "shortName": "Á. Cabrera",
-      "country": "Argentina",
-      "position": "T5",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 4,
-      "teeTime": "2026-04-09T12:14Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "780",
       "name": "Bubba Watson",
       "shortName": "B. Watson",
@@ -1460,7 +1460,7 @@
       "position": "T16",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
@@ -1514,26 +1514,8 @@
       "position": "T16",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T11:40Z",
-      "status": "active",
-      "rounds": [
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T16",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 3,
-      "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
         1,
@@ -1550,8 +1532,26 @@
       "position": "T16",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-09T12:02Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Ángel Cabrera",
+      "shortName": "Á. Cabrera",
+      "country": "Argentina",
+      "position": "T16",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 5,
+      "teeTime": "2026-04-09T12:14Z",
       "status": "active",
       "rounds": [
         1,
@@ -1568,26 +1568,8 @@
       "position": "T22",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T11:40Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4837226",
-      "name": "Naoyuki Kataoka",
-      "shortName": "N. Kataoka",
-      "country": "Japan",
-      "position": "T22",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 6,
-      "teeTime": "2026-04-09T11:50Z",
       "status": "active",
       "rounds": [
         2,
@@ -1615,18 +1597,36 @@
       ]
     },
     {
+      "id": "4837226",
+      "name": "Naoyuki Kataoka",
+      "shortName": "N. Kataoka",
+      "country": "Japan",
+      "position": "24",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 7,
+      "teeTime": "2026-04-09T11:50Z",
+      "status": "active",
+      "rounds": [
+        3,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5080439",
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
       "position": "25",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 5,
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 6,
       "teeTime": "2026-04-09T12:02Z",
       "status": "active",
       "rounds": [
-        3,
+        4,
         null,
         null,
         null
