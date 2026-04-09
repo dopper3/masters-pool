@@ -7,9 +7,9 @@
     "currentRound": 1,
     "status": "in",
     "statusDescription": "In Progress",
-    "cutScore": 3,
+    "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T16:25:02.278054+00:00"
+    "lastUpdated": "2026-04-09T16:27:02.243086+00:00"
   },
   "players": [
     {
@@ -272,7 +272,7 @@
       "position": "T8",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -344,7 +344,7 @@
       "position": "T16",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -452,7 +452,7 @@
       "position": "T16",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T15:51Z",
       "status": "active",
       "rounds": [
@@ -740,7 +740,7 @@
       "position": "T16",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T15:27Z",
       "status": "active",
       "rounds": [
@@ -1154,7 +1154,7 @@
       "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-09T15:51Z",
       "status": "active",
       "rounds": [
@@ -1208,7 +1208,7 @@
       "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -1291,24 +1291,6 @@
       ]
     },
     {
-      "id": "4425906",
-      "name": "Cameron Young",
-      "shortName": "C. Young",
-      "country": "United States",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 6,
-      "teeTime": "2026-04-09T14:31Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344766",
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
@@ -1318,24 +1300,6 @@
       "scoreDisplay": "+3",
       "thru": 14,
       "teeTime": "2026-04-09T12:14Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5289811",
-      "name": "Mason Howell",
-      "shortName": "M. Howell",
-      "country": "United States",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 6,
-      "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
         3,
@@ -1417,11 +1381,29 @@
       ]
     },
     {
+      "id": "4425906",
+      "name": "Cameron Young",
+      "shortName": "C. Young",
+      "country": "United States",
+      "position": "T50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-09T14:31Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5217048",
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T52",
+      "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1439,7 +1421,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T52",
+      "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 10,
@@ -1453,11 +1435,29 @@
       ]
     },
     {
+      "id": "5289811",
+      "name": "Mason Howell",
+      "shortName": "M. Howell",
+      "country": "United States",
+      "position": "T50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-09T14:31Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11101",
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T52",
+      "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 13,
@@ -1475,7 +1475,7 @@
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T52",
+      "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 15,
