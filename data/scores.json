@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T15:11:07.529407+00:00"
+    "lastUpdated": "2026-04-09T15:13:01.746381+00:00"
   },
   "players": [
     {
@@ -175,24 +175,6 @@
       ]
     },
     {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T6",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 2,
-      "teeTime": "2026-04-09T14:19Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9938",
       "name": "Sam Burns",
       "shortName": "S. Burns",
@@ -202,24 +184,6 @@
       "scoreDisplay": "-1",
       "thru": 7,
       "teeTime": "2026-04-09T13:19Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T6",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 3,
-      "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
         -1,
@@ -269,7 +233,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -377,10 +341,10 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
@@ -413,10 +377,10 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T14:19Z",
       "status": "active",
       "rounds": [
@@ -611,7 +575,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 3,
@@ -665,7 +629,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 7,
@@ -755,7 +719,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 8,
@@ -809,7 +773,7 @@
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 2,
@@ -967,11 +931,29 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T11",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 3,
+      "teeTime": "2026-04-09T14:19Z",
+      "status": "active",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -1061,7 +1043,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 5,
@@ -1151,7 +1133,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T13",
+      "position": "T11",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -1177,6 +1159,24 @@
       "status": "scheduled",
       "rounds": [
         null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T11",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 4,
+      "teeTime": "2026-04-09T14:07Z",
+      "status": "active",
+      "rounds": [
+        0,
         null,
         null,
         null
