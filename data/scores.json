@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:15:00.647722+00:00"
+    "lastUpdated": "2026-04-09T19:17:01.290804+00:00"
   },
   "players": [
     {
@@ -157,24 +157,6 @@
       ]
     },
     {
-      "id": "91",
-      "name": "Fred Couples",
-      "shortName": "F. Couples",
-      "country": "United States",
-      "position": "T9",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 9,
-      "teeTime": "2026-04-09T16:15Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
@@ -269,7 +251,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 8,
@@ -283,11 +265,29 @@
       ]
     },
     {
+      "id": "91",
+      "name": "Fred Couples",
+      "shortName": "F. Couples",
+      "country": "United States",
+      "position": "T14",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 10,
+      "teeTime": "2026-04-09T16:15Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9221",
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -305,7 +305,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -323,7 +323,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 16,
@@ -341,7 +341,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -359,7 +359,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 9,
@@ -377,7 +377,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -884,7 +884,7 @@
       "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-09T17:56Z",
       "status": "active",
       "rounds": [
@@ -1028,7 +1028,7 @@
       "position": "T57",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-09T15:15Z",
       "status": "active",
       "rounds": [
@@ -1172,7 +1172,7 @@
       "position": "T57",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1211,24 +1211,6 @@
       "thru": 18,
       "teeTime": "2026-04-09T13:02Z",
       "status": "final",
-      "rounds": [
-        4,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5327297",
-      "name": "Fifa Laopakdee",
-      "shortName": "F. Laopakdee",
-      "country": "Thailand",
-      "position": "T66",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 9,
-      "teeTime": "2026-04-09T16:15Z",
-      "status": "active",
       "rounds": [
         4,
         null,
@@ -1280,7 +1262,7 @@
       "position": "T66",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-09T17:56Z",
       "status": "active",
       "rounds": [
@@ -1349,10 +1331,10 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1367,7 +1349,7 @@
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1381,11 +1363,29 @@
       ]
     },
     {
+      "id": "5327297",
+      "name": "Fifa Laopakdee",
+      "shortName": "F. Laopakdee",
+      "country": "Thailand",
+      "position": "T74",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 10,
+      "teeTime": "2026-04-09T16:15Z",
+      "status": "active",
+      "rounds": [
+        5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5289811",
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 16,
@@ -1403,7 +1403,7 @@
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 13,
@@ -1421,7 +1421,7 @@
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1439,7 +1439,7 @@
       "name": "Ryan Fox",
       "shortName": "R. Fox",
       "country": "New Zealand",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
