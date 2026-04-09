@@ -4,12 +4,12 @@ on:
   # Manual trigger from the Actions tab
   workflow_dispatch:
 
-  # Cron runs every 15 minutes during Masters week (Apr 9-13 2026 in UTC).
+  # Every 15 minutes for the entire month of April so the field is fresh
+  # for the picker before the tournament and scores update during play.
   # GitHub Actions cron is best-effort and may be delayed several minutes
   # under load — that's fine for a fantasy pool.
   schedule:
-    - cron: "*/15 9-23 9-13 4 *"
-    - cron: "*/15 0-3 9-13 4 *"
+    - cron: "*/15 * * 4 *"
 
 permissions:
   contents: write

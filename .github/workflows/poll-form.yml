@@ -3,11 +3,12 @@ name: Poll Google Form
 on:
   workflow_dispatch:
 
-  # Every 5 minutes during Masters week. GitHub Actions cron is best-effort
-  # and may run several minutes late under load.
+  # Every 5 minutes for the entire month of April so the picker is live for
+  # the whole pre-tournament submission window plus all of Masters week.
+  # GitHub Actions cron is best-effort and may run several minutes late
+  # under load — that's fine for a fantasy pool.
   schedule:
-    - cron: "*/5 9-23 9-13 4 *"
-    - cron: "*/5 0-3 9-13 4 *"
+    - cron: "*/5 * * 4 *"
 
 permissions:
   contents: write
