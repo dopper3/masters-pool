@@ -922,3 +922,243 @@ main {
     padding: 12px 14px;
   }
 }
+
+/* ---------- Player name link (button styled as text) ---------- */
+.player-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 1px dotted transparent;
+  transition: border-color 120ms ease;
+}
+.player-link:hover,
+.player-link:focus-visible {
+  border-bottom-color: var(--green-primary);
+  outline: none;
+}
+.player-link.disabled {
+  cursor: default;
+}
+.player-link.disabled:hover {
+  border-bottom-color: transparent;
+}
+
+/* ---------- Scorecard modal ---------- */
+body.scorecard-open {
+  overflow: hidden;
+}
+.scorecard-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 24, 17, 0.55);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+.scorecard-modal {
+  background: white;
+  border: 1px solid var(--green-line);
+  border-radius: 6px;
+  box-shadow: 0 12px 40px rgba(0, 30, 20, 0.35);
+  width: 100%;
+  max-width: 760px;
+  overflow: hidden;
+  font-family: var(--sans);
+}
+.scorecard-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  background: linear-gradient(
+    180deg,
+    var(--green-primary) 0%,
+    var(--green-deep) 100%
+  );
+  color: white;
+  border-bottom: 3px solid var(--gold-bright);
+  position: relative;
+}
+.scorecard-header .player-avatar-large {
+  width: 64px;
+  height: 64px;
+  margin-right: 0;
+  border: 2px solid var(--gold-bright);
+  background: white;
+}
+.scorecard-header-text {
+  flex: 1;
+  min-width: 0;
+}
+.scorecard-header-text h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--gold-bright);
+  letter-spacing: 0.5px;
+}
+.scorecard-sub {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  font-variant-numeric: tabular-nums;
+}
+.scorecard-close {
+  background: none;
+  border: none;
+  color: var(--gold-bright);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 10px;
+  margin-left: auto;
+  border-radius: 4px;
+}
+.scorecard-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.scorecard-body {
+  padding: 18px 22px 24px;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+.scorecard-loading,
+.scorecard-error {
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  padding: 24px 0;
+  margin: 0;
+}
+.scorecard-round {
+  margin-bottom: 22px;
+}
+.scorecard-round:last-child {
+  margin-bottom: 0;
+}
+.scorecard-round-title {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--green-primary);
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.scorecard-grid {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-bottom: 6px;
+  table-layout: fixed;
+}
+.scorecard-grid th,
+.scorecard-grid td {
+  border: 1px solid var(--green-line);
+  text-align: center;
+  padding: 6px 0;
+  font-variant-numeric: tabular-nums;
+  width: 8%;
+}
+.scorecard-grid th {
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.scorecard-grid th:first-child,
+.scorecard-grid td:first-child {
+  text-align: left;
+  padding-left: 10px;
+  width: 12%;
+}
+.scorecard-grid .scorecard-total {
+  background: var(--green-tint);
+  color: var(--green-primary);
+  font-weight: 700;
+}
+.scorecard-grid .scorecard-par-row td {
+  color: var(--muted);
+  background: #fafafa;
+}
+.scorecard-grid .scorecard-score-row td {
+  font-weight: 600;
+}
+.scorecard-grid .hole-empty {
+  color: #ccc;
+}
+/* Hole color coding */
+.scorecard-grid .hole-eagle {
+  background: #2e7d32;
+  color: white;
+  border-radius: 0;
+  position: relative;
+}
+.scorecard-grid .hole-birdie {
+  background: #c8e6c9;
+  color: #1b5e20;
+}
+.scorecard-grid .hole-par {
+  background: white;
+  color: #333;
+}
+.scorecard-grid .hole-bogey {
+  background: #ffe0b2;
+  color: #5d4037;
+}
+.scorecard-grid .hole-double {
+  background: #ef9a9a;
+  color: #4e1a14;
+}
+.scorecard-round-total {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .scorecard-backdrop {
+    padding: 0;
+  }
+  .scorecard-modal {
+    border-radius: 0;
+    max-width: 100%;
+    min-height: 100vh;
+  }
+  .scorecard-header {
+    padding: 14px 16px;
+  }
+  .scorecard-header .player-avatar-large {
+    width: 52px;
+    height: 52px;
+  }
+  .scorecard-header-text h2 {
+    font-size: 19px;
+  }
+  .scorecard-body {
+    padding: 14px 14px 22px;
+    max-height: none;
+  }
+  .scorecard-grid {
+    font-size: 12px;
+  }
+  .scorecard-grid th,
+  .scorecard-grid td {
+    padding: 5px 0;
+  }
+}

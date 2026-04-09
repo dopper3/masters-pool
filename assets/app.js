@@ -32,6 +32,18 @@ const FORM_PREFILL = {
 // 10:00 AM Eastern on Thursday April 9, 2026 == 14:00 UTC April 9, 2026.
 const SUBMISSION_CUTOFF = new Date("2026-04-09T14:00:00Z");
 
+// Augusta National par per hole, used as a fallback when no rounds have been
+// played yet (so we can still draw the par row in the scorecard modal).
+const AUGUSTA_PAR = [4, 5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 5, 3, 4, 5, 3, 4, 4];
+
+// ESPN core API exposes per-competitor hole-by-hole linescores. CORS-open.
+const SCORECARD_URL = (eventId, athleteId) =>
+  `https://sports.core.api.espn.com/v2/sports/golf/leagues/pga/events/${eventId}/competitions/${eventId}/competitors/${athleteId}/linescores`;
+
+// Stashed when scores.json loads so renderers don't have to thread eventId
+// through every call site. Reset on every refresh.
+let currentEventId = null;
+
 function isPastCutoff() {
   return Date.now() >= SUBMISSION_CUTOFF.getTime();
 }
@@ -80,6 +92,244 @@ function playerAvatar(id) {
     this.style.display = "none";
   };
   return img;
+}
+
+// Returns a clickable button styled as a player-name link. Wraps an optional
+// avatar + the player name. Skips wiring the click if we don't have both an
+// athlete id and an event id (e.g. for picks whose golfer isn't in the field).
+function playerNameLink(player, opts = {}) {
+  const id = player && player.id != null ? String(player.id) : null;
+  const name = (player && player.name) || "—";
+  const eventId = opts.eventId || currentEventId;
+
+  const wantAvatar = opts.avatar !== false;
+  const avatar = wantAvatar && id ? playerAvatar(id) : null;
+
+  if (!id || !eventId) {
+    // Not clickable — render as a span so layout matches the link version.
+    const span = document.createElement("span");
+    span.className = "player-link disabled";
+    if (avatar) span.appendChild(avatar);
+    span.appendChild(document.createTextNode(name));
+    return span;
+  }
+
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "player-link";
+  if (avatar) btn.appendChild(avatar);
+  btn.appendChild(document.createTextNode(name));
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    openScorecardModal(player, eventId);
+  });
+  return btn;
+}
+
+// Hits ESPN's per-competitor linescores endpoint and returns the items[]
+// array (one entry per round). Throws on non-2xx so the caller can show an
+// error state.
+async function fetchScorecard(eventId, athleteId) {
+  const res = await fetch(SCORECARD_URL(eventId, athleteId), {
+    cache: "no-store",
+  });
+  if (!res.ok) throw new Error(`scorecard ${res.status}`);
+  const data = await res.json();
+  return data.items || [];
+}
+
+// Pull the par row from the first round that has linescores. If nothing has
+// been played yet, fall back to the static Augusta par.
+function parsePar(items) {
+  for (const round of items || []) {
+    const ls = round && round.linescores;
+    if (ls && ls.length) {
+      const par = new Array(18).fill(null);
+      for (const h of ls) {
+        const hole = h.period;
+        if (hole >= 1 && hole <= 18 && typeof h.par === "number") {
+          par[hole - 1] = h.par;
+        }
+      }
+      // Fill any gaps from Augusta defaults so the par row is always complete.
+      for (let i = 0; i < 18; i++) {
+        if (par[i] == null) par[i] = AUGUSTA_PAR[i];
+      }
+      return par;
+    }
+  }
+  return AUGUSTA_PAR.slice();
+}
+
+// Map ESPN's scoreType.name into a CSS modifier so the cell can be color-coded.
+function holeClass(scoreType) {
+  const name = (scoreType && scoreType.name) || "";
+  if (name === "EAGLE" || name === "DOUBLE_EAGLE") return "hole-eagle";
+  if (name === "BIRDIE") return "hole-birdie";
+  if (name === "PAR") return "hole-par";
+  if (name === "BOGEY") return "hole-bogey";
+  if (name === "DOUBLE_BOGEY" || name === "TRIPLE_BOGEY" || name === "OTHER")
+    return "hole-double";
+  return "";
+}
+
+// Render a 2x9 hole grid for one round (par row + strokes row, with In/Out/Tot
+// totals). `holes` is keyed by hole number 1..18 from the round's linescores.
+function renderRoundGrid(par, holes, round) {
+  const wrap = el("div", { class: "scorecard-round" });
+
+  const titleParts = [`Round ${round.period}`];
+  if (round.displayValue) titleParts.push(`(${round.displayValue})`);
+  wrap.appendChild(el("h3", { class: "scorecard-round-title" }, titleParts.join(" ")));
+
+  const buildHalf = (start) => {
+    const table = el("table", { class: "scorecard-grid" });
+    const headRow = el("tr", {}, [el("th", {}, "Hole")]);
+    for (let i = start; i < start + 9; i++) {
+      headRow.appendChild(el("th", {}, String(i + 1)));
+    }
+    headRow.appendChild(el("th", { class: "scorecard-total" }, start === 0 ? "Out" : "In"));
+    table.appendChild(headRow);
+
+    const parRow = el("tr", { class: "scorecard-par-row" }, [el("th", {}, "Par")]);
+    let parTotal = 0;
+    for (let i = start; i < start + 9; i++) {
+      parRow.appendChild(el("td", {}, String(par[i])));
+      parTotal += par[i];
+    }
+    parRow.appendChild(el("td", { class: "scorecard-total" }, String(parTotal)));
+    table.appendChild(parRow);
+
+    const scoreRow = el("tr", { class: "scorecard-score-row" }, [el("th", {}, "Score")]);
+    let scoreTotal = 0;
+    let anyScore = false;
+    for (let i = start; i < start + 9; i++) {
+      const h = holes[i + 1];
+      if (h) {
+        anyScore = true;
+        scoreTotal += h.value || 0;
+        const td = el("td", { class: holeClass(h.scoreType) }, String(h.value));
+        scoreRow.appendChild(td);
+      } else {
+        scoreRow.appendChild(el("td", { class: "hole-empty" }, "—"));
+      }
+    }
+    // Prefer ESPN's outScore/inScore when present (handles in-progress rounds).
+    let half = anyScore ? scoreTotal : null;
+    if (start === 0 && typeof round.outScore === "number") half = round.outScore;
+    if (start === 9 && typeof round.inScore === "number") half = round.inScore;
+    scoreRow.appendChild(
+      el("td", { class: "scorecard-total" }, half != null ? String(half) : "—"),
+    );
+    table.appendChild(scoreRow);
+    return table;
+  };
+
+  wrap.appendChild(buildHalf(0));
+  wrap.appendChild(buildHalf(9));
+
+  // Round total line
+  if (typeof round.value === "number" && round.value > 0) {
+    wrap.appendChild(
+      el(
+        "p",
+        { class: "scorecard-round-total" },
+        `Total: ${round.value}${round.displayValue ? " (" + round.displayValue + ")" : ""}`,
+      ),
+    );
+  }
+
+  return wrap;
+}
+
+let scorecardKeyHandler = null;
+function closeScorecardModal() {
+  const existing = document.querySelector(".scorecard-backdrop");
+  if (existing) existing.remove();
+  if (scorecardKeyHandler) {
+    document.removeEventListener("keydown", scorecardKeyHandler);
+    scorecardKeyHandler = null;
+  }
+  document.body.classList.remove("scorecard-open");
+}
+
+function openScorecardModal(player, eventId) {
+  // Replace any existing modal so a second click swaps content cleanly.
+  closeScorecardModal();
+
+  const backdrop = el("div", { class: "scorecard-backdrop" });
+  const modal = el("div", { class: "scorecard-modal" });
+
+  // Header
+  const header = el("div", { class: "scorecard-header" });
+  const avatar = playerAvatar(player.id);
+  if (avatar) {
+    avatar.classList.add("player-avatar-large");
+    header.appendChild(avatar);
+  }
+  const headerText = el("div", { class: "scorecard-header-text" });
+  headerText.appendChild(el("h2", {}, player.name || "Player"));
+  const subParts = [];
+  if (player.country) subParts.push(player.country);
+  if (player.position) subParts.push(player.position);
+  if (player.scoreToPar != null) subParts.push(fmtToPar(player.scoreToPar));
+  if (subParts.length) {
+    headerText.appendChild(el("p", { class: "scorecard-sub" }, subParts.join(" · ")));
+  }
+  header.appendChild(headerText);
+
+  const closeBtn = el("button", { class: "scorecard-close", "aria-label": "Close" }, "×");
+  closeBtn.addEventListener("click", closeScorecardModal);
+  header.appendChild(closeBtn);
+  modal.appendChild(header);
+
+  // Body — initial loading state
+  const body = el("div", { class: "scorecard-body" });
+  body.appendChild(el("p", { class: "scorecard-loading" }, "Loading scorecard…"));
+  modal.appendChild(body);
+
+  backdrop.appendChild(modal);
+  // Backdrop click closes; clicks inside the modal should not.
+  backdrop.addEventListener("click", (e) => {
+    if (e.target === backdrop) closeScorecardModal();
+  });
+  document.body.appendChild(backdrop);
+  document.body.classList.add("scorecard-open");
+
+  scorecardKeyHandler = (e) => {
+    if (e.key === "Escape") closeScorecardModal();
+  };
+  document.addEventListener("keydown", scorecardKeyHandler);
+
+  // Fetch and render
+  fetchScorecard(eventId, player.id)
+    .then((items) => {
+      body.innerHTML = "";
+      if (!items.length) {
+        body.appendChild(
+          el("p", { class: "scorecard-error" }, "Scorecard not available yet."),
+        );
+        return;
+      }
+      const par = parsePar(items);
+      // Sort rounds by period to be safe.
+      const rounds = items.slice().sort((a, b) => (a.period || 0) - (b.period || 0));
+      for (const round of rounds) {
+        const holes = {};
+        for (const h of round.linescores || []) {
+          if (h && h.period) holes[h.period] = h;
+        }
+        body.appendChild(renderRoundGrid(par, holes, round));
+      }
+    })
+    .catch((err) => {
+      console.error("scorecard fetch failed:", err);
+      body.innerHTML = "";
+      body.appendChild(
+        el("p", { class: "scorecard-error" }, "Scorecard not available."),
+      );
+    });
 }
 
 function el(tag, props = {}, children = []) {
@@ -280,9 +530,10 @@ function renderPoolStandings(entries, byId) {
     for (const p of ordered) {
       const row = el("tr", { class: p.counted ? "counted" : "dropped" });
       const nameCell = el("td", { class: "name" });
-      const poolAvatar = playerAvatar(p.id);
-      if (poolAvatar) nameCell.appendChild(poolAvatar);
-      nameCell.appendChild(document.createTextNode(p.name));
+      // Prefer the full player object from byId so the modal header has
+      // country / scoreToPar; fall back to the slimmed-down pick.
+      const fullPlayer = byId.get(String(p.id)) || p;
+      nameCell.appendChild(playerNameLink(fullPlayer));
       if (p.penalty) {
         nameCell.appendChild(el("span", { class: "badge-penalty" }, "PEN"));
       }
@@ -334,9 +585,7 @@ function renderLeaderboard(players) {
     const row = el("tr", isCut ? { class: "cut" } : {});
     row.appendChild(el("td", { class: "pos" }, p.position || "—"));
     const lbNameCell = el("td", { class: "player" });
-    const lbAvatar = playerAvatar(p.id);
-    if (lbAvatar) lbNameCell.appendChild(lbAvatar);
-    lbNameCell.appendChild(document.createTextNode(p.name || "—"));
+    lbNameCell.appendChild(playerNameLink(p));
     row.appendChild(lbNameCell);
     row.appendChild(el("td", { class: "num" }, fmtToPar(p.scoreToPar)));
     row.appendChild(
@@ -462,9 +711,7 @@ function drawFieldList(list) {
   const tbody = el("tbody");
   for (const p of list) {
     const fieldNameCell = el("td", { class: "player" });
-    const fieldAvatar = playerAvatar(p.id);
-    if (fieldAvatar) fieldNameCell.appendChild(fieldAvatar);
-    fieldNameCell.appendChild(document.createTextNode(p.name || "—"));
+    fieldNameCell.appendChild(playerNameLink(p));
     tbody.appendChild(
       el("tr", {}, [fieldNameCell, el("td", {}, p.country || "")]),
     );
@@ -788,6 +1035,7 @@ async function main() {
 
   const players = scores.players || [];
   const byId = new Map(players.map((p) => [String(p.id), p]));
+  currentEventId = (scores.tournament && scores.tournament.id) || currentEventId;
 
   renderHeader(scores.tournament);
   renderPoolStandings(entriesData.entries || [], byId);
