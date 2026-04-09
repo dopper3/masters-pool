@@ -1,36 +1,3 @@
 {
-  "entries": [
-    {
-      "displayName": "Dry Run Test",
-      "githubUser": "dopper3",
-      "issueNumber": 1,
-      "submittedAt": "2026-04-09T00:39:08.314909+00:00",
-      "picks": [
-        {
-          "id": "9478",
-          "name": "Scottie Scheffler"
-        },
-        {
-          "id": "3470",
-          "name": "Rory McIlroy"
-        },
-        {
-          "id": "10140",
-          "name": "Xander Schauffele"
-        },
-        {
-          "id": "10046",
-          "name": "Bryson DeChambeau"
-        },
-        {
-          "id": "9780",
-          "name": "Jon Rahm"
-        },
-        {
-          "id": "10592",
-          "name": "Collin Morikawa"
-        }
-      ]
-    }
-  ]
+  "entries": []
 }
