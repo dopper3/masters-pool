@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 7,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T15:37:01.663807+00:00"
+    "lastUpdated": "2026-04-09T15:39:01.203769+00:00"
   },
   "players": [
     {
@@ -182,7 +182,7 @@
       "position": "T6",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T11:40Z",
       "status": "active",
       "rounds": [
@@ -805,24 +805,6 @@
       ]
     },
     {
-      "id": "5289811",
-      "name": "Mason Howell",
-      "shortName": "M. Howell",
-      "country": "United States",
-      "position": "T15",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 3,
-      "teeTime": "2026-04-09T14:31Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344763",
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
@@ -985,6 +967,24 @@
       ]
     },
     {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T15",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 10,
+      "teeTime": "2026-04-09T12:38Z",
+      "status": "active",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11378",
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
@@ -1010,7 +1010,7 @@
       "position": "T15",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T14:31Z",
       "status": "active",
       "rounds": [
@@ -1262,26 +1262,8 @@
       "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T14:43Z",
-      "status": "active",
-      "rounds": [
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T27",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 9,
-      "teeTime": "2026-04-09T12:38Z",
       "status": "active",
       "rounds": [
         1,
@@ -1367,7 +1349,7 @@
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
@@ -1385,7 +1367,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 10,
@@ -1399,11 +1381,29 @@
       ]
     },
     {
+      "id": "5289811",
+      "name": "Mason Howell",
+      "shortName": "M. Howell",
+      "country": "United States",
+      "position": "T36",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 4,
+      "teeTime": "2026-04-09T14:31Z",
+      "status": "active",
+      "rounds": [
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4858859",
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 12,
