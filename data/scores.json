@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T16:52:59.967743+00:00"
+    "lastUpdated": "2026-04-09T16:55:00.208866+00:00"
   },
   "players": [
     {
@@ -344,7 +344,7 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T13:43Z",
       "status": "active",
       "rounds": [
@@ -506,7 +506,7 @@
       "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-09T16:03Z",
       "status": "active",
       "rounds": [
@@ -560,7 +560,7 @@
       "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T13:43Z",
       "status": "active",
       "rounds": [
@@ -668,7 +668,7 @@
       "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T13:43Z",
       "status": "active",
       "rounds": [
@@ -1133,14 +1133,14 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T35",
+      "position": "T44",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-09T15:03Z",
       "status": "active",
       "rounds": [
-        1,
+        2,
         null,
         null,
         null
@@ -1187,10 +1187,10 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T12:26Z",
       "status": "active",
       "rounds": [
@@ -1205,7 +1205,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 17,
@@ -1223,7 +1223,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
@@ -1241,7 +1241,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 7,
@@ -1259,10 +1259,10 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-09T13:31Z",
       "status": "active",
       "rounds": [
@@ -1345,6 +1345,24 @@
       ]
     },
     {
+      "id": "780",
+      "name": "Bubba Watson",
+      "shortName": "B. Watson",
+      "country": "United States",
+      "position": "T54",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 13,
+      "teeTime": "2026-04-09T13:02Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4425906",
       "name": "Cameron Young",
       "shortName": "C. Young",
@@ -1388,7 +1406,7 @@
       "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-09T13:31Z",
       "status": "active",
       "rounds": [
@@ -1435,29 +1453,11 @@
       ]
     },
     {
-      "id": "780",
-      "name": "Bubba Watson",
-      "shortName": "B. Watson",
-      "country": "United States",
-      "position": "T59",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 12,
-      "teeTime": "2026-04-09T13:02Z",
-      "status": "active",
-      "rounds": [
-        5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4610056",
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T59",
+      "position": "T60",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 13,
@@ -1475,7 +1475,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T59",
+      "position": "T60",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 14,
@@ -1493,10 +1493,10 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T59",
+      "position": "T60",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
@@ -1511,7 +1511,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T59",
+      "position": "T60",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 16,
@@ -1529,7 +1529,7 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T59",
+      "position": "T60",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 14,
