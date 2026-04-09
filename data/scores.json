@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 0,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T14:43:04.575388+00:00"
+    "lastUpdated": "2026-04-09T14:45:05.142437+00:00"
   },
   "players": [
     {
@@ -211,6 +211,24 @@
       ]
     },
     {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T5",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 2,
+      "teeTime": "2026-04-09T14:07Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10906",
       "name": "Aaron Rai",
       "shortName": "A. Rai",
@@ -359,7 +377,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -395,7 +413,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 7,
@@ -431,7 +449,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -629,7 +647,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -683,7 +701,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 5,
@@ -845,7 +863,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -863,7 +881,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 7,
@@ -899,7 +917,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 7,
@@ -1061,7 +1079,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T12",
+      "position": "T13",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -1255,24 +1273,6 @@
       ]
     },
     {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T12",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 1,
-      "teeTime": "2026-04-09T14:07Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "686",
       "name": "Zach Johnson",
       "shortName": "Z. Johnson",
@@ -1334,7 +1334,7 @@
       "position": "T22",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-09T13:43Z",
       "status": "active",
       "rounds": [
