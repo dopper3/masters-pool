@@ -49,15 +49,21 @@ def normalize_status(ctype):
 
 
 def parse_rounds(linescores):
-    """Return a 4-length list of per-round stroke counts (or None if not played)."""
+    """Return a 4-length list of per-round to-par values (int), or None if the
+    round hasn't been played / is not yet started. For in-progress rounds this
+    is the running to-par so far (e.g. +1 through 4 holes)."""
     rounds = []
     for ls in linescores or []:
-        v = ls.get("value")
-        dv = ls.get("displayValue")
-        if v is None and not dv:
+        dv = (ls.get("displayValue") or "").strip()
+        if not dv or dv == "-":
             rounds.append(None)
+        elif dv == "E":
+            rounds.append(0)
         else:
-            rounds.append(v)
+            try:
+                rounds.append(int(dv))  # handles "+1", "-4", "3"
+            except ValueError:
+                rounds.append(None)
     while len(rounds) < 4:
         rounds.append(None)
     return rounds[:4]

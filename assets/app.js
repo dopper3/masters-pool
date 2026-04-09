@@ -7,7 +7,6 @@ const PENALTY_WD = 10; // strokes added on top of last to-par for WD/DQ
 const PENALTY_NULL = 20; // strokes if the golfer never posted a score
 const PICKS_REQUIRED = 6;
 const BEST_OF = 4;
-const COURSE_PAR = 72; // Augusta National
 
 // Google Form prefill mapping. The form's entry IDs were captured from a
 // "Get pre-filled link" URL — if you ever rebuild the form, regenerate these.
@@ -307,9 +306,7 @@ function renderLeaderboard(players) {
     );
     for (let i = 0; i < 4; i++) {
       const r = (p.rounds || [])[i];
-      row.appendChild(
-        el("td", { class: "num" }, r != null ? fmtToPar(r - COURSE_PAR) : "—"),
-      );
+      row.appendChild(el("td", { class: "num" }, fmtToPar(r)));
     }
     tbody.appendChild(row);
   }
