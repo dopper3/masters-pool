@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T22:59:00.004174+00:00"
+    "lastUpdated": "2026-04-09T23:00:57.999839+00:00"
   },
   "players": [
     {
@@ -128,7 +128,7 @@
       "position": "T6",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-09T17:44Z",
       "status": "active",
       "rounds": [
@@ -236,7 +236,7 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-09T17:44Z",
       "status": "active",
       "rounds": [
@@ -1435,24 +1435,6 @@
       ]
     },
     {
-      "id": "11378",
-      "name": "Robert MacIntyre",
-      "shortName": "R. MacIntyre",
-      "country": "Scotland",
-      "position": "T77",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 16,
-      "teeTime": "2026-04-09T17:44Z",
-      "status": "active",
-      "rounds": [
-        7,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "392",
       "name": "Vijay Singh",
       "shortName": "V. Singh",
@@ -1493,7 +1475,7 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T83",
+      "position": "T82",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
@@ -1511,7 +1493,7 @@
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T83",
+      "position": "T82",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
@@ -1525,11 +1507,29 @@
       ]
     },
     {
+      "id": "11378",
+      "name": "Robert MacIntyre",
+      "shortName": "R. MacIntyre",
+      "country": "Scotland",
+      "position": "T82",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 17,
+      "teeTime": "2026-04-09T17:44Z",
+      "status": "active",
+      "rounds": [
+        8,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T83",
+      "position": "T82",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
