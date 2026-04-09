@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T21:46:59.831774+00:00"
+    "lastUpdated": "2026-04-09T21:48:56.586747+00:00"
   },
   "players": [
     {
@@ -355,6 +355,24 @@
       ]
     },
     {
+      "id": "4690755",
+      "name": "Chris Gotterup",
+      "shortName": "C. Gotterup",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 15,
+      "teeTime": "2026-04-09T17:08Z",
+      "status": "active",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -557,7 +575,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -575,7 +593,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 14,
@@ -593,7 +611,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -607,29 +625,11 @@
       ]
     },
     {
-      "id": "4690755",
-      "name": "Chris Gotterup",
-      "shortName": "C. Gotterup",
-      "country": "United States",
-      "position": "T31",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 14,
-      "teeTime": "2026-04-09T17:08Z",
-      "status": "active",
-      "rounds": [
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3448",
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -647,7 +647,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 12,
@@ -665,7 +665,7 @@
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 15,
@@ -683,7 +683,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -701,7 +701,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -719,7 +719,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 14,
@@ -737,7 +737,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 15,
@@ -1262,7 +1262,7 @@
       "position": "T67",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T16:56Z",
       "status": "active",
       "rounds": [
@@ -1352,7 +1352,7 @@
       "position": "T74",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T17:08Z",
       "status": "active",
       "rounds": [
