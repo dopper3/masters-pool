@@ -1,0 +1,15 @@
+{
+  "tournament": {
+    "id": null,
+    "name": "Masters Tournament",
+    "startDate": null,
+    "endDate": null,
+    "currentRound": 0,
+    "status": "pre",
+    "statusDescription": "Waiting for first scores fetch…",
+    "cutScore": null,
+    "cutCount": null,
+    "lastUpdated": null
+  },
+  "players": []
+}

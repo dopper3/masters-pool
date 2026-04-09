@@ -1,0 +1,107 @@
+name: Ingest pool entry
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  ingest:
+    # Only fire when an issue is labeled "approved" (the repo owner adds it)
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ensure scores.json exists (so picks can be validated)
+        run: |
+          if [ ! -f data/scores.json ]; then
+            python scripts/fetch_scores.py
+          fi
+
+      - name: Write issue body to file
+        env:
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          mkdir -p .tmp
+          printf '%s' "$BODY" > .tmp/body.md
+
+      - name: Ingest entry
+        id: ingest
+        run: |
+          set +e
+          OUTPUT=$(python scripts/ingest_entry.py \
+            --issue-number "${{ github.event.issue.number }}" \
+            --issue-user   "${{ github.event.issue.user.login }}" \
+            --body-file    .tmp/body.md 2>&1)
+          STATUS=$?
+          echo "$OUTPUT"
+          {
+            echo "output<<EOF"
+            echo "$OUTPUT"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          exit $STATUS
+
+      - name: Commit updated entries
+        if: success()
+        run: |
+          git config user.name "masters-pool-bot"
+          git config user.email "masters-pool-bot@users.noreply.github.com"
+          if git diff --quiet -- data/entries.json; then
+            echo "No entry changes."
+            exit 0
+          fi
+          git add data/entries.json
+          git commit -m "entry: ${{ github.event.issue.user.login }} (#${{ github.event.issue.number }})"
+          git push
+
+      - name: Comment success on issue
+        if: success()
+        uses: actions/github-script@v7
+        env:
+          INGEST_OUTPUT: ${{ steps.ingest.outputs.output }}
+        with:
+          script: |
+            const out = process.env.INGEST_OUTPUT || "";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "Entry accepted and added to the pool.\n\n```\n" + out + "\n```"
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });
+
+      - name: Comment failure on issue
+        if: failure()
+        uses: actions/github-script@v7
+        env:
+          INGEST_OUTPUT: ${{ steps.ingest.outputs.output }}
+        with:
+          script: |
+            const out = process.env.INGEST_OUTPUT || "";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "Entry could not be ingested. Fix the issue body and re-apply the `approved` label.\n\n```\n" + out + "\n```"
+            });
+            await github.rest.issues.removeLabel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              name: "approved"
+            }).catch(() => {});

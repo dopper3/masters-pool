@@ -1,0 +1,45 @@
+name: Update Masters scores
+
+on:
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+  # Cron runs every 15 minutes during Masters week (Apr 9-13 2026 in UTC).
+  # GitHub Actions cron is best-effort and may be delayed several minutes
+  # under load — that's fine for a fantasy pool.
+  schedule:
+    - cron: "*/15 9-23 9-13 4 *"
+    - cron: "*/15 0-3 9-13 4 *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch scores from ESPN
+        run: python scripts/fetch_scores.py
+
+      - name: Commit updated scores
+        run: |
+          git config user.name "masters-pool-bot"
+          git config user.email "masters-pool-bot@users.noreply.github.com"
+          if git diff --quiet -- data/scores.json; then
+            echo "No score changes."
+            exit 0
+          fi
+          git add data/scores.json
+          git commit -m "chore: update scores $(date -u +'%Y-%m-%d %H:%MZ')"
+          git push

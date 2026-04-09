@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Masters Fantasy Pool</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1>Masters Fantasy Pool</h1>
+        <p id="tournament-status" class="status">Loading…</p>
+      </div>
+    </header>
+
+    <nav class="tabs wrap">
+      <button class="tab active" data-tab="pool">Pool standings</button>
+      <button class="tab" data-tab="leaderboard">Tournament leaderboard</button>
+      <button class="tab" data-tab="field">The field</button>
+      <button class="tab" data-tab="rules">Rules &amp; how to enter</button>
+    </nav>
+
+    <main class="wrap">
+      <p id="error" class="error" hidden></p>
+
+      <section id="tab-pool" class="tab-panel active">
+        <p class="hint">
+          Lowest combined to-par for your <strong>best 4 of 6</strong> picks.
+          Picks shaded in green are the four currently counting toward your team
+          total; greyed picks are dropped.
+        </p>
+        <div id="pool-standings"></div>
+      </section>
+
+      <section id="tab-leaderboard" class="tab-panel">
+        <div id="leaderboard"></div>
+      </section>
+
+      <section id="tab-field" class="tab-panel">
+        <input
+          id="field-search"
+          type="search"
+          placeholder="Search the field…"
+          autocomplete="off"
+        />
+        <div id="field-list"></div>
+      </section>
+
+      <section id="tab-rules" class="tab-panel">
+        <h2>Rules</h2>
+        <ul>
+          <li>Pick <strong>6 golfers</strong> from the Masters field.</li>
+          <li>
+            After each round, your team score is the sum of your
+            <strong>best 4</strong> picks' scores to par. Your two worst picks
+            are dropped each round (and they can change round to round).
+          </li>
+          <li>Lowest team total after Sunday wins.</li>
+          <li>
+            A golfer who is cut keeps their 36-hole to-par total — that score
+            still counts if it's one of your best 4.
+          </li>
+          <li>
+            A golfer who is WD/DQ takes their last reported to-par
+            <strong>plus a 10-stroke penalty</strong>.
+          </li>
+          <li>
+            You can resubmit any time <em>before</em> Thursday's first tee. The
+            latest accepted entry under your GitHub account replaces the old
+            one.
+          </li>
+        </ul>
+
+        <h2>How to enter</h2>
+        <ol>
+          <li>
+            Click
+            <a id="entry-link" href="#" target="_blank" rel="noopener"
+              >Submit your entry</a
+            >
+            (opens a GitHub Issue with the entry form pre-loaded).
+          </li>
+          <li>
+            Fill in your display name and your six picks. Use full names as
+            shown on the <a href="#" data-jump="field">Field</a> tab.
+          </li>
+          <li>Submit the issue.</li>
+          <li>
+            The pool owner will label your issue <code>approved</code> and your
+            entry will appear here automatically within a minute or two.
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>
+        Scores update automatically every ~15 minutes via GitHub Actions.
+        Source on
+        <a id="repo-link" href="#" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+      <p id="last-updated"></p>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
