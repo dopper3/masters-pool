@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T20:32:58.378178+00:00"
+    "lastUpdated": "2026-04-09T20:34:10.853335+00:00"
   },
   "players": [
     {
@@ -632,7 +632,7 @@
       "position": "T33",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T17:20Z",
       "status": "active",
       "rounds": [
@@ -769,29 +769,11 @@
       ]
     },
     {
-      "id": "686",
-      "name": "Zach Johnson",
-      "shortName": "Z. Johnson",
-      "country": "United States",
-      "position": "T33",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 16,
-      "teeTime": "2026-04-09T15:39Z",
-      "status": "active",
-      "rounds": [
-        1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9131",
       "name": "Cameron Smith",
       "shortName": "C. Smith",
       "country": "Australia",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
@@ -809,7 +791,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
@@ -827,7 +809,7 @@
       "name": "Ethan Fang",
       "shortName": "E. Fang",
       "country": "United States",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 16,
@@ -845,7 +827,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
@@ -863,7 +845,7 @@
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "United States",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 12,
@@ -881,7 +863,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
@@ -899,12 +881,30 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
       "teeTime": "2026-04-09T14:07Z",
       "status": "final",
+      "rounds": [
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "686",
+      "name": "Zach Johnson",
+      "shortName": "Z. Johnson",
+      "country": "United States",
+      "position": "T43",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 17,
+      "teeTime": "2026-04-09T15:39Z",
+      "status": "active",
       "rounds": [
         2,
         null,
@@ -1561,24 +1561,6 @@
       ]
     },
     {
-      "id": "453",
-      "name": "Mike Weir",
-      "shortName": "M. Weir",
-      "country": "Canada",
-      "position": "T84",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 17,
-      "teeTime": "2026-04-09T15:27Z",
-      "status": "active",
-      "rounds": [
-        8,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
@@ -1601,11 +1583,29 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "89",
+      "position": "T88",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
       "teeTime": "2026-04-09T13:02Z",
+      "status": "final",
+      "rounds": [
+        9,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Mike Weir",
+      "shortName": "M. Weir",
+      "country": "Canada",
+      "position": "T88",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 18,
+      "teeTime": "2026-04-09T15:27Z",
       "status": "final",
       "rounds": [
         9,
