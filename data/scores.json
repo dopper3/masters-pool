@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T17:01:01.655039+00:00"
+    "lastUpdated": "2026-04-09T17:02:59.324626+00:00"
   },
   "players": [
     {
@@ -157,11 +157,29 @@
       ]
     },
     {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T5",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 10,
+      "teeTime": "2026-04-09T14:07Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10906",
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 1,
@@ -179,7 +197,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -197,7 +215,7 @@
       "name": "Ethan Fang",
       "shortName": "E. Fang",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -215,7 +233,7 @@
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -233,7 +251,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -251,7 +269,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 14,
@@ -269,10 +287,10 @@
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-09T15:39Z",
       "status": "active",
       "rounds": [
@@ -287,7 +305,7 @@
       "name": "Rory McIlroy",
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 8,
@@ -301,15 +319,15 @@
       ]
     },
     {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T9",
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 8,
-      "teeTime": "2026-04-09T14:19Z",
+      "thru": 2,
+      "teeTime": "2026-04-09T16:27Z",
       "status": "active",
       "rounds": [
         -1,
@@ -323,29 +341,11 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 11,
       "teeTime": "2026-04-09T13:43Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T9",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 9,
-      "teeTime": "2026-04-09T14:07Z",
       "status": "active",
       "rounds": [
         -1,
@@ -859,6 +859,24 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T20",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 9,
+      "teeTime": "2026-04-09T14:19Z",
+      "status": "active",
+      "rounds": [
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
@@ -907,24 +925,6 @@
       "status": "scheduled",
       "rounds": [
         null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T20",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 1,
-      "teeTime": "2026-04-09T16:27Z",
-      "status": "active",
-      "rounds": [
-        0,
         null,
         null,
         null
@@ -992,7 +992,7 @@
       "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-09T14:43Z",
       "status": "active",
       "rounds": [
@@ -1273,24 +1273,6 @@
       ]
     },
     {
-      "id": "5344766",
-      "name": "Jackson Herrington",
-      "shortName": "J. Herrington",
-      "country": "United States",
-      "position": "T53",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 16,
-      "teeTime": "2026-04-09T12:14Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5289811",
       "name": "Mason Howell",
       "shortName": "M. Howell",
@@ -1349,7 +1331,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 13,
@@ -1367,7 +1349,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 8,
@@ -1381,11 +1363,29 @@
       ]
     },
     {
+      "id": "5344766",
+      "name": "Jackson Herrington",
+      "shortName": "J. Herrington",
+      "country": "United States",
+      "position": "T56",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 17,
+      "teeTime": "2026-04-09T12:14Z",
+      "status": "active",
+      "rounds": [
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5217048",
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -1403,7 +1403,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 12,
@@ -1421,7 +1421,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 14,
@@ -1435,29 +1435,11 @@
       ]
     },
     {
-      "id": "4858859",
-      "name": "Rasmus Neergaard-Petersen",
-      "shortName": "R. Neergaard-Petersen",
-      "country": "Denmark",
-      "position": "T57",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 17,
-      "teeTime": "2026-04-09T12:02Z",
-      "status": "active",
-      "rounds": [
-        4,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4610056",
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T63",
+      "position": "T62",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 14,
@@ -1475,7 +1457,7 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T63",
+      "position": "T62",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 13,
@@ -1489,11 +1471,29 @@
       ]
     },
     {
+      "id": "4858859",
+      "name": "Rasmus Neergaard-Petersen",
+      "shortName": "R. Neergaard-Petersen",
+      "country": "Denmark",
+      "position": "T62",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 18,
+      "teeTime": "2026-04-09T12:02Z",
+      "status": "final",
+      "rounds": [
+        5,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "392",
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T63",
+      "position": "T62",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 14,
@@ -1507,24 +1507,6 @@
       ]
     },
     {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "T66",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 15,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        6,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4251",
       "name": "Ryan Fox",
       "shortName": "R. Fox",
@@ -1532,7 +1514,7 @@
       "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-09T12:26Z",
       "status": "active",
       "rounds": [
@@ -1550,7 +1532,7 @@
       "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-09T12:14Z",
       "status": "active",
       "rounds": [
@@ -1565,7 +1547,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 13,
@@ -1579,11 +1561,29 @@
       ]
     },
     {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
+      "country": "United States",
+      "position": "T68",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 16,
+      "teeTime": "2026-04-09T12:26Z",
+      "status": "active",
+      "rounds": [
+        7,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T69",
+      "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 17,
@@ -1619,14 +1619,14 @@
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
-      "position": "72",
-      "scoreToPar": 11.0,
-      "scoreDisplay": "+11",
-      "thru": 17,
+      "position": "T72",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
+      "thru": 18,
       "teeTime": "2026-04-09T12:02Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
-        11,
+        12,
         null,
         null,
         null
@@ -1637,7 +1637,7 @@
       "name": "Naoyuki Kataoka",
       "shortName": "N. Kataoka",
       "country": "Japan",
-      "position": "73",
+      "position": "T72",
       "scoreToPar": 12.0,
       "scoreDisplay": "+12",
       "thru": 18,
