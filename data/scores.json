@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T21:00:58.492478+00:00"
+    "lastUpdated": "2026-04-09T21:02:58.084566+00:00"
   },
   "players": [
     {
@@ -1118,9 +1118,9 @@
       "position": "T60",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-09T15:51Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         4,
         null,
@@ -1525,24 +1525,6 @@
       ]
     },
     {
-      "id": "10058",
-      "name": "Davis Riley",
-      "shortName": "D. Riley",
-      "country": "United States",
-      "position": "T84",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 17,
-      "teeTime": "2026-04-09T15:51Z",
-      "status": "active",
-      "rounds": [
-        8,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
@@ -1565,7 +1547,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T87",
+      "position": "T86",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1583,7 +1565,7 @@
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "T87",
+      "position": "T86",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1601,7 +1583,7 @@
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "T87",
+      "position": "T86",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1609,6 +1591,24 @@
       "status": "final",
       "rounds": [
         9,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "10058",
+      "name": "Davis Riley",
+      "shortName": "D. Riley",
+      "country": "United States",
+      "position": "89",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 18,
+      "teeTime": "2026-04-09T15:51Z",
+      "status": "final",
+      "rounds": [
+        10,
         null,
         null,
         null
