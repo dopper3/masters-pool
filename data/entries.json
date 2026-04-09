@@ -1,4 +1,36 @@
 {
-  "entries": [],
+  "entries": [
+    {
+      "source": "form",
+      "displayName": "Pat's Mom's Friend",
+      "submittedAt": "2026-04-08T21:35:24+00:00",
+      "picks": [
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "4587",
+          "name": "Shane Lowry"
+        },
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
+        {
+          "id": "6007",
+          "name": "Patrick Cantlay"
+        },
+        {
+          "id": "5860",
+          "name": "Hideki Matsuyama"
+        },
+        {
+          "id": "6798",
+          "name": "Brooks Koepka"
+        }
+      ]
+    }
+  ],
   "rejected": []
 }
