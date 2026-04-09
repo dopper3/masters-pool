@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:34:58.444763+00:00"
+    "lastUpdated": "2026-04-09T19:36:58.943262+00:00"
   },
   "players": [
     {
@@ -308,7 +308,7 @@
       "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
@@ -452,7 +452,7 @@
       "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
@@ -578,7 +578,7 @@
       "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
@@ -776,7 +776,7 @@
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-09T16:44Z",
       "status": "active",
       "rounds": [
@@ -913,6 +913,24 @@
       ]
     },
     {
+      "id": "11332",
+      "name": "Andrew Novak",
+      "shortName": "A. Novak",
+      "country": "United States",
+      "position": "T51",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 15,
+      "teeTime": "2026-04-09T15:15Z",
+      "status": "active",
+      "rounds": [
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4404992",
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
@@ -1039,29 +1057,11 @@
       ]
     },
     {
-      "id": "11332",
-      "name": "Andrew Novak",
-      "shortName": "A. Novak",
-      "country": "United States",
-      "position": "T58",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 14,
-      "teeTime": "2026-04-09T15:15Z",
-      "status": "active",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "1097",
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T58",
+      "position": "T59",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
@@ -1079,7 +1079,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T58",
+      "position": "T59",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -1097,7 +1097,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T58",
+      "position": "T59",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 8,
@@ -1115,7 +1115,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T58",
+      "position": "T59",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 16,
@@ -1262,7 +1262,7 @@
       "position": "T63",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T16:15Z",
       "status": "active",
       "rounds": [
