@@ -42,4 +42,18 @@ jobs:
           fi
           git add data/scores.json
           git commit -m "chore: update scores $(date -u +'%Y-%m-%d %H:%MZ')"
-          git push
+          # Race with poll-form.yml: it touches data/entries.json, we touch
+          # data/scores.json, so a rebase is guaranteed conflict-free. Retry
+          # a few times in case another commit lands while we're rebasing.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed, retrying..."
+            sleep 3
+          done
+          echo "Exhausted push retries."
+          exit 1
