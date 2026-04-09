@@ -30,6 +30,37 @@
           "name": "Brooks Koepka"
         }
       ]
+    },
+    {
+      "source": "form",
+      "displayName": "Three-Time Champ",
+      "submittedAt": "2026-04-08T21:42:36+00:00",
+      "picks": [
+        {
+          "id": "10140",
+          "name": "Xander Schauffele"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "4425906",
+          "name": "Cameron Young"
+        },
+        {
+          "id": "10592",
+          "name": "Collin Morikawa"
+        },
+        {
+          "id": "4375972",
+          "name": "Ludvig Åberg"
+        },
+        {
+          "id": "4419142",
+          "name": "Akshay Bhatia"
+        }
+      ]
     }
   ],
   "rejected": []
