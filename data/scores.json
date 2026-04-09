@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 2,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T20:59:47.079333+00:00"
+    "lastUpdated": "2026-04-09T21:00:58.492478+00:00"
   },
   "players": [
     {
@@ -125,7 +125,7 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T8",
+      "position": "T7",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -215,7 +215,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T8",
+      "position": "T7",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -848,9 +848,9 @@
       "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-09T15:51Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         2,
         null,
@@ -956,7 +956,7 @@
       "position": "T51",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-09T16:03Z",
       "status": "active",
       "rounds": [
@@ -1010,7 +1010,7 @@
       "position": "T51",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-09T17:44Z",
       "status": "active",
       "rounds": [
@@ -1399,29 +1399,11 @@
       ]
     },
     {
-      "id": "1225",
-      "name": "Brian Harman",
-      "shortName": "B. Harman",
-      "country": "United States",
-      "position": "T78",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 16,
-      "teeTime": "2026-04-09T16:03Z",
-      "status": "active",
-      "rounds": [
-        6,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T78",
+      "position": "78",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 18,
@@ -1435,11 +1417,29 @@
       ]
     },
     {
+      "id": "1225",
+      "name": "Brian Harman",
+      "shortName": "B. Harman",
+      "country": "United States",
+      "position": "T79",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 17,
+      "teeTime": "2026-04-09T16:03Z",
+      "status": "active",
+      "rounds": [
+        7,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11101",
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
@@ -1457,7 +1457,7 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
@@ -1475,7 +1475,7 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
@@ -1493,7 +1493,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
