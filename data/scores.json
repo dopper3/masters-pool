@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T22:49:09.103544+00:00"
+    "lastUpdated": "2026-04-09T22:50:57.591390+00:00"
   },
   "players": [
     {
@@ -67,24 +67,6 @@
       ]
     },
     {
-      "id": "569",
-      "name": "Justin Rose",
-      "shortName": "J. Rose",
-      "country": "England",
-      "position": "T3",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 17,
-      "teeTime": "2026-04-09T17:20Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "10364",
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
@@ -121,11 +103,29 @@
       ]
     },
     {
+      "id": "569",
+      "name": "Justin Rose",
+      "shortName": "J. Rose",
+      "country": "England",
+      "position": "T6",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 18,
+      "teeTime": "2026-04-09T17:20Z",
+      "status": "final",
+      "rounds": [
+        -2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T7",
+      "position": "T6",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 16,
@@ -143,7 +143,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T7",
+      "position": "T6",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -161,7 +161,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T7",
+      "position": "T6",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
