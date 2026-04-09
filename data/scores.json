@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 1,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T19:18:59.999285+00:00"
+    "lastUpdated": "2026-04-09T19:19:13.081690+00:00"
   },
   "players": [
     {
@@ -607,24 +607,6 @@
       ]
     },
     {
-      "id": "11378",
-      "name": "Robert MacIntyre",
-      "shortName": "R. MacIntyre",
-      "country": "Scotland",
-      "position": "T20",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 5,
-      "teeTime": "2026-04-09T17:44Z",
-      "status": "active",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5409",
       "name": "Russell Henley",
       "shortName": "R. Henley",
@@ -755,7 +737,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -773,7 +755,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 5,
@@ -845,7 +827,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -877,6 +859,24 @@
       ]
     },
     {
+      "id": "11378",
+      "name": "Robert MacIntyre",
+      "shortName": "R. MacIntyre",
+      "country": "Scotland",
+      "position": "T38",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 6,
+      "teeTime": "2026-04-09T17:44Z",
+      "status": "active",
+      "rounds": [
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
@@ -899,7 +899,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 5,
@@ -935,7 +935,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
