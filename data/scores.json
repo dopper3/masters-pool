@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-09T16:55:00.208866+00:00"
+    "lastUpdated": "2026-04-09T16:57:00.088190+00:00"
   },
   "players": [
     {
@@ -1129,24 +1129,6 @@
       ]
     },
     {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "shortName": "S. Im",
-      "country": "South Korea",
-      "position": "T44",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 7,
-      "teeTime": "2026-04-09T15:03Z",
-      "status": "active",
-      "rounds": [
-        2,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4348444",
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
@@ -1264,6 +1246,24 @@
       "scoreDisplay": "+2",
       "thru": 12,
       "teeTime": "2026-04-09T13:31Z",
+      "status": "active",
+      "rounds": [
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "shortName": "S. Im",
+      "country": "South Korea",
+      "position": "T44",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 7,
+      "teeTime": "2026-04-09T15:03Z",
       "status": "active",
       "rounds": [
         2,
@@ -1471,24 +1471,6 @@
       ]
     },
     {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "T60",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 14,
-      "teeTime": "2026-04-09T12:26Z",
-      "status": "active",
-      "rounds": [
-        5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4408316",
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
@@ -1543,14 +1525,32 @@
       ]
     },
     {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
+      "country": "United States",
+      "position": "T64",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 15,
+      "teeTime": "2026-04-09T12:26Z",
+      "status": "active",
+      "rounds": [
+        6,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4251",
       "name": "Ryan Fox",
       "shortName": "R. Fox",
       "country": "New Zealand",
-      "position": "T65",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-09T12:26Z",
       "status": "active",
       "rounds": [
@@ -1565,7 +1565,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T65",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 16,
@@ -1586,7 +1586,7 @@
       "position": "67",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-09T13:02Z",
       "status": "active",
       "rounds": [
