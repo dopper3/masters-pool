@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T15:08:45.542959+00:00"
+    "lastUpdated": "2026-04-10T15:08:58.350552+00:00"
   },
   "players": [
     {
@@ -1511,7 +1511,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T84",
+      "position": "84",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 0,
@@ -1525,29 +1525,11 @@
       ]
     },
     {
-      "id": "5344763",
-      "name": "Mateo Pulcini",
-      "shortName": "M. Pulcini",
-      "country": "Argentina",
-      "position": "T84",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 11,
-      "teeTime": "2026-04-10T12:02Z",
-      "status": "active",
-      "rounds": [
-        9,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "453",
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 11,
@@ -1565,7 +1547,7 @@
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
       "country": "Scotland",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 2,
@@ -1573,6 +1555,24 @@
       "status": "active",
       "rounds": [
         8,
+        2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5344763",
+      "name": "Mateo Pulcini",
+      "shortName": "M. Pulcini",
+      "country": "Argentina",
+      "position": "87",
+      "scoreToPar": 11.0,
+      "scoreDisplay": "+11",
+      "thru": 12,
+      "teeTime": "2026-04-10T12:02Z",
+      "status": "active",
+      "rounds": [
+        9,
         2,
         null,
         null
