@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:01:01.683547+00:00"
+    "lastUpdated": "2026-04-10T14:02:59.941378+00:00"
   },
   "players": [
     {
@@ -1064,7 +1064,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-10T12:50Z",
       "status": "active",
       "rounds": [
@@ -1370,7 +1370,7 @@
       "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-10T12:50Z",
       "status": "active",
       "rounds": [
@@ -1511,7 +1511,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "84",
+      "position": "T84",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 0,
@@ -1529,32 +1529,14 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T85",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 4,
+      "position": "T84",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 5,
       "teeTime": "2026-04-10T12:38Z",
       "status": "active",
       "rounds": [
         7,
-        3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5327297",
-      "name": "Fifa Laopakdee",
-      "shortName": "F. Laopakdee",
-      "country": "Thailand",
-      "position": "T85",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 3,
-      "teeTime": "2026-04-10T12:50Z",
-      "status": "active",
-      "rounds": [
-        8,
         2,
         null,
         null
@@ -1565,7 +1547,7 @@
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "T85",
+      "position": "86",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 7,
@@ -1579,11 +1561,29 @@
       ]
     },
     {
+      "id": "5327297",
+      "name": "Fifa Laopakdee",
+      "shortName": "F. Laopakdee",
+      "country": "Thailand",
+      "position": "T87",
+      "scoreToPar": 11.0,
+      "scoreDisplay": "+11",
+      "thru": 4,
+      "teeTime": "2026-04-10T12:50Z",
+      "status": "active",
+      "rounds": [
+        8,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "453",
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "88",
+      "position": "T87",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 7,
