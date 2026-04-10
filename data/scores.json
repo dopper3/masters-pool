@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:59:05.448415+00:00"
+    "lastUpdated": "2026-04-10T21:01:03.622805+00:00"
   },
   "players": [
     {
@@ -283,6 +283,24 @@
       ]
     },
     {
+      "id": "3792",
+      "name": "Nick Taylor",
+      "shortName": "N. Taylor",
+      "country": "Canada",
+      "position": "T15",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 15,
+      "teeTime": "2026-04-10T16:44Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
@@ -305,7 +323,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 14,
@@ -323,7 +341,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 12,
@@ -341,7 +359,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 16,
@@ -359,7 +377,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -368,24 +386,6 @@
       "rounds": [
         0,
         -1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "3792",
-      "name": "Nick Taylor",
-      "shortName": "N. Taylor",
-      "country": "Canada",
-      "position": "T17",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 14,
-      "teeTime": "2026-04-10T16:44Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        0,
         null,
         null
       ]
@@ -776,7 +776,7 @@
       "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T16:44Z",
       "status": "active",
       "rounds": [
