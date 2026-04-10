@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:26:59.582815+00:00"
+    "lastUpdated": "2026-04-10T13:28:59.810195+00:00"
   },
   "players": [
     {
@@ -1129,6 +1129,24 @@
       ]
     },
     {
+      "id": "91",
+      "name": "Fred Couples",
+      "shortName": "F. Couples",
+      "country": "United States",
+      "position": "T59",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 2,
+      "teeTime": "2026-04-10T12:50Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4589438",
       "name": "Harry Hall",
       "shortName": "H. Hall",
@@ -1259,7 +1277,7 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T70",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 6,
@@ -1273,29 +1291,11 @@
       ]
     },
     {
-      "id": "91",
-      "name": "Fred Couples",
-      "shortName": "F. Couples",
-      "country": "United States",
-      "position": "T70",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 1,
-      "teeTime": "2026-04-10T12:50Z",
-      "status": "active",
-      "rounds": [
-        6,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T70",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1313,7 +1313,7 @@
       "name": "Michael Kim",
       "shortName": "M. Kim",
       "country": "United States",
-      "position": "T70",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 4,
@@ -1331,7 +1331,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T70",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1550,7 +1550,7 @@
       "position": "T85",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T12:50Z",
       "status": "active",
       "rounds": [
