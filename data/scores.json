@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T19:25:01.651214+00:00"
+    "lastUpdated": "2026-04-10T19:27:04.225172+00:00"
   },
   "players": [
     {
@@ -470,7 +470,7 @@
       "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T16:44Z",
       "status": "active",
       "rounds": [
@@ -805,24 +805,6 @@
       ]
     },
     {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "shortName": "K. Bradley",
-      "country": "United States",
-      "position": "T43",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 9,
-      "teeTime": "2026-04-10T16:44Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
@@ -881,7 +863,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -899,7 +881,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 7,
@@ -917,7 +899,7 @@
       "name": "Cameron Smith",
       "shortName": "C. Smith",
       "country": "Australia",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 10,
@@ -935,7 +917,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -953,7 +935,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -967,11 +949,29 @@
       ]
     },
     {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "shortName": "K. Bradley",
+      "country": "United States",
+      "position": "T48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 10,
+      "teeTime": "2026-04-10T16:44Z",
+      "status": "active",
+      "rounds": [
+        0,
+        4,
+        null,
+        null
+      ]
+    },
+    {
       "id": "6007",
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 5,
@@ -989,7 +989,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 12,
@@ -1007,7 +1007,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 16,
@@ -1550,7 +1550,7 @@
       "position": "T84",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T15:27Z",
       "status": "active",
       "rounds": [
