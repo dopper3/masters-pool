@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:41:00.484977+00:00"
+    "lastUpdated": "2026-04-10T16:42:59.505508+00:00"
   },
   "players": [
     {
@@ -247,24 +247,6 @@
       ]
     },
     {
-      "id": "9221",
-      "name": "Haotong Li",
-      "shortName": "H. Li",
-      "country": "China",
-      "position": "T18",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 7,
-      "teeTime": "2026-04-10T14:51Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -365,6 +347,24 @@
       "thru": 18,
       "teeTime": "2026-04-10T11:50Z",
       "status": "final",
+      "rounds": [
+        -1,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "9221",
+      "name": "Haotong Li",
+      "shortName": "H. Li",
+      "country": "China",
+      "position": "T18",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 7,
+      "teeTime": "2026-04-10T14:51Z",
+      "status": "active",
       "rounds": [
         -1,
         1,
@@ -506,7 +506,7 @@
       "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -1021,19 +1021,19 @@
       ]
     },
     {
-      "id": "5217048",
-      "name": "Johnny Keefer",
-      "shortName": "J. Keefer",
-      "country": "United States",
+      "id": "4589438",
+      "name": "Harry Hall",
+      "shortName": "H. Hall",
+      "country": "England",
       "position": "T54",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 6,
-      "teeTime": "2026-04-10T14:51Z",
+      "thru": 12,
+      "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
-        4,
-        1,
+        5,
+        0,
         null,
         null
       ]
@@ -1111,6 +1111,24 @@
       ]
     },
     {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T54",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 3,
+      "teeTime": "2026-04-10T15:51Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4251",
       "name": "Ryan Fox",
       "shortName": "R. Fox",
@@ -1133,7 +1151,7 @@
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T63",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 2,
@@ -1151,7 +1169,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T63",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 15,
@@ -1169,7 +1187,7 @@
       "name": "Ethan Fang",
       "shortName": "E. Fang",
       "country": "United States",
-      "position": "T63",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 15,
@@ -1183,29 +1201,11 @@
       ]
     },
     {
-      "id": "4589438",
-      "name": "Harry Hall",
-      "shortName": "H. Hall",
-      "country": "England",
-      "position": "T63",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 11,
-      "teeTime": "2026-04-10T13:19Z",
-      "status": "active",
-      "rounds": [
-        5,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "10166",
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "United States",
-      "position": "T63",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 11,
@@ -1219,19 +1219,19 @@
       ]
     },
     {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T63",
+      "id": "5217048",
+      "name": "Johnny Keefer",
+      "shortName": "J. Keefer",
+      "country": "United States",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 2,
-      "teeTime": "2026-04-10T15:51Z",
+      "thru": 7,
+      "teeTime": "2026-04-10T14:51Z",
       "status": "active",
       "rounds": [
-        6,
-        0,
+        4,
+        2,
         null,
         null
       ]
@@ -1241,7 +1241,7 @@
       "name": "Zach Johnson",
       "shortName": "Z. Johnson",
       "country": "United States",
-      "position": "T63",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 16,
@@ -1259,7 +1259,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T63",
+      "position": "T64",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 4,
@@ -1316,7 +1316,7 @@
       "position": "T71",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1352,7 +1352,7 @@
       "position": "T71",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1424,7 +1424,7 @@
       "position": "T71",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1532,7 +1532,7 @@
       "position": "T82",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T15:27Z",
       "status": "active",
       "rounds": [
