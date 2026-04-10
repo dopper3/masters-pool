@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:17:01.388997+00:00"
+    "lastUpdated": "2026-04-10T22:19:00.628656+00:00"
   },
   "players": [
     {
@@ -128,7 +128,7 @@
       "position": "T7",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-10T17:44Z",
       "status": "active",
       "rounds": [
@@ -1309,24 +1309,6 @@
       ]
     },
     {
-      "id": "5289811",
-      "name": "Mason Howell",
-      "shortName": "M. Howell",
-      "country": "United States",
-      "position": "T69",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 15,
-      "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
-      "rounds": [
-        5,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "8974",
       "name": "Michael Kim",
       "shortName": "M. Kim",
@@ -1349,7 +1331,7 @@
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1367,7 +1349,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T75",
+      "position": "T74",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1376,6 +1358,24 @@
       "rounds": [
         2,
         7,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5289811",
+      "name": "Mason Howell",
+      "shortName": "M. Howell",
+      "country": "United States",
+      "position": "T74",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 16,
+      "teeTime": "2026-04-10T17:44Z",
+      "status": "active",
+      "rounds": [
+        5,
+        4,
         null,
         null
       ]
