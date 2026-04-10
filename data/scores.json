@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:09:01.743389+00:00"
+    "lastUpdated": "2026-04-10T20:11:03.188495+00:00"
   },
   "players": [
     {
@@ -650,7 +650,7 @@
       "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T17:20Z",
       "status": "active",
       "rounds": [
@@ -1028,7 +1028,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
@@ -1514,7 +1514,7 @@
       "position": "T81",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
@@ -1579,29 +1579,11 @@
       ]
     },
     {
-      "id": "65",
-      "name": "Ángel Cabrera",
-      "shortName": "Á. Cabrera",
-      "country": "Argentina",
-      "position": "T86",
-      "scoreToPar": 14.0,
-      "scoreDisplay": "+14",
-      "thru": 16,
-      "teeTime": "2026-04-10T15:27Z",
-      "status": "active",
-      "rounds": [
-        7,
-        7,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344763",
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "89",
+      "position": "T88",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
       "thru": 18,
@@ -1615,19 +1597,37 @@
       ]
     },
     {
+      "id": "65",
+      "name": "Ángel Cabrera",
+      "shortName": "Á. Cabrera",
+      "country": "Argentina",
+      "position": "T88",
+      "scoreToPar": 15.0,
+      "scoreDisplay": "+15",
+      "thru": 17,
+      "teeTime": "2026-04-10T15:27Z",
+      "status": "active",
+      "rounds": [
+        7,
+        8,
+        null,
+        null
+      ]
+    },
+    {
       "id": "2201886",
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
       "position": "90",
-      "scoreToPar": 16.0,
-      "scoreDisplay": "+16",
-      "thru": 13,
+      "scoreToPar": 17.0,
+      "scoreDisplay": "+17",
+      "thru": 14,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
         9,
-        7,
+        8,
         null,
         null
       ]
