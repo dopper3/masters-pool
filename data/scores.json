@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:26:59.717419+00:00"
+    "lastUpdated": "2026-04-10T21:29:01.109680+00:00"
   },
   "players": [
     {
@@ -265,6 +265,24 @@
       ]
     },
     {
+      "id": "4425906",
+      "name": "Cameron Young",
+      "shortName": "C. Young",
+      "country": "United States",
+      "position": "T15",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 13,
+      "teeTime": "2026-04-10T17:44Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
@@ -290,7 +308,7 @@
       "position": "T15",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T16:44Z",
       "status": "active",
       "rounds": [
@@ -301,29 +319,11 @@
       ]
     },
     {
-      "id": "4425906",
-      "name": "Cameron Young",
-      "shortName": "C. Young",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 12,
-      "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "10592",
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -341,7 +341,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -359,7 +359,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 17,
@@ -377,7 +377,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -395,7 +395,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -413,7 +413,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 14,
@@ -499,6 +499,24 @@
       ]
     },
     {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "shortName": "R. Gerard",
+      "country": "United States",
+      "position": "T24",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 17,
+      "teeTime": "2026-04-10T16:44Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
@@ -521,7 +539,7 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -539,7 +557,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 16,
@@ -557,7 +575,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -575,7 +593,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -593,7 +611,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -611,7 +629,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -625,29 +643,11 @@
       ]
     },
     {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "shortName": "R. Gerard",
-      "country": "United States",
-      "position": "T29",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 16,
-      "teeTime": "2026-04-10T16:44Z",
-      "status": "active",
-      "rounds": [
-        0,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -665,7 +665,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T29",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -884,7 +884,7 @@
       "position": "T47",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T17:20Z",
       "status": "active",
       "rounds": [
