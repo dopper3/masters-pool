@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T17:49:00.269979+00:00"
+    "lastUpdated": "2026-04-10T17:51:03.379881+00:00"
   },
   "players": [
     {
@@ -67,6 +67,24 @@
       ]
     },
     {
+      "id": "5553",
+      "name": "Tyrrell Hatton",
+      "shortName": "T. Hatton",
+      "country": "England",
+      "position": "T3",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 15,
+      "teeTime": "2026-04-10T13:31Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -6,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11119",
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
@@ -89,7 +107,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 13,
@@ -107,7 +125,7 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 3,
@@ -125,7 +143,7 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 2,
@@ -143,7 +161,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 3,
@@ -152,24 +170,6 @@
       "rounds": [
         -2,
         -1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5553",
-      "name": "Tyrrell Hatton",
-      "shortName": "T. Hatton",
-      "country": "England",
-      "position": "T5",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 14,
-      "teeTime": "2026-04-10T13:31Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -5,
         null,
         null
       ]
@@ -452,7 +452,7 @@
       "position": "T25",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -866,7 +866,7 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -938,7 +938,7 @@
       "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -1154,7 +1154,7 @@
       "position": "T62",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -1208,7 +1208,7 @@
       "position": "T62",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -1514,7 +1514,7 @@
       "position": "T83",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
