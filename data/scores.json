@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:48:59.237992+00:00"
+    "lastUpdated": "2026-04-10T16:50:59.572328+00:00"
   },
   "players": [
     {
@@ -139,11 +139,29 @@
       ]
     },
     {
+      "id": "5553",
+      "name": "Tyrrell Hatton",
+      "shortName": "T. Hatton",
+      "country": "England",
+      "position": "T4",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 12,
+      "teeTime": "2026-04-10T13:31Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -5,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4404992",
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T8",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 9,
@@ -161,7 +179,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T8",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 10,
@@ -179,7 +197,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T8",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 0,
@@ -193,29 +211,11 @@
       ]
     },
     {
-      "id": "5553",
-      "name": "Tyrrell Hatton",
-      "shortName": "T. Hatton",
-      "country": "England",
-      "position": "T8",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 11,
-      "teeTime": "2026-04-10T13:31Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -4,
-        null,
-        null
-      ]
-    },
-    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T8",
+      "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 0,
@@ -236,7 +236,7 @@
       "position": "T13",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T13:55Z",
       "status": "active",
       "rounds": [
@@ -254,7 +254,7 @@
       "position": "T13",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T13:55Z",
       "status": "active",
       "rounds": [
@@ -823,6 +823,24 @@
       ]
     },
     {
+      "id": "4585549",
+      "name": "Marco Penge",
+      "shortName": "M. Penge",
+      "country": "England",
+      "position": "T42",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 8,
+      "teeTime": "2026-04-10T14:31Z",
+      "status": "active",
+      "rounds": [
+        4,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
@@ -859,29 +877,11 @@
       ]
     },
     {
-      "id": "4585549",
-      "name": "Marco Penge",
-      "shortName": "M. Penge",
-      "country": "England",
-      "position": "T48",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 7,
-      "teeTime": "2026-04-10T14:31Z",
-      "status": "active",
-      "rounds": [
-        4,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T48",
+      "position": "49",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -938,7 +938,7 @@
       "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T14:31Z",
       "status": "active",
       "rounds": [
@@ -1172,7 +1172,7 @@
       "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T16:03Z",
       "status": "active",
       "rounds": [
@@ -1190,7 +1190,7 @@
       "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
