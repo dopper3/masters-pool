@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:25:01.218780+00:00"
+    "lastUpdated": "2026-04-10T14:27:03.240695+00:00"
   },
   "players": [
     {
@@ -499,11 +499,29 @@
       ]
     },
     {
+      "id": "5553",
+      "name": "Tyrrell Hatton",
+      "shortName": "T. Hatton",
+      "country": "England",
+      "position": "T18",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 3,
+      "teeTime": "2026-04-10T13:31Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4419142",
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -521,7 +539,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 9,
@@ -539,7 +557,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 1,
@@ -557,7 +575,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -575,7 +593,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -593,7 +611,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -611,7 +629,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -629,7 +647,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 2,
@@ -647,7 +665,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 3,
@@ -665,7 +683,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -674,24 +692,6 @@
       "rounds": [
         1,
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5553",
-      "name": "Tyrrell Hatton",
-      "shortName": "T. Hatton",
-      "country": "England",
-      "position": "T28",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 2,
-      "teeTime": "2026-04-10T13:31Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -1,
         null,
         null
       ]
@@ -1082,7 +1082,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -1226,7 +1226,7 @@
       "position": "T68",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
@@ -1547,7 +1547,7 @@
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "86",
+      "position": "T86",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 9,
@@ -1565,15 +1565,15 @@
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "87",
-      "scoreToPar": 11.0,
-      "scoreDisplay": "+11",
-      "thru": 8,
+      "position": "T86",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 9,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
         9,
-        2,
+        1,
         null,
         null
       ]
