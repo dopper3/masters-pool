@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:09:00.256969+00:00"
+    "lastUpdated": "2026-04-10T16:09:48.698835+00:00"
   },
   "players": [
     {
@@ -499,6 +499,24 @@
       ]
     },
     {
+      "id": "4921329",
+      "name": "Michael Brennan",
+      "shortName": "M. Brennan",
+      "country": "United States",
+      "position": "T19",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 10,
+      "teeTime": "2026-04-10T13:19Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
@@ -539,7 +557,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -557,7 +575,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -575,7 +593,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -593,7 +611,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 6,
@@ -611,7 +629,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -625,29 +643,11 @@
       ]
     },
     {
-      "id": "4921329",
-      "name": "Michael Brennan",
-      "shortName": "M. Brennan",
-      "country": "United States",
-      "position": "T30",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 9,
-      "teeTime": "2026-04-10T13:19Z",
-      "status": "active",
-      "rounds": [
-        0,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5409",
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -665,7 +665,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 7,
@@ -683,7 +683,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -701,7 +701,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T30",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -866,7 +866,7 @@
       "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T14:31Z",
       "status": "active",
       "rounds": [
