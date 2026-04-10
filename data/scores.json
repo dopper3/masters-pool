@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:47:02.834635+00:00"
+    "lastUpdated": "2026-04-10T20:49:02.542002+00:00"
   },
   "players": [
     {
@@ -121,6 +121,24 @@
       ]
     },
     {
+      "id": "9938",
+      "name": "Sam Burns",
+      "shortName": "S. Burns",
+      "country": "United States",
+      "position": "T5",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 15,
+      "teeTime": "2026-04-10T16:32Z",
+      "status": "active",
+      "rounds": [
+        -5,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5539",
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
@@ -128,7 +146,7 @@
       "position": "T5",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -179,7 +197,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -197,7 +215,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -215,7 +233,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -229,32 +247,14 @@
       ]
     },
     {
-      "id": "9938",
-      "name": "Sam Burns",
-      "shortName": "S. Burns",
-      "country": "United States",
-      "position": "T10",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 14,
-      "teeTime": "2026-04-10T16:32Z",
-      "status": "active",
-      "rounds": [
-        -5,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4587",
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T16:56Z",
       "status": "active",
       "rounds": [
@@ -326,7 +326,7 @@
       "position": "T18",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T16:56Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
