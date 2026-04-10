@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T17:39:00.836116+00:00"
+    "lastUpdated": "2026-04-10T17:41:01.116334+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T3",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T13:55Z",
       "status": "active",
       "rounds": [
@@ -776,7 +776,7 @@
       "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -949,6 +949,24 @@
       ]
     },
     {
+      "id": "5344766",
+      "name": "Jackson Herrington",
+      "shortName": "J. Herrington",
+      "country": "United States",
+      "position": "T50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 8,
+      "teeTime": "2026-04-10T15:27Z",
+      "status": "active",
+      "rounds": [
+        4,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
@@ -971,7 +989,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -989,7 +1007,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 1,
@@ -1007,7 +1025,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1021,29 +1039,11 @@
       ]
     },
     {
-      "id": "5344766",
-      "name": "Jackson Herrington",
-      "shortName": "J. Herrington",
-      "country": "United States",
-      "position": "T54",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 7,
-      "teeTime": "2026-04-10T15:27Z",
-      "status": "active",
-      "rounds": [
-        4,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 13,
@@ -1061,7 +1061,7 @@
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1079,7 +1079,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1097,10 +1097,10 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T54",
+      "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1313,15 +1313,15 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T70",
+      "position": "T81",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T15:27Z",
       "status": "active",
       "rounds": [
         7,
-        0,
+        2,
         null,
         null
       ]
@@ -1340,6 +1340,24 @@
       "rounds": [
         9,
         -1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "9025",
+      "name": "Daniel Berger",
+      "shortName": "D. Berger",
+      "country": "United States",
+      "position": "T74",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 18,
+      "teeTime": "2026-04-10T12:38Z",
+      "status": "final",
+      "rounds": [
+        4,
+        4,
         null,
         null
       ]
@@ -1442,7 +1460,7 @@
       "position": "T74",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1457,7 +1475,7 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T81",
+      "position": "82",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 9,
@@ -1466,24 +1484,6 @@
       "rounds": [
         8,
         1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9025",
-      "name": "Daniel Berger",
-      "shortName": "D. Berger",
-      "country": "United States",
-      "position": "T81",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 17,
-      "teeTime": "2026-04-10T12:38Z",
-      "status": "active",
-      "rounds": [
-        4,
-        5,
         null,
         null
       ]
