@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:00:59.498092+00:00"
+    "lastUpdated": "2026-04-10T13:02:59.406167+00:00"
   },
   "players": [
     {
@@ -517,24 +517,6 @@
       ]
     },
     {
-      "id": "4426181",
-      "name": "Sam Stevens",
-      "shortName": "S. Stevens",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 5,
-      "teeTime": "2026-04-10T11:40Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
@@ -557,7 +539,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 1,
@@ -575,7 +557,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -593,7 +575,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 4,
@@ -611,7 +593,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -629,7 +611,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -647,7 +629,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -665,7 +647,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -683,7 +665,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -697,11 +679,29 @@
       ]
     },
     {
+      "id": "4426181",
+      "name": "Sam Stevens",
+      "shortName": "S. Stevens",
+      "country": "United States",
+      "position": "T30",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 6,
+      "teeTime": "2026-04-10T11:40Z",
+      "status": "active",
+      "rounds": [
+        0,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -992,7 +992,7 @@
       "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
@@ -1604,7 +1604,7 @@
       "position": "89",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
