@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:43:07.374605+00:00"
+    "lastUpdated": "2026-04-10T22:45:03.210750+00:00"
   },
   "players": [
     {
@@ -427,29 +427,11 @@
       ]
     },
     {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 17,
-      "teeTime": "2026-04-10T17:32Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9525",
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -467,7 +449,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -485,7 +467,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -503,7 +485,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -521,7 +503,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 16,
@@ -535,11 +517,29 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T24",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 18,
+      "teeTime": "2026-04-10T17:32Z",
+      "status": "final",
+      "rounds": [
+        1,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -557,7 +557,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T25",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
