@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:51:03.200669+00:00"
+    "lastUpdated": "2026-04-10T21:53:01.506607+00:00"
   },
   "players": [
     {
@@ -35,15 +35,15 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "T2",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 16,
+      "position": "2",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 17,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
         -3,
-        -3,
+        -4,
         null,
         null
       ]
@@ -53,7 +53,7 @@
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -71,10 +71,10 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T2",
+      "position": "T3",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
