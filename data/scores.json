@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:07:01.045383+00:00"
+    "lastUpdated": "2026-04-10T14:08:58.824806+00:00"
   },
   "players": [
     {
@@ -265,6 +265,24 @@
       ]
     },
     {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "shortName": "J. Spieth",
+      "country": "United States",
+      "position": "T12",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 1,
+      "teeTime": "2026-04-10T13:55Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
@@ -305,7 +323,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -323,7 +341,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -341,7 +359,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -355,29 +373,11 @@
       ]
     },
     {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "shortName": "J. Spieth",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 0,
-      "teeTime": "2026-04-10T13:55Z",
-      "status": "scheduled",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4848",
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -395,7 +395,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -413,7 +413,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -431,7 +431,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -449,7 +449,7 @@
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -467,7 +467,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -1172,7 +1172,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
