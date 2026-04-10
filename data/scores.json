@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:05:00.028896+00:00"
+    "lastUpdated": "2026-04-10T13:07:00.219960+00:00"
   },
   "players": [
     {
@@ -1327,24 +1327,6 @@
       ]
     },
     {
-      "id": "4410932",
-      "name": "Min Woo Lee",
-      "shortName": "M. Lee",
-      "country": "Australia",
-      "position": "T72",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 0,
-      "teeTime": "2026-04-10T12:50Z",
-      "status": "scheduled",
-      "rounds": [
-        6,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
@@ -1367,7 +1349,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1381,11 +1363,29 @@
       ]
     },
     {
+      "id": "4410932",
+      "name": "Min Woo Lee",
+      "shortName": "M. Lee",
+      "country": "Australia",
+      "position": "T75",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 1,
+      "teeTime": "2026-04-10T12:50Z",
+      "status": "active",
+      "rounds": [
+        6,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4408316",
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1403,7 +1403,7 @@
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
       "country": "Northern Ireland",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 4,
@@ -1421,7 +1421,7 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1439,7 +1439,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T76",
+      "position": "T75",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1489,24 +1489,6 @@
       ]
     },
     {
-      "id": "5327297",
-      "name": "Fifa Laopakdee",
-      "shortName": "F. Laopakdee",
-      "country": "Thailand",
-      "position": "T81",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 0,
-      "teeTime": "2026-04-10T12:50Z",
-      "status": "scheduled",
-      "rounds": [
-        8,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11378",
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
@@ -1547,7 +1529,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 0,
@@ -1561,11 +1543,29 @@
       ]
     },
     {
+      "id": "5327297",
+      "name": "Fifa Laopakdee",
+      "shortName": "F. Laopakdee",
+      "country": "Thailand",
+      "position": "T85",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 1,
+      "teeTime": "2026-04-10T12:50Z",
+      "status": "active",
+      "rounds": [
+        8,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5344763",
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 3,
@@ -1583,7 +1583,7 @@
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 3,
