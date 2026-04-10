@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:29:04.434218+00:00"
+    "lastUpdated": "2026-04-10T22:31:03.181645+00:00"
   },
   "players": [
     {
@@ -18,14 +18,14 @@
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
       "position": "1",
-      "scoreToPar": -10.0,
-      "scoreDisplay": "-10",
-      "thru": 16,
+      "scoreToPar": -11.0,
+      "scoreDisplay": "-11",
+      "thru": 17,
       "teeTime": "2026-04-10T17:44Z",
       "status": "active",
       "rounds": [
         -5,
-        -5,
+        -6,
         null,
         null
       ]
