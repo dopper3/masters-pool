@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:55:00.970333+00:00"
+    "lastUpdated": "2026-04-10T13:57:00.747571+00:00"
   },
   "players": [
     {
@@ -560,7 +560,7 @@
       "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
@@ -1201,24 +1201,6 @@
       ]
     },
     {
-      "id": "4304",
-      "name": "Danny Willett",
-      "shortName": "D. Willett",
-      "country": "England",
-      "position": "T66",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 4,
-      "teeTime": "2026-04-10T12:26Z",
-      "status": "active",
-      "rounds": [
-        4,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5293232",
       "name": "Ethan Fang",
       "shortName": "E. Fang",
@@ -1331,10 +1313,10 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
@@ -1345,11 +1327,29 @@
       ]
     },
     {
+      "id": "4304",
+      "name": "Danny Willett",
+      "shortName": "D. Willett",
+      "country": "England",
+      "position": "T73",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 5,
+      "teeTime": "2026-04-10T12:26Z",
+      "status": "active",
+      "rounds": [
+        4,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11101",
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1367,7 +1367,7 @@
       "name": "Min Woo Lee",
       "shortName": "M. Lee",
       "country": "Australia",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 3,
@@ -1385,7 +1385,7 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1403,7 +1403,7 @@
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
       "country": "Northern Ireland",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 8,
@@ -1421,7 +1421,7 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1439,7 +1439,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T74",
+      "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
