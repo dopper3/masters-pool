@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:46:59.817963+00:00"
+    "lastUpdated": "2026-04-10T14:48:59.011326+00:00"
   },
   "players": [
     {
@@ -290,7 +290,7 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T13:55Z",
       "status": "active",
       "rounds": [
@@ -308,7 +308,7 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T13:55Z",
       "status": "active",
       "rounds": [
@@ -650,7 +650,7 @@
       "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-10T13:43Z",
       "status": "active",
       "rounds": [
@@ -1075,24 +1075,6 @@
       ]
     },
     {
-      "id": "4589438",
-      "name": "Harry Hall",
-      "shortName": "H. Hall",
-      "country": "England",
-      "position": "T66",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 5,
-      "teeTime": "2026-04-10T13:19Z",
-      "status": "active",
-      "rounds": [
-        5,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
@@ -1219,6 +1201,24 @@
       ]
     },
     {
+      "id": "4589438",
+      "name": "Harry Hall",
+      "shortName": "H. Hall",
+      "country": "England",
+      "position": "T66",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 5,
+      "teeTime": "2026-04-10T13:19Z",
+      "status": "active",
+      "rounds": [
+        5,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
@@ -1262,7 +1262,7 @@
       "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T12:50Z",
       "status": "active",
       "rounds": [
@@ -1424,7 +1424,7 @@
       "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
