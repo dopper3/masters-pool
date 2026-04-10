@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T15:03:03.991632+00:00"
+    "lastUpdated": "2026-04-10T15:04:59.338339+00:00"
   },
   "players": [
     {
@@ -182,7 +182,7 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -967,24 +967,6 @@
       ]
     },
     {
-      "id": "5217048",
-      "name": "Johnny Keefer",
-      "shortName": "J. Keefer",
-      "country": "United States",
-      "position": "T51",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 0,
-      "teeTime": "2026-04-10T14:51Z",
-      "status": "scheduled",
-      "rounds": [
-        4,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4585549",
       "name": "Marco Penge",
       "shortName": "M. Penge",
@@ -1025,7 +1007,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1043,7 +1025,7 @@
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1061,7 +1043,7 @@
       "name": "Ethan Fang",
       "shortName": "E. Fang",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 9,
@@ -1075,11 +1057,29 @@
       ]
     },
     {
+      "id": "5217048",
+      "name": "Johnny Keefer",
+      "shortName": "J. Keefer",
+      "country": "United States",
+      "position": "T56",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 1,
+      "teeTime": "2026-04-10T14:51Z",
+      "status": "active",
+      "rounds": [
+        4,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 4,
@@ -1097,7 +1097,7 @@
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1115,7 +1115,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1133,7 +1133,7 @@
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1151,7 +1151,7 @@
       "name": "Ryan Fox",
       "shortName": "R. Fox",
       "country": "New Zealand",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 0,
@@ -1169,7 +1169,7 @@
       "name": "Zach Johnson",
       "shortName": "Z. Johnson",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 10,
