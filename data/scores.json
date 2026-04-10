@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:21:01.347103+00:00"
+    "lastUpdated": "2026-04-10T22:23:03.676969+00:00"
   },
   "players": [
     {
@@ -679,24 +679,6 @@
       ]
     },
     {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "shortName": "V. Hovland",
-      "country": "Norway",
-      "position": "T31",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 14,
-      "teeTime": "2026-04-10T17:56Z",
-      "status": "active",
-      "rounds": [
-        3,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
@@ -805,6 +787,24 @@
       ]
     },
     {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "shortName": "V. Hovland",
+      "country": "Norway",
+      "position": "T31",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 14,
+      "teeTime": "2026-04-10T17:56Z",
+      "status": "active",
+      "rounds": [
+        3,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10046",
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
@@ -866,7 +866,7 @@
       "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
