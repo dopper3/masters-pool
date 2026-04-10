@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:03:02.406831+00:00"
+    "lastUpdated": "2026-04-10T21:05:02.362595+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "T1",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -319,6 +319,24 @@
       ]
     },
     {
+      "id": "4425906",
+      "name": "Cameron Young",
+      "shortName": "C. Young",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 12,
+      "teeTime": "2026-04-10T17:44Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "3448",
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
@@ -395,7 +413,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -409,29 +427,11 @@
       ]
     },
     {
-      "id": "4425906",
-      "name": "Cameron Young",
-      "shortName": "C. Young",
-      "country": "United States",
-      "position": "T22",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 11,
-      "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "10592",
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 12,
@@ -449,7 +449,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -467,7 +467,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -485,7 +485,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 12,
@@ -503,7 +503,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 12,
@@ -521,7 +521,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
