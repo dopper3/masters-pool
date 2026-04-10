@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T17:27:00.657831+00:00"
+    "lastUpdated": "2026-04-10T17:29:01.447593+00:00"
   },
   "players": [
     {
@@ -200,7 +200,7 @@
       "position": "T9",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T13:43Z",
       "status": "active",
       "rounds": [
@@ -380,7 +380,7 @@
       "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T14:31Z",
       "status": "active",
       "rounds": [
@@ -859,24 +859,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T47",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 6,
-      "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
-      "rounds": [
-        3,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4589438",
       "name": "Harry Hall",
       "shortName": "H. Hall",
@@ -935,7 +917,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 17,
@@ -953,7 +935,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -967,11 +949,29 @@
       ]
     },
     {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T51",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-10T15:39Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 10,
@@ -1064,7 +1064,7 @@
       "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T13:43Z",
       "status": "active",
       "rounds": [
@@ -1154,7 +1154,7 @@
       "position": "T63",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -1489,29 +1489,11 @@
       ]
     },
     {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "T81",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 6,
-      "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
-      "rounds": [
-        7,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5080439",
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
-      "position": "T84",
+      "position": "T83",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 8,
@@ -1525,11 +1507,29 @@
       ]
     },
     {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
+      "country": "United States",
+      "position": "T83",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 7,
+      "teeTime": "2026-04-10T15:39Z",
+      "status": "active",
+      "rounds": [
+        7,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "453",
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "T84",
+      "position": "T83",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 18,
@@ -1547,7 +1547,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T84",
+      "position": "T83",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 7,
