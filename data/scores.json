@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:23:01.316099+00:00"
+    "lastUpdated": "2026-04-10T16:24:59.052562+00:00"
   },
   "players": [
     {
@@ -116,6 +116,24 @@
       "rounds": [
         -3,
         null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4404992",
+      "name": "Ben Griffin",
+      "shortName": "B. Griffin",
+      "country": "United States",
+      "position": "T7",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 8,
+      "teeTime": "2026-04-10T14:07Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
         null,
         null
       ]
@@ -229,29 +247,11 @@
       ]
     },
     {
-      "id": "4404992",
-      "name": "Ben Griffin",
-      "shortName": "B. Griffin",
-      "country": "United States",
-      "position": "T13",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 7,
-      "teeTime": "2026-04-10T14:07Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9221",
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -269,7 +269,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 8,
@@ -287,7 +287,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -305,7 +305,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -542,7 +542,7 @@
       "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -1136,7 +1136,7 @@
       "position": "T54",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
