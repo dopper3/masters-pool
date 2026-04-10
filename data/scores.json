@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:13:03.273590+00:00"
+    "lastUpdated": "2026-04-10T20:15:01.801360+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T2",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -247,24 +247,6 @@
       ]
     },
     {
-      "id": "8973",
-      "name": "Max Homa",
-      "shortName": "M. Homa",
-      "country": "United States",
-      "position": "T11",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 17,
-      "teeTime": "2026-04-10T15:03Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9938",
       "name": "Sam Burns",
       "shortName": "S. Burns",
@@ -305,12 +287,30 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "17",
+      "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 9,
       "teeTime": "2026-04-10T17:32Z",
       "status": "active",
+      "rounds": [
+        0,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "8973",
+      "name": "Max Homa",
+      "shortName": "M. Homa",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 18,
+      "teeTime": "2026-04-10T15:03Z",
+      "status": "final",
       "rounds": [
         0,
         -2,
@@ -956,7 +956,7 @@
       "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -974,7 +974,7 @@
       "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1010,7 +1010,7 @@
       "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1547,7 +1547,7 @@
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
-      "position": "T86",
+      "position": "86",
       "scoreToPar": 14.0,
       "scoreDisplay": "+14",
       "thru": 17,
@@ -1561,29 +1561,11 @@
       ]
     },
     {
-      "id": "4837226",
-      "name": "Naoyuki Kataoka",
-      "shortName": "N. Kataoka",
-      "country": "Japan",
-      "position": "T86",
-      "scoreToPar": 14.0,
-      "scoreDisplay": "+14",
-      "thru": 17,
-      "teeTime": "2026-04-10T15:03Z",
-      "status": "active",
-      "rounds": [
-        12,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5344763",
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "T88",
+      "position": "T87",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
       "thru": 18,
@@ -1597,11 +1579,29 @@
       ]
     },
     {
+      "id": "4837226",
+      "name": "Naoyuki Kataoka",
+      "shortName": "N. Kataoka",
+      "country": "Japan",
+      "position": "T87",
+      "scoreToPar": 15.0,
+      "scoreDisplay": "+15",
+      "thru": 18,
+      "teeTime": "2026-04-10T15:03Z",
+      "status": "final",
+      "rounds": [
+        12,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "65",
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T88",
+      "position": "T87",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
       "thru": 17,
