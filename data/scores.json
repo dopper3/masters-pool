@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T18:57:00.046623+00:00"
+    "lastUpdated": "2026-04-10T18:58:58.980997+00:00"
   },
   "players": [
     {
@@ -254,7 +254,7 @@
       "position": "T12",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T17:20Z",
       "status": "active",
       "rounds": [
@@ -481,24 +481,6 @@
       ]
     },
     {
-      "id": "4901368",
-      "name": "Matt McCarty",
-      "shortName": "M. McCarty",
-      "country": "United States",
-      "position": "T21",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 10,
-      "teeTime": "2026-04-10T15:51Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
@@ -575,7 +557,7 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -593,7 +575,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 7,
@@ -611,7 +593,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -625,11 +607,29 @@
       ]
     },
     {
+      "id": "4901368",
+      "name": "Matt McCarty",
+      "shortName": "M. McCarty",
+      "country": "United States",
+      "position": "T31",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 11,
+      "teeTime": "2026-04-10T15:51Z",
+      "status": "active",
+      "rounds": [
+        0,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 16,
@@ -647,7 +647,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -938,7 +938,7 @@
       "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -1111,6 +1111,24 @@
       ]
     },
     {
+      "id": "780",
+      "name": "Bubba Watson",
+      "shortName": "B. Watson",
+      "country": "United States",
+      "position": "T62",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 10,
+      "teeTime": "2026-04-10T16:15Z",
+      "status": "active",
+      "rounds": [
+        4,
+        2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4610056",
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
@@ -1205,7 +1223,7 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T67",
+      "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
@@ -1219,29 +1237,11 @@
       ]
     },
     {
-      "id": "780",
-      "name": "Bubba Watson",
-      "shortName": "B. Watson",
-      "country": "United States",
-      "position": "T67",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 9,
-      "teeTime": "2026-04-10T16:15Z",
-      "status": "active",
-      "rounds": [
-        4,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5289811",
       "name": "Mason Howell",
       "shortName": "M. Howell",
       "country": "United States",
-      "position": "T67",
+      "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 4,
@@ -1259,7 +1259,7 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T67",
+      "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 10,
@@ -1277,7 +1277,7 @@
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
       "country": "Northern Ireland",
-      "position": "T67",
+      "position": "T68",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
