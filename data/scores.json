@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:53:01.506607+00:00"
+    "lastUpdated": "2026-04-10T21:55:01.272304+00:00"
   },
   "players": [
     {
@@ -121,11 +121,29 @@
       ]
     },
     {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T5",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 18,
+      "teeTime": "2026-04-10T16:56Z",
+      "status": "final",
+      "rounds": [
+        -2,
+        -3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9221",
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -143,7 +161,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -157,29 +175,11 @@
       ]
     },
     {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T7",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 17,
-      "teeTime": "2026-04-10T16:56Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -197,7 +197,7 @@
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
