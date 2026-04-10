@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T11:55:00.627815+00:00"
+    "lastUpdated": "2026-04-10T11:56:59.558709+00:00"
   },
   "players": [
     {
@@ -530,6 +530,24 @@
       "rounds": [
         0,
         null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4426181",
+      "name": "Sam Stevens",
+      "shortName": "S. Stevens",
+      "country": "United States",
+      "position": "T17",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 1,
+      "teeTime": "2026-04-10T11:40Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
         null,
         null
       ]
@@ -1124,24 +1142,6 @@
       "rounds": [
         4,
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4426181",
-      "name": "Sam Stevens",
-      "shortName": "S. Stevens",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 1,
-      "teeTime": "2026-04-10T11:40Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
         null,
         null
       ]
