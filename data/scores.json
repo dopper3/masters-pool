@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:56:59.103180+00:00"
+    "lastUpdated": "2026-04-10T14:58:59.730742+00:00"
   },
   "players": [
     {
@@ -146,7 +146,7 @@
       "position": "T6",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
@@ -542,7 +542,7 @@
       "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -668,7 +668,7 @@
       "position": "T31",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -751,24 +751,6 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T40",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 5,
-      "teeTime": "2026-04-10T13:19Z",
-      "status": "active",
-      "rounds": [
-        3,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "329",
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
@@ -845,7 +827,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -859,11 +841,29 @@
       ]
     },
     {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "T46",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 6,
+      "teeTime": "2026-04-10T13:19Z",
+      "status": "active",
+      "rounds": [
+        3,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10166",
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "United States",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 4,
@@ -881,7 +881,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 1,
@@ -899,7 +899,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -1064,7 +1064,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
@@ -1363,24 +1363,6 @@
       ]
     },
     {
-      "id": "4304",
-      "name": "Danny Willett",
-      "shortName": "D. Willett",
-      "country": "England",
-      "position": "T74",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 8,
-      "teeTime": "2026-04-10T12:26Z",
-      "status": "active",
-      "rounds": [
-        4,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11101",
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
@@ -1424,7 +1406,7 @@
       "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
@@ -1475,7 +1457,7 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T82",
+      "position": "T81",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 0,
@@ -1489,11 +1471,29 @@
       ]
     },
     {
+      "id": "4304",
+      "name": "Danny Willett",
+      "shortName": "D. Willett",
+      "country": "England",
+      "position": "T81",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 9,
+      "teeTime": "2026-04-10T12:26Z",
+      "status": "active",
+      "rounds": [
+        4,
+        4,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T82",
+      "position": "T81",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 0,
@@ -1532,7 +1532,7 @@
       "position": "T84",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
@@ -1638,14 +1638,14 @@
       "shortName": "D. Riley",
       "country": "United States",
       "position": "91",
-      "scoreToPar": 16.0,
-      "scoreDisplay": "+16",
-      "thru": 8,
+      "scoreToPar": 17.0,
+      "scoreDisplay": "+17",
+      "thru": 9,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
         10,
-        6,
+        7,
         null,
         null
       ]
