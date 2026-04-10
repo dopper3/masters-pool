@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:49:02.542002+00:00"
+    "lastUpdated": "2026-04-10T20:51:02.770937+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "T1",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -44,6 +44,24 @@
       "rounds": [
         -5,
         -1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "1680",
+      "name": "Jason Day",
+      "shortName": "J. Day",
+      "country": "Australia",
+      "position": "T3",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 14,
+      "teeTime": "2026-04-10T16:56Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -2,
         null,
         null
       ]
@@ -89,7 +107,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -103,29 +121,11 @@
       ]
     },
     {
-      "id": "1680",
-      "name": "Jason Day",
-      "shortName": "J. Day",
-      "country": "Australia",
-      "position": "T5",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 13,
-      "teeTime": "2026-04-10T16:56Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9938",
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 15,
@@ -143,7 +143,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -161,7 +161,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -179,7 +179,7 @@
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -377,7 +377,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -395,7 +395,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 10,
@@ -413,7 +413,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -431,7 +431,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 15,
@@ -449,7 +449,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -467,7 +467,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 12,
@@ -485,15 +485,15 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T21",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T17:32Z",
       "status": "active",
       "rounds": [
         1,
-        -1,
+        -2,
         null,
         null
       ]
@@ -503,7 +503,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -884,7 +884,7 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1003,6 +1003,24 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T56",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 10,
+      "teeTime": "2026-04-10T17:56Z",
+      "status": "active",
+      "rounds": [
+        5,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9131",
       "name": "Cameron Smith",
       "shortName": "C. Smith",
@@ -1111,29 +1129,11 @@
       ]
     },
     {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T62",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 9,
-      "teeTime": "2026-04-10T17:56Z",
-      "status": "active",
-      "rounds": [
-        5,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11250",
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T62",
+      "position": "T63",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 18,
@@ -1151,7 +1151,7 @@
       "name": "Zach Johnson",
       "shortName": "Z. Johnson",
       "country": "United States",
-      "position": "T62",
+      "position": "T63",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 18,
@@ -1190,7 +1190,7 @@
       "position": "T65",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T16:03Z",
       "status": "active",
       "rounds": [
