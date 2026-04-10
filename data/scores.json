@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T15:20:59.387282+00:00"
+    "lastUpdated": "2026-04-10T15:23:01.298474+00:00"
   },
   "players": [
     {
@@ -434,7 +434,7 @@
       "position": "T19",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -643,24 +643,6 @@
       ]
     },
     {
-      "id": "4375972",
-      "name": "Ludvig Åberg",
-      "shortName": "L. Åberg",
-      "country": "Sweden",
-      "position": "T31",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 5,
-      "teeTime": "2026-04-10T13:43Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4921329",
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
@@ -710,6 +692,24 @@
       "rounds": [
         1,
         0,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "shortName": "S. Im",
+      "country": "South Korea",
+      "position": "T31",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 15,
+      "teeTime": "2026-04-10T11:40Z",
+      "status": "active",
+      "rounds": [
+        4,
+        -3,
         null,
         null
       ]
@@ -769,6 +769,24 @@
       ]
     },
     {
+      "id": "4375972",
+      "name": "Ludvig Åberg",
+      "shortName": "L. Åberg",
+      "country": "Sweden",
+      "position": "T40",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 6,
+      "teeTime": "2026-04-10T13:43Z",
+      "status": "active",
+      "rounds": [
+        2,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
@@ -800,24 +818,6 @@
       "rounds": [
         0,
         2,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "shortName": "S. Im",
-      "country": "South Korea",
-      "position": "T40",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 14,
-      "teeTime": "2026-04-10T11:40Z",
-      "status": "active",
-      "rounds": [
-        4,
-        -2,
         null,
         null
       ]
