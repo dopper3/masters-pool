@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:23:04.824636+00:00"
+    "lastUpdated": "2026-04-10T21:25:01.227191+00:00"
   },
   "players": [
     {
@@ -157,6 +157,24 @@
       ]
     },
     {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T7",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 16,
+      "teeTime": "2026-04-10T16:56Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -197,7 +215,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -215,7 +233,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -233,7 +251,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -242,24 +260,6 @@
       "rounds": [
         0,
         -3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T11",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 15,
-      "teeTime": "2026-04-10T16:56Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -1,
         null,
         null
       ]
@@ -848,7 +848,7 @@
       "position": "T47",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -886,24 +886,6 @@
       "scoreDisplay": "+4",
       "thru": 13,
       "teeTime": "2026-04-10T17:20Z",
-      "status": "active",
-      "rounds": [
-        4,
-        0,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "780",
-      "name": "Bubba Watson",
-      "shortName": "B. Watson",
-      "country": "United States",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 17,
-      "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
         4,
@@ -1025,7 +1007,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 12,
@@ -1039,11 +1021,29 @@
       ]
     },
     {
+      "id": "780",
+      "name": "Bubba Watson",
+      "shortName": "B. Watson",
+      "country": "United States",
+      "position": "T56",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 18,
+      "teeTime": "2026-04-10T16:15Z",
+      "status": "final",
+      "rounds": [
+        4,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4304",
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1061,7 +1061,7 @@
       "name": "Harry Hall",
       "shortName": "H. Hall",
       "country": "England",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1079,7 +1079,7 @@
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1097,7 +1097,7 @@
       "name": "Ryan Fox",
       "shortName": "R. Fox",
       "country": "New Zealand",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1568,9 +1568,9 @@
       "position": "T86",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T16:15Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         9,
         6,
