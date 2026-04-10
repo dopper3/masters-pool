@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:08:58.846437+00:00"
+    "lastUpdated": "2026-04-10T13:11:00.318473+00:00"
   },
   "players": [
     {
@@ -920,7 +920,7 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1052,24 +1052,6 @@
       "rounds": [
         5,
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11332",
-      "name": "Andrew Novak",
-      "shortName": "A. Novak",
-      "country": "United States",
-      "position": "T58",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 4,
-      "teeTime": "2026-04-10T11:50Z",
-      "status": "active",
-      "rounds": [
-        3,
-        2,
         null,
         null
       ]
@@ -1208,7 +1190,7 @@
       "position": "T58",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1291,11 +1273,29 @@
       ]
     },
     {
+      "id": "11332",
+      "name": "Andrew Novak",
+      "shortName": "A. Novak",
+      "country": "United States",
+      "position": "T71",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 5,
+      "teeTime": "2026-04-10T11:50Z",
+      "status": "active",
+      "rounds": [
+        3,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T72",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -1313,7 +1313,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T72",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1331,7 +1331,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T72",
+      "position": "T71",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1399,24 +1399,6 @@
       ]
     },
     {
-      "id": "4348444",
-      "name": "Tom McKibbin",
-      "shortName": "T. McKibbin",
-      "country": "Northern Ireland",
-      "position": "T75",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 4,
-      "teeTime": "2026-04-10T11:50Z",
-      "status": "active",
-      "rounds": [
-        3,
-        4,
-        null,
-        null
-      ]
-    },
-    {
       "id": "392",
       "name": "Vijay Singh",
       "shortName": "V. Singh",
@@ -1457,7 +1439,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 1,
@@ -1475,7 +1457,7 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 0,
@@ -1493,7 +1475,7 @@
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
       "country": "Scotland",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 0,
@@ -1511,7 +1493,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 0,
@@ -1520,6 +1502,24 @@
       "rounds": [
         8,
         null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4348444",
+      "name": "Tom McKibbin",
+      "shortName": "T. McKibbin",
+      "country": "Northern Ireland",
+      "position": "T80",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 5,
+      "teeTime": "2026-04-10T11:50Z",
+      "status": "active",
+      "rounds": [
+        3,
+        5,
         null,
         null
       ]
