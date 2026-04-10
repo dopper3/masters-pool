@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:23:03.676969+00:00"
+    "lastUpdated": "2026-04-10T22:25:01.917038+00:00"
   },
   "players": [
     {
@@ -290,7 +290,7 @@
       "position": "T13",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T17:32Z",
       "status": "active",
       "rounds": [
@@ -337,24 +337,6 @@
       ]
     },
     {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 16,
-      "teeTime": "2026-04-10T17:32Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
@@ -377,10 +359,10 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T17:32Z",
       "status": "active",
       "rounds": [
@@ -395,7 +377,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 17,
@@ -413,7 +395,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -431,7 +413,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -440,6 +422,24 @@
       "rounds": [
         -1,
         0,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T20",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 17,
+      "teeTime": "2026-04-10T17:32Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -2,
         null,
         null
       ]
@@ -643,6 +643,24 @@
       ]
     },
     {
+      "id": "6007",
+      "name": "Patrick Cantlay",
+      "shortName": "P. Cantlay",
+      "country": "United States",
+      "position": "T31",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 15,
+      "teeTime": "2026-04-10T17:56Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -4,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
@@ -751,24 +769,6 @@
       ]
     },
     {
-      "id": "6007",
-      "name": "Patrick Cantlay",
-      "shortName": "P. Cantlay",
-      "country": "United States",
-      "position": "T39",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 14,
-      "teeTime": "2026-04-10T17:56Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
@@ -791,15 +791,15 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T31",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
         3,
-        -2,
+        -1,
         null,
         null
       ]
