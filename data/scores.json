@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T17:11:00.197220+00:00"
+    "lastUpdated": "2026-04-10T17:13:01.819727+00:00"
   },
   "players": [
     {
@@ -452,7 +452,7 @@
       "position": "T19",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -571,24 +571,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T29",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 5,
-      "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
-      "rounds": [
-        3,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3448",
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
@@ -596,12 +578,12 @@
       "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T16:56Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         1,
-        null,
+        0,
         null,
         null
       ]
@@ -755,7 +737,7 @@
       "name": "Cameron Smith",
       "shortName": "C. Smith",
       "country": "Australia",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 2,
@@ -773,7 +755,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 0,
@@ -791,7 +773,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 13,
@@ -809,7 +791,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 14,
@@ -827,7 +809,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
@@ -845,7 +827,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 0,
@@ -863,7 +845,7 @@
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T42",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 18,
@@ -877,11 +859,29 @@
       ]
     },
     {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T48",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 6,
+      "teeTime": "2026-04-10T15:39Z",
+      "status": "active",
+      "rounds": [
+        3,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 9,
@@ -899,7 +899,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -992,7 +992,7 @@
       "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -1100,7 +1100,7 @@
       "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1136,7 +1136,7 @@
       "position": "T62",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -1496,7 +1496,7 @@
       "position": "T81",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
