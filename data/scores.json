@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T17:25:00.122557+00:00"
+    "lastUpdated": "2026-04-10T17:27:00.657831+00:00"
   },
   "players": [
     {
@@ -668,7 +668,7 @@
       "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T13:43Z",
       "status": "active",
       "rounds": [
@@ -794,7 +794,7 @@
       "position": "T42",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T14:31Z",
       "status": "active",
       "rounds": [
@@ -895,19 +895,19 @@
       ]
     },
     {
-      "id": "7081",
-      "name": "Si Woo Kim",
-      "shortName": "S. Kim",
-      "country": "South Korea",
+      "id": "9530",
+      "name": "Maverick McNealy",
+      "shortName": "M. McNealy",
+      "country": "United States",
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 9,
-      "teeTime": "2026-04-10T14:31Z",
+      "thru": 14,
+      "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
-        3,
-        0,
+        5,
+        -2,
         null,
         null
       ]
@@ -967,19 +967,19 @@
       ]
     },
     {
-      "id": "9530",
-      "name": "Maverick McNealy",
-      "shortName": "M. McNealy",
-      "country": "United States",
+      "id": "7081",
+      "name": "Si Woo Kim",
+      "shortName": "S. Kim",
+      "country": "South Korea",
       "position": "T52",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 13,
-      "teeTime": "2026-04-10T13:31Z",
+      "thru": 10,
+      "teeTime": "2026-04-10T14:31Z",
       "status": "active",
       "rounds": [
-        5,
-        -1,
+        3,
+        1,
         null,
         null
       ]
@@ -1172,7 +1172,7 @@
       "position": "T63",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T15:15Z",
       "status": "active",
       "rounds": [
@@ -1201,6 +1201,24 @@
       ]
     },
     {
+      "id": "4858859",
+      "name": "Rasmus Neergaard-Petersen",
+      "shortName": "R. Neergaard-Petersen",
+      "country": "Denmark",
+      "position": "T63",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 8,
+      "teeTime": "2026-04-10T15:15Z",
+      "status": "active",
+      "rounds": [
+        5,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4251",
       "name": "Ryan Fox",
       "shortName": "R. Fox",
@@ -1208,7 +1226,7 @@
       "position": "T63",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -1241,7 +1259,7 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T69",
+      "position": "T70",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
@@ -1259,7 +1277,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T69",
+      "position": "T70",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 9,
@@ -1273,29 +1291,11 @@
       ]
     },
     {
-      "id": "4858859",
-      "name": "Rasmus Neergaard-Petersen",
-      "shortName": "R. Neergaard-Petersen",
-      "country": "Denmark",
-      "position": "T69",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 7,
-      "teeTime": "2026-04-10T15:15Z",
-      "status": "active",
-      "rounds": [
-        5,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11378",
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
       "country": "Scotland",
-      "position": "T69",
+      "position": "T70",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 10,
@@ -1313,7 +1313,7 @@
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
       "country": "Northern Ireland",
-      "position": "T69",
+      "position": "T70",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 18,
@@ -1331,7 +1331,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T69",
+      "position": "T70",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 7,
@@ -1507,6 +1507,24 @@
       ]
     },
     {
+      "id": "5080439",
+      "name": "Aldrich Potgieter",
+      "shortName": "A. Potgieter",
+      "country": "South Africa",
+      "position": "T84",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 8,
+      "teeTime": "2026-04-10T15:15Z",
+      "status": "active",
+      "rounds": [
+        12,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "453",
       "name": "Mike Weir",
       "shortName": "M. Weir",
@@ -1547,7 +1565,7 @@
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T86",
+      "position": "T87",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 16,
@@ -1565,7 +1583,7 @@
       "name": "Min Woo Lee",
       "shortName": "M. Lee",
       "country": "Australia",
-      "position": "T86",
+      "position": "T87",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 16,
@@ -1574,24 +1592,6 @@
       "rounds": [
         6,
         5,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5080439",
-      "name": "Aldrich Potgieter",
-      "shortName": "A. Potgieter",
-      "country": "South Africa",
-      "position": "88",
-      "scoreToPar": 12.0,
-      "scoreDisplay": "+12",
-      "thru": 7,
-      "teeTime": "2026-04-10T15:15Z",
-      "status": "active",
-      "rounds": [
-        12,
-        0,
         null,
         null
       ]
