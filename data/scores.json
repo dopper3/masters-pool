@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:24:59.052562+00:00"
+    "lastUpdated": "2026-04-10T16:27:00.676097+00:00"
   },
   "players": [
     {
@@ -452,7 +452,7 @@
       "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -668,7 +668,7 @@
       "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T14:07Z",
       "status": "active",
       "rounds": [
@@ -686,7 +686,7 @@
       "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -728,6 +728,24 @@
       "rounds": [
         2,
         null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T40",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 3,
+      "teeTime": "2026-04-10T15:39Z",
+      "status": "active",
+      "rounds": [
+        3,
+        -1,
         null,
         null
       ]
@@ -841,29 +859,11 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T47",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 2,
-      "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
-      "rounds": [
-        3,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4585549",
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 6,
@@ -881,7 +881,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 6,
@@ -899,7 +899,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -1226,7 +1226,7 @@
       "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1399,11 +1399,29 @@
       ]
     },
     {
+      "id": "392",
+      "name": "Vijay Singh",
+      "shortName": "V. Singh",
+      "country": "Fiji",
+      "position": "T71",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 2,
+      "teeTime": "2026-04-10T15:51Z",
+      "status": "active",
+      "rounds": [
+        7,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9025",
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T78",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 13,
@@ -1421,10 +1439,10 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T78",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -1439,7 +1457,7 @@
       "name": "Michael Kim",
       "shortName": "M. Kim",
       "country": "United States",
-      "position": "T78",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 15,
@@ -1457,7 +1475,7 @@
       "name": "Min Woo Lee",
       "shortName": "M. Lee",
       "country": "Australia",
-      "position": "T78",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 12,
@@ -1466,24 +1484,6 @@
       "rounds": [
         6,
         2,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "392",
-      "name": "Vijay Singh",
-      "shortName": "V. Singh",
-      "country": "Fiji",
-      "position": "T78",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 1,
-      "teeTime": "2026-04-10T15:51Z",
-      "status": "active",
-      "rounds": [
-        7,
-        1,
         null,
         null
       ]
