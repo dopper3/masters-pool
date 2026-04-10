@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T12:41:03.095817+00:00"
+    "lastUpdated": "2026-04-10T12:42:59.818314+00:00"
   },
   "players": [
     {
@@ -1010,12 +1010,12 @@
       "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T12:26Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         4,
-        null,
+        0,
         null,
         null
       ]
@@ -1602,14 +1602,14 @@
       "shortName": "D. Riley",
       "country": "United States",
       "position": "89",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 0,
+      "scoreToPar": 11.0,
+      "scoreDisplay": "+11",
+      "thru": 1,
       "teeTime": "2026-04-10T12:26Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         10,
-        null,
+        1,
         null,
         null
       ]
