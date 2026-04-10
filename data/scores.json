@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:43:01.466616+00:00"
+    "lastUpdated": "2026-04-10T14:45:00.755184+00:00"
   },
   "players": [
     {
@@ -344,7 +344,7 @@
       "position": "T19",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T14:07Z",
       "status": "active",
       "rounds": [
@@ -668,7 +668,7 @@
       "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -697,11 +697,29 @@
       ]
     },
     {
+      "id": "8961",
+      "name": "Sepp Straka",
+      "shortName": "S. Straka",
+      "country": "Austria",
+      "position": "T29",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 2,
+      "teeTime": "2026-04-10T14:07Z",
+      "status": "active",
+      "rounds": [
+        1,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9131",
       "name": "Cameron Smith",
       "shortName": "C. Smith",
       "country": "Australia",
-      "position": "T39",
+      "position": "T40",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 0,
@@ -719,7 +737,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T39",
+      "position": "T40",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 0,
@@ -737,7 +755,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T39",
+      "position": "T40",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 5,
@@ -755,7 +773,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T39",
+      "position": "T40",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 0,
@@ -773,7 +791,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T39",
+      "position": "T40",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 0,
@@ -782,24 +800,6 @@
       "rounds": [
         2,
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "8961",
-      "name": "Sepp Straka",
-      "shortName": "S. Straka",
-      "country": "Austria",
-      "position": "T39",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 1,
-      "teeTime": "2026-04-10T14:07Z",
-      "status": "active",
-      "rounds": [
-        1,
-        1,
         null,
         null
       ]
@@ -866,12 +866,12 @@
       "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T14:31Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
-        null,
+        0,
         null,
         null
       ]
@@ -1244,7 +1244,7 @@
       "position": "T68",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1280,7 +1280,7 @@
       "position": "T68",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1640,7 +1640,7 @@
       "position": "91",
       "scoreToPar": 16.0,
       "scoreDisplay": "+16",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
