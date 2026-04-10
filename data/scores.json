@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T18:45:01.235687+00:00"
+    "lastUpdated": "2026-04-10T18:46:59.311177+00:00"
   },
   "players": [
     {
@@ -164,7 +164,7 @@
       "position": "T7",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T16:56Z",
       "status": "active",
       "rounds": [
@@ -326,7 +326,7 @@
       "position": "T17",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T15:03Z",
       "status": "active",
       "rounds": [
@@ -776,7 +776,7 @@
       "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -938,7 +938,7 @@
       "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -992,7 +992,7 @@
       "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1028,7 +1028,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1118,7 +1118,7 @@
       "position": "T62",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T16:03Z",
       "status": "active",
       "rounds": [
@@ -1309,24 +1309,6 @@
       ]
     },
     {
-      "id": "5532",
-      "name": "Carlos Ortiz",
-      "shortName": "C. Ortiz",
-      "country": "Mexico",
-      "position": "T73",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 12,
-      "teeTime": "2026-04-10T15:03Z",
-      "status": "active",
-      "rounds": [
-        8,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9025",
       "name": "Daniel Berger",
       "shortName": "D. Berger",
@@ -1399,11 +1381,29 @@
       ]
     },
     {
+      "id": "5532",
+      "name": "Carlos Ortiz",
+      "shortName": "C. Ortiz",
+      "country": "Mexico",
+      "position": "T77",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 13,
+      "teeTime": "2026-04-10T15:03Z",
+      "status": "active",
+      "rounds": [
+        8,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T78",
+      "position": "T77",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1421,7 +1421,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T78",
+      "position": "T77",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 12,
@@ -1439,10 +1439,10 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T78",
+      "position": "T77",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T15:27Z",
       "status": "active",
       "rounds": [
@@ -1478,7 +1478,7 @@
       "position": "T81",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
@@ -1579,33 +1579,33 @@
       ]
     },
     {
-      "id": "5080439",
-      "name": "Aldrich Potgieter",
-      "shortName": "A. Potgieter",
-      "country": "South Africa",
-      "position": "T88",
-      "scoreToPar": 14.0,
-      "scoreDisplay": "+14",
-      "thru": 12,
-      "teeTime": "2026-04-10T15:15Z",
+      "id": "4837226",
+      "name": "Naoyuki Kataoka",
+      "shortName": "N. Kataoka",
+      "country": "Japan",
+      "position": "88",
+      "scoreToPar": 13.0,
+      "scoreDisplay": "+13",
+      "thru": 13,
+      "teeTime": "2026-04-10T15:03Z",
       "status": "active",
       "rounds": [
         12,
-        2,
+        1,
         null,
         null
       ]
     },
     {
-      "id": "4837226",
-      "name": "Naoyuki Kataoka",
-      "shortName": "N. Kataoka",
-      "country": "Japan",
-      "position": "T88",
+      "id": "5080439",
+      "name": "Aldrich Potgieter",
+      "shortName": "A. Potgieter",
+      "country": "South Africa",
+      "position": "89",
       "scoreToPar": 14.0,
       "scoreDisplay": "+14",
       "thru": 12,
-      "teeTime": "2026-04-10T15:03Z",
+      "teeTime": "2026-04-10T15:15Z",
       "status": "active",
       "rounds": [
         12,
