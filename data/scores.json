@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:01:03.622805+00:00"
+    "lastUpdated": "2026-04-10T21:03:02.406831+00:00"
   },
   "players": [
     {
@@ -632,7 +632,7 @@
       "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T16:44Z",
       "status": "active",
       "rounds": [
@@ -884,7 +884,7 @@
       "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -1309,6 +1309,24 @@
       ]
     },
     {
+      "id": "5289811",
+      "name": "Mason Howell",
+      "shortName": "M. Howell",
+      "country": "United States",
+      "position": "T70",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 12,
+      "teeTime": "2026-04-10T17:44Z",
+      "status": "active",
+      "rounds": [
+        5,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8974",
       "name": "Michael Kim",
       "shortName": "M. Kim",
@@ -1331,7 +1349,7 @@
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T74",
+      "position": "T75",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1349,7 +1367,7 @@
       "name": "José María Olazábal",
       "shortName": "J. Olazábal",
       "country": "Spain",
-      "position": "T74",
+      "position": "T75",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 18,
@@ -1358,24 +1376,6 @@
       "rounds": [
         2,
         7,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5289811",
-      "name": "Mason Howell",
-      "shortName": "M. Howell",
-      "country": "United States",
-      "position": "T74",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 11,
-      "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
-      "rounds": [
-        5,
-        4,
         null,
         null
       ]
