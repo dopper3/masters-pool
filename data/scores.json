@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T12:04:59.633400+00:00"
+    "lastUpdated": "2026-04-10T12:07:00.403622+00:00"
   },
   "players": [
     {
@@ -200,12 +200,12 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T11:50Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -1,
-        null,
+        0,
         null,
         null
       ]
@@ -859,24 +859,6 @@
       ]
     },
     {
-      "id": "11332",
-      "name": "Andrew Novak",
-      "shortName": "A. Novak",
-      "country": "United States",
-      "position": "T48",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 0,
-      "teeTime": "2026-04-10T11:50Z",
-      "status": "scheduled",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "1097",
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
@@ -949,24 +931,6 @@
       ]
     },
     {
-      "id": "4348444",
-      "name": "Tom McKibbin",
-      "shortName": "T. McKibbin",
-      "country": "Northern Ireland",
-      "position": "T48",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 0,
-      "teeTime": "2026-04-10T11:50Z",
-      "status": "scheduled",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
@@ -1003,11 +967,29 @@
       ]
     },
     {
+      "id": "11332",
+      "name": "Andrew Novak",
+      "shortName": "A. Novak",
+      "country": "United States",
+      "position": "T54",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 1,
+      "teeTime": "2026-04-10T11:50Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10046",
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1025,7 +1007,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1043,7 +1025,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1061,7 +1043,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1079,7 +1061,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1097,7 +1079,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1115,7 +1097,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1133,7 +1115,7 @@
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1151,7 +1133,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T56",
+      "position": "T54",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 1,
@@ -1160,6 +1142,24 @@
       "rounds": [
         4,
         0,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4348444",
+      "name": "Tom McKibbin",
+      "shortName": "T. McKibbin",
+      "country": "Northern Ireland",
+      "position": "T54",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 1,
+      "teeTime": "2026-04-10T11:50Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
         null,
         null
       ]
