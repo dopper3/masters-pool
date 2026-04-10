@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T19:05:00.722648+00:00"
+    "lastUpdated": "2026-04-10T19:07:01.475324+00:00"
   },
   "players": [
     {
@@ -146,9 +146,9 @@
       "position": "T7",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T13:55Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         -3,
@@ -445,24 +445,6 @@
       ]
     },
     {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "shortName": "J. Spieth",
-      "country": "United States",
-      "position": "T21",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 17,
-      "teeTime": "2026-04-10T13:55Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
@@ -557,7 +539,7 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -575,7 +557,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 7,
@@ -593,7 +575,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -607,11 +589,29 @@
       ]
     },
     {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "shortName": "J. Spieth",
+      "country": "United States",
+      "position": "T30",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 18,
+      "teeTime": "2026-04-10T13:55Z",
+      "status": "final",
+      "rounds": [
+        0,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4901368",
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 11,
@@ -629,10 +629,10 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T14:07Z",
       "status": "active",
       "rounds": [
@@ -647,7 +647,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -722,7 +722,7 @@
       "position": "T37",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T14:07Z",
       "status": "active",
       "rounds": [
@@ -1226,7 +1226,7 @@
       "position": "T67",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T17:44Z",
       "status": "active",
       "rounds": [
