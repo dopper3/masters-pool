@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T15:13:01.469811+00:00"
+    "lastUpdated": "2026-04-10T15:15:01.082913+00:00"
   },
   "players": [
     {
@@ -110,7 +110,7 @@
       "position": "T6",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T14:19Z",
       "status": "active",
       "rounds": [
@@ -373,6 +373,24 @@
       ]
     },
     {
+      "id": "3550",
+      "name": "Gary Woodland",
+      "shortName": "G. Woodland",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 3,
+      "teeTime": "2026-04-10T14:19Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5408",
       "name": "Harris English",
       "shortName": "H. English",
@@ -557,7 +575,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -575,7 +593,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -593,7 +611,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -607,29 +625,11 @@
       ]
     },
     {
-      "id": "3550",
-      "name": "Gary Woodland",
-      "shortName": "G. Woodland",
-      "country": "United States",
-      "position": "T31",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 2,
-      "teeTime": "2026-04-10T14:19Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9843",
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -647,7 +647,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 5,
@@ -665,7 +665,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 6,
@@ -683,7 +683,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -701,7 +701,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 4,
@@ -1406,7 +1406,7 @@
       "position": "T73",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
@@ -1460,12 +1460,12 @@
       "position": "T81",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T15:03Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         8,
-        null,
+        0,
         null,
         null
       ]
@@ -1478,7 +1478,7 @@
       "position": "T81",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
@@ -1640,7 +1640,7 @@
       "position": "91",
       "scoreToPar": 17.0,
       "scoreDisplay": "+17",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T12:26Z",
       "status": "active",
       "rounds": [
