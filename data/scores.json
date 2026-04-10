@@ -9,15 +9,33 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:05:02.362595+00:00"
+    "lastUpdated": "2026-04-10T21:07:01.199670+00:00"
   },
   "players": [
+    {
+      "id": "3470",
+      "name": "Rory McIlroy",
+      "shortName": "R. McIlroy",
+      "country": "Northern Ireland",
+      "position": "1",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 12,
+      "teeTime": "2026-04-10T17:44Z",
+      "status": "active",
+      "rounds": [
+        -5,
+        -2,
+        null,
+        null
+      ]
+    },
     {
       "id": "5579",
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "T1",
+      "position": "2",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 14,
@@ -26,24 +44,6 @@
       "rounds": [
         -3,
         -3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "3470",
-      "name": "Rory McIlroy",
-      "shortName": "R. McIlroy",
-      "country": "Northern Ireland",
-      "position": "T1",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 11,
-      "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
-      "rounds": [
-        -5,
-        -1,
         null,
         null
       ]
@@ -146,7 +146,7 @@
       "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T17:08Z",
       "status": "active",
       "rounds": [
@@ -920,7 +920,7 @@
       "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
@@ -1028,7 +1028,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1511,7 +1511,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T84",
+      "position": "84",
       "scoreToPar": 12.0,
       "scoreDisplay": "+12",
       "thru": 18,
@@ -1529,15 +1529,15 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T84",
-      "scoreToPar": 12.0,
-      "scoreDisplay": "+12",
-      "thru": 16,
+      "position": "85",
+      "scoreToPar": 13.0,
+      "scoreDisplay": "+13",
+      "thru": 17,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
         7,
-        5,
+        6,
         null,
         null
       ]
@@ -1568,7 +1568,7 @@
       "position": "T86",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
