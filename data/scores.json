@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:45:01.712023+00:00"
+    "lastUpdated": "2026-04-10T20:47:02.834635+00:00"
   },
   "players": [
     {
@@ -337,24 +337,6 @@
       ]
     },
     {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "shortName": "J. Knapp",
-      "country": "United States",
-      "position": "T18",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 14,
-      "teeTime": "2026-04-10T16:32Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4921329",
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
@@ -395,7 +377,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -413,7 +395,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 10,
@@ -431,7 +413,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -445,11 +427,29 @@
       ]
     },
     {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "shortName": "J. Knapp",
+      "country": "United States",
+      "position": "T21",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 15,
+      "teeTime": "2026-04-10T16:32Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -467,7 +467,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 12,
@@ -485,7 +485,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 11,
@@ -503,7 +503,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -920,7 +920,7 @@
       "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
@@ -1010,7 +1010,7 @@
       "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T16:32Z",
       "status": "active",
       "rounds": [
@@ -1511,7 +1511,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "84",
+      "position": "T84",
       "scoreToPar": 12.0,
       "scoreDisplay": "+12",
       "thru": 18,
@@ -1529,15 +1529,15 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "85",
-      "scoreToPar": 13.0,
-      "scoreDisplay": "+13",
-      "thru": 15,
+      "position": "T84",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
+      "thru": 16,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
         7,
-        6,
+        5,
         null,
         null
       ]
@@ -1556,6 +1556,24 @@
       "rounds": [
         12,
         3,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "2201886",
+      "name": "Brandon Holtz",
+      "shortName": "B. Holtz",
+      "country": "United States",
+      "position": "T86",
+      "scoreToPar": 15.0,
+      "scoreDisplay": "+15",
+      "thru": 16,
+      "teeTime": "2026-04-10T16:15Z",
+      "status": "active",
+      "rounds": [
+        9,
+        6,
         null,
         null
       ]
@@ -1597,29 +1615,11 @@
       ]
     },
     {
-      "id": "2201886",
-      "name": "Brandon Holtz",
-      "shortName": "B. Holtz",
-      "country": "United States",
-      "position": "T89",
-      "scoreToPar": 16.0,
-      "scoreDisplay": "+16",
-      "thru": 15,
-      "teeTime": "2026-04-10T16:15Z",
-      "status": "active",
-      "rounds": [
-        9,
-        7,
-        null,
-        null
-      ]
-    },
-    {
       "id": "65",
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T89",
+      "position": "90",
       "scoreToPar": 16.0,
       "scoreDisplay": "+16",
       "thru": 18,
