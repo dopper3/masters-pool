@@ -4,12 +4,12 @@
     "name": "Masters Tournament",
     "startDate": "2026-04-09T04:00Z",
     "endDate": "2026-04-12T04:00Z",
-    "currentRound": 1,
+    "currentRound": 2,
     "status": "in",
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T11:52:59.324792+00:00"
+    "lastUpdated": "2026-04-10T11:55:00.627815+00:00"
   },
   "players": [
     {
@@ -1138,10 +1138,28 @@
       "scoreDisplay": "+4",
       "thru": 1,
       "teeTime": "2026-04-10T11:40Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
+        0,
         null,
+        null
+      ]
+    },
+    {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "shortName": "S. Im",
+      "country": "South Korea",
+      "position": "T56",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 1,
+      "teeTime": "2026-04-10T11:40Z",
+      "status": "active",
+      "rounds": [
+        4,
+        0,
         null,
         null
       ]
@@ -1519,24 +1537,6 @@
       "status": "scheduled",
       "rounds": [
         8,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "shortName": "S. Im",
-      "country": "South Korea",
-      "position": "T56",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 1,
-      "teeTime": "2026-04-10T11:40Z",
-      "status": "scheduled",
-      "rounds": [
-        4,
         null,
         null,
         null
