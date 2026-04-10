@@ -9,33 +9,15 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:39:02.594542+00:00"
+    "lastUpdated": "2026-04-10T20:41:07.470354+00:00"
   },
   "players": [
-    {
-      "id": "3470",
-      "name": "Rory McIlroy",
-      "shortName": "R. McIlroy",
-      "country": "Northern Ireland",
-      "position": "1",
-      "scoreToPar": -7.0,
-      "scoreDisplay": "-7",
-      "thru": 9,
-      "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
-      "rounds": [
-        -5,
-        -2,
-        null,
-        null
-      ]
-    },
     {
       "id": "5579",
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "2",
+      "position": "T1",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 12,
@@ -44,6 +26,24 @@
       "rounds": [
         -3,
         -3,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "3470",
+      "name": "Rory McIlroy",
+      "shortName": "R. McIlroy",
+      "country": "Northern Ireland",
+      "position": "T1",
+      "scoreToPar": -6.0,
+      "scoreDisplay": "-6",
+      "thru": 10,
+      "teeTime": "2026-04-10T17:44Z",
+      "status": "active",
+      "rounds": [
+        -5,
+        -1,
         null,
         null
       ]
@@ -265,32 +265,14 @@
       ]
     },
     {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T10",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 11,
-      "teeTime": "2026-04-10T17:20Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T17:32Z",
       "status": "active",
       "rounds": [
@@ -305,7 +287,7 @@
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -314,6 +296,24 @@
       "rounds": [
         0,
         -2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T15",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 12,
+      "teeTime": "2026-04-10T17:20Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        0,
         null,
         null
       ]
@@ -488,7 +488,7 @@
       "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T17:20Z",
       "status": "active",
       "rounds": [
@@ -524,7 +524,7 @@
       "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T17:32Z",
       "status": "active",
       "rounds": [
@@ -776,7 +776,7 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T17:20Z",
       "status": "active",
       "rounds": [
@@ -938,9 +938,9 @@
       "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         3,
         1,
@@ -1100,9 +1100,9 @@
       "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         5,
         0,
@@ -1370,7 +1370,7 @@
       "position": "T74",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T17:44Z",
       "status": "active",
       "rounds": [
@@ -1388,7 +1388,7 @@
       "position": "T74",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1399,29 +1399,11 @@
       ]
     },
     {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "T78",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 17,
-      "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
-      "rounds": [
-        7,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "453",
       "name": "Mike Weir",
       "shortName": "M. Weir",
       "country": "Canada",
-      "position": "T78",
+      "position": "78",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 18,
@@ -1439,7 +1421,7 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1457,7 +1439,7 @@
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1475,7 +1457,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1493,7 +1475,7 @@
       "name": "Min Woo Lee",
       "shortName": "M. Lee",
       "country": "Australia",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1511,7 +1493,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1520,6 +1502,24 @@
       "rounds": [
         8,
         3,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
+      "country": "United States",
+      "position": "84",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
+      "thru": 18,
+      "teeTime": "2026-04-10T15:39Z",
+      "status": "final",
+      "rounds": [
+        7,
+        5,
         null,
         null
       ]
