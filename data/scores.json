@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:45:01.292960+00:00"
+    "lastUpdated": "2026-04-10T21:47:02.736058+00:00"
   },
   "players": [
     {
@@ -355,11 +355,29 @@
       ]
     },
     {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 15,
+      "teeTime": "2026-04-10T17:20Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "10592",
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 14,
@@ -377,7 +395,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -386,24 +404,6 @@
       "rounds": [
         0,
         -1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 14,
-      "teeTime": "2026-04-10T17:20Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        1,
         null,
         null
       ]
@@ -488,7 +488,7 @@
       "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T17:20Z",
       "status": "active",
       "rounds": [
@@ -524,9 +524,9 @@
       "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T16:44Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         0,
@@ -740,9 +740,9 @@
       "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T16:44Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         2,
@@ -758,7 +758,7 @@
       "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
