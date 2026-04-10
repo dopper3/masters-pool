@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:50:58.428595+00:00"
+    "lastUpdated": "2026-04-10T13:53:02.217318+00:00"
   },
   "players": [
     {
@@ -110,7 +110,7 @@
       "position": "T3",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
@@ -1075,24 +1075,6 @@
       ]
     },
     {
-      "id": "5293232",
-      "name": "Ethan Fang",
-      "shortName": "E. Fang",
-      "country": "United States",
-      "position": "T58",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 4,
-      "teeTime": "2026-04-10T12:26Z",
-      "status": "active",
-      "rounds": [
-        2,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
@@ -1205,7 +1187,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 4,
@@ -1223,7 +1205,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 4,
@@ -1237,11 +1219,29 @@
       ]
     },
     {
+      "id": "5293232",
+      "name": "Ethan Fang",
+      "shortName": "E. Fang",
+      "country": "United States",
+      "position": "T66",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 5,
+      "teeTime": "2026-04-10T12:26Z",
+      "status": "active",
+      "rounds": [
+        2,
+        4,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4589438",
       "name": "Harry Hall",
       "shortName": "H. Hall",
       "country": "England",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -1259,7 +1259,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1277,10 +1277,10 @@
       "name": "Michael Kim",
       "shortName": "M. Kim",
       "country": "United States",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1295,7 +1295,7 @@
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 5,
@@ -1313,7 +1313,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T67",
+      "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1511,7 +1511,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T84",
+      "position": "84",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 0,
@@ -1525,29 +1525,11 @@
       ]
     },
     {
-      "id": "5344763",
-      "name": "Mateo Pulcini",
-      "shortName": "M. Pulcini",
-      "country": "Argentina",
-      "position": "T84",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 6,
-      "teeTime": "2026-04-10T12:02Z",
-      "status": "active",
-      "rounds": [
-        9,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 4,
@@ -1565,7 +1547,7 @@
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T86",
+      "position": "T85",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
       "thru": 3,
@@ -1579,6 +1561,24 @@
       ]
     },
     {
+      "id": "5344763",
+      "name": "Mateo Pulcini",
+      "shortName": "M. Pulcini",
+      "country": "Argentina",
+      "position": "T85",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 7,
+      "teeTime": "2026-04-10T12:02Z",
+      "status": "active",
+      "rounds": [
+        9,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "453",
       "name": "Mike Weir",
       "shortName": "M. Weir",
@@ -1586,7 +1586,7 @@
       "position": "88",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
