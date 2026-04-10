@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:14:59.611958+00:00"
+    "lastUpdated": "2026-04-10T21:17:05.588996+00:00"
   },
   "players": [
     {
@@ -85,11 +85,29 @@
       ]
     },
     {
+      "id": "9938",
+      "name": "Sam Burns",
+      "shortName": "S. Burns",
+      "country": "United States",
+      "position": "T3",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 17,
+      "teeTime": "2026-04-10T16:32Z",
+      "status": "active",
+      "rounds": [
+        -5,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9221",
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -107,7 +125,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -121,29 +139,11 @@
       ]
     },
     {
-      "id": "9938",
-      "name": "Sam Burns",
-      "shortName": "S. Burns",
-      "country": "United States",
-      "position": "T5",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 16,
-      "teeTime": "2026-04-10T16:32Z",
-      "status": "active",
-      "rounds": [
-        -5,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5539",
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 14,
@@ -161,7 +161,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -179,7 +179,7 @@
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T5",
+      "position": "T6",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -1028,7 +1028,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1172,7 +1172,7 @@
       "position": "T64",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-10T16:32Z",
       "status": "active",
       "rounds": [
