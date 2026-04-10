@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:23:00.313118+00:00"
+    "lastUpdated": "2026-04-10T13:25:00.177114+00:00"
   },
   "players": [
     {
@@ -1183,24 +1183,6 @@
       ]
     },
     {
-      "id": "8974",
-      "name": "Michael Kim",
-      "shortName": "M. Kim",
-      "country": "United States",
-      "position": "T59",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 3,
-      "teeTime": "2026-04-10T12:14Z",
-      "status": "active",
-      "rounds": [
-        3,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11250",
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
@@ -1208,7 +1190,7 @@
       "position": "T59",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1277,7 +1259,7 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T71",
+      "position": "T70",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 6,
@@ -1295,7 +1277,7 @@
       "name": "Fred Couples",
       "shortName": "F. Couples",
       "country": "United States",
-      "position": "T71",
+      "position": "T70",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -1313,7 +1295,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T71",
+      "position": "T70",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1327,11 +1309,29 @@
       ]
     },
     {
+      "id": "8974",
+      "name": "Michael Kim",
+      "shortName": "M. Kim",
+      "country": "United States",
+      "position": "T70",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 4,
+      "teeTime": "2026-04-10T12:14Z",
+      "status": "active",
+      "rounds": [
+        3,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T71",
+      "position": "T70",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 0,
@@ -1568,7 +1568,7 @@
       "position": "T85",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
