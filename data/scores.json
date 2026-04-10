@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:33:01.403162+00:00"
+    "lastUpdated": "2026-04-10T13:34:59.338525+00:00"
   },
   "players": [
     {
@@ -578,7 +578,7 @@
       "position": "T30",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
@@ -866,12 +866,12 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T13:19Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
-        null,
+        0,
         null,
         null
       ]
