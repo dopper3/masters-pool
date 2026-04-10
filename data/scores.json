@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:23:01.280278+00:00"
+    "lastUpdated": "2026-04-10T20:25:03.330979+00:00"
   },
   "players": [
     {
@@ -254,7 +254,7 @@
       "position": "T11",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T16:32Z",
       "status": "active",
       "rounds": [
@@ -805,24 +805,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T44",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 16,
-      "teeTime": "2026-04-10T15:39Z",
-      "status": "active",
-      "rounds": [
-        3,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4513",
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
@@ -895,19 +877,19 @@
       ]
     },
     {
-      "id": "9131",
-      "name": "Cameron Smith",
-      "shortName": "C. Smith",
-      "country": "Australia",
-      "position": "T49",
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T44",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 13,
-      "teeTime": "2026-04-10T16:32Z",
+      "thru": 16,
+      "teeTime": "2026-04-10T15:39Z",
       "status": "active",
       "rounds": [
-        2,
-        2,
+        3,
+        0,
         null,
         null
       ]
@@ -1025,7 +1007,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 14,
@@ -1039,11 +1021,29 @@
       ]
     },
     {
+      "id": "9131",
+      "name": "Cameron Smith",
+      "shortName": "C. Smith",
+      "country": "Australia",
+      "position": "T56",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 14,
+      "teeTime": "2026-04-10T16:32Z",
+      "status": "active",
+      "rounds": [
+        2,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4304",
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1061,7 +1061,7 @@
       "name": "Harry Hall",
       "shortName": "H. Hall",
       "country": "England",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1079,7 +1079,7 @@
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "United States",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 18,
@@ -1097,7 +1097,7 @@
       "name": "Ryan Fox",
       "shortName": "R. Fox",
       "country": "New Zealand",
-      "position": "T57",
+      "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 17,
@@ -1388,7 +1388,7 @@
       "position": "T75",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
