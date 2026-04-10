@@ -9,27 +9,9 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T17:21:00.478594+00:00"
+    "lastUpdated": "2026-04-10T17:23:00.717253+00:00"
   },
   "players": [
-    {
-      "id": "569",
-      "name": "Justin Rose",
-      "shortName": "J. Rose",
-      "country": "England",
-      "position": "T1",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 11,
-      "teeTime": "2026-04-10T13:55Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        null,
-        null
-      ]
-    },
     {
       "id": "3470",
       "name": "Rory McIlroy",
@@ -67,11 +49,29 @@
       ]
     },
     {
+      "id": "569",
+      "name": "Justin Rose",
+      "shortName": "J. Rose",
+      "country": "England",
+      "position": "T3",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 12,
+      "teeTime": "2026-04-10T13:55Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11119",
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "4",
+      "position": "T3",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -110,12 +110,12 @@
       "position": "T5",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T17:08Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -3,
-        null,
+        0,
         null,
         null
       ]
@@ -319,29 +319,11 @@
       ]
     },
     {
-      "id": "5539",
-      "name": "Tommy Fleetwood",
-      "shortName": "T. Fleetwood",
-      "country": "England",
-      "position": "T15",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 0,
-      "teeTime": "2026-04-10T17:08Z",
-      "status": "scheduled",
-      "rounds": [
-        -1,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 17,
@@ -359,7 +341,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -377,7 +359,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 8,
@@ -395,7 +377,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 9,
@@ -413,7 +395,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -431,10 +413,10 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T16:32Z",
       "status": "active",
       "rounds": [
@@ -449,7 +431,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 12,
@@ -467,7 +449,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 5,
@@ -485,7 +467,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 14,
@@ -503,7 +485,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T19",
+      "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 2,
@@ -512,6 +494,24 @@
       "rounds": [
         0,
         0,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5539",
+      "name": "Tommy Fleetwood",
+      "shortName": "T. Fleetwood",
+      "country": "England",
+      "position": "T18",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 1,
+      "teeTime": "2026-04-10T17:08Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        1,
         null,
         null
       ]
@@ -686,7 +686,7 @@
       "position": "T29",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-10T14:07Z",
       "status": "active",
       "rounds": [
@@ -728,24 +728,6 @@
       "rounds": [
         4,
         -3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9131",
-      "name": "Cameron Smith",
-      "shortName": "C. Smith",
-      "country": "Australia",
-      "position": "T41",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 2,
-      "teeTime": "2026-04-10T16:32Z",
-      "status": "active",
-      "rounds": [
-        2,
-        0,
         null,
         null
       ]
@@ -859,11 +841,29 @@
       ]
     },
     {
+      "id": "9131",
+      "name": "Cameron Smith",
+      "shortName": "C. Smith",
+      "country": "Australia",
+      "position": "T47",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 3,
+      "teeTime": "2026-04-10T16:32Z",
+      "status": "active",
+      "rounds": [
+        2,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "1097",
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T48",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 6,
@@ -881,7 +881,7 @@
       "name": "Harry Hall",
       "shortName": "H. Hall",
       "country": "England",
-      "position": "T48",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 14,
@@ -899,7 +899,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T48",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 9,
@@ -917,7 +917,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T48",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -1118,7 +1118,7 @@
       "position": "T55",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1136,7 +1136,7 @@
       "position": "T63",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-10T16:03Z",
       "status": "active",
       "rounds": [
