@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:11:03.188495+00:00"
+    "lastUpdated": "2026-04-10T20:13:03.273590+00:00"
   },
   "players": [
     {
@@ -524,7 +524,7 @@
       "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
@@ -1100,7 +1100,7 @@
       "position": "T61",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
@@ -1388,29 +1388,11 @@
       "position": "T75",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T15:51Z",
       "status": "active",
       "rounds": [
         7,
-        2,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5532",
-      "name": "Carlos Ortiz",
-      "shortName": "C. Ortiz",
-      "country": "Mexico",
-      "position": "T78",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 17,
-      "teeTime": "2026-04-10T15:03Z",
-      "status": "active",
-      "rounds": [
-        8,
         2,
         null,
         null
@@ -1453,11 +1435,29 @@
       ]
     },
     {
+      "id": "5532",
+      "name": "Carlos Ortiz",
+      "shortName": "C. Ortiz",
+      "country": "Mexico",
+      "position": "T80",
+      "scoreToPar": 11.0,
+      "scoreDisplay": "+11",
+      "thru": 18,
+      "teeTime": "2026-04-10T15:03Z",
+      "status": "final",
+      "rounds": [
+        8,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5327297",
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
       "country": "Thailand",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1475,7 +1475,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1493,7 +1493,7 @@
       "name": "Min Woo Lee",
       "shortName": "M. Lee",
       "country": "Australia",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 18,
@@ -1511,7 +1511,7 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 14,
@@ -1529,7 +1529,7 @@
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T81",
+      "position": "T80",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
       "thru": 17,
