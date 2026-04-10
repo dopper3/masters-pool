@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T15:47:01.473008+00:00"
+    "lastUpdated": "2026-04-10T15:49:01.416619+00:00"
   },
   "players": [
     {
@@ -139,6 +139,24 @@
       ]
     },
     {
+      "id": "569",
+      "name": "Justin Rose",
+      "shortName": "J. Rose",
+      "country": "England",
+      "position": "T6",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 7,
+      "teeTime": "2026-04-10T13:55Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4587",
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
@@ -197,7 +215,7 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 9,
@@ -215,7 +233,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -233,7 +251,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -251,7 +269,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -269,7 +287,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -283,29 +301,11 @@
       ]
     },
     {
-      "id": "569",
-      "name": "Justin Rose",
-      "shortName": "J. Rose",
-      "country": "England",
-      "position": "T11",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 6,
-      "teeTime": "2026-04-10T13:55Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -323,7 +323,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -341,7 +341,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -359,7 +359,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T11",
+      "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -398,7 +398,7 @@
       "position": "T21",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T11:50Z",
       "status": "active",
       "rounds": [
@@ -1172,7 +1172,7 @@
       "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T15:15Z",
       "status": "active",
       "rounds": [
@@ -1268,6 +1268,24 @@
       "rounds": [
         7,
         0,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5532",
+      "name": "Carlos Ortiz",
+      "shortName": "C. Ortiz",
+      "country": "Mexico",
+      "position": "T70",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 3,
+      "teeTime": "2026-04-10T15:03Z",
+      "status": "active",
+      "rounds": [
+        8,
+        -1,
         null,
         null
       ]
@@ -1417,29 +1435,11 @@
       ]
     },
     {
-      "id": "5532",
-      "name": "Carlos Ortiz",
-      "shortName": "C. Ortiz",
-      "country": "Mexico",
-      "position": "T79",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 2,
-      "teeTime": "2026-04-10T15:03Z",
-      "status": "active",
-      "rounds": [
-        8,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4304",
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T79",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 12,
@@ -1457,7 +1457,7 @@
       "name": "Michael Kim",
       "shortName": "M. Kim",
       "country": "United States",
-      "position": "T79",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 12,
@@ -1475,7 +1475,7 @@
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T79",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 12,
@@ -1493,7 +1493,7 @@
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
       "country": "Scotland",
-      "position": "T79",
+      "position": "T80",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 5,
@@ -1525,24 +1525,6 @@
       ]
     },
     {
-      "id": "453",
-      "name": "Mike Weir",
-      "shortName": "M. Weir",
-      "country": "Canada",
-      "position": "T84",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 13,
-      "teeTime": "2026-04-10T12:02Z",
-      "status": "active",
-      "rounds": [
-        9,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
@@ -1555,6 +1537,24 @@
       "status": "active",
       "rounds": [
         8,
+        1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Mike Weir",
+      "shortName": "M. Weir",
+      "country": "Canada",
+      "position": "86",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 14,
+      "teeTime": "2026-04-10T12:02Z",
+      "status": "active",
+      "rounds": [
+        9,
         1,
         null,
         null
@@ -1574,6 +1574,24 @@
       "rounds": [
         12,
         -1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5080439",
+      "name": "Aldrich Potgieter",
+      "shortName": "A. Potgieter",
+      "country": "South Africa",
+      "position": "T88",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
+      "thru": 2,
+      "teeTime": "2026-04-10T15:15Z",
+      "status": "active",
+      "rounds": [
+        12,
+        0,
         null,
         null
       ]
@@ -1601,33 +1619,15 @@
       "name": "Mateo Pulcini",
       "shortName": "M. Pulcini",
       "country": "Argentina",
-      "position": "T88",
-      "scoreToPar": 12.0,
-      "scoreDisplay": "+12",
-      "thru": 13,
+      "position": "90",
+      "scoreToPar": 13.0,
+      "scoreDisplay": "+13",
+      "thru": 14,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
         9,
-        3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5080439",
-      "name": "Aldrich Potgieter",
-      "shortName": "A. Potgieter",
-      "country": "South Africa",
-      "position": "90",
-      "scoreToPar": 13.0,
-      "scoreDisplay": "+13",
-      "thru": 1,
-      "teeTime": "2026-04-10T15:15Z",
-      "status": "active",
-      "rounds": [
-        12,
-        1,
+        4,
         null,
         null
       ]
