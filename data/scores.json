@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:51:00.122919+00:00"
+    "lastUpdated": "2026-04-10T22:53:00.513653+00:00"
   },
   "players": [
     {
@@ -18,14 +18,14 @@
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
       "position": "1",
-      "scoreToPar": -11.0,
-      "scoreDisplay": "-11",
-      "thru": 17,
+      "scoreToPar": -12.0,
+      "scoreDisplay": "-12",
+      "thru": 18,
       "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         -5,
-        -6,
+        -7,
         null,
         null
       ]
@@ -128,9 +128,9 @@
       "position": "T7",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         1,
         -5,
@@ -1370,9 +1370,9 @@
       "position": "T74",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T17:44Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         5,
         4,
