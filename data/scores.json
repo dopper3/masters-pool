@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:30:59.852684+00:00"
+    "lastUpdated": "2026-04-10T14:33:01.156180+00:00"
   },
   "players": [
     {
@@ -146,12 +146,12 @@
       "position": "T7",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T14:19Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -2,
-        null,
+        0,
         null,
         null
       ]
@@ -200,12 +200,12 @@
       "position": "T11",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T14:19Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -1,
-        null,
+        0,
         null,
         null
       ]
@@ -272,7 +272,7 @@
       "position": "T11",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T13:55Z",
       "status": "active",
       "rounds": [
@@ -859,24 +859,6 @@
       ]
     },
     {
-      "id": "4426181",
-      "name": "Sam Stevens",
-      "shortName": "S. Stevens",
-      "country": "United States",
-      "position": "T47",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 11,
-      "teeTime": "2026-04-10T11:40Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
@@ -902,7 +884,7 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T11:40Z",
       "status": "active",
       "rounds": [
@@ -935,7 +917,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -953,7 +935,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -971,7 +953,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -989,7 +971,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1007,7 +989,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T52",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1016,6 +998,24 @@
       "rounds": [
         4,
         null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4426181",
+      "name": "Sam Stevens",
+      "shortName": "S. Stevens",
+      "country": "United States",
+      "position": "T51",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 12,
+      "teeTime": "2026-04-10T11:40Z",
+      "status": "active",
+      "rounds": [
+        0,
+        4,
         null,
         null
       ]
@@ -1064,7 +1064,7 @@
       "position": "T57",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T12:50Z",
       "status": "active",
       "rounds": [
