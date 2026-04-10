@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T21:19:01.578536+00:00"
+    "lastUpdated": "2026-04-10T21:21:03.786080+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T3",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-10T16:56Z",
       "status": "active",
       "rounds": [
@@ -319,6 +319,24 @@
       ]
     },
     {
+      "id": "10592",
+      "name": "Collin Morikawa",
+      "shortName": "C. Morikawa",
+      "country": "United States",
+      "position": "T17",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 13,
+      "teeTime": "2026-04-10T17:32Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -413,7 +431,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T23",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -427,29 +445,11 @@
       ]
     },
     {
-      "id": "10592",
-      "name": "Collin Morikawa",
-      "shortName": "C. Morikawa",
-      "country": "United States",
-      "position": "T23",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 12,
-      "teeTime": "2026-04-10T17:32Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5408",
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T23",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -467,7 +467,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T23",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -485,7 +485,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T23",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 13,
@@ -503,7 +503,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T23",
+      "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -787,11 +787,29 @@
       ]
     },
     {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "shortName": "V. Hovland",
+      "country": "Norway",
+      "position": "T38",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 12,
+      "teeTime": "2026-04-10T17:56Z",
+      "status": "active",
+      "rounds": [
+        3,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T44",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
@@ -809,7 +827,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T44",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
@@ -818,24 +836,6 @@
       "rounds": [
         0,
         3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "shortName": "V. Hovland",
-      "country": "Norway",
-      "position": "T44",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 11,
-      "teeTime": "2026-04-10T17:56Z",
-      "status": "active",
-      "rounds": [
-        3,
-        0,
         null,
         null
       ]
