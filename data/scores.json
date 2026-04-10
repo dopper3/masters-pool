@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:58:59.893773+00:00"
+    "lastUpdated": "2026-04-10T14:01:01.683547+00:00"
   },
   "players": [
     {
@@ -254,7 +254,7 @@
       "position": "T12",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -481,29 +481,11 @@
       ]
     },
     {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T17",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 2,
-      "teeTime": "2026-04-10T13:02Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 4,
@@ -521,7 +503,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -539,7 +521,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -557,7 +539,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -575,7 +557,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 1,
@@ -593,7 +575,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -611,7 +593,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -629,7 +611,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -647,10 +629,10 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -665,7 +647,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -683,7 +665,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -692,6 +674,24 @@
       "rounds": [
         1,
         null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T27",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 3,
+      "teeTime": "2026-04-10T13:02Z",
+      "status": "active",
+      "rounds": [
+        0,
+        1,
         null,
         null
       ]
@@ -866,7 +866,7 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -1226,7 +1226,7 @@
       "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
