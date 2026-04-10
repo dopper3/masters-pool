@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:02:59.753383+00:00"
+    "lastUpdated": "2026-04-10T16:05:00.374405+00:00"
   },
   "players": [
     {
@@ -236,7 +236,7 @@
       "position": "T10",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T13:43Z",
       "status": "active",
       "rounds": [
@@ -787,6 +787,24 @@
       ]
     },
     {
+      "id": "4375972",
+      "name": "Ludvig Åberg",
+      "shortName": "L. Åberg",
+      "country": "Sweden",
+      "position": "T40",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 8,
+      "teeTime": "2026-04-10T13:43Z",
+      "status": "active",
+      "rounds": [
+        2,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
@@ -827,7 +845,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 9,
@@ -841,29 +859,11 @@
       ]
     },
     {
-      "id": "4375972",
-      "name": "Ludvig Åberg",
-      "shortName": "L. Åberg",
-      "country": "Sweden",
-      "position": "T46",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 7,
-      "teeTime": "2026-04-10T13:43Z",
-      "status": "active",
-      "rounds": [
-        2,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4585549",
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 5,
@@ -881,7 +881,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 5,
@@ -899,7 +899,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 0,
@@ -1154,7 +1154,7 @@
       "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T15:15Z",
       "status": "active",
       "rounds": [
@@ -1190,7 +1190,7 @@
       "position": "T56",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
@@ -1381,24 +1381,6 @@
       ]
     },
     {
-      "id": "11250",
-      "name": "Nicolai Højgaard",
-      "shortName": "N. Højgaard",
-      "country": "Denmark",
-      "position": "T73",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 13,
-      "teeTime": "2026-04-10T12:14Z",
-      "status": "active",
-      "rounds": [
-        4,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4348444",
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
@@ -1439,7 +1421,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 12,
@@ -1457,7 +1439,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 1,
@@ -1471,19 +1453,19 @@
       ]
     },
     {
-      "id": "8974",
-      "name": "Michael Kim",
-      "shortName": "M. Kim",
-      "country": "United States",
-      "position": "T80",
+      "id": "11250",
+      "name": "Nicolai Højgaard",
+      "shortName": "N. Højgaard",
+      "country": "Denmark",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T12:14Z",
       "status": "active",
       "rounds": [
-        3,
-        5,
+        4,
+        4,
         null,
         null
       ]
@@ -1493,7 +1475,7 @@
       "name": "Robert MacIntyre",
       "shortName": "R. MacIntyre",
       "country": "Scotland",
-      "position": "T80",
+      "position": "T79",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 6,
@@ -1511,7 +1493,7 @@
       "name": "Brandon Holtz",
       "shortName": "B. Holtz",
       "country": "United States",
-      "position": "T84",
+      "position": "T83",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 0,
@@ -1525,11 +1507,29 @@
       ]
     },
     {
+      "id": "8974",
+      "name": "Michael Kim",
+      "shortName": "M. Kim",
+      "country": "United States",
+      "position": "T83",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 14,
+      "teeTime": "2026-04-10T12:14Z",
+      "status": "active",
+      "rounds": [
+        3,
+        6,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4585548",
       "name": "Sami Välimäki",
       "shortName": "S. Välimäki",
       "country": "Finland",
-      "position": "T84",
+      "position": "T83",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
       "thru": 2,
@@ -1550,7 +1550,7 @@
       "position": "86",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
@@ -1561,33 +1561,33 @@
       ]
     },
     {
-      "id": "4837226",
-      "name": "Naoyuki Kataoka",
-      "shortName": "N. Kataoka",
-      "country": "Japan",
-      "position": "87",
-      "scoreToPar": 11.0,
-      "scoreDisplay": "+11",
+      "id": "5080439",
+      "name": "Aldrich Potgieter",
+      "shortName": "A. Potgieter",
+      "country": "South Africa",
+      "position": "T87",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
       "thru": 3,
-      "teeTime": "2026-04-10T15:03Z",
+      "teeTime": "2026-04-10T15:15Z",
       "status": "active",
       "rounds": [
         12,
-        -1,
+        0,
         null,
         null
       ]
     },
     {
-      "id": "5080439",
-      "name": "Aldrich Potgieter",
-      "shortName": "A. Potgieter",
-      "country": "South Africa",
-      "position": "88",
+      "id": "4837226",
+      "name": "Naoyuki Kataoka",
+      "shortName": "N. Kataoka",
+      "country": "Japan",
+      "position": "T87",
       "scoreToPar": 12.0,
       "scoreDisplay": "+12",
-      "thru": 3,
-      "teeTime": "2026-04-10T15:15Z",
+      "thru": 4,
+      "teeTime": "2026-04-10T15:03Z",
       "status": "active",
       "rounds": [
         12,
@@ -1622,7 +1622,7 @@
       "position": "T89",
       "scoreToPar": 13.0,
       "scoreDisplay": "+13",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-10T12:02Z",
       "status": "active",
       "rounds": [
