@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T20:51:02.770937+00:00"
+    "lastUpdated": "2026-04-10T20:51:47.267090+00:00"
   },
   "players": [
     {
@@ -373,6 +373,24 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 12,
+      "teeTime": "2026-04-10T17:32Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9525",
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
@@ -475,24 +493,6 @@
       "status": "active",
       "rounds": [
         2,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T18",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 12,
-      "teeTime": "2026-04-10T17:32Z",
-      "status": "active",
-      "rounds": [
-        1,
         -2,
         null,
         null
@@ -697,24 +697,6 @@
       ]
     },
     {
-      "id": "4419142",
-      "name": "Akshay Bhatia",
-      "shortName": "A. Bhatia",
-      "country": "United States",
-      "position": "T38",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 12,
-      "teeTime": "2026-04-10T17:08Z",
-      "status": "active",
-      "rounds": [
-        1,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
@@ -773,7 +755,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -791,7 +773,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 14,
@@ -809,7 +791,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 16,
@@ -827,7 +809,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
@@ -845,7 +827,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 10,
@@ -863,7 +845,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
@@ -881,7 +863,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T43",
+      "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 10,
@@ -895,11 +877,29 @@
       ]
     },
     {
+      "id": "4419142",
+      "name": "Akshay Bhatia",
+      "shortName": "A. Bhatia",
+      "country": "United States",
+      "position": "T49",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 13,
+      "teeTime": "2026-04-10T17:08Z",
+      "status": "active",
+      "rounds": [
+        1,
+        3,
+        null,
+        null
+      ]
+    },
+    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -917,7 +917,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 16,
@@ -935,7 +935,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -953,7 +953,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -971,7 +971,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
@@ -989,7 +989,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 18,
