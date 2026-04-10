@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T13:57:00.747571+00:00"
+    "lastUpdated": "2026-04-10T13:58:59.893773+00:00"
   },
   "players": [
     {
@@ -128,7 +128,7 @@
       "position": "T7",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -337,24 +337,6 @@
       ]
     },
     {
-      "id": "4690755",
-      "name": "Chris Gotterup",
-      "shortName": "C. Gotterup",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 0,
-      "teeTime": "2026-04-10T13:43Z",
-      "status": "scheduled",
-      "rounds": [
-        0,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -521,7 +503,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 4,
@@ -539,7 +521,7 @@
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -557,7 +539,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -575,7 +557,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -589,11 +571,29 @@
       ]
     },
     {
+      "id": "4690755",
+      "name": "Chris Gotterup",
+      "shortName": "C. Gotterup",
+      "country": "United States",
+      "position": "T28",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 1,
+      "teeTime": "2026-04-10T13:43Z",
+      "status": "active",
+      "rounds": [
+        0,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "3448",
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -611,7 +611,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -629,7 +629,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -647,7 +647,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 1,
@@ -665,7 +665,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -683,7 +683,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -776,12 +776,12 @@
       "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T13:43Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         2,
-        null,
+        0,
         null,
         null
       ]
@@ -1244,12 +1244,12 @@
       "position": "T66",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T13:43Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         6,
-        null,
+        0,
         null,
         null
       ]
