@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T19:29:01.292451+00:00"
+    "lastUpdated": "2026-04-10T19:31:01.919419+00:00"
   },
   "players": [
     {
@@ -337,6 +337,24 @@
       ]
     },
     {
+      "id": "5408",
+      "name": "Harris English",
+      "shortName": "H. English",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 17,
+      "teeTime": "2026-04-10T14:31Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -395,7 +413,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -413,7 +431,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -427,29 +445,11 @@
       ]
     },
     {
-      "id": "5408",
-      "name": "Harris English",
-      "shortName": "H. English",
-      "country": "United States",
-      "position": "T22",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 16,
-      "teeTime": "2026-04-10T14:31Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -467,7 +467,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 10,
@@ -485,7 +485,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 7,
@@ -503,7 +503,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 17,
@@ -1100,7 +1100,7 @@
       "position": "T61",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-10T17:56Z",
       "status": "active",
       "rounds": [
