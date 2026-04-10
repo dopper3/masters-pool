@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T15:16:59.925200+00:00"
+    "lastUpdated": "2026-04-10T15:19:01.778626+00:00"
   },
   "players": [
     {
@@ -848,7 +848,7 @@
       "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-10T13:19Z",
       "status": "active",
       "rounds": [
@@ -1237,42 +1237,6 @@
       ]
     },
     {
-      "id": "4589438",
-      "name": "Harry Hall",
-      "shortName": "H. Hall",
-      "country": "England",
-      "position": "T66",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 6,
-      "teeTime": "2026-04-10T13:19Z",
-      "status": "active",
-      "rounds": [
-        5,
-        1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "8974",
-      "name": "Michael Kim",
-      "shortName": "M. Kim",
-      "country": "United States",
-      "position": "T66",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 10,
-      "teeTime": "2026-04-10T12:14Z",
-      "status": "active",
-      "rounds": [
-        3,
-        3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4410932",
       "name": "Min Woo Lee",
       "shortName": "M. Lee",
@@ -1331,7 +1295,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 9,
@@ -1345,11 +1309,29 @@
       ]
     },
     {
+      "id": "4589438",
+      "name": "Harry Hall",
+      "shortName": "H. Hall",
+      "country": "England",
+      "position": "T72",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 7,
+      "teeTime": "2026-04-10T13:19Z",
+      "status": "active",
+      "rounds": [
+        5,
+        2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 6,
@@ -1367,7 +1349,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1381,11 +1363,29 @@
       ]
     },
     {
+      "id": "8974",
+      "name": "Michael Kim",
+      "shortName": "M. Kim",
+      "country": "United States",
+      "position": "T72",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 11,
+      "teeTime": "2026-04-10T12:14Z",
+      "status": "active",
+      "rounds": [
+        3,
+        4,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4408316",
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1403,7 +1403,7 @@
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
       "country": "Northern Ireland",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 13,
@@ -1421,7 +1421,7 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1439,7 +1439,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T74",
+      "position": "T72",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
