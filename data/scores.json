@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T16:21:03.030528+00:00"
+    "lastUpdated": "2026-04-10T16:23:01.316099+00:00"
   },
   "players": [
     {
@@ -398,7 +398,7 @@
       "position": "T18",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-10T13:02Z",
       "status": "active",
       "rounds": [
@@ -1010,7 +1010,7 @@
       "position": "T54",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-10T13:31Z",
       "status": "active",
       "rounds": [
@@ -1093,6 +1093,24 @@
       ]
     },
     {
+      "id": "9530",
+      "name": "Maverick McNealy",
+      "shortName": "M. McNealy",
+      "country": "United States",
+      "position": "T54",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 10,
+      "teeTime": "2026-04-10T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        0,
+        null,
+        null
+      ]
+    },
+    {
       "id": "6007",
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
@@ -1151,7 +1169,7 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T64",
+      "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 17,
@@ -1169,7 +1187,7 @@
       "name": "Casey Jarvis",
       "shortName": "C. Jarvis",
       "country": "South Africa",
-      "position": "T64",
+      "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -1187,7 +1205,7 @@
       "name": "Ethan Fang",
       "shortName": "E. Fang",
       "country": "United States",
-      "position": "T64",
+      "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 14,
@@ -1201,29 +1219,11 @@
       ]
     },
     {
-      "id": "9530",
-      "name": "Maverick McNealy",
-      "shortName": "M. McNealy",
-      "country": "United States",
-      "position": "T64",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 9,
-      "teeTime": "2026-04-10T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T64",
+      "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -1241,7 +1241,7 @@
       "name": "Rasmus Neergaard-Petersen",
       "shortName": "R. Neergaard-Petersen",
       "country": "Denmark",
-      "position": "T64",
+      "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 4,
@@ -1259,7 +1259,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T64",
+      "position": "T65",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 3,
