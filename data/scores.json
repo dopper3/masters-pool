@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T22:13:03.417993+00:00"
+    "lastUpdated": "2026-04-10T22:15:00.297927+00:00"
   },
   "players": [
     {
@@ -71,7 +71,7 @@
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T5",
+      "position": "T4",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
@@ -89,7 +89,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T5",
+      "position": "T4",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
@@ -107,15 +107,15 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T2",
+      "position": "T4",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-10T17:08Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         -1,
-        -5,
+        -4,
         null,
         null
       ]
