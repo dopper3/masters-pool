@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T14:53:01.659891+00:00"
+    "lastUpdated": "2026-04-10T14:54:59.381766+00:00"
   },
   "players": [
     {
@@ -1010,7 +1010,7 @@
       "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-10T11:40Z",
       "status": "active",
       "rounds": [
@@ -1183,6 +1183,24 @@
       ]
     },
     {
+      "id": "1225",
+      "name": "Brian Harman",
+      "shortName": "B. Harman",
+      "country": "United States",
+      "position": "T66",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 8,
+      "teeTime": "2026-04-10T12:38Z",
+      "status": "active",
+      "rounds": [
+        7,
+        -1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
@@ -1313,7 +1331,7 @@
       "name": "Andrew Novak",
       "shortName": "A. Novak",
       "country": "United States",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 11,
@@ -1327,29 +1345,11 @@
       ]
     },
     {
-      "id": "1225",
-      "name": "Brian Harman",
-      "shortName": "B. Harman",
-      "country": "United States",
-      "position": "T73",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 7,
-      "teeTime": "2026-04-10T12:38Z",
-      "status": "active",
-      "rounds": [
-        7,
-        0,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9025",
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 7,
@@ -1367,7 +1367,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 8,
@@ -1385,7 +1385,7 @@
       "name": "Max Greyserman",
       "shortName": "M. Greyserman",
       "country": "United States",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1403,7 +1403,7 @@
       "name": "Nico Echavarria",
       "shortName": "N. Echavarria",
       "country": "Colombia",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1421,7 +1421,7 @@
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
       "country": "Northern Ireland",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 11,
@@ -1439,7 +1439,7 @@
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
@@ -1457,7 +1457,7 @@
       "name": "Ángel Cabrera",
       "shortName": "Á. Cabrera",
       "country": "Argentina",
-      "position": "T73",
+      "position": "T74",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 0,
