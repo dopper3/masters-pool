@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 3,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T12:31:00.327856+00:00"
+    "lastUpdated": "2026-04-10T12:33:01.621421+00:00"
   },
   "players": [
     {
@@ -895,24 +895,6 @@
       ]
     },
     {
-      "id": "8974",
-      "name": "Michael Kim",
-      "shortName": "M. Kim",
-      "country": "United States",
-      "position": "T48",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 0,
-      "teeTime": "2026-04-10T12:14Z",
-      "status": "scheduled",
-      "rounds": [
-        3,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
@@ -956,12 +938,12 @@
       "position": "T48",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T12:14Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
-        null,
+        0,
         null,
         null
       ]
@@ -971,7 +953,7 @@
       "name": "Bryson DeChambeau",
       "shortName": "B. DeChambeau",
       "country": "United States",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -989,7 +971,7 @@
       "name": "Bubba Watson",
       "shortName": "B. Watson",
       "country": "United States",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1007,7 +989,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1025,7 +1007,7 @@
       "name": "Danny Willett",
       "shortName": "D. Willett",
       "country": "England",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1043,7 +1025,7 @@
       "name": "Jackson Herrington",
       "shortName": "J. Herrington",
       "country": "United States",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1061,7 +1043,7 @@
       "name": "Johnny Keefer",
       "shortName": "J. Keefer",
       "country": "United States",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1079,7 +1061,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -1093,19 +1075,37 @@
       ]
     },
     {
+      "id": "8974",
+      "name": "Michael Kim",
+      "shortName": "M. Kim",
+      "country": "United States",
+      "position": "T53",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 1,
+      "teeTime": "2026-04-10T12:14Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11250",
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
       "country": "Denmark",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-10T12:14Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         4,
-        null,
+        0,
         null,
         null
       ]
@@ -1115,7 +1115,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T54",
+      "position": "T53",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 3,
