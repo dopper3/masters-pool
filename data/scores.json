@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T18:27:01.271787+00:00"
+    "lastUpdated": "2026-04-10T18:29:00.506046+00:00"
   },
   "players": [
     {
@@ -722,7 +722,7 @@
       "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T14:19Z",
       "status": "active",
       "rounds": [
@@ -1543,24 +1543,6 @@
       ]
     },
     {
-      "id": "5080439",
-      "name": "Aldrich Potgieter",
-      "shortName": "A. Potgieter",
-      "country": "South Africa",
-      "position": "T86",
-      "scoreToPar": 11.0,
-      "scoreDisplay": "+11",
-      "thru": 10,
-      "teeTime": "2026-04-10T15:15Z",
-      "status": "active",
-      "rounds": [
-        12,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5327297",
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
@@ -1592,6 +1574,24 @@
       "rounds": [
         6,
         5,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5080439",
+      "name": "Aldrich Potgieter",
+      "shortName": "A. Potgieter",
+      "country": "South Africa",
+      "position": "88",
+      "scoreToPar": 13.0,
+      "scoreDisplay": "+13",
+      "thru": 11,
+      "teeTime": "2026-04-10T15:15Z",
+      "status": "active",
+      "rounds": [
+        12,
+        1,
         null,
         null
       ]
