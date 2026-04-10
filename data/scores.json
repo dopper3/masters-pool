@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-10T18:39:01.453243+00:00"
+    "lastUpdated": "2026-04-10T18:40:59.530181+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T2",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-10T16:32Z",
       "status": "active",
       "rounds": [
@@ -301,6 +301,24 @@
       ]
     },
     {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "shortName": "J. Knapp",
+      "country": "United States",
+      "position": "T15",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 8,
+      "teeTime": "2026-04-10T16:32Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -2,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
@@ -377,7 +395,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 18,
@@ -395,7 +413,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 3,
@@ -413,7 +431,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -431,7 +449,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 14,
@@ -449,7 +467,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 4,
@@ -463,29 +481,11 @@
       ]
     },
     {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "shortName": "J. Knapp",
-      "country": "United States",
-      "position": "T21",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 7,
-      "teeTime": "2026-04-10T16:32Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 16,
@@ -503,7 +503,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 10,
@@ -521,7 +521,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 4,
@@ -539,7 +539,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 7,
@@ -722,7 +722,7 @@
       "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-10T14:31Z",
       "status": "active",
       "rounds": [
@@ -1226,7 +1226,7 @@
       "position": "T67",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-10T16:15Z",
       "status": "active",
       "rounds": [
@@ -1250,6 +1250,24 @@
       "rounds": [
         5,
         2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "4408316",
+      "name": "Nico Echavarria",
+      "shortName": "N. Echavarria",
+      "country": "Colombia",
+      "position": "T67",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 9,
+      "teeTime": "2026-04-10T16:15Z",
+      "status": "active",
+      "rounds": [
+        7,
+        0,
         null,
         null
       ]
@@ -1295,7 +1313,7 @@
       "name": "Carlos Ortiz",
       "shortName": "C. Ortiz",
       "country": "Mexico",
-      "position": "T72",
+      "position": "T73",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 12,
@@ -1313,7 +1331,7 @@
       "name": "Daniel Berger",
       "shortName": "D. Berger",
       "country": "United States",
-      "position": "T72",
+      "position": "T73",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
@@ -1331,7 +1349,7 @@
       "name": "Ethan Fang",
       "shortName": "E. Fang",
       "country": "United States",
-      "position": "T72",
+      "position": "T73",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
@@ -1349,7 +1367,7 @@
       "name": "Michael Kim",
       "shortName": "M. Kim",
       "country": "United States",
-      "position": "T72",
+      "position": "T73",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 18,
@@ -1363,29 +1381,11 @@
       ]
     },
     {
-      "id": "4408316",
-      "name": "Nico Echavarria",
-      "shortName": "N. Echavarria",
-      "country": "Colombia",
-      "position": "T72",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 8,
-      "teeTime": "2026-04-10T16:15Z",
-      "status": "active",
-      "rounds": [
-        7,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "392",
       "name": "Vijay Singh",
       "shortName": "V. Singh",
       "country": "Fiji",
-      "position": "T72",
+      "position": "T73",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 10,
