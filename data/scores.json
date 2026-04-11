@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:36:59.615957+00:00"
+    "lastUpdated": "2026-04-11T21:38:59.861650+00:00"
   },
   "players": [
     {
@@ -17,7 +17,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T1",
+      "position": "1",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
       "thru": 16,
@@ -35,16 +35,16 @@
       "name": "Rory McIlroy",
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
-      "position": "T1",
-      "scoreToPar": -11.0,
-      "scoreDisplay": "-11",
-      "thru": 11,
+      "position": "2",
+      "scoreToPar": -10.0,
+      "scoreDisplay": "-10",
+      "thru": 12,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
         -5,
         -7,
-        1,
+        2,
         null
       ]
     },
@@ -236,9 +236,9 @@
       "position": "T13",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-11T17:22Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         -3,
@@ -279,24 +279,6 @@
         1,
         -3,
         -3,
-        null
-      ]
-    },
-    {
-      "id": "8973",
-      "name": "Max Homa",
-      "shortName": "M. Homa",
-      "country": "United States",
-      "position": "T16",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 17,
-      "teeTime": "2026-04-11T17:22Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -2,
         null
       ]
     },
@@ -377,7 +359,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -395,7 +377,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 17,
@@ -413,7 +395,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -431,7 +413,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -445,11 +427,29 @@
       ]
     },
     {
+      "id": "8973",
+      "name": "Max Homa",
+      "shortName": "M. Homa",
+      "country": "United States",
+      "position": "T20",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 18,
+      "teeTime": "2026-04-11T17:22Z",
+      "status": "final",
+      "rounds": [
+        0,
+        -2,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "4921329",
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -467,7 +467,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
