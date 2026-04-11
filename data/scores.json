@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:02:59.916948+00:00"
+    "lastUpdated": "2026-04-11T20:05:00.869806+00:00"
   },
   "players": [
     {
@@ -445,6 +445,24 @@
       ]
     },
     {
+      "id": "9037",
+      "name": "Matt Fitzpatrick",
+      "shortName": "M. Fitzpatrick",
+      "country": "England",
+      "position": "T20",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 14,
+      "teeTime": "2026-04-11T16:49Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -467,7 +485,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -481,29 +499,11 @@
       ]
     },
     {
-      "id": "9037",
-      "name": "Matt Fitzpatrick",
-      "shortName": "M. Fitzpatrick",
-      "country": "England",
-      "position": "T26",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 13,
-      "teeTime": "2026-04-11T16:49Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 13,
@@ -521,7 +521,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -539,7 +539,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -557,7 +557,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 12,
