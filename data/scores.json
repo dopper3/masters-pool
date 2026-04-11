@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:07:03.496542+00:00"
+    "lastUpdated": "2026-04-11T20:09:02.884424+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "1",
       "scoreToPar": -12.0,
       "scoreDisplay": "-12",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
@@ -38,7 +38,7 @@
       "position": "2",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
@@ -200,30 +200,12 @@
       "position": "T8",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
         0,
         -4,
-        -2,
-        null
-      ]
-    },
-    {
-      "id": "4404992",
-      "name": "Ben Griffin",
-      "shortName": "B. Griffin",
-      "country": "United States",
-      "position": "T12",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 11,
-      "teeTime": "2026-04-11T17:22Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -3,
         -2,
         null
       ]
@@ -236,7 +218,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -283,11 +265,29 @@
       ]
     },
     {
+      "id": "4404992",
+      "name": "Ben Griffin",
+      "shortName": "B. Griffin",
+      "country": "United States",
+      "position": "T15",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 12,
+      "teeTime": "2026-04-11T17:22Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -3,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "10592",
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 16,
@@ -305,7 +305,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -323,7 +323,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 12,
@@ -341,10 +341,10 @@
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -359,7 +359,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -380,7 +380,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -405,24 +405,6 @@
         0,
         -3,
         0,
-        null
-      ]
-    },
-    {
-      "id": "4348470",
-      "name": "Kristoffer Reitan",
-      "shortName": "K. Reitan",
-      "country": "Norway",
-      "position": "T21",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 8,
-      "teeTime": "2026-04-11T18:06Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -4,
-        1,
         null
       ]
     },
@@ -485,7 +467,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T27",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -499,11 +481,29 @@
       ]
     },
     {
+      "id": "4348470",
+      "name": "Kristoffer Reitan",
+      "shortName": "K. Reitan",
+      "country": "Norway",
+      "position": "T26",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 9,
+      "teeTime": "2026-04-11T18:06Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -4,
+        2,
+        null
+      ]
+    },
+    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T27",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -521,7 +521,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T27",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -539,7 +539,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T27",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -557,7 +557,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T27",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 12,
