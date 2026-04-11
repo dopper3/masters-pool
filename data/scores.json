@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:30:59.670365+00:00"
+    "lastUpdated": "2026-04-11T16:33:00.178645+00:00"
   },
   "players": [
     {
@@ -463,20 +463,38 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T20",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 3,
+      "teeTime": "2026-04-11T15:54Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T28",
+      "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
         0,
         0,
-        0,
+        -1,
         null
       ]
     },
@@ -521,7 +539,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -539,7 +557,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 4,
@@ -557,7 +575,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -575,7 +593,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 9,
@@ -593,7 +611,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -611,7 +629,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -625,29 +643,11 @@
       ]
     },
     {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T28",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 2,
-      "teeTime": "2026-04-11T15:54Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T28",
+      "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -686,7 +686,7 @@
       "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T14:04Z",
       "status": "active",
       "rounds": [
@@ -704,7 +704,7 @@
       "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -823,24 +823,6 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T46",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 10,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
@@ -895,11 +877,29 @@
       ]
     },
     {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "T49",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 11,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        0,
+        null
+      ]
+    },
+    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 12,
