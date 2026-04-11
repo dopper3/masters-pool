@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:37:00.030297+00:00"
+    "lastUpdated": "2026-04-11T17:38:59.800106+00:00"
   },
   "players": [
     {
@@ -308,7 +308,7 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -323,16 +323,16 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T28",
+      "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
         2,
         -3,
-        0,
+        -1,
         null
       ]
     },
@@ -521,7 +521,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -539,7 +539,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 10,
@@ -557,7 +557,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -575,7 +575,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T28",
+      "position": "T29",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 8,
@@ -668,7 +668,7 @@
       "position": "T35",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -830,7 +830,7 @@
       "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
