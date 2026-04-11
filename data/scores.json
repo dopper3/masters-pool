@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:07:02.358347+00:00"
+    "lastUpdated": "2026-04-11T14:09:10.495036+00:00"
   },
   "players": [
     {
@@ -866,7 +866,7 @@
       "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
@@ -891,6 +891,24 @@
         7,
         -3,
         null,
+        null
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 2,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        0,
         null
       ]
     },
@@ -949,24 +967,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T52",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 1,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        1,
-        null
-      ]
-    },
-    {
       "id": "4304",
       "name": "Danny Willett",
       "shortName": "D. Willett",
@@ -1021,29 +1021,11 @@
       ]
     },
     {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "shortName": "K. Kitayama",
-      "country": "United States",
-      "position": "T52",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 2,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        7,
-        1,
-        null
-      ]
-    },
-    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T52",
+      "position": "53",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 1,
@@ -1107,6 +1089,24 @@
         4,
         2,
         null,
+        null
+      ]
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "shortName": "K. Kitayama",
+      "country": "United States",
+      "position": "54",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 3,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        7,
+        2,
         null
       ]
     },
