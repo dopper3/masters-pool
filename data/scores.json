@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T22:28:59.985604+00:00"
+    "lastUpdated": "2026-04-11T22:31:00.831239+00:00"
   },
   "players": [
     {
@@ -337,6 +337,24 @@
       ]
     },
     {
+      "id": "5553",
+      "name": "Tyrrell Hatton",
+      "shortName": "T. Hatton",
+      "country": "England",
+      "position": "T20",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 17,
+      "teeTime": "2026-04-11T18:17Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -6,
+        1,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
@@ -495,24 +513,6 @@
         -1,
         0,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "5553",
-      "name": "Tyrrell Hatton",
-      "shortName": "T. Hatton",
-      "country": "England",
-      "position": "T20",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 17,
-      "teeTime": "2026-04-11T18:17Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -6,
-        1,
         null
       ]
     },
