@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:29:00.271345+00:00"
+    "lastUpdated": "2026-04-11T19:31:02.283821+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "3",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
@@ -193,6 +193,24 @@
       ]
     },
     {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "shortName": "J. Knapp",
+      "country": "United States",
+      "position": "T10",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 10,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -3,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
@@ -229,6 +247,24 @@
       ]
     },
     {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "shortName": "R. Gerard",
+      "country": "United States",
+      "position": "T10",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 15,
+      "teeTime": "2026-04-11T16:05Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
+        -5,
+        null
+      ]
+    },
+    {
       "id": "5539",
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
@@ -251,7 +287,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T14",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 10,
@@ -265,29 +301,11 @@
       ]
     },
     {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "shortName": "J. Knapp",
-      "country": "United States",
-      "position": "T14",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 9,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -3,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "1680",
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T14",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 7,
@@ -305,7 +323,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T14",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 15,
@@ -319,29 +337,11 @@
       ]
     },
     {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "shortName": "R. Gerard",
-      "country": "United States",
-      "position": "T14",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 14,
-      "teeTime": "2026-04-11T16:05Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        -4,
-        null
-      ]
-    },
-    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T14",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 5,
@@ -794,7 +794,7 @@
       "position": "44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
