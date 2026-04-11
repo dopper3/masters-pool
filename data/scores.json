@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:56:59.569498+00:00"
+    "lastUpdated": "2026-04-11T20:59:00.923634+00:00"
   },
   "players": [
     {
@@ -283,24 +283,6 @@
       ]
     },
     {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "shortName": "H. Matsuyama",
-      "country": "Japan",
-      "position": "T15",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 16,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
@@ -308,7 +290,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -377,7 +359,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -391,11 +373,29 @@
       ]
     },
     {
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "shortName": "H. Matsuyama",
+      "country": "Japan",
+      "position": "T20",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 17,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -413,7 +413,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -431,7 +431,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 17,
@@ -445,11 +445,29 @@
       ]
     },
     {
+      "id": "3792",
+      "name": "Nick Taylor",
+      "shortName": "N. Taylor",
+      "country": "Canada",
+      "position": "T20",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 18,
+      "teeTime": "2026-04-11T16:49Z",
+      "status": "final",
+      "rounds": [
+        -1,
+        0,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T21",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 11,
@@ -467,7 +485,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -485,7 +503,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -503,7 +521,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -517,29 +535,11 @@
       ]
     },
     {
-      "id": "3792",
-      "name": "Nick Taylor",
-      "shortName": "N. Taylor",
-      "country": "Canada",
-      "position": "T26",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 17,
-      "teeTime": "2026-04-11T16:49Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        0,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -557,7 +557,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T26",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
