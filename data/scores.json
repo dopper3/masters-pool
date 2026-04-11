@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:54:59.431640+00:00"
+    "lastUpdated": "2026-04-11T16:57:01.723530+00:00"
   },
   "players": [
     {
@@ -362,7 +362,7 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T16:16Z",
       "status": "active",
       "rounds": [
@@ -841,29 +841,11 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T47",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 12,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T47",
+      "position": "47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 9,
@@ -877,11 +859,29 @@
       ]
     },
     {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "T48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 13,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        0,
+        null
+      ]
+    },
+    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 13,
@@ -899,7 +899,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 12,
