@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:39:06.151041+00:00"
+    "lastUpdated": "2026-04-11T19:41:03.323544+00:00"
   },
   "players": [
     {
@@ -27,6 +27,24 @@
         -5,
         -7,
         0,
+        null
+      ]
+    },
+    {
+      "id": "4425906",
+      "name": "Cameron Young",
+      "shortName": "C. Young",
+      "country": "United States",
+      "position": "T2",
+      "scoreToPar": -8.0,
+      "scoreDisplay": "-8",
+      "thru": 8,
+      "teeTime": "2026-04-11T17:55Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -5,
+        -4,
         null
       ]
     },
@@ -56,7 +74,7 @@
       "position": "T2",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
@@ -85,29 +103,11 @@
       ]
     },
     {
-      "id": "4425906",
-      "name": "Cameron Young",
-      "shortName": "C. Young",
-      "country": "United States",
-      "position": "T5",
-      "scoreToPar": -7.0,
-      "scoreDisplay": "-7",
-      "thru": 7,
-      "teeTime": "2026-04-11T17:55Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -5,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "9221",
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T5",
+      "position": "6",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 7,
@@ -182,7 +182,7 @@
       "position": "T10",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -416,7 +416,7 @@
       "position": "T23",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -578,7 +578,7 @@
       "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -596,7 +596,7 @@
       "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
