@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:03:01.776543+00:00"
+    "lastUpdated": "2026-04-11T17:05:03.197496+00:00"
   },
   "players": [
     {
@@ -398,7 +398,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -452,7 +452,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T16:16Z",
       "status": "active",
       "rounds": [
@@ -614,7 +614,7 @@
       "position": "T33",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -650,7 +650,7 @@
       "position": "T33",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
@@ -877,6 +877,24 @@
       ]
     },
     {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 15,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        0,
+        null
+      ]
+    },
+    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
@@ -971,29 +989,11 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T50",
+      "position": "51",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 14,
       "teeTime": "2026-04-11T13:53Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        1,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T50",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 14,
-      "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
         6,
@@ -1017,24 +1017,6 @@
         5,
         0,
         null,
-        null
-      ]
-    },
-    {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "52",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 6,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        5,
         null
       ]
     },
@@ -1107,6 +1089,24 @@
         3,
         3,
         null,
+        null
+      ]
+    },
+    {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "52",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 7,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        6,
         null
       ]
     },
@@ -1316,7 +1316,7 @@
       "position": "54",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
