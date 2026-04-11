@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:41:01.736199+00:00"
+    "lastUpdated": "2026-04-11T18:43:02.803017+00:00"
   },
   "players": [
     {
@@ -27,6 +27,24 @@
         -5,
         -7,
         null,
+        null
+      ]
+    },
+    {
+      "id": "4425906",
+      "name": "Cameron Young",
+      "shortName": "C. Young",
+      "country": "United States",
+      "position": "T2",
+      "scoreToPar": -6.0,
+      "scoreDisplay": "-6",
+      "thru": 4,
+      "teeTime": "2026-04-11T17:55Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -5,
+        -2,
         null
       ]
     },
@@ -67,29 +85,11 @@
       ]
     },
     {
-      "id": "4425906",
-      "name": "Cameron Young",
-      "shortName": "C. Young",
-      "country": "United States",
-      "position": "T4",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 3,
-      "teeTime": "2026-04-11T17:55Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -5,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "9221",
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 2,
@@ -107,7 +107,7 @@
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 0,
@@ -125,7 +125,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 10,
@@ -143,7 +143,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 1,
@@ -161,7 +161,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 1,
@@ -171,24 +171,6 @@
         -1,
         -4,
         0,
-        null
-      ]
-    },
-    {
-      "id": "4690755",
-      "name": "Chris Gotterup",
-      "shortName": "C. Gotterup",
-      "country": "United States",
-      "position": "T10",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 4,
-      "teeTime": "2026-04-11T17:33Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -3,
-        -1,
         null
       ]
     },
@@ -265,6 +247,24 @@
       ]
     },
     {
+      "id": "6007",
+      "name": "Patrick Cantlay",
+      "shortName": "P. Cantlay",
+      "country": "United States",
+      "position": "T10",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 13,
+      "teeTime": "2026-04-11T15:43Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -5,
+        -4,
+        null
+      ]
+    },
+    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -290,8 +290,26 @@
       "position": "T16",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T17:22Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -3,
+        0,
+        null
+      ]
+    },
+    {
+      "id": "4690755",
+      "name": "Chris Gotterup",
+      "shortName": "C. Gotterup",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 5,
+      "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
         0,
@@ -315,24 +333,6 @@
         2,
         -3,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "6007",
-      "name": "Patrick Cantlay",
-      "shortName": "P. Cantlay",
-      "country": "United States",
-      "position": "T16",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 12,
-      "teeTime": "2026-04-11T15:43Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -5,
-        -3,
         null
       ]
     },
@@ -398,7 +398,7 @@
       "position": "T21",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -470,7 +470,7 @@
       "position": "T21",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -524,7 +524,7 @@
       "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
