@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:29:02.113525+00:00"
+    "lastUpdated": "2026-04-11T20:31:01.992494+00:00"
   },
   "players": [
     {
@@ -103,6 +103,24 @@
       ]
     },
     {
+      "id": "569",
+      "name": "Justin Rose",
+      "shortName": "J. Rose",
+      "country": "England",
+      "position": "T6",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 8,
+      "teeTime": "2026-04-11T18:39Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -3,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "5579",
       "name": "Patrick Reed",
       "shortName": "P. Reed",
@@ -110,7 +128,7 @@
       "position": "T6",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T18:39Z",
       "status": "active",
       "rounds": [
@@ -157,29 +175,11 @@
       ]
     },
     {
-      "id": "569",
-      "name": "Justin Rose",
-      "shortName": "J. Rose",
-      "country": "England",
-      "position": "T9",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 7,
-      "teeTime": "2026-04-11T18:39Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "6007",
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -197,7 +197,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -470,7 +470,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T16:49Z",
       "status": "active",
       "rounds": [
