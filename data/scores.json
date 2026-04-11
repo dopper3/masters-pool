@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:09:03.468338+00:00"
+    "lastUpdated": "2026-04-11T15:10:59.757022+00:00"
   },
   "players": [
     {
@@ -776,7 +776,7 @@
       "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -859,29 +859,11 @@
       ]
     },
     {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "shortName": "V. Hovland",
-      "country": "Norway",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 2,
-      "teeTime": "2026-04-11T14:26Z",
-      "status": "active",
-      "rounds": [
-        3,
-        -1,
-        1,
-        null
-      ]
-    },
-    {
       "id": "9126",
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 5,
@@ -895,29 +877,11 @@
       ]
     },
     {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T49",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 6,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        0,
-        null
-      ]
-    },
-    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 4,
@@ -935,7 +899,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T49",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 6,
@@ -945,6 +909,24 @@
         3,
         1,
         0,
+        null
+      ]
+    },
+    {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "shortName": "V. Hovland",
+      "country": "Norway",
+      "position": "T48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 3,
+      "teeTime": "2026-04-11T14:26Z",
+      "status": "active",
+      "rounds": [
+        3,
+        -1,
+        2,
         null
       ]
     },
@@ -1079,10 +1061,10 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
@@ -1097,7 +1079,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 8,
@@ -1125,6 +1107,24 @@
         4,
         2,
         null,
+        null
+      ]
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T52",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 7,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        2,
         null
       ]
     },
