@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:15:00.694172+00:00"
+    "lastUpdated": "2026-04-11T16:17:00.123076+00:00"
   },
   "players": [
     {
@@ -488,13 +488,13 @@
       "position": "T26",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T16:05Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         1,
         -1,
-        null,
+        0,
         null
       ]
     },
@@ -596,13 +596,13 @@
       "position": "T26",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T16:05Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         0,
-        null,
+        0,
         null
       ]
     },
@@ -805,6 +805,24 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T44",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 13,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "9126",
       "name": "Corey Conners",
       "shortName": "C. Conners",
@@ -895,29 +913,11 @@
       ]
     },
     {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T50",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 12,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T50",
+      "position": "51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 7,
@@ -1280,7 +1280,7 @@
       "position": "53",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
