@@ -9,15 +9,33 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:31:00.580963+00:00"
+    "lastUpdated": "2026-04-11T21:33:01.672215+00:00"
   },
   "players": [
+    {
+      "id": "4425906",
+      "name": "Cameron Young",
+      "shortName": "C. Young",
+      "country": "United States",
+      "position": "T1",
+      "scoreToPar": -11.0,
+      "scoreDisplay": "-11",
+      "thru": 16,
+      "teeTime": "2026-04-11T17:55Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -5,
+        -7,
+        null
+      ]
+    },
     {
       "id": "3470",
       "name": "Rory McIlroy",
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
-      "position": "1",
+      "position": "T1",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
       "thru": 11,
@@ -27,24 +45,6 @@
         -5,
         -7,
         1,
-        null
-      ]
-    },
-    {
-      "id": "4425906",
-      "name": "Cameron Young",
-      "shortName": "C. Young",
-      "country": "United States",
-      "position": "2",
-      "scoreToPar": -10.0,
-      "scoreDisplay": "-10",
-      "thru": 15,
-      "teeTime": "2026-04-11T17:55Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -5,
-        -6,
         null
       ]
     },
@@ -218,7 +218,7 @@
       "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
@@ -326,7 +326,7 @@
       "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
