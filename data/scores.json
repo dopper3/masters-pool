@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:41:00.776453+00:00"
+    "lastUpdated": "2026-04-11T16:43:00.606260+00:00"
   },
   "players": [
     {
@@ -193,6 +193,24 @@
       ]
     },
     {
+      "id": "5409",
+      "name": "Russell Henley",
+      "shortName": "R. Henley",
+      "country": "United States",
+      "position": "T21",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 4,
+      "teeTime": "2026-04-11T15:54Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -337,6 +355,24 @@
       ]
     },
     {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "shortName": "R. Gerard",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 3,
+      "teeTime": "2026-04-11T16:05Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
@@ -359,7 +395,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -377,7 +413,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 3,
@@ -395,7 +431,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -413,7 +449,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -431,7 +467,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 0,
@@ -449,7 +485,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -463,47 +499,11 @@
       ]
     },
     {
-      "id": "5409",
-      "name": "Russell Henley",
-      "shortName": "R. Henley",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 3,
-      "teeTime": "2026-04-11T15:54Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -1,
-        -1,
-        null
-      ]
-    },
-    {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "shortName": "R. Gerard",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 2,
-      "teeTime": "2026-04-11T16:05Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -521,7 +521,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -704,7 +704,7 @@
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
