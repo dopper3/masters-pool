@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:49:01.292152+00:00"
+    "lastUpdated": "2026-04-11T16:51:03.774553+00:00"
   },
   "players": [
     {
@@ -344,7 +344,7 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -416,7 +416,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -488,7 +488,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -542,7 +542,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -578,13 +578,13 @@
       "position": "T31",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T16:38Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -1,
         1,
-        null,
+        0,
         null
       ]
     },
@@ -668,7 +668,7 @@
       "position": "T31",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
@@ -985,6 +985,24 @@
       ]
     },
     {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "51",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 14,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        1,
+        null
+      ]
+    },
+    {
       "id": "4251",
       "name": "Ryan Fox",
       "shortName": "R. Fox",
@@ -1007,7 +1025,7 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "T51",
+      "position": "52",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 6,
@@ -1071,24 +1089,6 @@
         4,
         2,
         null,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T51",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 13,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        2,
         null
       ]
     },
