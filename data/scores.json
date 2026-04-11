@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:05:00.869806+00:00"
+    "lastUpdated": "2026-04-11T20:07:03.496542+00:00"
   },
   "players": [
     {
@@ -74,7 +74,7 @@
       "position": "T3",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
@@ -283,6 +283,24 @@
       ]
     },
     {
+      "id": "10592",
+      "name": "Collin Morikawa",
+      "shortName": "C. Morikawa",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 16,
+      "teeTime": "2026-04-11T16:38Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -359,7 +377,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 15,
@@ -377,10 +395,10 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -391,29 +409,11 @@
       ]
     },
     {
-      "id": "10592",
-      "name": "Collin Morikawa",
-      "shortName": "C. Morikawa",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 15,
-      "teeTime": "2026-04-11T16:38Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "4348470",
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 8,
@@ -431,7 +431,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 16,
@@ -449,7 +449,7 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 14,
@@ -467,7 +467,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
@@ -506,7 +506,7 @@
       "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T16:49Z",
       "status": "active",
       "rounds": [
@@ -596,7 +596,7 @@
       "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
