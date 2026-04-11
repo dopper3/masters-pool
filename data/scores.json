@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:59:00.743866+00:00"
+    "lastUpdated": "2026-04-11T20:01:00.713445+00:00"
   },
   "players": [
     {
@@ -92,7 +92,7 @@
       "position": "T3",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
@@ -107,7 +107,7 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "6",
+      "position": "T6",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 6,
@@ -121,11 +121,29 @@
       ]
     },
     {
+      "id": "9478",
+      "name": "Scottie Scheffler",
+      "shortName": "S. Scheffler",
+      "country": "United States",
+      "position": "T6",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 16,
+      "teeTime": "2026-04-11T16:16Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        2,
+        -7,
+        null
+      ]
+    },
+    {
       "id": "569",
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 6,
@@ -143,7 +161,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -161,7 +179,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -175,29 +193,11 @@
       ]
     },
     {
-      "id": "9478",
-      "name": "Scottie Scheffler",
-      "shortName": "S. Scheffler",
-      "country": "United States",
-      "position": "T7",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 15,
-      "teeTime": "2026-04-11T16:16Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        2,
-        -6,
-        null
-      ]
-    },
-    {
       "id": "11119",
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 7,
@@ -247,24 +247,6 @@
       ]
     },
     {
-      "id": "8973",
-      "name": "Max Homa",
-      "shortName": "M. Homa",
-      "country": "United States",
-      "position": "T12",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 10,
-      "teeTime": "2026-04-11T17:22Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
@@ -305,7 +287,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "17",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 12,
@@ -314,6 +296,42 @@
       "rounds": [
         1,
         -3,
+        -2,
+        null
+      ]
+    },
+    {
+      "id": "8973",
+      "name": "Max Homa",
+      "shortName": "M. Homa",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 11,
+      "teeTime": "2026-04-11T17:22Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -2,
+        null
+      ]
+    },
+    {
+      "id": "4921329",
+      "name": "Michael Brennan",
+      "shortName": "M. Brennan",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 12,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -1,
         -2,
         null
       ]
@@ -416,31 +434,13 @@
       "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T16:16Z",
       "status": "active",
       "rounds": [
         2,
         -2,
         -3,
-        null
-      ]
-    },
-    {
-      "id": "4921329",
-      "name": "Michael Brennan",
-      "shortName": "M. Brennan",
-      "country": "United States",
-      "position": "T18",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 12,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -1,
-        -2,
         null
       ]
     },
