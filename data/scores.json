@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:15:03.976302+00:00"
+    "lastUpdated": "2026-04-11T14:17:04.874757+00:00"
   },
   "players": [
     {
@@ -805,6 +805,24 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T45",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 4,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
@@ -859,38 +877,20 @@
       ]
     },
     {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T48",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 3,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T48",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T14:04Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         7,
         -3,
-        null,
+        0,
         null
       ]
     },
@@ -899,7 +899,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T48",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 2,
@@ -917,16 +917,16 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T48",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T14:04Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
         1,
-        null,
+        0,
         null
       ]
     },
@@ -935,7 +935,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T48",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 1,
@@ -1100,7 +1100,7 @@
       "position": "54",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
