@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:56:59.604717+00:00"
+    "lastUpdated": "2026-04-11T15:59:01.571982+00:00"
   },
   "players": [
     {
@@ -499,6 +499,24 @@
       ]
     },
     {
+      "id": "5054388",
+      "name": "Jacob Bridgeman",
+      "shortName": "J. Bridgeman",
+      "country": "United States",
+      "position": "T25",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 2,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -647,7 +665,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -661,29 +679,11 @@
       ]
     },
     {
-      "id": "5054388",
-      "name": "Jacob Bridgeman",
-      "shortName": "J. Bridgeman",
-      "country": "United States",
-      "position": "T36",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 1,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        0,
-        null
-      ]
-    },
-    {
       "id": "11382",
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 1,
@@ -805,6 +805,24 @@
       ]
     },
     {
+      "id": "9530",
+      "name": "Maverick McNealy",
+      "shortName": "M. McNealy",
+      "country": "United States",
+      "position": "T43",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 8,
+      "teeTime": "2026-04-11T14:15Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -2,
+        0,
+        null
+      ]
+    },
+    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
@@ -859,55 +877,37 @@
       ]
     },
     {
-      "id": "3550",
-      "name": "Gary Woodland",
-      "shortName": "G. Woodland",
-      "country": "United States",
-      "position": "T48",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 5,
-      "teeTime": "2026-04-11T14:37Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        3,
-        2,
-        null
-      ]
-    },
-    {
-      "id": "9530",
-      "name": "Maverick McNealy",
-      "shortName": "M. McNealy",
-      "country": "United States",
-      "position": "T48",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 7,
-      "teeTime": "2026-04-11T14:15Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -2,
-        1,
-        null
-      ]
-    },
-    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T48",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 6,
+      "position": "T43",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 7,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
         3,
         -1,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "3550",
+      "name": "Gary Woodland",
+      "shortName": "G. Woodland",
+      "country": "United States",
+      "position": "50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 6,
+      "teeTime": "2026-04-11T14:37Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        3,
         2,
         null
       ]
@@ -1057,24 +1057,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T52",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 9,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        2,
-        null
-      ]
-    },
-    {
       "id": "11250",
       "name": "Nicolai Højgaard",
       "shortName": "N. Højgaard",
@@ -1097,10 +1079,10 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T52",
+      "position": "52",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
@@ -1237,6 +1219,24 @@
       ]
     },
     {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T53",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 10,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        4,
+        null
+      ]
+    },
+    {
       "id": "9025",
       "name": "Daniel Berger",
       "shortName": "D. Berger",
@@ -1295,7 +1295,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "54",
+      "position": "T53",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
       "thru": 11,
