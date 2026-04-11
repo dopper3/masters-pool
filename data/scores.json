@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:25:02.523914+00:00"
+    "lastUpdated": "2026-04-11T14:27:00.936874+00:00"
   },
   "players": [
     {
@@ -841,24 +841,6 @@
       ]
     },
     {
-      "id": "9530",
-      "name": "Maverick McNealy",
-      "shortName": "M. McNealy",
-      "country": "United States",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 0,
-      "teeTime": "2026-04-11T14:15Z",
-      "status": "scheduled",
-      "rounds": [
-        5,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
@@ -866,13 +848,13 @@
       "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T14:15Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         3,
-        null,
+        0,
         null
       ]
     },
@@ -899,7 +881,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 1,
@@ -917,7 +899,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 1,
@@ -931,11 +913,29 @@
       ]
     },
     {
+      "id": "9530",
+      "name": "Maverick McNealy",
+      "shortName": "M. McNealy",
+      "country": "United States",
+      "position": "T49",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 1,
+      "teeTime": "2026-04-11T14:15Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -2,
+        1,
+        null
+      ]
+    },
+    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 3,
