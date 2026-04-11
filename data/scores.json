@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:00:58.887553+00:00"
+    "lastUpdated": "2026-04-11T21:03:02.848886+00:00"
   },
   "players": [
     {
@@ -36,15 +36,15 @@
       "shortName": "C. Young",
       "country": "United States",
       "position": "2",
-      "scoreToPar": -10.0,
-      "scoreDisplay": "-10",
-      "thru": 13,
+      "scoreToPar": -11.0,
+      "scoreDisplay": "-11",
+      "thru": 14,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
         1,
         -5,
-        -6,
+        -7,
         null
       ]
     },
@@ -85,11 +85,29 @@
       ]
     },
     {
+      "id": "1680",
+      "name": "Jason Day",
+      "shortName": "J. Day",
+      "country": "Australia",
+      "position": "T5",
+      "scoreToPar": -8.0,
+      "scoreDisplay": "-8",
+      "thru": 14,
+      "teeTime": "2026-04-11T17:55Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -1,
+        -4,
+        null
+      ]
+    },
+    {
       "id": "9938",
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "5",
+      "position": "T5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 9,
@@ -103,29 +121,11 @@
       ]
     },
     {
-      "id": "1680",
-      "name": "Jason Day",
-      "shortName": "J. Day",
-      "country": "Australia",
-      "position": "T6",
-      "scoreToPar": -7.0,
-      "scoreDisplay": "-7",
-      "thru": 13,
-      "teeTime": "2026-04-11T17:55Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -1,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "569",
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T6",
+      "position": "T7",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 9,
@@ -135,24 +135,6 @@
         -2,
         -3,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "5579",
-      "name": "Patrick Reed",
-      "shortName": "P. Reed",
-      "country": "United States",
-      "position": "T6",
-      "scoreToPar": -7.0,
-      "scoreDisplay": "-7",
-      "thru": 9,
-      "teeTime": "2026-04-11T18:39Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -3,
-        -1,
         null
       ]
     },
@@ -161,7 +143,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T6",
+      "position": "T7",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 18,
@@ -179,7 +161,7 @@
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 16,
@@ -197,7 +179,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -211,11 +193,29 @@
       ]
     },
     {
+      "id": "5579",
+      "name": "Patrick Reed",
+      "shortName": "P. Reed",
+      "country": "United States",
+      "position": "T9",
+      "scoreToPar": -6.0,
+      "scoreDisplay": "-6",
+      "thru": 10,
+      "teeTime": "2026-04-11T18:39Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -3,
+        0,
+        null
+      ]
+    },
+    {
       "id": "5409",
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -233,7 +233,7 @@
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T10",
+      "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 12,
