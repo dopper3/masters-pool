@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:49:01.826296+00:00"
+    "lastUpdated": "2026-04-11T17:51:01.452787+00:00"
   },
   "players": [
     {
@@ -157,6 +157,24 @@
       ]
     },
     {
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "shortName": "H. Matsuyama",
+      "country": "Japan",
+      "position": "T7",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 4,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "1680",
       "name": "Jason Day",
       "shortName": "J. Day",
@@ -233,7 +251,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 1,
@@ -247,29 +265,11 @@
       ]
     },
     {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "shortName": "H. Matsuyama",
-      "country": "Japan",
-      "position": "T13",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 3,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 4,
@@ -287,7 +287,7 @@
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 1,
@@ -305,7 +305,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T13",
+      "position": "T14",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
@@ -434,7 +434,7 @@
       "position": "T18",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T17:00Z",
       "status": "active",
       "rounds": [
@@ -488,7 +488,7 @@
       "position": "T18",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -506,7 +506,7 @@
       "position": "T18",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -697,24 +697,6 @@
       ]
     },
     {
-      "id": "5054388",
-      "name": "Jacob Bridgeman",
-      "shortName": "J. Bridgeman",
-      "country": "United States",
-      "position": "T36",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 9,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        0,
-        null
-      ]
-    },
-    {
       "id": "4585549",
       "name": "Marco Penge",
       "shortName": "M. Penge",
@@ -791,7 +773,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 17,
@@ -805,11 +787,29 @@
       ]
     },
     {
+      "id": "5054388",
+      "name": "Jacob Bridgeman",
+      "shortName": "J. Bridgeman",
+      "country": "United States",
+      "position": "T43",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 10,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        1,
+        null
+      ]
+    },
+    {
       "id": "4513",
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 14,
@@ -827,7 +827,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 7,
@@ -1100,7 +1100,7 @@
       "position": "T52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T15:32Z",
       "status": "active",
       "rounds": [
