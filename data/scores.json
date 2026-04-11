@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:01:00.713445+00:00"
+    "lastUpdated": "2026-04-11T20:02:59.916948+00:00"
   },
   "players": [
     {
@@ -283,6 +283,24 @@
       ]
     },
     {
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "shortName": "H. Matsuyama",
+      "country": "Japan",
+      "position": "T16",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 13,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "9843",
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
@@ -323,16 +341,16 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T18",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T17:00Z",
       "status": "active",
       "rounds": [
         0,
         -1,
-        -2,
+        -3,
         null
       ]
     },
@@ -341,7 +359,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T18",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 15,
@@ -359,7 +377,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T18",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 10,
@@ -377,7 +395,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T18",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 15,
@@ -391,29 +409,11 @@
       ]
     },
     {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "shortName": "H. Matsuyama",
-      "country": "Japan",
-      "position": "T18",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 12,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "4348470",
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T18",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 8,
@@ -431,7 +431,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T18",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 16,
@@ -449,7 +449,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T18",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
