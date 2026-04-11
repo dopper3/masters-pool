@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:37:00.533141+00:00"
+    "lastUpdated": "2026-04-11T18:39:01.862746+00:00"
   },
   "players": [
     {
@@ -301,6 +301,24 @@
       ]
     },
     {
+      "id": "9037",
+      "name": "Matt Fitzpatrick",
+      "shortName": "M. Fitzpatrick",
+      "country": "England",
+      "position": "T20",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 7,
+      "teeTime": "2026-04-11T16:49Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "6007",
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
@@ -427,24 +445,6 @@
       ]
     },
     {
-      "id": "9037",
-      "name": "Matt Fitzpatrick",
-      "shortName": "M. Fitzpatrick",
-      "country": "England",
-      "position": "T20",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 7,
-      "teeTime": "2026-04-11T16:49Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
@@ -452,7 +452,7 @@
       "position": "T20",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T16:49Z",
       "status": "active",
       "rounds": [
