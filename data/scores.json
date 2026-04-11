@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:05:00.339564+00:00"
+    "lastUpdated": "2026-04-11T16:07:00.488160+00:00"
   },
   "players": [
     {
@@ -434,7 +434,7 @@
       "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -458,24 +458,6 @@
       "rounds": [
         -1,
         1,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "3448",
-      "name": "Dustin Johnson",
-      "shortName": "D. Johnson",
-      "country": "United States",
-      "position": "T25",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 0,
-      "teeTime": "2026-04-11T15:54Z",
-      "status": "scheduled",
-      "rounds": [
-        1,
-        -1,
         null,
         null
       ]
@@ -512,24 +494,6 @@
       "rounds": [
         -1,
         2,
-        -1,
-        null
-      ]
-    },
-    {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "shortName": "J. Spieth",
-      "country": "United States",
-      "position": "T25",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 3,
-      "teeTime": "2026-04-11T15:21Z",
-      "status": "active",
-      "rounds": [
-        0,
-        1,
         -1,
         null
       ]
@@ -614,13 +578,13 @@
       "position": "T25",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T15:54Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         1,
         -1,
-        null,
+        0,
         null
       ]
     },
@@ -665,7 +629,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T37",
+      "position": "T35",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 9,
@@ -679,11 +643,47 @@
       ]
     },
     {
+      "id": "3448",
+      "name": "Dustin Johnson",
+      "shortName": "D. Johnson",
+      "country": "United States",
+      "position": "T35",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 1,
+      "teeTime": "2026-04-11T15:54Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -1,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "shortName": "J. Spieth",
+      "country": "United States",
+      "position": "T35",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 4,
+      "teeTime": "2026-04-11T15:21Z",
+      "status": "active",
+      "rounds": [
+        0,
+        1,
+        0,
+        null
+      ]
+    },
+    {
       "id": "11382",
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T37",
+      "position": "T35",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 1,
@@ -812,7 +812,7 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -866,7 +866,7 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
