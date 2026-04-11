@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:15:00.747976+00:00"
+    "lastUpdated": "2026-04-11T21:17:00.867584+00:00"
   },
   "players": [
     {
@@ -110,7 +110,7 @@
       "position": "T3",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
@@ -398,7 +398,7 @@
       "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -535,6 +535,24 @@
       ]
     },
     {
+      "id": "4348470",
+      "name": "Kristoffer Reitan",
+      "shortName": "K. Reitan",
+      "country": "Norway",
+      "position": "T28",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 14,
+      "teeTime": "2026-04-11T18:06Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -4,
+        2,
+        null
+      ]
+    },
+    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
@@ -575,7 +593,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T32",
+      "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -593,7 +611,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T32",
+      "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -611,7 +629,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T32",
+      "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -621,24 +639,6 @@
         0,
         1,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "4348470",
-      "name": "Kristoffer Reitan",
-      "shortName": "K. Reitan",
-      "country": "Norway",
-      "position": "T32",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 13,
-      "teeTime": "2026-04-11T18:06Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -4,
-        3,
         null
       ]
     },
