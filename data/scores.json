@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T23:03:00.643016+00:00"
+    "lastUpdated": "2026-04-11T23:05:00.920175+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "T1",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:55Z",
       "status": "final",
       "rounds": [
@@ -38,7 +38,7 @@
       "position": "T1",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:50Z",
       "status": "final",
       "rounds": [
@@ -56,7 +56,7 @@
       "position": "3",
       "scoreToPar": -10.0,
       "scoreDisplay": "-10",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:50Z",
       "status": "final",
       "rounds": [
@@ -74,7 +74,7 @@
       "position": "4",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:28Z",
       "status": "final",
       "rounds": [
@@ -92,7 +92,7 @@
       "position": "T5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:55Z",
       "status": "final",
       "rounds": [
@@ -110,7 +110,7 @@
       "position": "T5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:39Z",
       "status": "final",
       "rounds": [
@@ -128,7 +128,7 @@
       "position": "T7",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:06Z",
       "status": "final",
       "rounds": [
@@ -146,7 +146,7 @@
       "position": "T7",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:16Z",
       "status": "final",
       "rounds": [
@@ -164,7 +164,7 @@
       "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:43Z",
       "status": "final",
       "rounds": [
@@ -182,7 +182,7 @@
       "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:39Z",
       "status": "final",
       "rounds": [
@@ -200,7 +200,7 @@
       "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:54Z",
       "status": "final",
       "rounds": [
@@ -218,7 +218,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:22Z",
       "status": "final",
       "rounds": [
@@ -236,7 +236,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:38Z",
       "status": "final",
       "rounds": [
@@ -254,7 +254,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:11Z",
       "status": "final",
       "rounds": [
@@ -272,7 +272,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:33Z",
       "status": "final",
       "rounds": [
@@ -290,7 +290,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:05Z",
       "status": "final",
       "rounds": [
@@ -308,7 +308,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:28Z",
       "status": "final",
       "rounds": [
@@ -326,7 +326,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:17Z",
       "status": "final",
       "rounds": [
@@ -344,7 +344,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:17Z",
       "status": "final",
       "rounds": [
@@ -362,7 +362,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:11Z",
       "status": "final",
       "rounds": [
@@ -380,7 +380,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:38Z",
       "status": "final",
       "rounds": [
@@ -398,7 +398,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:33Z",
       "status": "final",
       "rounds": [
@@ -416,7 +416,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T18:06Z",
       "status": "final",
       "rounds": [
@@ -434,7 +434,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:16Z",
       "status": "final",
       "rounds": [
@@ -452,7 +452,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:49Z",
       "status": "final",
       "rounds": [
@@ -470,7 +470,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:22Z",
       "status": "final",
       "rounds": [
@@ -488,7 +488,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:00Z",
       "status": "final",
       "rounds": [
@@ -506,7 +506,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:49Z",
       "status": "final",
       "rounds": [
@@ -524,7 +524,7 @@
       "position": "T29",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T17:00Z",
       "status": "final",
       "rounds": [
@@ -542,7 +542,7 @@
       "position": "T29",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:32Z",
       "status": "final",
       "rounds": [
@@ -560,7 +560,7 @@
       "position": "T29",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:21Z",
       "status": "final",
       "rounds": [
@@ -578,7 +578,7 @@
       "position": "T29",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:43Z",
       "status": "final",
       "rounds": [
@@ -596,7 +596,7 @@
       "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:04Z",
       "status": "final",
       "rounds": [
@@ -614,7 +614,7 @@
       "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T16:05Z",
       "status": "final",
       "rounds": [
@@ -632,7 +632,7 @@
       "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:21Z",
       "status": "final",
       "rounds": [
@@ -650,7 +650,7 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:48Z",
       "status": "final",
       "rounds": [
@@ -668,7 +668,7 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:10Z",
       "status": "final",
       "rounds": [
@@ -686,7 +686,7 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:48Z",
       "status": "final",
       "rounds": [
@@ -704,7 +704,7 @@
       "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T13:31Z",
       "status": "final",
       "rounds": [
@@ -722,7 +722,7 @@
       "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:37Z",
       "status": "final",
       "rounds": [
@@ -740,7 +740,7 @@
       "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:10Z",
       "status": "final",
       "rounds": [
@@ -758,7 +758,7 @@
       "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:15Z",
       "status": "final",
       "rounds": [
@@ -776,7 +776,7 @@
       "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:26Z",
       "status": "final",
       "rounds": [
@@ -794,7 +794,7 @@
       "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:04Z",
       "status": "final",
       "rounds": [
@@ -812,7 +812,7 @@
       "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:54Z",
       "status": "final",
       "rounds": [
@@ -830,7 +830,7 @@
       "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:26Z",
       "status": "final",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "47",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T13:53Z",
       "status": "final",
       "rounds": [
@@ -938,7 +938,7 @@
       "position": "T48",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T13:53Z",
       "status": "final",
       "rounds": [
@@ -956,7 +956,7 @@
       "position": "T48",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T13:42Z",
       "status": "final",
       "rounds": [
@@ -992,7 +992,7 @@
       "position": "T48",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:15Z",
       "status": "final",
       "rounds": [
@@ -1046,7 +1046,7 @@
       "position": "51",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T14:37Z",
       "status": "final",
       "rounds": [
@@ -1100,7 +1100,7 @@
       "position": "T52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T15:32Z",
       "status": "final",
       "rounds": [
@@ -1154,7 +1154,7 @@
       "position": "T52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T13:31Z",
       "status": "final",
       "rounds": [
@@ -1316,7 +1316,7 @@
       "position": "54",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 18,
+      "thru": 0,
       "teeTime": "2026-04-11T13:42Z",
       "status": "final",
       "rounds": [
