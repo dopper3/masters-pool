@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:44:59.050301+00:00"
+    "lastUpdated": "2026-04-11T16:46:59.624806+00:00"
   },
   "players": [
     {
@@ -787,6 +787,24 @@
       ]
     },
     {
+      "id": "7081",
+      "name": "Si Woo Kim",
+      "shortName": "S. Kim",
+      "country": "South Korea",
+      "position": "T42",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 13,
+      "teeTime": "2026-04-11T13:53Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
@@ -809,7 +827,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -827,10 +845,10 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -845,7 +863,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 11,
@@ -863,7 +881,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 11,
@@ -873,24 +891,6 @@
         0,
         3,
         0,
-        null
-      ]
-    },
-    {
-      "id": "7081",
-      "name": "Si Woo Kim",
-      "shortName": "S. Kim",
-      "country": "South Korea",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 12,
-      "teeTime": "2026-04-11T13:53Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        -1,
         null
       ]
     },
