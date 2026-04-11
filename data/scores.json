@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:09:00.872993+00:00"
+    "lastUpdated": "2026-04-11T19:11:02.001413+00:00"
   },
   "players": [
     {
@@ -146,7 +146,7 @@
       "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
@@ -164,7 +164,7 @@
       "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
@@ -290,7 +290,7 @@
       "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -362,7 +362,7 @@
       "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
@@ -535,29 +535,11 @@
       ]
     },
     {
-      "id": "8961",
-      "name": "Sepp Straka",
-      "shortName": "S. Straka",
-      "country": "Austria",
-      "position": "T25",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 16,
-      "teeTime": "2026-04-11T15:21Z",
-      "status": "active",
-      "rounds": [
-        1,
-        0,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -575,10 +557,10 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T16:38Z",
       "status": "active",
       "rounds": [
@@ -593,7 +575,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -611,7 +593,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 16,
@@ -625,11 +607,29 @@
       ]
     },
     {
+      "id": "8961",
+      "name": "Sepp Straka",
+      "shortName": "S. Straka",
+      "country": "Austria",
+      "position": "T30",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 17,
+      "teeTime": "2026-04-11T15:21Z",
+      "status": "active",
+      "rounds": [
+        1,
+        0,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "11382",
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 14,
@@ -668,9 +668,9 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-11T15:10Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         4,
         -3,
