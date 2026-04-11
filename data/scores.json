@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T13:53:04.611567+00:00"
+    "lastUpdated": "2026-04-11T13:55:03.414677+00:00"
   },
   "players": [
     {
@@ -859,24 +859,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 0,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "scheduled",
-      "rounds": [
-        3,
-        1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9126",
       "name": "Corey Conners",
       "shortName": "C. Conners",
@@ -971,7 +953,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "54",
+      "position": "T53",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 1,
@@ -999,6 +981,24 @@
         4,
         1,
         null,
+        null
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "T53",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 1,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        1,
         null
       ]
     },
