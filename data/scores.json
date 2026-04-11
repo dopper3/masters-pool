@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:53:00.711026+00:00"
+    "lastUpdated": "2026-04-11T19:55:01.274199+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T3",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -218,7 +218,7 @@
       "position": "T11",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -272,7 +272,7 @@
       "position": "T11",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -337,6 +337,24 @@
       ]
     },
     {
+      "id": "10592",
+      "name": "Collin Morikawa",
+      "shortName": "C. Morikawa",
+      "country": "United States",
+      "position": "T18",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 15,
+      "teeTime": "2026-04-11T16:38Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -351,6 +369,24 @@
         0,
         -2,
         -1,
+        null
+      ]
+    },
+    {
+      "id": "4348470",
+      "name": "Kristoffer Reitan",
+      "shortName": "K. Reitan",
+      "country": "Norway",
+      "position": "T18",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 8,
+      "teeTime": "2026-04-11T18:06Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -4,
+        1,
         null
       ]
     },
@@ -413,7 +449,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -431,7 +467,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -445,29 +481,11 @@
       ]
     },
     {
-      "id": "4348470",
-      "name": "Kristoffer Reitan",
-      "shortName": "K. Reitan",
-      "country": "Norway",
-      "position": "T23",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 7,
-      "teeTime": "2026-04-11T18:06Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -4,
-        2,
-        null
-      ]
-    },
-    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 13,
@@ -485,7 +503,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 13,
@@ -503,7 +521,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -521,7 +539,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -539,7 +557,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T23",
+      "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 11,
@@ -557,7 +575,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -575,7 +593,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 10,
@@ -589,32 +607,14 @@
       ]
     },
     {
-      "id": "10592",
-      "name": "Collin Morikawa",
-      "shortName": "C. Morikawa",
-      "country": "United States",
-      "position": "T31",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 14,
-      "teeTime": "2026-04-11T16:38Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        0,
-        null
-      ]
-    },
-    {
       "id": "5408",
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -629,7 +629,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T31",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
