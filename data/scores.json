@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:17:00.188094+00:00"
+    "lastUpdated": "2026-04-11T15:19:01.235540+00:00"
   },
   "players": [
     {
@@ -794,31 +794,13 @@
       "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
         6,
         -2,
         -1,
-        null
-      ]
-    },
-    {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "shortName": "K. Bradley",
-      "country": "United States",
-      "position": "T44",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 3,
-      "teeTime": "2026-04-11T14:26Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        1,
         null
       ]
     },
@@ -845,7 +827,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 2,
@@ -859,11 +841,29 @@
       ]
     },
     {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "shortName": "K. Bradley",
+      "country": "United States",
+      "position": "T46",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 4,
+      "teeTime": "2026-04-11T14:26Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        2,
+        null
+      ]
+    },
+    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 4,
@@ -881,10 +881,10 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -899,7 +899,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T47",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 3,
