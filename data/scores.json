@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:57:00.434862+00:00"
+    "lastUpdated": "2026-04-11T18:59:00.478278+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T3",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -74,7 +74,7 @@
       "position": "T3",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
@@ -121,11 +121,47 @@
       ]
     },
     {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T3",
+      "scoreToPar": -6.0,
+      "scoreDisplay": "-6",
+      "thru": 2,
+      "teeTime": "2026-04-11T18:28Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -3,
+        -1,
+        null
+      ]
+    },
+    {
+      "id": "5539",
+      "name": "Tommy Fleetwood",
+      "shortName": "T. Fleetwood",
+      "country": "England",
+      "position": "T3",
+      "scoreToPar": -6.0,
+      "scoreDisplay": "-6",
+      "thru": 2,
+      "teeTime": "2026-04-11T18:28Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        -4,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T7",
+      "position": "T9",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 8,
@@ -143,7 +179,7 @@
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T7",
+      "position": "T9",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 1,
@@ -157,42 +193,6 @@
       ]
     },
     {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T7",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 1,
-      "teeTime": "2026-04-11T18:28Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        0,
-        null
-      ]
-    },
-    {
-      "id": "5539",
-      "name": "Tommy Fleetwood",
-      "shortName": "T. Fleetwood",
-      "country": "England",
-      "position": "T7",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 1,
-      "teeTime": "2026-04-11T18:28Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        -4,
-        0,
-        null
-      ]
-    },
-    {
       "id": "1680",
       "name": "Jason Day",
       "shortName": "J. Day",
@@ -200,7 +200,7 @@
       "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -254,7 +254,7 @@
       "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
@@ -679,11 +679,29 @@
       ]
     },
     {
+      "id": "4426181",
+      "name": "Sam Stevens",
+      "shortName": "S. Stevens",
+      "country": "United States",
+      "position": "T35",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 18,
+      "teeTime": "2026-04-11T14:48Z",
+      "status": "final",
+      "rounds": [
+        0,
+        2,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "3832",
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -701,7 +719,7 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -719,10 +737,10 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
@@ -737,7 +755,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -751,29 +769,11 @@
       ]
     },
     {
-      "id": "4426181",
-      "name": "Sam Stevens",
-      "shortName": "S. Stevens",
-      "country": "United States",
-      "position": "T38",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 17,
-      "teeTime": "2026-04-11T14:48Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T38",
+      "position": "T39",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
