@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:15:02.279714+00:00"
+    "lastUpdated": "2026-04-11T18:17:01.237133+00:00"
   },
   "players": [
     {
@@ -236,7 +236,7 @@
       "position": "T9",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -308,7 +308,7 @@
       "position": "T17",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -369,6 +369,24 @@
         2,
         -3,
         -2,
+        null
+      ]
+    },
+    {
+      "id": "9525",
+      "name": "Brian Campbell",
+      "shortName": "B. Campbell",
+      "country": "United States",
+      "position": "T28",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 7,
+      "teeTime": "2026-04-11T16:38Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        1,
+        -1,
         null
       ]
     },
@@ -434,7 +452,7 @@
       "position": "T21",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -470,7 +488,7 @@
       "position": "T21",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -481,20 +499,20 @@
       ]
     },
     {
-      "id": "9525",
-      "name": "Brian Campbell",
-      "shortName": "B. Campbell",
-      "country": "United States",
-      "position": "T27",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 7,
-      "teeTime": "2026-04-11T16:38Z",
+      "id": "8961",
+      "name": "Sepp Straka",
+      "shortName": "S. Straka",
+      "country": "Austria",
+      "position": "T21",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 13,
+      "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
-        -1,
         1,
-        -1,
+        0,
+        -3,
         null
       ]
     },
@@ -503,7 +521,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -521,7 +539,7 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 15,
@@ -539,7 +557,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -557,7 +575,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 5,
@@ -571,29 +589,11 @@
       ]
     },
     {
-      "id": "8961",
-      "name": "Sepp Straka",
-      "shortName": "S. Straka",
-      "country": "Austria",
-      "position": "T27",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 12,
-      "teeTime": "2026-04-11T15:21Z",
-      "status": "active",
-      "rounds": [
-        1,
-        0,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -643,29 +643,11 @@
       ]
     },
     {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "shortName": "S. Im",
-      "country": "South Korea",
-      "position": "T34",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 10,
-      "teeTime": "2026-04-11T15:43Z",
-      "status": "active",
-      "rounds": [
-        4,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3832",
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -683,7 +665,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -701,7 +683,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 12,
@@ -719,7 +701,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -737,7 +719,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 17,
@@ -751,11 +733,29 @@
       ]
     },
     {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "shortName": "S. Im",
+      "country": "South Korea",
+      "position": "T36",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 11,
+      "teeTime": "2026-04-11T15:43Z",
+      "status": "active",
+      "rounds": [
+        4,
+        -3,
+        0,
+        null
+      ]
+    },
+    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 16,
