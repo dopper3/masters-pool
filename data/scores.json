@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:09:00.889407+00:00"
+    "lastUpdated": "2026-04-11T18:11:01.874230+00:00"
   },
   "players": [
     {
@@ -535,6 +535,24 @@
       ]
     },
     {
+      "id": "4848",
+      "name": "Justin Thomas",
+      "shortName": "J. Thomas",
+      "country": "United States",
+      "position": "T27",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 15,
+      "teeTime": "2026-04-11T14:37Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "4901368",
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
@@ -607,15 +625,15 @@
       ]
     },
     {
-      "id": "4848",
-      "name": "Justin Thomas",
-      "shortName": "J. Thomas",
-      "country": "United States",
-      "position": "T34",
+      "id": "388",
+      "name": "Adam Scott",
+      "shortName": "A. Scott",
+      "country": "Australia",
+      "position": "T35",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 14,
-      "teeTime": "2026-04-11T14:37Z",
+      "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
         0,
@@ -629,7 +647,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T34",
+      "position": "T35",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 10,
@@ -643,29 +661,11 @@
       ]
     },
     {
-      "id": "388",
-      "name": "Adam Scott",
-      "shortName": "A. Scott",
-      "country": "Australia",
-      "position": "T36",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 13,
-      "teeTime": "2026-04-11T14:48Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3832",
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -683,7 +683,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -701,7 +701,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 11,
@@ -719,7 +719,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -737,7 +737,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 17,
@@ -755,7 +755,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T36",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 16,
