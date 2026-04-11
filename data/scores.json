@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:26:59.047221+00:00"
+    "lastUpdated": "2026-04-11T21:29:00.400572+00:00"
   },
   "players": [
     {
@@ -18,15 +18,15 @@
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
       "position": "1",
-      "scoreToPar": -13.0,
-      "scoreDisplay": "-13",
-      "thru": 10,
+      "scoreToPar": -11.0,
+      "scoreDisplay": "-11",
+      "thru": 11,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
         -5,
         -7,
-        -1,
+        1,
         null
       ]
     },
@@ -89,16 +89,16 @@
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T5",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 10,
+      "position": "T3",
+      "scoreToPar": -9.0,
+      "scoreDisplay": "-9",
+      "thru": 11,
       "teeTime": "2026-04-11T18:50Z",
       "status": "active",
       "rounds": [
         -5,
         -1,
-        -2,
+        -3,
         null
       ]
     },
@@ -107,7 +107,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T5",
+      "position": "6",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 12,
@@ -128,7 +128,7 @@
       "position": "T7",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T18:39Z",
       "status": "active",
       "rounds": [
@@ -153,24 +153,6 @@
         -2,
         2,
         -7,
-        null
-      ]
-    },
-    {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "shortName": "J. Knapp",
-      "country": "United States",
-      "position": "T9",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 17,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -3,
-        -4,
         null
       ]
     },
@@ -251,7 +233,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T14",
+      "position": "T13",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 17,
@@ -269,7 +251,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T14",
+      "position": "T13",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
@@ -279,6 +261,24 @@
         2,
         -3,
         -4,
+        null
+      ]
+    },
+    {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "shortName": "J. Knapp",
+      "country": "United States",
+      "position": "T13",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 18,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "final",
+      "rounds": [
+        1,
+        -3,
+        -3,
         null
       ]
     },
