@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:51:00.206056+00:00"
+    "lastUpdated": "2026-04-11T15:53:01.308110+00:00"
   },
   "players": [
     {
@@ -859,24 +859,6 @@
       ]
     },
     {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T48",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 10,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
@@ -927,6 +909,24 @@
         3,
         -1,
         2,
+        null
+      ]
+    },
+    {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "51",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 11,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        1,
         null
       ]
     },
@@ -1070,24 +1070,6 @@
       "rounds": [
         3,
         1,
-        2,
-        null
-      ]
-    },
-    {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "shortName": "K. Kitayama",
-      "country": "United States",
-      "position": "T52",
-      "scoreToPar": 6.0,
-      "scoreDisplay": "+6",
-      "thru": 10,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        7,
         2,
         null
       ]
@@ -1305,6 +1287,24 @@
         4,
         4,
         null,
+        null
+      ]
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "shortName": "K. Kitayama",
+      "country": "United States",
+      "position": "54",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 11,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        7,
+        4,
         null
       ]
     },
