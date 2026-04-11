@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:06:59.365590+00:00"
+    "lastUpdated": "2026-04-11T15:09:03.468338+00:00"
   },
   "players": [
     {
@@ -715,6 +715,24 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T39",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 8,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
@@ -787,29 +805,11 @@
       ]
     },
     {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T44",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 7,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "9780",
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T44",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 6,
@@ -827,10 +827,10 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T44",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
@@ -845,7 +845,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T44",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 4,
@@ -863,7 +863,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T44",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 2,
@@ -1100,7 +1100,7 @@
       "position": "T53",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
