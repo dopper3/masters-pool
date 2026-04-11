@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:43:00.167546+00:00"
+    "lastUpdated": "2026-04-11T19:45:00.837684+00:00"
   },
   "players": [
     {
@@ -305,16 +305,16 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T10",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 5,
+      "position": "17",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 6,
       "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
         -1,
         -4,
-        0,
+        1,
         null
       ]
     },
@@ -362,7 +362,7 @@
       "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T17:00Z",
       "status": "active",
       "rounds": [
