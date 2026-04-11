@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:37:01.845254+00:00"
+    "lastUpdated": "2026-04-11T20:39:00.519974+00:00"
   },
   "players": [
     {
@@ -56,7 +56,7 @@
       "position": "T2",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
@@ -265,32 +265,14 @@
       ]
     },
     {
-      "id": "8973",
-      "name": "Max Homa",
-      "shortName": "M. Homa",
-      "country": "United States",
-      "position": "T13",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 13,
-      "teeTime": "2026-04-11T17:22Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "4404992",
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -305,7 +287,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 15,
@@ -319,11 +301,29 @@
       ]
     },
     {
+      "id": "8973",
+      "name": "Max Homa",
+      "shortName": "M. Homa",
+      "country": "United States",
+      "position": "T15",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 14,
+      "teeTime": "2026-04-11T17:22Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "4921329",
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 15,
@@ -341,7 +341,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -359,7 +359,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 9,
@@ -377,7 +377,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T16",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 14,
@@ -524,7 +524,7 @@
       "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
