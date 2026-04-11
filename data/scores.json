@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:43:00.918842+00:00"
+    "lastUpdated": "2026-04-11T14:44:59.964551+00:00"
   },
   "players": [
     {
@@ -830,7 +830,7 @@
       "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T14:04Z",
       "status": "active",
       "rounds": [
@@ -855,6 +855,24 @@
         0,
         2,
         1,
+        null
+      ]
+    },
+    {
+      "id": "9530",
+      "name": "Maverick McNealy",
+      "shortName": "M. McNealy",
+      "country": "United States",
+      "position": "T45",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 2,
+      "teeTime": "2026-04-11T14:15Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -2,
+        0,
         null
       ]
     },
@@ -899,7 +917,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T50",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 3,
@@ -913,20 +931,20 @@
       ]
     },
     {
-      "id": "9530",
-      "name": "Maverick McNealy",
-      "shortName": "M. McNealy",
-      "country": "United States",
-      "position": "T50",
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 1,
-      "teeTime": "2026-04-11T14:15Z",
+      "thru": 5,
+      "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
-        5,
+        6,
         -2,
-        1,
+        0,
         null
       ]
     },
@@ -999,24 +1017,6 @@
         2,
         3,
         null,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "52",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 4,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        1,
         null
       ]
     },
