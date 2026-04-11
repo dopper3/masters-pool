@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:17:00.867584+00:00"
+    "lastUpdated": "2026-04-11T21:18:30.397254+00:00"
   },
   "players": [
     {
@@ -53,16 +53,16 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T3",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 13,
+      "position": "3",
+      "scoreToPar": -9.0,
+      "scoreDisplay": "-9",
+      "thru": 14,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
         -1,
         -3,
-        -4,
+        -5,
         null
       ]
     },
@@ -71,7 +71,7 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 14,
@@ -89,7 +89,7 @@
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 10,
@@ -107,7 +107,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 12,
@@ -236,7 +236,7 @@
       "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
@@ -319,20 +319,20 @@
       ]
     },
     {
-      "id": "5539",
-      "name": "Tommy Fleetwood",
-      "shortName": "T. Fleetwood",
+      "id": "5553",
+      "name": "Tyrrell Hatton",
+      "shortName": "T. Hatton",
       "country": "England",
       "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 11,
-      "teeTime": "2026-04-11T18:28Z",
+      "thru": 13,
+      "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
-        -1,
-        -4,
-        1,
+        2,
+        -6,
+        0,
         null
       ]
     },
@@ -380,7 +380,7 @@
       "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -481,20 +481,20 @@
       ]
     },
     {
-      "id": "5553",
-      "name": "Tyrrell Hatton",
-      "shortName": "T. Hatton",
+      "id": "5539",
+      "name": "Tommy Fleetwood",
+      "shortName": "T. Fleetwood",
       "country": "England",
       "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 12,
-      "teeTime": "2026-04-11T18:17Z",
+      "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
+        -1,
+        -4,
         2,
-        -6,
-        1,
         null
       ]
     },
