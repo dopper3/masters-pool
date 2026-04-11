@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:46:59.447134+00:00"
+    "lastUpdated": "2026-04-11T20:49:03.366401+00:00"
   },
   "players": [
     {
@@ -35,16 +35,16 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T2",
-      "scoreToPar": -9.0,
-      "scoreDisplay": "-9",
-      "thru": 12,
+      "position": "2",
+      "scoreToPar": -10.0,
+      "scoreDisplay": "-10",
+      "thru": 13,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
         1,
         -5,
-        -5,
+        -6,
         null
       ]
     },
@@ -53,7 +53,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T2",
+      "position": "3",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
       "thru": 12,
@@ -362,7 +362,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
@@ -380,7 +380,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T17:11Z",
       "status": "active",
       "rounds": [
@@ -499,24 +499,6 @@
       ]
     },
     {
-      "id": "4348470",
-      "name": "Kristoffer Reitan",
-      "shortName": "K. Reitan",
-      "country": "Norway",
-      "position": "T27",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 11,
-      "teeTime": "2026-04-11T18:06Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -4,
-        2,
-        null
-      ]
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
@@ -575,7 +557,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -593,7 +575,7 @@
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -611,7 +593,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -629,7 +611,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T32",
+      "position": "T31",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -639,6 +621,24 @@
         0,
         1,
         -2,
+        null
+      ]
+    },
+    {
+      "id": "4348470",
+      "name": "Kristoffer Reitan",
+      "shortName": "K. Reitan",
+      "country": "Norway",
+      "position": "T31",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 12,
+      "teeTime": "2026-04-11T18:06Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -4,
+        3,
         null
       ]
     },
