@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:45:00.536376+00:00"
+    "lastUpdated": "2026-04-11T21:47:00.819191+00:00"
   },
   "players": [
     {
@@ -92,7 +92,7 @@
       "position": "T5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T18:06Z",
       "status": "active",
       "rounds": [
@@ -125,16 +125,34 @@
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T7",
-      "scoreToPar": -7.0,
-      "scoreDisplay": "-7",
-      "thru": 12,
+      "position": "T5",
+      "scoreToPar": -8.0,
+      "scoreDisplay": "-8",
+      "thru": 13,
       "teeTime": "2026-04-11T18:39Z",
       "status": "active",
       "rounds": [
         -2,
         -3,
-        -2,
+        -3,
+        null
+      ]
+    },
+    {
+      "id": "5579",
+      "name": "Patrick Reed",
+      "shortName": "P. Reed",
+      "country": "United States",
+      "position": "T8",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 13,
+      "teeTime": "2026-04-11T18:39Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -3,
+        -1,
         null
       ]
     },
@@ -143,7 +161,7 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T7",
+      "position": "T8",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 18,
@@ -161,7 +179,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -175,29 +193,11 @@
       ]
     },
     {
-      "id": "5579",
-      "name": "Patrick Reed",
-      "shortName": "P. Reed",
-      "country": "United States",
-      "position": "T9",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 12,
-      "teeTime": "2026-04-11T18:39Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -3,
-        0,
-        null
-      ]
-    },
-    {
       "id": "5409",
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -215,7 +215,7 @@
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T9",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 14,
@@ -391,6 +391,24 @@
       ]
     },
     {
+      "id": "4690755",
+      "name": "Chris Gotterup",
+      "shortName": "C. Gotterup",
+      "country": "United States",
+      "position": "T21",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 18,
+      "teeTime": "2026-04-11T17:33Z",
+      "status": "final",
+      "rounds": [
+        0,
+        -3,
+        0,
+        null
+      ]
+    },
+    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
@@ -481,29 +499,11 @@
       ]
     },
     {
-      "id": "4690755",
-      "name": "Chris Gotterup",
-      "shortName": "C. Gotterup",
-      "country": "United States",
-      "position": "T27",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 18,
-      "teeTime": "2026-04-11T17:33Z",
-      "status": "final",
-      "rounds": [
-        0,
-        -3,
-        0,
-        null
-      ]
-    },
-    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -521,7 +521,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -539,7 +539,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 16,
@@ -557,7 +557,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -575,7 +575,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
