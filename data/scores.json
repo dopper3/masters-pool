@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:28:58.353815+00:00"
+    "lastUpdated": "2026-04-11T16:30:59.670365+00:00"
   },
   "players": [
     {
@@ -373,6 +373,24 @@
       ]
     },
     {
+      "id": "5408",
+      "name": "Harris English",
+      "shortName": "H. English",
+      "country": "United States",
+      "position": "T20",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 2,
+      "teeTime": "2026-04-11T16:05Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
@@ -445,6 +463,24 @@
       ]
     },
     {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "shortName": "R. Gerard",
+      "country": "United States",
+      "position": "T28",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 1,
+      "teeTime": "2026-04-11T16:05Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
+        0,
+        null
+      ]
+    },
+    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
@@ -452,7 +488,7 @@
       "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -485,7 +521,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 0,
@@ -499,29 +535,11 @@
       ]
     },
     {
-      "id": "5408",
-      "name": "Harris English",
-      "shortName": "H. English",
-      "country": "United States",
-      "position": "T27",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 1,
-      "teeTime": "2026-04-11T16:05Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "5054388",
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 4,
@@ -539,7 +557,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -557,7 +575,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 9,
@@ -575,7 +593,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -593,7 +611,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 6,
@@ -611,7 +629,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 2,
@@ -625,29 +643,11 @@
       ]
     },
     {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "shortName": "R. Gerard",
-      "country": "United States",
-      "position": "T27",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 1,
-      "teeTime": "2026-04-11T16:05Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        0,
-        null
-      ]
-    },
-    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -884,7 +884,7 @@
       "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -902,7 +902,7 @@
       "position": "50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -1280,7 +1280,7 @@
       "position": "53",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
