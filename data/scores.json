@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:46:59.624806+00:00"
+    "lastUpdated": "2026-04-11T16:48:35.411111+00:00"
   },
   "players": [
     {
@@ -398,13 +398,13 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T16:38Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         2,
         -3,
-        null,
+        0,
         null
       ]
     },
@@ -589,24 +589,6 @@
       ]
     },
     {
-      "id": "5054388",
-      "name": "Jacob Bridgeman",
-      "shortName": "J. Bridgeman",
-      "country": "United States",
-      "position": "T31",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 5,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -701,7 +683,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 15,
@@ -719,7 +701,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 12,
@@ -737,7 +719,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 4,
@@ -747,6 +729,24 @@
         1,
         -1,
         1,
+        null
+      ]
+    },
+    {
+      "id": "5054388",
+      "name": "Jacob Bridgeman",
+      "shortName": "J. Bridgeman",
+      "country": "United States",
+      "position": "T38",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 6,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        0,
         null
       ]
     },
@@ -902,7 +902,7 @@
       "position": "50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -1309,6 +1309,24 @@
       ]
     },
     {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "54",
+      "scoreToPar": 9.0,
+      "scoreDisplay": "+9",
+      "thru": 14,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        5,
+        null
+      ]
+    },
+    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
@@ -1359,24 +1377,6 @@
         5,
         4,
         null,
-        null
-      ]
-    },
-    {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "54",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": 13,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        6,
         null
       ]
     },
