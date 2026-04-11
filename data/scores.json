@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:27:01.740270+00:00"
+    "lastUpdated": "2026-04-11T20:29:02.113525+00:00"
   },
   "players": [
     {
@@ -236,7 +236,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T17:11Z",
       "status": "active",
       "rounds": [
@@ -355,11 +355,29 @@
       ]
     },
     {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T17",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 14,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        0,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "9525",
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 17,
@@ -377,7 +395,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 12,
@@ -395,7 +413,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 14,
@@ -413,12 +431,12 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-11T16:16Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         2,
         -2,
@@ -431,10 +449,10 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T16:49Z",
       "status": "active",
       "rounds": [
@@ -449,7 +467,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 15,
@@ -467,7 +485,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T20",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 9,
@@ -477,24 +495,6 @@
         2,
         -6,
         1,
-        null
-      ]
-    },
-    {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 13,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        0,
-        -1,
         null
       ]
     },
