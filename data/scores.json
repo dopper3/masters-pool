@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:07:02.024654+00:00"
+    "lastUpdated": "2026-04-11T18:09:00.889407+00:00"
   },
   "players": [
     {
@@ -164,13 +164,13 @@
       "position": "T9",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T17:55Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         1,
         -5,
-        null,
+        0,
         null
       ]
     },
@@ -207,24 +207,6 @@
         1,
         -3,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "1680",
-      "name": "Jason Day",
-      "shortName": "J. Day",
-      "country": "Australia",
-      "position": "T9",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 0,
-      "teeTime": "2026-04-11T17:55Z",
-      "status": "scheduled",
-      "rounds": [
-        -3,
-        -1,
-        null,
         null
       ]
     },
@@ -323,7 +305,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T18",
+      "position": "T17",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 3,
@@ -337,11 +319,29 @@
       ]
     },
     {
+      "id": "1680",
+      "name": "Jason Day",
+      "shortName": "J. Day",
+      "country": "Australia",
+      "position": "T17",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 1,
+      "teeTime": "2026-04-11T17:55Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -1,
+        1,
+        null
+      ]
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T18",
+      "position": "T17",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 6,
@@ -452,7 +452,7 @@
       "position": "T20",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -481,29 +481,11 @@
       ]
     },
     {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 3,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        0,
-        0,
-        null
-      ]
-    },
-    {
       "id": "9525",
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -521,7 +503,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -539,7 +521,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 12,
@@ -557,7 +539,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -575,7 +557,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 5,
@@ -593,7 +575,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 12,
@@ -603,6 +585,24 @@
         1,
         0,
         -2,
+        null
+      ]
+    },
+    {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T27",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 4,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        0,
+        1,
         null
       ]
     },
@@ -686,7 +686,7 @@
       "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -751,24 +751,6 @@
       ]
     },
     {
-      "id": "4426181",
-      "name": "Sam Stevens",
-      "shortName": "S. Stevens",
-      "country": "United States",
-      "position": "T36",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 13,
-      "teeTime": "2026-04-11T14:48Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
@@ -791,7 +773,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "44",
+      "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 13,
@@ -801,6 +783,24 @@
         4,
         -3,
         1,
+        null
+      ]
+    },
+    {
+      "id": "4426181",
+      "name": "Sam Stevens",
+      "shortName": "S. Stevens",
+      "country": "United States",
+      "position": "T43",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 14,
+      "teeTime": "2026-04-11T14:48Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        0,
         null
       ]
     },
