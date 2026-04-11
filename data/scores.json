@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:29:00.400572+00:00"
+    "lastUpdated": "2026-04-11T21:31:00.580963+00:00"
   },
   "players": [
     {
@@ -182,7 +182,7 @@
       "position": "T9",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T18:39Z",
       "status": "active",
       "rounds": [
@@ -380,25 +380,7 @@
       "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 16,
-      "teeTime": "2026-04-11T17:33Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -3,
-        0,
-        null
-      ]
-    },
-    {
-      "id": "4690755",
-      "name": "Chris Gotterup",
-      "shortName": "C. Gotterup",
-      "country": "United States",
-      "position": "T20",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -499,11 +481,29 @@
       ]
     },
     {
+      "id": "4690755",
+      "name": "Chris Gotterup",
+      "shortName": "C. Gotterup",
+      "country": "United States",
+      "position": "T27",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 17,
+      "teeTime": "2026-04-11T17:33Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -3,
+        1,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -521,7 +521,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -539,7 +539,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -557,7 +557,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -575,7 +575,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T28",
+      "position": "T27",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
