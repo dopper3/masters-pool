@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:48:35.411111+00:00"
+    "lastUpdated": "2026-04-11T16:49:01.292152+00:00"
   },
   "players": [
     {
@@ -913,24 +913,6 @@
       ]
     },
     {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "51",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 5,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        4,
-        null
-      ]
-    },
-    {
       "id": "780",
       "name": "Bubba Watson",
       "shortName": "B. Watson",
@@ -1021,6 +1003,24 @@
       ]
     },
     {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "T51",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 6,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        5,
+        null
+      ]
+    },
+    {
       "id": "4419142",
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
@@ -1079,7 +1079,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "52",
+      "position": "T51",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 13,
