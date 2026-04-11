@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:49:01.704230+00:00"
+    "lastUpdated": "2026-04-11T19:51:00.940518+00:00"
   },
   "players": [
     {
@@ -45,24 +45,6 @@
         1,
         -5,
         -4,
-        null
-      ]
-    },
-    {
-      "id": "5579",
-      "name": "Patrick Reed",
-      "shortName": "P. Reed",
-      "country": "United States",
-      "position": "T2",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 4,
-      "teeTime": "2026-04-11T18:39Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -3,
-        -2,
         null
       ]
     },
@@ -107,7 +89,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "6",
+      "position": "T5",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 7,
@@ -117,6 +99,24 @@
         -1,
         -3,
         -3,
+        null
+      ]
+    },
+    {
+      "id": "5579",
+      "name": "Patrick Reed",
+      "shortName": "P. Reed",
+      "country": "United States",
+      "position": "T5",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 5,
+      "teeTime": "2026-04-11T18:39Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -3,
+        -1,
         null
       ]
     },
@@ -164,7 +164,7 @@
       "position": "T7",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T16:16Z",
       "status": "active",
       "rounds": [
@@ -207,24 +207,6 @@
         0,
         -3,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "shortName": "J. Knapp",
-      "country": "United States",
-      "position": "T11",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 10,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -3,
-        -3,
         null
       ]
     },
@@ -301,11 +283,29 @@
       ]
     },
     {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "shortName": "J. Knapp",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 11,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -3,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "5539",
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "17",
+      "position": "T16",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 6,
@@ -326,7 +326,7 @@
       "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -355,6 +355,24 @@
       ]
     },
     {
+      "id": "4375972",
+      "name": "Ludvig Åberg",
+      "shortName": "L. Åberg",
+      "country": "Sweden",
+      "position": "T18",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 15,
+      "teeTime": "2026-04-11T16:16Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -2,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "4921329",
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
@@ -369,24 +387,6 @@
         0,
         -1,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "shortName": "S. Im",
-      "country": "South Korea",
-      "position": "T22",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 18,
-      "teeTime": "2026-04-11T15:43Z",
-      "status": "final",
-      "rounds": [
-        4,
-        -3,
-        -3,
         null
       ]
     },
@@ -413,7 +413,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 14,
@@ -449,7 +449,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 7,
@@ -463,29 +463,11 @@
       ]
     },
     {
-      "id": "4375972",
-      "name": "Ludvig Åberg",
-      "shortName": "L. Åberg",
-      "country": "Sweden",
-      "position": "T23",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 14,
-      "teeTime": "2026-04-11T16:16Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -2,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 12,
@@ -503,7 +485,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -517,11 +499,29 @@
       ]
     },
     {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "shortName": "S. Im",
+      "country": "South Korea",
+      "position": "T23",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 18,
+      "teeTime": "2026-04-11T15:43Z",
+      "status": "final",
+      "rounds": [
+        4,
+        -3,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T22",
+      "position": "T23",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 11,
