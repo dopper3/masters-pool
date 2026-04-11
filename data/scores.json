@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:01:00.834736+00:00"
+    "lastUpdated": "2026-04-11T17:03:01.776543+00:00"
   },
   "players": [
     {
@@ -362,7 +362,7 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T16:16Z",
       "status": "active",
       "rounds": [
@@ -506,13 +506,13 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T16:49Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -1,
         0,
-        null,
+        0,
         null
       ]
     },
@@ -560,7 +560,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -740,7 +740,7 @@
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T15:32Z",
       "status": "active",
       "rounds": [
@@ -769,11 +769,29 @@
       ]
     },
     {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "shortName": "V. Hovland",
+      "country": "Norway",
+      "position": "T38",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 12,
+      "teeTime": "2026-04-11T14:26Z",
+      "status": "active",
+      "rounds": [
+        3,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T43",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 12,
@@ -791,7 +809,7 @@
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T43",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
@@ -809,7 +827,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T43",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 14,
@@ -819,24 +837,6 @@
         3,
         1,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "shortName": "V. Hovland",
-      "country": "Norway",
-      "position": "T43",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 11,
-      "teeTime": "2026-04-11T14:26Z",
-      "status": "active",
-      "rounds": [
-        3,
-        -1,
-        0,
         null
       ]
     },
