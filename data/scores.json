@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:21:03.014635+00:00"
+    "lastUpdated": "2026-04-11T14:23:02.670990+00:00"
   },
   "players": [
     {
@@ -913,24 +913,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "T50",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 2,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "9126",
       "name": "Corey Conners",
       "shortName": "C. Conners",
@@ -944,6 +926,24 @@
       "rounds": [
         3,
         1,
+        0,
+        null
+      ]
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 3,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
         0,
         null
       ]
@@ -963,6 +963,24 @@
         4,
         1,
         null,
+        null
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "53",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 3,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        1,
         null
       ]
     },
@@ -1017,24 +1035,6 @@
         2,
         3,
         null,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "53",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 2,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        1,
         null
       ]
     },
