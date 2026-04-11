@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:13:02.619769+00:00"
+    "lastUpdated": "2026-04-11T19:13:20.433898+00:00"
   },
   "players": [
     {
@@ -193,6 +193,24 @@
       ]
     },
     {
+      "id": "8973",
+      "name": "Max Homa",
+      "shortName": "M. Homa",
+      "country": "United States",
+      "position": "T11",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 7,
+      "teeTime": "2026-04-11T17:22Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "4404992",
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
@@ -283,24 +301,6 @@
       ]
     },
     {
-      "id": "8973",
-      "name": "Max Homa",
-      "shortName": "M. Homa",
-      "country": "United States",
-      "position": "T11",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 7,
-      "teeTime": "2026-04-11T17:22Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "6007",
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
@@ -314,6 +314,24 @@
       "rounds": [
         5,
         -5,
+        -4,
+        null
+      ]
+    },
+    {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "shortName": "R. Gerard",
+      "country": "United States",
+      "position": "T11",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 14,
+      "teeTime": "2026-04-11T16:05Z",
+      "status": "active",
+      "rounds": [
+        0,
+        0,
         -4,
         null
       ]
@@ -341,7 +359,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T19",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
@@ -359,7 +377,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T19",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 5,
@@ -377,7 +395,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T19",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 10,
@@ -395,7 +413,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T19",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 14,
@@ -409,29 +427,11 @@
       ]
     },
     {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "shortName": "R. Gerard",
-      "country": "United States",
-      "position": "T19",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 13,
-      "teeTime": "2026-04-11T16:05Z",
-      "status": "active",
-      "rounds": [
-        0,
-        0,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T19",
+      "position": "T20",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 8,
