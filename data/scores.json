@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T13:55:03.414677+00:00"
+    "lastUpdated": "2026-04-11T13:57:01.760531+00:00"
   },
   "players": [
     {
@@ -841,6 +841,24 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T47",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 2,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        0,
+        null
+      ]
+    },
+    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
@@ -895,42 +913,6 @@
       ]
     },
     {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "shortName": "K. Kitayama",
-      "country": "United States",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 1,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        7,
-        0,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 0,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "scheduled",
-      "rounds": [
-        6,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
@@ -945,24 +927,6 @@
         3,
         1,
         null,
-        null
-      ]
-    },
-    {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T53",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 1,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        1,
         null
       ]
     },
@@ -989,7 +953,7 @@
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
-      "position": "T53",
+      "position": "T52",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 1,
@@ -1053,6 +1017,42 @@
         2,
         3,
         null,
+        null
+      ]
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "shortName": "K. Kitayama",
+      "country": "United States",
+      "position": "T52",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 2,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        7,
+        1,
+        null
+      ]
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T52",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 1,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        1,
         null
       ]
     },
