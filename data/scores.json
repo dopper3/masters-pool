@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:49:01.398860+00:00"
+    "lastUpdated": "2026-04-11T14:51:01.375622+00:00"
   },
   "players": [
     {
@@ -715,6 +715,24 @@
       ]
     },
     {
+      "id": "1225",
+      "name": "Brian Harman",
+      "shortName": "B. Harman",
+      "country": "United States",
+      "position": "T39",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 4,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        7,
+        -3,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
@@ -809,7 +827,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 6,
@@ -823,29 +841,11 @@
       ]
     },
     {
-      "id": "1225",
-      "name": "Brian Harman",
-      "shortName": "B. Harman",
-      "country": "United States",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 3,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        7,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "4513",
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 1,
@@ -863,7 +863,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 2,
@@ -881,7 +881,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 2,
@@ -899,7 +899,7 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 4,
