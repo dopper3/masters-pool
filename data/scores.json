@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:13:01.908702+00:00"
+    "lastUpdated": "2026-04-11T21:15:00.747976+00:00"
   },
   "players": [
     {
@@ -409,24 +409,6 @@
       ]
     },
     {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "shortName": "H. Matsuyama",
-      "country": "Japan",
-      "position": "T20",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 17,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
@@ -517,11 +499,29 @@
       ]
     },
     {
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "shortName": "H. Matsuyama",
+      "country": "Japan",
+      "position": "T28",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 18,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "final",
+      "rounds": [
+        0,
+        -2,
+        0,
+        null
+      ]
+    },
+    {
       "id": "5054388",
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -539,7 +539,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -557,7 +557,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T29",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
