@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:14:59.993899+00:00"
+    "lastUpdated": "2026-04-11T15:17:00.188094+00:00"
   },
   "players": [
     {
@@ -841,24 +841,6 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 5,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
@@ -945,6 +927,24 @@
         4,
         1,
         null,
+        null
+      ]
+    },
+    {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "51",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 6,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        1,
         null
       ]
     },
