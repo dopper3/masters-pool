@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:28:58.392460+00:00"
+    "lastUpdated": "2026-04-11T15:31:00.075571+00:00"
   },
   "players": [
     {
@@ -614,13 +614,13 @@
       "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T15:21Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         1,
-        null,
+        0,
         null
       ]
     },
@@ -722,7 +722,7 @@
       "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -805,11 +805,29 @@
       ]
     },
     {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T43",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 6,
+      "teeTime": "2026-04-11T14:15Z",
+      "status": "active",
+      "rounds": [
+        0,
+        3,
+        0,
+        null
+      ]
+    },
+    {
       "id": "9126",
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 7,
@@ -827,7 +845,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 3,
@@ -845,7 +863,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 4,
@@ -863,10 +881,10 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
@@ -877,29 +895,11 @@
       ]
     },
     {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T45",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 5,
-      "teeTime": "2026-04-11T14:15Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
-        1,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 7,
@@ -917,7 +917,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T45",
+      "position": "T46",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 4,
