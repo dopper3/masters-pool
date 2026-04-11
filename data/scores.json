@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:23:00.589548+00:00"
+    "lastUpdated": "2026-04-11T17:25:00.815430+00:00"
   },
   "players": [
     {
@@ -283,6 +283,24 @@
       ]
     },
     {
+      "id": "9525",
+      "name": "Brian Campbell",
+      "shortName": "B. Campbell",
+      "country": "United States",
+      "position": "T16",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 4,
+      "teeTime": "2026-04-11T16:38Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        1,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "10592",
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
@@ -326,13 +344,13 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T17:11Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         1,
         -3,
-        null,
+        0,
         null
       ]
     },
@@ -434,31 +452,13 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T17:11Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -2,
         0,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9525",
-      "name": "Brian Campbell",
-      "shortName": "B. Campbell",
-      "country": "United States",
-      "position": "T25",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 3,
-      "teeTime": "2026-04-11T16:38Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        1,
-        -1,
+        0,
         null
       ]
     },
@@ -467,7 +467,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -485,7 +485,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 9,
@@ -503,7 +503,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 10,
@@ -521,7 +521,7 @@
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -539,7 +539,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -557,7 +557,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -575,7 +575,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 9,
@@ -593,7 +593,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -614,7 +614,7 @@
       "position": "T34",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T14:04Z",
       "status": "active",
       "rounds": [
@@ -686,7 +686,7 @@
       "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -758,7 +758,7 @@
       "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -783,6 +783,24 @@
         3,
         -1,
         -1,
+        null
+      ]
+    },
+    {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "T44",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 15,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        -2,
         null
       ]
     },
@@ -812,7 +830,7 @@
       "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
@@ -823,29 +841,11 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T46",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 14,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -863,7 +863,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 16,
@@ -881,10 +881,10 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
@@ -899,10 +899,10 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -920,7 +920,7 @@
       "position": "51",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
