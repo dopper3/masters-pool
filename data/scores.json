@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:20:59.587735+00:00"
+    "lastUpdated": "2026-04-11T15:22:59.196285+00:00"
   },
   "players": [
     {
@@ -643,24 +643,6 @@
       ]
     },
     {
-      "id": "4585549",
-      "name": "Marco Penge",
-      "shortName": "M. Penge",
-      "country": "England",
-      "position": "T32",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 0,
-      "teeTime": "2026-04-11T15:10Z",
-      "status": "scheduled",
-      "rounds": [
-        4,
-        -3,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4901368",
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
@@ -668,13 +650,13 @@
       "position": "T32",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T15:10Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         1,
-        null,
+        0,
         null
       ]
     },
@@ -719,7 +701,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 1,
@@ -737,7 +719,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 8,
@@ -755,10 +737,10 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -769,14 +751,32 @@
       ]
     },
     {
+      "id": "4585549",
+      "name": "Marco Penge",
+      "shortName": "M. Penge",
+      "country": "England",
+      "position": "T39",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 1,
+      "teeTime": "2026-04-11T15:10Z",
+      "status": "active",
+      "rounds": [
+        4,
+        -3,
+        1,
+        null
+      ]
+    },
+    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T40",
+      "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -812,7 +812,7 @@
       "position": "T45",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -866,7 +866,7 @@
       "position": "T45",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
