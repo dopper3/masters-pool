@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:05:01.258292+00:00"
+    "lastUpdated": "2026-04-11T15:06:59.365590+00:00"
   },
   "players": [
     {
@@ -848,30 +848,12 @@
       "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
         5,
         -2,
-        0,
-        null
-      ]
-    },
-    {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T44",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 3,
-      "teeTime": "2026-04-11T14:15Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
         0,
         null
       ]
@@ -899,10 +881,10 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T14:04Z",
       "status": "active",
       "rounds": [
@@ -917,7 +899,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 6,
@@ -931,11 +913,29 @@
       ]
     },
     {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T49",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 4,
+      "teeTime": "2026-04-11T14:15Z",
+      "status": "active",
+      "rounds": [
+        0,
+        3,
+        1,
+        null
+      ]
+    },
+    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T50",
+      "position": "T49",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 6,
