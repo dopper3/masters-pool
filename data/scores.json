@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:23:04.634749+00:00"
+    "lastUpdated": "2026-04-11T19:25:00.831510+00:00"
   },
   "players": [
     {
@@ -362,7 +362,7 @@
       "position": "T13",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T18:17Z",
       "status": "active",
       "rounds": [
@@ -380,7 +380,7 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -470,31 +470,13 @@
       "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
         0,
         -3,
         1,
-        null
-      ]
-    },
-    {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "shortName": "J. Spieth",
-      "country": "United States",
-      "position": "T25",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 17,
-      "teeTime": "2026-04-11T15:21Z",
-      "status": "active",
-      "rounds": [
-        0,
-        1,
-        -3,
         null
       ]
     },
@@ -557,7 +539,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -575,7 +557,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 12,
@@ -593,7 +575,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 14,
@@ -611,7 +593,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 17,
@@ -625,11 +607,29 @@
       ]
     },
     {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "shortName": "J. Spieth",
+      "country": "United States",
+      "position": "T30",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 18,
+      "teeTime": "2026-04-11T15:21Z",
+      "status": "final",
+      "rounds": [
+        0,
+        1,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 13,
@@ -794,7 +794,7 @@
       "position": "44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
