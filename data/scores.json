@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:36:59.641083+00:00"
+    "lastUpdated": "2026-04-11T14:38:58.609778+00:00"
   },
   "players": [
     {
@@ -769,24 +769,6 @@
       ]
     },
     {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "shortName": "K. Bradley",
-      "country": "United States",
-      "position": "T39",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 0,
-      "teeTime": "2026-04-11T14:26Z",
-      "status": "scheduled",
-      "rounds": [
-        0,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
@@ -812,13 +794,13 @@
       "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T14:26Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
         -1,
-        null,
+        0,
         null
       ]
     },
@@ -827,7 +809,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T46",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 5,
@@ -845,7 +827,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T46",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 2,
@@ -859,11 +841,29 @@
       ]
     },
     {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "shortName": "K. Bradley",
+      "country": "United States",
+      "position": "T45",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 1,
+      "teeTime": "2026-04-11T14:26Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        1,
+        null
+      ]
+    },
+    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T46",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 1,
@@ -881,10 +881,10 @@
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T46",
+      "position": "T45",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T13:53Z",
       "status": "active",
       "rounds": [
@@ -1100,7 +1100,7 @@
       "position": "T53",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
