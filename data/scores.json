@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T13:41:05.622367+00:00"
+    "lastUpdated": "2026-04-11T13:43:04.217784+00:00"
   },
   "players": [
     {
@@ -841,24 +841,6 @@
       ]
     },
     {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 0,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "scheduled",
-      "rounds": [
-        5,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
@@ -938,13 +920,13 @@
       "position": "T47",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T13:31Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -3,
         7,
-        null,
+        0,
         null
       ]
     },
@@ -981,6 +963,24 @@
         3,
         1,
         null,
+        null
+      ]
+    },
+    {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "54",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 1,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        1,
         null
       ]
     },
