@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:59:01.571982+00:00"
+    "lastUpdated": "2026-04-11T16:01:00.315969+00:00"
   },
   "players": [
     {
@@ -668,7 +668,7 @@
       "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T14:04Z",
       "status": "active",
       "rounds": [
@@ -697,24 +697,6 @@
       ]
     },
     {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "T39",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 1,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        1,
-        null
-      ]
-    },
-    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
@@ -722,7 +704,7 @@
       "position": "T39",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -765,6 +747,42 @@
         0,
         2,
         0,
+        null
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T39",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 8,
+      "teeTime": "2026-04-11T14:15Z",
+      "status": "active",
+      "rounds": [
+        0,
+        3,
+        -1,
+        null
+      ]
+    },
+    {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "T43",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 2,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        2,
         null
       ]
     },
@@ -830,31 +848,13 @@
       "position": "T43",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
         0,
         2,
         1,
-        null
-      ]
-    },
-    {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T43",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 7,
-      "teeTime": "2026-04-11T14:15Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
-        0,
         null
       ]
     },
@@ -895,11 +895,29 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 12,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        0,
+        null
+      ]
+    },
+    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "50",
+      "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 6,
@@ -909,24 +927,6 @@
         -1,
         3,
         2,
-        null
-      ]
-    },
-    {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "51",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 11,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        1,
         null
       ]
     },
@@ -1298,7 +1298,7 @@
       "position": "T53",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T13:31Z",
       "status": "active",
       "rounds": [
