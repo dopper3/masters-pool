@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:20:59.266633+00:00"
+    "lastUpdated": "2026-04-11T17:23:00.589548+00:00"
   },
   "players": [
     {
@@ -560,7 +560,7 @@
       "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -625,24 +625,6 @@
       ]
     },
     {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "shortName": "K. Bradley",
-      "country": "United States",
-      "position": "T34",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 12,
-      "teeTime": "2026-04-11T14:26Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
@@ -665,10 +647,10 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -683,7 +665,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 18,
@@ -701,7 +683,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 6,
@@ -719,7 +701,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -737,10 +719,10 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -755,7 +737,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -773,7 +755,7 @@
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -791,10 +773,10 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T37",
+      "position": "T36",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
@@ -805,11 +787,29 @@
       ]
     },
     {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "shortName": "K. Bradley",
+      "country": "United States",
+      "position": "T44",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 13,
+      "teeTime": "2026-04-11T14:26Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        0,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "45",
+      "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 13,
@@ -848,7 +848,7 @@
       "position": "T46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
