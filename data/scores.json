@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:27:03.023091+00:00"
+    "lastUpdated": "2026-04-11T17:28:59.871634+00:00"
   },
   "players": [
     {
@@ -373,24 +373,6 @@
       ]
     },
     {
-      "id": "4921329",
-      "name": "Michael Brennan",
-      "shortName": "M. Brennan",
-      "country": "United States",
-      "position": "T16",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 1,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -1,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
@@ -467,7 +449,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -485,7 +467,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -503,10 +485,10 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -521,7 +503,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 10,
@@ -535,11 +517,29 @@
       ]
     },
     {
+      "id": "4921329",
+      "name": "Michael Brennan",
+      "shortName": "M. Brennan",
+      "country": "United States",
+      "position": "T25",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 2,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -1,
+        0,
+        null
+      ]
+    },
+    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -557,7 +557,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -575,7 +575,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -593,10 +593,10 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -859,24 +859,6 @@
       ]
     },
     {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "T47",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 16,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
@@ -917,11 +899,29 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "51",
+      "position": "T50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 16,
       "teeTime": "2026-04-11T13:53Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        0,
+        null
+      ]
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T50",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 17,
+      "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
         6,
@@ -1316,7 +1316,7 @@
       "position": "54",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
