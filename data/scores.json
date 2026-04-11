@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T18:43:02.803017+00:00"
+    "lastUpdated": "2026-04-11T18:44:58.804233+00:00"
   },
   "players": [
     {
@@ -200,7 +200,7 @@
       "position": "T10",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -236,7 +236,7 @@
       "position": "T10",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -535,15 +535,15 @@
       ]
     },
     {
-      "id": "4901368",
-      "name": "Matt McCarty",
-      "shortName": "M. McCarty",
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "shortName": "J. Spieth",
       "country": "United States",
       "position": "T28",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 15,
-      "teeTime": "2026-04-11T15:10Z",
+      "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
         0,
@@ -578,7 +578,7 @@
       "position": "T32",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -596,30 +596,12 @@
       "position": "T32",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T15:32Z",
       "status": "active",
       "rounds": [
         -1,
         2,
-        -1,
-        null
-      ]
-    },
-    {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "shortName": "J. Spieth",
-      "country": "United States",
-      "position": "T32",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 14,
-      "teeTime": "2026-04-11T15:21Z",
-      "status": "active",
-      "rounds": [
-        0,
-        1,
         -1,
         null
       ]
@@ -639,6 +621,24 @@
         2,
         -2,
         0,
+        null
+      ]
+    },
+    {
+      "id": "4585549",
+      "name": "Marco Penge",
+      "shortName": "M. Penge",
+      "country": "England",
+      "position": "T32",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 16,
+      "teeTime": "2026-04-11T15:10Z",
+      "status": "active",
+      "rounds": [
+        4,
+        -3,
+        -1,
         null
       ]
     },
@@ -715,19 +715,19 @@
       ]
     },
     {
-      "id": "4585549",
-      "name": "Marco Penge",
-      "shortName": "M. Penge",
-      "country": "England",
+      "id": "4901368",
+      "name": "Matt McCarty",
+      "shortName": "M. McCarty",
+      "country": "United States",
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
-        4,
-        -3,
+        0,
+        1,
         0,
         null
       ]
@@ -1208,7 +1208,7 @@
       "position": "53",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-11T15:32Z",
       "status": "active",
       "rounds": [
