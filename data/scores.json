@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:19:01.856567+00:00"
+    "lastUpdated": "2026-04-11T16:21:00.636451+00:00"
   },
   "players": [
     {
@@ -434,7 +434,7 @@
       "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -452,7 +452,7 @@
       "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -542,7 +542,7 @@
       "position": "T26",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
@@ -560,7 +560,7 @@
       "position": "T26",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T15:54Z",
       "status": "active",
       "rounds": [
@@ -625,6 +625,24 @@
       ]
     },
     {
+      "id": "388",
+      "name": "Adam Scott",
+      "shortName": "A. Scott",
+      "country": "Australia",
+      "position": "T35",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 7,
+      "teeTime": "2026-04-11T14:48Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "1225",
       "name": "Brian Harman",
       "shortName": "B. Harman",
@@ -668,7 +686,7 @@
       "position": "T35",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -715,29 +733,11 @@
       ]
     },
     {
-      "id": "388",
-      "name": "Adam Scott",
-      "shortName": "A. Scott",
-      "country": "Australia",
-      "position": "T40",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 6,
-      "teeTime": "2026-04-11T14:48Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        0,
-        null
-      ]
-    },
-    {
       "id": "4848",
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T40",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 7,
@@ -755,7 +755,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T40",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 9,
@@ -773,7 +773,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T40",
+      "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 8,
@@ -1316,7 +1316,7 @@
       "position": "54",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
