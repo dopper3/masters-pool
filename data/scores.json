@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:55:03.722047+00:00"
+    "lastUpdated": "2026-04-11T20:56:59.569498+00:00"
   },
   "players": [
     {
@@ -182,7 +182,7 @@
       "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T17:11Z",
       "status": "active",
       "rounds": [
@@ -272,7 +272,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
@@ -315,24 +315,6 @@
         0,
         -2,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "4921329",
-      "name": "Michael Brennan",
-      "shortName": "M. Brennan",
-      "country": "United States",
-      "position": "T15",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 16,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -1,
-        -3,
         null
       ]
     },
@@ -380,7 +362,7 @@
       "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T17:11Z",
       "status": "active",
       "rounds": [
@@ -395,7 +377,7 @@
       "name": "Brian Campbell",
       "shortName": "B. Campbell",
       "country": "United States",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -413,7 +395,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -431,15 +413,33 @@
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-11T16:49Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         2,
         -3,
+        -2,
+        null
+      ]
+    },
+    {
+      "id": "4921329",
+      "name": "Michael Brennan",
+      "shortName": "M. Brennan",
+      "country": "United States",
+      "position": "T21",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 17,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -1,
         -2,
         null
       ]
@@ -449,7 +449,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T22",
+      "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 11,
