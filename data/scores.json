@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:17:00.522657+00:00"
+    "lastUpdated": "2026-04-11T20:19:00.808030+00:00"
   },
   "players": [
     {
@@ -67,11 +67,29 @@
       ]
     },
     {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T2",
+      "scoreToPar": -9.0,
+      "scoreDisplay": "-9",
+      "thru": 8,
+      "teeTime": "2026-04-11T18:28Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -3,
+        -4,
+        null
+      ]
+    },
+    {
       "id": "9938",
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T4",
+      "position": "5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 6,
@@ -81,24 +99,6 @@
         -5,
         -1,
         -2,
-        null
-      ]
-    },
-    {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T4",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 7,
-      "teeTime": "2026-04-11T18:28Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        -3,
         null
       ]
     },
@@ -254,7 +254,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T18:28Z",
       "status": "active",
       "rounds": [
@@ -445,6 +445,24 @@
       ]
     },
     {
+      "id": "3792",
+      "name": "Nick Taylor",
+      "shortName": "N. Taylor",
+      "country": "Canada",
+      "position": "T20",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 15,
+      "teeTime": "2026-04-11T16:49Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        0,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -485,7 +503,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -503,7 +521,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 9,
@@ -517,29 +535,11 @@
       ]
     },
     {
-      "id": "3792",
-      "name": "Nick Taylor",
-      "shortName": "N. Taylor",
-      "country": "Canada",
-      "position": "T27",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 14,
-      "teeTime": "2026-04-11T16:49Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        0,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
@@ -557,7 +557,7 @@
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T27",
+      "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 18,
