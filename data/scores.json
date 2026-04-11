@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:19:00.669782+00:00"
+    "lastUpdated": "2026-04-11T17:20:59.266633+00:00"
   },
   "players": [
     {
@@ -499,20 +499,20 @@
       ]
     },
     {
-      "id": "4375972",
-      "name": "Ludvig Åberg",
-      "shortName": "L. Åberg",
-      "country": "Sweden",
+      "id": "4901368",
+      "name": "Matt McCarty",
+      "shortName": "M. McCarty",
+      "country": "United States",
       "position": "T25",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 4,
-      "teeTime": "2026-04-11T16:16Z",
+      "thru": 10,
+      "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
-        2,
+        0,
+        1,
         -2,
-        -1,
         null
       ]
     },
@@ -643,20 +643,20 @@
       ]
     },
     {
-      "id": "4901368",
-      "name": "Matt McCarty",
-      "shortName": "M. McCarty",
-      "country": "United States",
+      "id": "4375972",
+      "name": "Ludvig Åberg",
+      "shortName": "L. Åberg",
+      "country": "Sweden",
       "position": "T34",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 9,
-      "teeTime": "2026-04-11T15:10Z",
+      "thru": 5,
+      "teeTime": "2026-04-11T16:16Z",
       "status": "active",
       "rounds": [
+        2,
+        -2,
         0,
-        1,
-        -1,
         null
       ]
     },
@@ -758,7 +758,7 @@
       "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
@@ -1097,10 +1097,10 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "52",
+      "position": "T52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-11T15:32Z",
       "status": "active",
       "rounds": [
@@ -1143,6 +1143,24 @@
         2,
         5,
         null,
+        null
+      ]
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "shortName": "K. Kitayama",
+      "country": "United States",
+      "position": "T52",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 18,
+      "teeTime": "2026-04-11T13:31Z",
+      "status": "final",
+      "rounds": [
+        -3,
+        7,
+        3,
         null
       ]
     },
@@ -1269,24 +1287,6 @@
         4,
         4,
         null,
-        null
-      ]
-    },
-    {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "shortName": "K. Kitayama",
-      "country": "United States",
-      "position": "53",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 17,
-      "teeTime": "2026-04-11T13:31Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        7,
-        4,
         null
       ]
     },
