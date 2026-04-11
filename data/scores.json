@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:42:59.402218+00:00"
+    "lastUpdated": "2026-04-11T15:44:59.722604+00:00"
   },
   "players": [
     {
@@ -506,7 +506,7 @@
       "position": "T24",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T15:10Z",
       "status": "active",
       "rounds": [
@@ -583,24 +583,6 @@
       "status": "scheduled",
       "rounds": [
         -2,
-        2,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "T33",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 0,
-      "teeTime": "2026-04-11T15:32Z",
-      "status": "scheduled",
-      "rounds": [
-        -1,
         2,
         null,
         null
@@ -697,11 +679,29 @@
       ]
     },
     {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "T38",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 1,
+      "teeTime": "2026-04-11T15:32Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        1,
+        null
+      ]
+    },
+    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 3,
@@ -719,7 +719,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 7,
@@ -737,7 +737,7 @@
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 4,
@@ -776,7 +776,7 @@
       "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-11T14:48Z",
       "status": "active",
       "rounds": [
@@ -794,7 +794,7 @@
       "position": "T42",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
@@ -848,7 +848,7 @@
       "position": "T45",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
@@ -884,7 +884,7 @@
       "position": "T45",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T14:15Z",
       "status": "active",
       "rounds": [
@@ -920,7 +920,7 @@
       "position": "T45",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
