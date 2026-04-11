@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:25:00.815430+00:00"
+    "lastUpdated": "2026-04-11T17:27:03.023091+00:00"
   },
   "players": [
     {
@@ -301,24 +301,6 @@
       ]
     },
     {
-      "id": "10592",
-      "name": "Collin Morikawa",
-      "shortName": "C. Morikawa",
-      "country": "United States",
-      "position": "T16",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 3,
-      "teeTime": "2026-04-11T16:38Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -326,7 +308,7 @@
       "position": "T16",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-11T17:00Z",
       "status": "active",
       "rounds": [
@@ -445,6 +427,24 @@
       ]
     },
     {
+      "id": "8961",
+      "name": "Sepp Straka",
+      "shortName": "S. Straka",
+      "country": "Austria",
+      "position": "T16",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 10,
+      "teeTime": "2026-04-11T15:21Z",
+      "status": "active",
+      "rounds": [
+        1,
+        0,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "10140",
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
@@ -458,6 +458,24 @@
       "rounds": [
         -2,
         0,
+        0,
+        null
+      ]
+    },
+    {
+      "id": "10592",
+      "name": "Collin Morikawa",
+      "shortName": "C. Morikawa",
+      "country": "United States",
+      "position": "T26",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 4,
+      "teeTime": "2026-04-11T16:38Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
         0,
         null
       ]
@@ -567,24 +585,6 @@
         1,
         -1,
         -1,
-        null
-      ]
-    },
-    {
-      "id": "8961",
-      "name": "Sepp Straka",
-      "shortName": "S. Straka",
-      "country": "Austria",
-      "position": "T26",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 9,
-      "teeTime": "2026-04-11T15:21Z",
-      "status": "active",
-      "rounds": [
-        1,
-        0,
-        -2,
         null
       ]
     },
