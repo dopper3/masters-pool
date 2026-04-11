@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:05:00.237809+00:00"
+    "lastUpdated": "2026-04-11T19:07:01.593222+00:00"
   },
   "players": [
     {
@@ -175,29 +175,11 @@
       ]
     },
     {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "shortName": "H. Matsuyama",
-      "country": "Japan",
-      "position": "T10",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 8,
-      "teeTime": "2026-04-11T17:00Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "569",
       "name": "Justin Rose",
       "shortName": "J. Rose",
       "country": "England",
-      "position": "T10",
+      "position": "10",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 1,
@@ -211,11 +193,29 @@
       ]
     },
     {
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "shortName": "H. Matsuyama",
+      "country": "Japan",
+      "position": "T11",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 9,
+      "teeTime": "2026-04-11T17:00Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -2,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "9843",
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T12",
+      "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 8,
@@ -233,10 +233,10 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T12",
+      "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
@@ -247,11 +247,29 @@
       ]
     },
     {
+      "id": "9037",
+      "name": "Matt Fitzpatrick",
+      "shortName": "M. Fitzpatrick",
+      "country": "England",
+      "position": "T11",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 10,
+      "teeTime": "2026-04-11T16:49Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T12",
+      "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 7,
@@ -269,7 +287,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T12",
+      "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 14,
@@ -287,7 +305,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T12",
+      "position": "T11",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 3,
@@ -305,7 +323,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
@@ -323,7 +341,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 7,
@@ -341,7 +359,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 4,
@@ -355,29 +373,11 @@
       ]
     },
     {
-      "id": "9037",
-      "name": "Matt Fitzpatrick",
-      "shortName": "M. Fitzpatrick",
-      "country": "England",
-      "position": "T17",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 9,
-      "teeTime": "2026-04-11T16:49Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
       "shortName": "N. Taylor",
       "country": "Canada",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 10,
@@ -395,7 +395,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 14,
@@ -413,7 +413,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 13,
@@ -431,7 +431,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 8,
@@ -470,7 +470,7 @@
       "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T17:33Z",
       "status": "active",
       "rounds": [
@@ -506,7 +506,7 @@
       "position": "T25",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T17:00Z",
       "status": "active",
       "rounds": [
