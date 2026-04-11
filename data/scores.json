@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:03:05.116834+00:00"
+    "lastUpdated": "2026-04-11T14:05:03.863072+00:00"
   },
   "players": [
     {
@@ -805,6 +805,24 @@
       ]
     },
     {
+      "id": "9780",
+      "name": "Jon Rahm",
+      "shortName": "J. Rahm",
+      "country": "Spain",
+      "position": "T45",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 1,
+      "teeTime": "2026-04-11T13:53Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
@@ -845,7 +863,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 2,
@@ -863,7 +881,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -881,7 +899,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 0,
@@ -895,38 +913,20 @@
       ]
     },
     {
-      "id": "9780",
-      "name": "Jon Rahm",
-      "shortName": "J. Rahm",
-      "country": "Spain",
-      "position": "T47",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 0,
-      "teeTime": "2026-04-11T13:53Z",
-      "status": "scheduled",
-      "rounds": [
-        6,
-        -2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T47",
+      "position": "T48",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-11T13:53Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
         1,
-        null,
+        0,
         null
       ]
     },
