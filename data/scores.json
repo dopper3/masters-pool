@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:32:58.955462+00:00"
+    "lastUpdated": "2026-04-11T14:35:06.599492+00:00"
   },
   "players": [
     {
@@ -895,29 +895,11 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T50",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 1,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T50",
+      "position": "50",
       "scoreToPar": 4.0,
       "scoreDisplay": "+4",
       "thru": 1,
@@ -945,6 +927,24 @@
         4,
         1,
         null,
+        null
+      ]
+    },
+    {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "T51",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 2,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        1,
         null
       ]
     },
@@ -1007,7 +1007,7 @@
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
-      "position": "52",
+      "position": "T51",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 4,
