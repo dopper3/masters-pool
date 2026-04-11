@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T14:56:59.399786+00:00"
+    "lastUpdated": "2026-04-11T14:58:59.029892+00:00"
   },
   "players": [
     {
@@ -787,29 +787,11 @@
       ]
     },
     {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "shortName": "V. Hovland",
-      "country": "Norway",
-      "position": "T39",
-      "scoreToPar": 2.0,
-      "scoreDisplay": "+2",
-      "thru": 1,
-      "teeTime": "2026-04-11T14:26Z",
-      "status": "active",
-      "rounds": [
-        3,
-        -1,
-        0,
-        null
-      ]
-    },
-    {
       "id": "3832",
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 7,
@@ -827,7 +809,7 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 5,
@@ -845,7 +827,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 2,
@@ -863,7 +845,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 3,
@@ -881,7 +863,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T45",
+      "position": "T44",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 3,
@@ -891,6 +873,24 @@
         0,
         3,
         0,
+        null
+      ]
+    },
+    {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "shortName": "V. Hovland",
+      "country": "Norway",
+      "position": "T44",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 2,
+      "teeTime": "2026-04-11T14:26Z",
+      "status": "active",
+      "rounds": [
+        3,
+        -1,
+        1,
         null
       ]
     },
