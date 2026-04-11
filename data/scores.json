@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:51:02.683527+00:00"
+    "lastUpdated": "2026-04-11T20:53:01.197105+00:00"
   },
   "players": [
     {
@@ -175,29 +175,11 @@
       ]
     },
     {
-      "id": "11119",
-      "name": "Wyndham Clark",
-      "shortName": "W. Clark",
-      "country": "United States",
-      "position": "T6",
-      "scoreToPar": -7.0,
-      "scoreDisplay": "-7",
-      "thru": 10,
-      "teeTime": "2026-04-11T18:17Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -4,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "9843",
       "name": "Jake Knapp",
       "shortName": "J. Knapp",
       "country": "United States",
-      "position": "T11",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 15,
@@ -215,7 +197,7 @@
       "name": "Patrick Cantlay",
       "shortName": "P. Cantlay",
       "country": "United States",
-      "position": "T11",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -233,7 +215,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T11",
+      "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 18,
@@ -243,6 +225,24 @@
         1,
         -1,
         -6,
+        null
+      ]
+    },
+    {
+      "id": "11119",
+      "name": "Wyndham Clark",
+      "shortName": "W. Clark",
+      "country": "United States",
+      "position": "T10",
+      "scoreToPar": -6.0,
+      "scoreDisplay": "-6",
+      "thru": 11,
+      "teeTime": "2026-04-11T18:17Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -4,
+        -2,
         null
       ]
     },
