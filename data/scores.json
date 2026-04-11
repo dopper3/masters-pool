@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T15:27:00.821323+00:00"
+    "lastUpdated": "2026-04-11T15:28:58.392460+00:00"
   },
   "players": [
     {
@@ -589,24 +589,6 @@
       ]
     },
     {
-      "id": "1225",
-      "name": "Brian Harman",
-      "shortName": "B. Harman",
-      "country": "United States",
-      "position": "T32",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 6,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        7,
-        -3,
-        -3,
-        null
-      ]
-    },
-    {
       "id": "5054388",
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
@@ -701,7 +683,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 2,
@@ -715,11 +697,29 @@
       ]
     },
     {
+      "id": "1225",
+      "name": "Brian Harman",
+      "shortName": "B. Harman",
+      "country": "United States",
+      "position": "T38",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 7,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        7,
+        -3,
+        -2,
+        null
+      ]
+    },
+    {
       "id": "4848",
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 3,
@@ -737,7 +737,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 1,
@@ -755,7 +755,7 @@
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T39",
+      "position": "T38",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 2,
@@ -801,6 +801,24 @@
         6,
         -2,
         -1,
+        null
+      ]
+    },
+    {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "T45",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-11T14:04Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        0,
         null
       ]
     },
@@ -927,24 +945,6 @@
         4,
         1,
         null,
-        null
-      ]
-    },
-    {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "51",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 6,
-      "teeTime": "2026-04-11T14:04Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        1,
         null
       ]
     },
