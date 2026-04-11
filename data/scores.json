@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T21:21:00.124367+00:00"
+    "lastUpdated": "2026-04-11T21:23:00.689209+00:00"
   },
   "players": [
     {
@@ -36,15 +36,15 @@
       "shortName": "C. Young",
       "country": "United States",
       "position": "2",
-      "scoreToPar": -11.0,
-      "scoreDisplay": "-11",
-      "thru": 14,
+      "scoreToPar": -10.0,
+      "scoreDisplay": "-10",
+      "thru": 15,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
         1,
         -5,
-        -7,
+        -6,
         null
       ]
     },
@@ -53,7 +53,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "3",
+      "position": "T3",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
       "thru": 14,
@@ -71,16 +71,16 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T4",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 14,
+      "position": "T3",
+      "scoreToPar": -9.0,
+      "scoreDisplay": "-9",
+      "thru": 15,
       "teeTime": "2026-04-11T17:55Z",
       "status": "active",
       "rounds": [
         -3,
         -1,
-        -4,
+        -5,
         null
       ]
     },
@@ -89,7 +89,7 @@
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 10,
@@ -107,7 +107,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T4",
+      "position": "T5",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 12,
@@ -254,7 +254,7 @@
       "position": "T14",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-11T17:22Z",
       "status": "active",
       "rounds": [
