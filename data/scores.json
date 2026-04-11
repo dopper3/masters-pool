@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T19:00:58.029731+00:00"
+    "lastUpdated": "2026-04-11T19:03:02.030103+00:00"
   },
   "players": [
     {
@@ -18,15 +18,15 @@
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
       "position": "1",
-      "scoreToPar": -12.0,
-      "scoreDisplay": "-12",
-      "thru": 0,
+      "scoreToPar": -11.0,
+      "scoreDisplay": "-11",
+      "thru": 1,
       "teeTime": "2026-04-11T18:50Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -5,
         -7,
-        null,
+        1,
         null
       ]
     },
@@ -35,7 +35,7 @@
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "2",
+      "position": "T2",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
       "thru": 1,
@@ -49,11 +49,29 @@
       ]
     },
     {
+      "id": "9938",
+      "name": "Sam Burns",
+      "shortName": "S. Burns",
+      "country": "United States",
+      "position": "T2",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 1,
+      "teeTime": "2026-04-11T18:50Z",
+      "status": "active",
+      "rounds": [
+        -5,
+        -1,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "4425906",
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 5,
@@ -71,7 +89,7 @@
       "name": "Haotong Li",
       "shortName": "H. Li",
       "country": "China",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 4,
@@ -85,29 +103,11 @@
       ]
     },
     {
-      "id": "9938",
-      "name": "Sam Burns",
-      "shortName": "S. Burns",
-      "country": "United States",
-      "position": "T3",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 0,
-      "teeTime": "2026-04-11T18:50Z",
-      "status": "scheduled",
-      "rounds": [
-        -5,
-        -1,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 12,
@@ -125,7 +125,7 @@
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 2,
@@ -143,7 +143,7 @@
       "name": "Tommy Fleetwood",
       "shortName": "T. Fleetwood",
       "country": "England",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 2,
@@ -161,7 +161,7 @@
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T3",
+      "position": "T4",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
       "thru": 3,
@@ -445,11 +445,29 @@
       ]
     },
     {
+      "id": "10140",
+      "name": "Xander Schauffele",
+      "shortName": "X. Schauffele",
+      "country": "United States",
+      "position": "T17",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 8,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        0,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "6798",
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 6,
@@ -463,29 +481,11 @@
       ]
     },
     {
-      "id": "10592",
-      "name": "Collin Morikawa",
-      "shortName": "C. Morikawa",
-      "country": "United States",
-      "position": "T25",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 10,
-      "teeTime": "2026-04-11T16:38Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -1,
-        null
-      ]
-    },
-    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 12,
@@ -503,7 +503,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 8,
@@ -521,7 +521,7 @@
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T25",
+      "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 16,
@@ -553,6 +553,24 @@
       ]
     },
     {
+      "id": "10592",
+      "name": "Collin Morikawa",
+      "shortName": "C. Morikawa",
+      "country": "United States",
+      "position": "T30",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 11,
+      "teeTime": "2026-04-11T16:38Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        0,
+        null
+      ]
+    },
+    {
       "id": "5408",
       "name": "Harris English",
       "shortName": "H. English",
@@ -560,7 +578,7 @@
       "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -625,24 +643,6 @@
       ]
     },
     {
-      "id": "10140",
-      "name": "Xander Schauffele",
-      "shortName": "X. Schauffele",
-      "country": "United States",
-      "position": "T30",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 7,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        0,
-        1,
-        null
-      ]
-    },
-    {
       "id": "388",
       "name": "Adam Scott",
       "shortName": "A. Scott",
@@ -650,9 +650,9 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-11T14:48Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         2,
