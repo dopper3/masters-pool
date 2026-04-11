@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T16:38:58.923213+00:00"
+    "lastUpdated": "2026-04-11T16:41:00.776453+00:00"
   },
   "players": [
     {
@@ -380,7 +380,7 @@
       "position": "T20",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-11T16:05Z",
       "status": "active",
       "rounds": [
@@ -614,7 +614,7 @@
       "position": "T30",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
@@ -686,7 +686,7 @@
       "position": "T38",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-11T14:04Z",
       "status": "active",
       "rounds": [
@@ -787,6 +787,24 @@
       ]
     },
     {
+      "id": "4426181",
+      "name": "Sam Stevens",
+      "shortName": "S. Stevens",
+      "country": "United States",
+      "position": "T41",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 8,
+      "teeTime": "2026-04-11T14:48Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        0,
+        null
+      ]
+    },
+    {
       "id": "158",
       "name": "Sergio García",
       "shortName": "S. García",
@@ -812,7 +830,7 @@
       "position": "T41",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-11T14:26Z",
       "status": "active",
       "rounds": [
@@ -827,7 +845,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -845,7 +863,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 8,
@@ -859,29 +877,11 @@
       ]
     },
     {
-      "id": "4426181",
-      "name": "Sam Stevens",
-      "shortName": "S. Stevens",
-      "country": "United States",
-      "position": "T46",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 7,
-      "teeTime": "2026-04-11T14:48Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        1,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 12,
@@ -920,7 +920,7 @@
       "position": "51",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-11T15:32Z",
       "status": "active",
       "rounds": [
