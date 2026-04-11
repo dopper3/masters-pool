@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T17:13:02.544951+00:00"
+    "lastUpdated": "2026-04-11T17:15:00.931243+00:00"
   },
   "players": [
     {
@@ -434,7 +434,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-11T15:21Z",
       "status": "active",
       "rounds": [
@@ -506,7 +506,7 @@
       "position": "T22",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-11T15:43Z",
       "status": "active",
       "rounds": [
@@ -625,24 +625,6 @@
       ]
     },
     {
-      "id": "4848",
-      "name": "Justin Thomas",
-      "shortName": "J. Thomas",
-      "country": "United States",
-      "position": "T33",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": 10,
-      "teeTime": "2026-04-11T14:37Z",
-      "status": "active",
-      "rounds": [
-        0,
-        2,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "4513",
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
@@ -683,7 +665,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -701,7 +683,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 17,
@@ -719,7 +701,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 6,
@@ -737,7 +719,7 @@
       "name": "Jacob Bridgeman",
       "shortName": "J. Bridgeman",
       "country": "United States",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 7,
@@ -751,11 +733,29 @@
       ]
     },
     {
+      "id": "4848",
+      "name": "Justin Thomas",
+      "shortName": "J. Thomas",
+      "country": "United States",
+      "position": "T37",
+      "scoreToPar": 1.0,
+      "scoreDisplay": "+1",
+      "thru": 11,
+      "teeTime": "2026-04-11T14:37Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        -1,
+        null
+      ]
+    },
+    {
       "id": "4585549",
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 9,
@@ -773,7 +773,7 @@
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 10,
@@ -791,7 +791,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 12,
@@ -866,13 +866,31 @@
       "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-11T14:37Z",
       "status": "active",
       "rounds": [
         -1,
         3,
         1,
+        null
+      ]
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus Højgaard",
+      "shortName": "R. Højgaard",
+      "country": "Denmark",
+      "position": "T47",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 16,
+      "teeTime": "2026-04-11T13:42Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        -1,
         null
       ]
     },
@@ -890,24 +908,6 @@
       "rounds": [
         0,
         3,
-        0,
-        null
-      ]
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus Højgaard",
-      "shortName": "R. Højgaard",
-      "country": "Denmark",
-      "position": "50",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 15,
-      "teeTime": "2026-04-11T13:42Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
         0,
         null
       ]
@@ -1316,7 +1316,7 @@
       "position": "54",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-11T13:42Z",
       "status": "active",
       "rounds": [
