@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-11T20:13:01.388808+00:00"
+    "lastUpdated": "2026-04-11T20:15:00.137130+00:00"
   },
   "players": [
     {
@@ -211,6 +211,24 @@
       ]
     },
     {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "shortName": "J. Knapp",
+      "country": "United States",
+      "position": "T12",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 13,
+      "teeTime": "2026-04-11T17:11Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -3,
+        -3,
+        null
+      ]
+    },
+    {
       "id": "1680",
       "name": "Jason Day",
       "shortName": "J. Day",
@@ -251,7 +269,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T14",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 12,
@@ -269,7 +287,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T14",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 16,
@@ -287,7 +305,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T14",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -301,29 +319,11 @@
       ]
     },
     {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "shortName": "J. Knapp",
-      "country": "United States",
-      "position": "T14",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 12,
-      "teeTime": "2026-04-11T17:11Z",
-      "status": "active",
-      "rounds": [
-        1,
-        -3,
-        -2,
-        null
-      ]
-    },
-    {
       "id": "8973",
       "name": "Max Homa",
       "shortName": "M. Homa",
       "country": "United States",
-      "position": "T14",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 12,
@@ -341,7 +341,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T14",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -359,7 +359,7 @@
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
       "country": "United States",
-      "position": "T14",
+      "position": "T15",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
