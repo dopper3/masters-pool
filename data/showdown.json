@@ -195,6 +195,34 @@
         "id": "9478",
         "name": "Scottie Scheffler"
       }
+    },
+    {
+      "source": "form",
+      "displayName": "Tigers Driver",
+      "submittedAt": "2026-04-12T10:58:20+00:00",
+      "pick3": [
+        {
+          "id": "569",
+          "name": "Justin Rose"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "10592",
+          "name": "Collin Morikawa"
+        }
+      ],
+      "champion": {
+        "id": "569",
+        "name": "Justin Rose"
+      },
+      "championGuess": -14,
+      "boomHoles": {
+        "id": "569",
+        "name": "Justin Rose"
+      }
     }
   ],
   "rejected": []
