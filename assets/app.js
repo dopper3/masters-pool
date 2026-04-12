@@ -2128,6 +2128,17 @@ function loadActiveTab() {
 }
 
 function wireTabs() {
+  // Once the showdown submission window closes, hide the picker tab the same
+  // way the main "Make picks" tab is hidden once the tournament starts. The
+  // standings tab keeps showing results, so nobody needs to land on a closed
+  // picker.
+  if (isShowdownPastCutoff()) {
+    const showdownPickTab = document.querySelector(
+      '.tab[data-tab="showdown-pick"]',
+    );
+    if (showdownPickTab) showdownPickTab.hidden = true;
+  }
+
   const tabs = document.querySelectorAll(".tab");
   const panels = document.querySelectorAll(".tab-panel");
   tabs.forEach((tab) =>
