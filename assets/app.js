@@ -2131,18 +2131,22 @@ function wireTabs() {
 // check happens at fire time, not schedule time. Worst case: user switches
 // to a safe tab right before a tick, sees a refresh shortly after — fine.
 function isTabSafeToRefresh(tabId) {
-  // Read-only tabs (no picker state) are always safe.
+  // Read-only tabs (no picker state) are always safe. The "showdown" tab
+  // is in this list because the picker was split into its own tab below;
+  // the showdown tab itself only contains standings + entrant list now.
   if (
     tabId === "pool" ||
+    tabId === "showdown" ||
     tabId === "leaderboard" ||
     tabId === "field" ||
     tabId === "rules"
   ) {
     return true;
   }
-  // Picker tabs are only safe once their cutoff has passed.
+  // Picker tabs are only safe once their cutoff has passed (at which point
+  // the picker UI is replaced by a "submissions closed" card).
   if (tabId === "pick") return isPastCutoff();
-  if (tabId === "showdown") return isShowdownPastCutoff();
+  if (tabId === "showdown-pick") return isShowdownPastCutoff();
   return false;
 }
 
