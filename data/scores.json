@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:53:09.362081+00:00"
+    "lastUpdated": "2026-04-12T15:53:40.433407+00:00"
   },
   "players": [
     {
@@ -1464,7 +1464,7 @@
       "position": "T39",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-12T14:23Z",
       "status": "active",
       "rounds": [
@@ -1480,7 +1480,7 @@
         2,
         4,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -1965,6 +1965,44 @@
       ]
     },
     {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "T50",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 13,
+      "teeTime": "2026-04-12T13:06Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        6,
+        -1
+      ],
+      "r4Holes": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        3,
+        2,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4419142",
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
@@ -2005,7 +2043,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "50",
+      "position": "T50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 12,
@@ -2070,44 +2108,6 @@
       "rounds": [
         3,
         3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "T51",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 12,
-      "teeTime": "2026-04-12T13:06Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        6,
-        0
-      ],
-      "r4Holes": [
-        4,
-        5,
-        4,
-        4,
-        4,
-        3,
-        2,
-        5,
-        4,
-        4,
-        4,
-        4,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ]
@@ -2189,7 +2189,7 @@
       "name": "Sergio García",
       "shortName": "S. García",
       "country": "Spain",
-      "position": "T51",
+      "position": "52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 10,
