@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:43:13.375746+00:00"
+    "lastUpdated": "2026-04-12T15:45:17.744621+00:00"
   },
   "players": [
     {
@@ -1692,7 +1692,7 @@
       "position": "T44",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-12T13:17Z",
       "status": "active",
       "rounds": [
@@ -1712,7 +1712,7 @@
         5,
         4,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -1784,7 +1784,7 @@
         3,
         5,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -1859,7 +1859,7 @@
       "name": "Corey Conners",
       "shortName": "C. Conners",
       "country": "Canada",
-      "position": "T49",
+      "position": "49",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
       "thru": 7,
@@ -1947,44 +1947,6 @@
       ]
     },
     {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "shortName": "K. Kitayama",
-      "country": "United States",
-      "position": "T49",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 10,
-      "teeTime": "2026-04-12T13:17Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        7,
-        3,
-        -2
-      ],
-      "r4Holes": [
-        3,
-        5,
-        4,
-        4,
-        4,
-        3,
-        3,
-        4,
-        4,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4251",
       "name": "Ryan Fox",
       "shortName": "R. Fox",
@@ -2034,6 +1996,44 @@
       "rounds": [
         4,
         2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "shortName": "K. Kitayama",
+      "country": "United States",
+      "position": "50",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 11,
+      "teeTime": "2026-04-12T13:17Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        7,
+        3,
+        -1
+      ],
+      "r4Holes": [
+        3,
+        5,
+        4,
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
