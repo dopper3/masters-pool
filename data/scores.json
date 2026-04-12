@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T13:57:15.602070+00:00"
+    "lastUpdated": "2026-04-12T13:59:08.511671+00:00"
   },
   "players": [
     {
@@ -1799,6 +1799,44 @@
       ]
     },
     {
+      "id": "9780",
+      "name": "Jon Rahm",
+      "shortName": "J. Rahm",
+      "country": "Spain",
+      "position": "48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 2,
+      "teeTime": "2026-04-12T13:28Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        1,
+        -1
+      ],
+      "r4Holes": [
+        4,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "780",
       "name": "Bubba Watson",
       "shortName": "B. Watson",
@@ -1839,10 +1877,10 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T48",
+      "position": "49",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-12T13:17Z",
       "status": "active",
       "rounds": [
@@ -1854,7 +1892,7 @@
       "r4Holes": [
         4,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -1904,44 +1942,6 @@
       "rounds": [
         2,
         3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9780",
-      "name": "Jon Rahm",
-      "shortName": "J. Rahm",
-      "country": "Spain",
-      "position": "T48",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 1,
-      "teeTime": "2026-04-12T13:28Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        1,
-        0
-      ],
-      "r4Holes": [
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ]
@@ -2008,7 +2008,7 @@
       "position": "T50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-12T13:17Z",
       "status": "active",
       "rounds": [
@@ -2020,7 +2020,7 @@
       "r4Holes": [
         3,
         5,
-        null,
+        4,
         null,
         null,
         null,
@@ -2102,7 +2102,7 @@
       "position": "T50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-12T13:28Z",
       "status": "active",
       "rounds": [
@@ -2113,7 +2113,7 @@
       ],
       "r4Holes": [
         5,
-        null,
+        5,
         null,
         null,
         null,
@@ -2549,21 +2549,39 @@
       ]
     },
     {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "shortName": "M. Greyserman",
+      "country": "United States",
+      "position": "-",
+      "scoreToPar": 12.0,
+      "scoreDisplay": "+12",
+      "thru": null,
+      "teeTime": null,
+      "status": "cut",
+      "rounds": [
+        7,
+        5,
+        null,
+        null
+      ]
+    },
+    {
       "id": "1097",
       "name": "Charl Schwartzel",
       "shortName": "C. Schwartzel",
       "country": "South Africa",
       "position": "54",
-      "scoreToPar": 12.0,
-      "scoreDisplay": "+12",
-      "thru": 3,
+      "scoreToPar": 13.0,
+      "scoreDisplay": "+13",
+      "thru": 4,
       "teeTime": "2026-04-12T13:06Z",
       "status": "active",
       "rounds": [
         3,
         1,
         5,
-        3
+        4
       ],
       "r4Holes": [
         4,
@@ -2582,24 +2600,6 @@
         null,
         null,
         null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "shortName": "M. Greyserman",
-      "country": "United States",
-      "position": "-",
-      "scoreToPar": 12.0,
-      "scoreDisplay": "+12",
-      "thru": null,
-      "teeTime": null,
-      "status": "cut",
-      "rounds": [
-        7,
-        5,
         null,
         null
       ]
