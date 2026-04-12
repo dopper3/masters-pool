@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T13:35:08.375767+00:00"
+    "lastUpdated": "2026-04-12T13:37:08.390124+00:00"
   },
   "players": [
     {
@@ -2369,44 +2369,6 @@
       ]
     },
     {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "54",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 1,
-      "teeTime": "2026-04-12T13:06Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        5,
-        0
-      ],
-      "r4Holes": [
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "91",
       "name": "Fred Couples",
       "shortName": "F. Couples",
@@ -2456,6 +2418,44 @@
       "rounds": [
         5,
         4,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "54",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 2,
+      "teeTime": "2026-04-12T13:06Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        5,
+        1
+      ],
+      "r4Holes": [
+        4,
+        6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
