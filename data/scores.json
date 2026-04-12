@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T20:29:09.498186+00:00"
+    "lastUpdated": "2026-04-12T20:31:09.448921+00:00"
   },
   "players": [
     {
@@ -324,7 +324,7 @@
       "position": "T9",
       "scoreToPar": -7.0,
       "scoreDisplay": "-7",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-12T17:52Z",
       "status": "active",
       "rounds": [
@@ -344,7 +344,7 @@
         4,
         3,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -590,7 +590,7 @@
       "position": "T13",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-12T18:03Z",
       "status": "active",
       "rounds": [
@@ -609,7 +609,7 @@
         6,
         5,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -1609,6 +1609,44 @@
       ]
     },
     {
+      "id": "3792",
+      "name": "Nick Taylor",
+      "shortName": "N. Taylor",
+      "country": "Canada",
+      "position": "T40",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 18,
+      "teeTime": "2026-04-12T16:13Z",
+      "status": "final",
+      "rounds": [
+        -1,
+        0,
+        -2,
+        5
+      ],
+      "r4Holes": [
+        4,
+        5,
+        4,
+        3,
+        5,
+        3,
+        4,
+        5,
+        5,
+        5,
+        5,
+        3,
+        5,
+        4,
+        6,
+        3,
+        5,
+        3
+      ]
+    },
+    {
       "id": "5076021",
       "name": "Ryan Gerard",
       "shortName": "R. Gerard",
@@ -1685,49 +1723,11 @@
       ]
     },
     {
-      "id": "3792",
-      "name": "Nick Taylor",
-      "shortName": "N. Taylor",
-      "country": "Canada",
-      "position": "T45",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 17,
-      "teeTime": "2026-04-12T16:13Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        0,
-        -2,
-        6
-      ],
-      "r4Holes": [
-        4,
-        5,
-        4,
-        3,
-        5,
-        3,
-        4,
-        5,
-        5,
-        5,
-        5,
-        3,
-        5,
-        4,
-        6,
-        3,
-        5,
-        null
-      ]
-    },
-    {
       "id": "11382",
       "name": "Sungjae Im",
       "shortName": "S. Im",
       "country": "South Korea",
-      "position": "T45",
+      "position": "46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 18,
