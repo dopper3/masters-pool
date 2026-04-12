@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T17:13:09.099240+00:00"
+    "lastUpdated": "2026-04-12T17:15:13.053814+00:00"
   },
   "players": [
     {
@@ -742,7 +742,7 @@
       "position": "T19",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-12T15:51Z",
       "status": "active",
       "rounds": [
@@ -757,7 +757,7 @@
         4,
         3,
         3,
-        null,
+        3,
         null,
         null,
         null,
@@ -780,7 +780,7 @@
       "position": "T19",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-12T16:46Z",
       "status": "active",
       "rounds": [
@@ -791,7 +791,7 @@
       ],
       "r4Holes": [
         4,
-        null,
+        5,
         null,
         null,
         null,
@@ -887,31 +887,31 @@
       ]
     },
     {
-      "id": "4921329",
-      "name": "Michael Brennan",
-      "shortName": "M. Brennan",
-      "country": "United States",
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "shortName": "H. Matsuyama",
+      "country": "Japan",
       "position": "T23",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 5,
-      "teeTime": "2026-04-12T15:51Z",
+      "thru": 8,
+      "teeTime": "2026-04-12T15:18Z",
       "status": "active",
       "rounds": [
         0,
-        -1,
         -2,
-        0
+        0,
+        -1
       ],
       "r4Holes": [
+        3,
+        5,
+        3,
+        3,
         5,
         4,
         4,
-        3,
         4,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -1077,44 +1077,6 @@
       ]
     },
     {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "shortName": "H. Matsuyama",
-      "country": "Japan",
-      "position": "T27",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 7,
-      "teeTime": "2026-04-12T15:18Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -2,
-        0,
-        0
-      ],
-      "r4Holes": [
-        3,
-        5,
-        3,
-        3,
-        5,
-        4,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -1229,6 +1191,44 @@
       ]
     },
     {
+      "id": "4921329",
+      "name": "Michael Brennan",
+      "shortName": "M. Brennan",
+      "country": "United States",
+      "position": "T27",
+      "scoreToPar": -2.0,
+      "scoreDisplay": "-2",
+      "thru": 6,
+      "teeTime": "2026-04-12T15:51Z",
+      "status": "active",
+      "rounds": [
+        0,
+        -1,
+        -2,
+        1
+      ],
+      "r4Holes": [
+        5,
+        4,
+        4,
+        3,
+        4,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4513",
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
@@ -1260,44 +1260,6 @@
         3,
         4,
         3,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "4901368",
-      "name": "Matt McCarty",
-      "shortName": "M. McCarty",
-      "country": "United States",
-      "position": "T33",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 13,
-      "teeTime": "2026-04-12T14:01Z",
-      "status": "active",
-      "rounds": [
-        0,
-        1,
-        0,
-        -2
-      ],
-      "r4Holes": [
-        3,
-        4,
-        4,
-        4,
-        4,
-        4,
-        3,
-        5,
-        3,
-        4,
-        5,
-        3,
-        4,
-        null,
         null,
         null,
         null,
@@ -1388,7 +1350,7 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-12T13:50Z",
       "status": "active",
       "rounds": [
@@ -1412,7 +1374,7 @@
         3,
         5,
         4,
-        null,
+        5,
         null,
         null,
         null
@@ -1571,6 +1533,44 @@
       ]
     },
     {
+      "id": "4901368",
+      "name": "Matt McCarty",
+      "shortName": "M. McCarty",
+      "country": "United States",
+      "position": "T33",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 13,
+      "teeTime": "2026-04-12T14:01Z",
+      "status": "active",
+      "rounds": [
+        0,
+        1,
+        0,
+        -2
+      ],
+      "r4Holes": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11382",
       "name": "Sungjae Im",
       "shortName": "S. Im",
@@ -1578,7 +1578,7 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-12T15:18Z",
       "status": "active",
       "rounds": [
@@ -1595,7 +1595,7 @@
         4,
         4,
         3,
-        null,
+        5,
         null,
         null,
         null,
@@ -2385,21 +2385,39 @@
       ]
     },
     {
+      "id": "453",
+      "name": "Mike Weir",
+      "shortName": "M. Weir",
+      "country": "Canada",
+      "position": "-",
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": null,
+      "teeTime": null,
+      "status": "cut",
+      "rounds": [
+        9,
+        1,
+        null,
+        null
+      ]
+    },
+    {
       "id": "11253",
       "name": "Rasmus Højgaard",
       "shortName": "R. Højgaard",
       "country": "Denmark",
       "position": "53",
-      "scoreToPar": 9.0,
-      "scoreDisplay": "+9",
-      "thru": 15,
+      "scoreToPar": 10.0,
+      "scoreDisplay": "+10",
+      "thru": 16,
       "teeTime": "2026-04-12T13:39Z",
       "status": "active",
       "rounds": [
         6,
         -2,
         1,
-        4
+        5
       ],
       "r4Holes": [
         5,
@@ -2417,25 +2435,7 @@
         5,
         5,
         5,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "453",
-      "name": "Mike Weir",
-      "shortName": "M. Weir",
-      "country": "Canada",
-      "position": "-",
-      "scoreToPar": 10.0,
-      "scoreDisplay": "+10",
-      "thru": null,
-      "teeTime": null,
-      "status": "cut",
-      "rounds": [
-        9,
-        1,
+        4,
         null,
         null
       ]
