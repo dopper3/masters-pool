@@ -55,6 +55,62 @@
         "id": "3470",
         "name": "Rory McIlroy"
       }
+    },
+    {
+      "source": "form",
+      "displayName": "Pat's mom's wet dream",
+      "submittedAt": "2026-04-12T08:44:34+00:00",
+      "pick3": [
+        {
+          "id": "4587",
+          "name": "Shane Lowry"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "1680",
+          "name": "Jason Day"
+        }
+      ],
+      "champion": {
+        "id": "4587",
+        "name": "Shane Lowry"
+      },
+      "championGuess": -14,
+      "boomHoles": {
+        "id": "9938",
+        "name": "Sam Burns"
+      }
+    },
+    {
+      "source": "form",
+      "displayName": "Pat's mom's first",
+      "submittedAt": "2026-04-12T08:47:55+00:00",
+      "pick3": [
+        {
+          "id": "4425906",
+          "name": "Cameron Young"
+        },
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
+        {
+          "id": "9938",
+          "name": "Sam Burns"
+        }
+      ],
+      "champion": {
+        "id": "3470",
+        "name": "Rory McIlroy"
+      },
+      "championGuess": -16,
+      "boomHoles": {
+        "id": "3470",
+        "name": "Rory McIlroy"
+      }
     }
   ],
   "rejected": []
