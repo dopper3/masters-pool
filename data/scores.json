@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T18:21:15.138392+00:00"
+    "lastUpdated": "2026-04-12T18:23:15.120969+00:00"
   },
   "players": [
     {
@@ -469,44 +469,6 @@
       ]
     },
     {
-      "id": "5579",
-      "name": "Patrick Reed",
-      "shortName": "P. Reed",
-      "country": "United States",
-      "position": "T9",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 3,
-      "teeTime": "2026-04-12T17:30Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -3,
-        0,
-        0
-      ],
-      "r4Holes": [
-        4,
-        5,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -549,10 +511,10 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-12T17:30Z",
       "status": "active",
       "rounds": [
@@ -565,7 +527,45 @@
         3,
         7,
         3,
+        3,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "5579",
+      "name": "Patrick Reed",
+      "shortName": "P. Reed",
+      "country": "United States",
+      "position": "T14",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 4,
+      "teeTime": "2026-04-12T17:30Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        -3,
+        0,
+        1
+      ],
+      "r4Holes": [
+        4,
+        5,
+        4,
+        4,
         null,
         null,
         null,
@@ -587,7 +587,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 17,
@@ -617,7 +617,7 @@
         7,
         2,
         4,
-        null
+        5
       ]
     },
     {
@@ -625,7 +625,7 @@
       "name": "Xander Schauffele",
       "shortName": "X. Schauffele",
       "country": "United States",
-      "position": "T15",
+      "position": "T14",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 6,
@@ -742,7 +742,7 @@
       "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-12T15:07Z",
       "status": "active",
       "rounds": [
@@ -765,7 +765,7 @@
         4,
         3,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -818,7 +818,7 @@
       "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-12T15:51Z",
       "status": "active",
       "rounds": [
@@ -837,7 +837,7 @@
         4,
         5,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -856,7 +856,7 @@
       "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-12T15:51Z",
       "status": "active",
       "rounds": [
@@ -875,7 +875,7 @@
         3,
         4,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -894,7 +894,7 @@
       "position": "T24",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-12T14:45Z",
       "status": "active",
       "rounds": [
@@ -919,7 +919,7 @@
         5,
         4,
         4,
-        null,
+        3,
         null,
         null
       ]
@@ -1388,7 +1388,7 @@
       "position": "T36",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-12T15:07Z",
       "status": "active",
       "rounds": [
@@ -1411,7 +1411,7 @@
         4,
         2,
         5,
-        null,
+        4,
         null,
         null,
         null,
@@ -1616,9 +1616,9 @@
       "position": "T43",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T14:12Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         2,
@@ -1643,7 +1643,7 @@
         5,
         2,
         4,
-        null
+        4
       ]
     },
     {
