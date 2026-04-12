@@ -56,16 +56,16 @@ const SHOWDOWN_CUTOFF = new Date("2026-04-12T14:30:00Z");
 // the entry IDs below with the ones from that URL. The picker auto-hides
 // itself until the base URL is changed away from the placeholder.
 const SHOWDOWN_FORM_PREFILL = {
-  base: "https://docs.google.com/forms/d/e/REPLACE_WITH_SHOWDOWN_FORM_ID/viewform",
-  displayName: "entry.REPLACE_DISPLAY_NAME",
+  base: "https://docs.google.com/forms/d/e/1FAIpQLSdm2WG4HXMnjvFW0hymd9YOzqGJhjZKD0WYg0hbF-6hGwMP6w/viewform",
+  displayName: "entry.226863722",
   pick3: [
-    "entry.REPLACE_PICK_1",
-    "entry.REPLACE_PICK_2",
-    "entry.REPLACE_PICK_3",
+    "entry.1922837663",
+    "entry.173665888",
+    "entry.1149888785",
   ],
-  champion: "entry.REPLACE_CHAMPION",
-  championGuess: "entry.REPLACE_GUESS",
-  boomHoles: "entry.REPLACE_BOOM_HOLES",
+  champion: "entry.646592979",
+  championGuess: "entry.1833718341",
+  boomHoles: "entry.1518741055",
 };
 
 function isShowdownConfigured() {
