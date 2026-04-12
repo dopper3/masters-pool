@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T22:03:07.614491+00:00"
+    "lastUpdated": "2026-04-12T22:05:08.304949+00:00"
   },
   "players": [
     {
@@ -58,7 +58,7 @@
       "position": "T2",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-12T18:03Z",
       "status": "active",
       "rounds": [
@@ -83,7 +83,7 @@
         5,
         4,
         4,
-        null,
+        3,
         null,
         null
       ]
@@ -96,7 +96,7 @@
       "position": "T2",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-12T17:52Z",
       "status": "active",
       "rounds": [
@@ -286,7 +286,7 @@
       "position": "T7",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-12T18:14Z",
       "status": "active",
       "rounds": [
@@ -310,7 +310,7 @@
         3,
         4,
         3,
-        null,
+        5,
         null,
         null,
         null
@@ -735,6 +735,44 @@
       ]
     },
     {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T18",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 15,
+      "teeTime": "2026-04-12T18:14Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -3,
+        -4,
+        5
+      ],
+      "r4Holes": [
+        5,
+        4,
+        4,
+        4,
+        6,
+        3,
+        4,
+        5,
+        4,
+        4,
+        6,
+        4,
+        4,
+        5,
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
@@ -777,7 +815,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -815,7 +853,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -849,49 +887,11 @@
       ]
     },
     {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T21",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 14,
-      "teeTime": "2026-04-12T18:14Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        -4,
-        6
-      ],
-      "r4Holes": [
-        5,
-        4,
-        4,
-        4,
-        6,
-        3,
-        4,
-        5,
-        4,
-        4,
-        6,
-        4,
-        4,
-        5,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11119",
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
