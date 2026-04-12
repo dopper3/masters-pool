@@ -3,7 +3,8 @@
 A tiny, self-hosted fantasy pool for the Masters Tournament. Pick six golfers,
 your best four scores each round count, lowest team total wins. Friends submit
 entries through a Google Form; scores refresh automatically every ~15 minutes
-via GitHub Actions.
+via GitHub Actions. A **Sunday Showdown** adds three R4-only side contests
+(Pick 3, Champion Call, Boom Holes) via a second form.
 
 Everything is static — there is no server. The site lives on GitHub Pages and
 the data lives in JSON files committed to the repo.
@@ -181,10 +182,8 @@ match if you change one).
    Run workflow → main`. Any test entries already in the sheet show up on
    the Sunday Showdown tab.
 
-The poll workflow ships with its scheduled cron commented out — uncomment
-the `schedule:` block in `.github/workflows/poll-showdown.yml` once you've
-verified the form works end-to-end. The default schedule polls every 2
-minutes from Saturday 22:00 UTC through the Sunday cutoff.
+The poll workflow's cron is active — it polls every 2 minutes from
+Saturday 22:00 UTC through the Sunday cutoff (14:30 UTC).
 
 ### How Boom Holes scoring gets its data
 
@@ -212,15 +211,26 @@ These constants live at the top of `assets/app.js` if you want to tweak them.
 - **`update-scores.yml`** runs on cron during Masters week (Apr 9–13 2026)
   every 15 minutes. It runs `scripts/fetch_scores.py`, which hits ESPN's
   public golf leaderboard endpoint and rewrites `data/scores.json`. If
-  scores changed it commits and pushes. The site reads `scores.json` on
+  scores changed it commits and pushes. The script also fetches per-hole
+  R4 strokes from ESPN's `linescores` endpoint for Boom Holes scoring
+  (stored as `r4Holes` on each player). The site reads `scores.json` on
   every page load (with cache busting) and re-renders.
 
-- **`poll-form.yml`** runs every 5 minutes during the same window. It runs
-  `scripts/poll_form.py`, which fetches the published-CSV form responses,
-  validates picks against the current field, dedups by display name, and
-  rewrites `data/entries.json`. The poller is **stateless** — every run
-  rebuilds the form portion of the file from the current sheet contents,
-  so deleting a row in the sheet eventually removes it from the leaderboard.
+- **`poll-form.yml`** runs every 5 minutes during the main entry window
+  (currently disabled — cron commented out since the main pool deadline
+  has passed). It runs `scripts/poll_form.py`, which fetches the
+  published-CSV form responses, validates picks against the current field,
+  dedups by display name, and rewrites `data/entries.json`. The poller is
+  **stateless** — every run rebuilds the form portion of the file from the
+  current sheet contents, so deleting a row in the sheet eventually removes
+  it from the leaderboard.
+
+- **`poll-showdown.yml`** runs every 2 minutes from Saturday 22:00 UTC
+  through Sunday 14:30 UTC (the showdown submission window). It runs
+  `scripts/poll_showdown.py`, which fetches the showdown Google Form CSV,
+  validates picks against cut survivors, dedups by display name, and writes
+  `data/showdown.json`. Entries that fail validation appear in a "Pending
+  fixes" section on the site with detailed error messages.
 
 GitHub Actions cron is best-effort and may be delayed several minutes when
 GitHub is busy — fine for golf, not fine for stock trading.
@@ -229,6 +239,7 @@ GitHub is busy — fine for golf, not fine for stock trading.
 
 - **Manual score refresh:** `Actions → Update Masters scores → Run workflow`.
 - **Manual form poll:** `Actions → Poll Google Form → Run workflow`.
+- **Manual showdown poll:** `Actions → Poll Sunday Showdown form → Run workflow`.
 - **ESPN endpoint changes:** edit `scripts/fetch_scores.py`. The shape it
   expects is documented in the parsing functions. Worst case, write the
   fields you care about into `data/scores.json` by hand and commit — the
@@ -237,22 +248,50 @@ GitHub is busy — fine for golf, not fine for stock trading.
   section on the site, or open the latest poll workflow run. Names are
   matched against the **Field** tab — case-insensitive, accent-insensitive,
   unique substrings and unique last names work, but typos don't fuzzy-match.
+  The same applies to showdown picks, which match against cut survivors only.
 
 ## Tweakable constants
 
 | Where | What |
 | --- | --- |
 | `assets/app.js` top | `PENALTY_WD`, `PENALTY_NULL`, `BEST_OF`, `PICKS_REQUIRED`, `SUBMISSION_CUTOFF` |
+| `assets/app.js` top | `PICK3_REQUIRED`, `BOOM_HOLES`, `SHOWDOWN_PENALTY_WD`, `FEES`, `SHOWDOWN_CUTOFF` |
 | `scripts/poll_form.py` top | `SUBMISSION_CUTOFF` (must match `app.js`) |
+| `scripts/poll_showdown.py` top | `SUBMISSION_CUTOFF` (must match `SHOWDOWN_CUTOFF` in `app.js`) |
 | `.github/workflows/update-scores.yml` | Cron schedule for score fetch |
-| `.github/workflows/poll-form.yml` | Cron schedule for form poll |
-| `scripts/fetch_scores.py` | ESPN endpoint, status mapping |
+| `.github/workflows/poll-form.yml` | Cron schedule for form poll (currently disabled) |
+| `.github/workflows/poll-showdown.yml` | Cron schedule for showdown poll |
+| `scripts/fetch_scores.py` | ESPN endpoint, status mapping, R4 hole-by-hole fetch |
 
-> **Submission deadline:** the cutoff is enforced in two places — the picker
-> UI hides itself after the deadline, and the poller drops any form rows with
-> a `submittedAt` timestamp at or after the cutoff. Both constants must match
-> if you change one. The default is `2026-04-09T14:00:00Z` (10 AM EDT on
-> Thursday April 9, 2026).
+> **Submission deadlines:** cutoffs are enforced in two places each — the
+> picker UI hides itself after the deadline, and the poller drops any form
+> rows with a `submittedAt` timestamp at or after the cutoff. Both constants
+> must match if you change one.
+>
+> - **Main pool:** `2026-04-09T14:00:00Z` (10 AM EDT, Thursday April 9)
+> - **Sunday Showdown:** `2026-04-12T14:30:00Z` (10:30 AM EDT, Sunday April 12)
+
+## Auto-refresh
+
+The site auto-refreshes every 30 seconds on read-only tabs (Pool, Showdown,
+Leaderboard, Field, Rules, Results). Refresh is suppressed when:
+
+- The user is on a picker tab (Make picks / Make Showdown picks) before its
+  cutoff, to avoid losing in-progress selections.
+- A player scorecard modal is open.
+
+## Results & settlement
+
+The Results tab computes payouts across all four contests (main pool + three
+showdown), calculates each player's net balance (entry fees paid minus prizes
+won), and shows the minimum set of transfers needed to settle up.
+
+| Contest | Entry fee | Payout |
+| --- | --- | --- |
+| Main Pool | $20 | 70/30 split (1st/2nd) |
+| Pick 3 | $20 | Winner-take-all |
+| Champion Call | $10 | Winner-take-all (full refund if no eligible winner) |
+| Boom Holes | $10 | Winner-take-all |
 
 ## Local preview
 
