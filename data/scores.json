@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T19:35:07.216316+00:00"
+    "lastUpdated": "2026-04-12T19:37:05.536718+00:00"
   },
   "players": [
     {
@@ -210,7 +210,7 @@
       "position": "6",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-12T18:14Z",
       "status": "active",
       "rounds": [
@@ -225,7 +225,7 @@
         5,
         3,
         4,
-        null,
+        3,
         null,
         null,
         null,
@@ -422,44 +422,6 @@
         5,
         4,
         3,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10592",
-      "name": "Collin Morikawa",
-      "shortName": "C. Morikawa",
-      "country": "United States",
-      "position": "T12",
-      "scoreToPar": -5.0,
-      "scoreDisplay": "-5",
-      "thru": 8,
-      "teeTime": "2026-04-12T17:30Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -4,
-        0
-      ],
-      "r4Holes": [
-        3,
-        7,
-        3,
-        3,
-        4,
-        3,
-        4,
-        5,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -666,7 +628,7 @@
       "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-12T17:30Z",
       "status": "active",
       "rounds": [
@@ -684,7 +646,7 @@
         3,
         4,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -735,11 +697,49 @@
       ]
     },
     {
+      "id": "10592",
+      "name": "Collin Morikawa",
+      "shortName": "C. Morikawa",
+      "country": "United States",
+      "position": "T19",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 9,
+      "teeTime": "2026-04-12T17:30Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -4,
+        1
+      ],
+      "r4Holes": [
+        3,
+        7,
+        3,
+        3,
+        4,
+        3,
+        4,
+        5,
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4375972",
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T20",
+      "position": "T19",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -777,7 +777,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T20",
+      "position": "T19",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -815,7 +815,7 @@
       "name": "Michael Brennan",
       "shortName": "M. Brennan",
       "country": "United States",
-      "position": "T20",
+      "position": "T19",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 14,
@@ -853,7 +853,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T20",
+      "position": "T19",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -1730,9 +1730,9 @@
       "position": "46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T15:18Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         4,
         -3,
@@ -1757,7 +1757,7 @@
         5,
         3,
         4,
-        null
+        4
       ]
     },
     {
