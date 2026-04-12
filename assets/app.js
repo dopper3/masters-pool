@@ -2729,6 +2729,9 @@ function wireTabs() {
 // check happens at fire time, not schedule time. Worst case: user switches
 // to a safe tab right before a tick, sees a refresh shortly after — fine.
 function isTabSafeToRefresh(tabId) {
+  // Never refresh while a scorecard modal is open — the user is reading it.
+  if (document.body.classList.contains("scorecard-open")) return false;
+
   // Read-only tabs (no picker state) are always safe. The "showdown" tab
   // is in this list because the picker was split into its own tab below;
   // the showdown tab itself only contains standings + entrant list now.
