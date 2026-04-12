@@ -1,4 +1,33 @@
 {
-  "entries": [],
+  "entries": [
+    {
+      "source": "form",
+      "displayName": "Pat's Mom In the Morning",
+      "submittedAt": "2026-04-11T22:09:14+00:00",
+      "pick3": [
+        {
+          "id": "9938",
+          "name": "Sam Burns"
+        },
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
+        {
+          "id": "4425906",
+          "name": "Cameron Young"
+        }
+      ],
+      "champion": {
+        "id": "4425906",
+        "name": "Cameron Young"
+      },
+      "championGuess": -10,
+      "boomHoles": {
+        "id": "4587",
+        "name": "Shane Lowry"
+      }
+    }
+  ],
   "rejected": []
 }
