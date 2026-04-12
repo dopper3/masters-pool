@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T21:39:08.898777+00:00"
+    "lastUpdated": "2026-04-12T21:41:10.596839+00:00"
   },
   "players": [
     {
@@ -134,7 +134,7 @@
       "position": "T2",
       "scoreToPar": -10.0,
       "scoreDisplay": "-10",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-12T17:41Z",
       "status": "active",
       "rounds": [
@@ -160,7 +160,7 @@
         4,
         5,
         3,
-        null,
+        4,
         null
       ]
     },
@@ -210,9 +210,9 @@
       "position": "T6",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T17:30Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         2,
         -3,
@@ -237,7 +237,7 @@
         4,
         2,
         4,
-        null
+        4
       ]
     },
     {
@@ -438,7 +438,7 @@
       "position": "12",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-12T17:41Z",
       "status": "active",
       "rounds": [
@@ -464,7 +464,7 @@
         4,
         4,
         3,
-        null,
+        4,
         null
       ]
     },
@@ -621,11 +621,49 @@
       ]
     },
     {
+      "id": "5579",
+      "name": "Patrick Reed",
+      "shortName": "P. Reed",
+      "country": "United States",
+      "position": "T13",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 18,
+      "teeTime": "2026-04-12T17:30Z",
+      "status": "final",
+      "rounds": [
+        -3,
+        -3,
+        0,
+        1
+      ],
+      "r4Holes": [
+        4,
+        5,
+        4,
+        4,
+        5,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        7,
+        3,
+        4,
+        3,
+        5,
+        3
+      ]
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
       "country": "England",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -663,7 +701,7 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
@@ -697,49 +735,11 @@
       ]
     },
     {
-      "id": "5579",
-      "name": "Patrick Reed",
-      "shortName": "P. Reed",
-      "country": "United States",
-      "position": "T17",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 17,
-      "teeTime": "2026-04-12T17:30Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        -3,
-        0,
-        2
-      ],
-      "r4Holes": [
-        4,
-        5,
-        4,
-        4,
-        5,
-        3,
-        4,
-        4,
-        4,
-        4,
-        4,
-        3,
-        7,
-        3,
-        4,
-        3,
-        5,
-        null
-      ]
-    },
-    {
       "id": "4587",
       "name": "Shane Lowry",
       "shortName": "S. Lowry",
       "country": "Ireland",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 13,
@@ -777,7 +777,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T17",
+      "position": "T18",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
       "thru": 18,
