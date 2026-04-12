@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T20:27:10.339224+00:00"
+    "lastUpdated": "2026-04-12T20:29:09.498186+00:00"
   },
   "players": [
     {
@@ -55,7 +55,7 @@
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "United States",
-      "position": "2",
+      "position": "T2",
       "scoreToPar": -11.0,
       "scoreDisplay": "-11",
       "thru": 8,
@@ -93,17 +93,17 @@
       "name": "Rory McIlroy",
       "shortName": "R. McIlroy",
       "country": "Northern Ireland",
-      "position": "T3",
-      "scoreToPar": -10.0,
-      "scoreDisplay": "-10",
-      "thru": 7,
+      "position": "T2",
+      "scoreToPar": -11.0,
+      "scoreDisplay": "-11",
+      "thru": 8,
       "teeTime": "2026-04-12T18:25Z",
       "status": "active",
       "rounds": [
         -5,
         -7,
         1,
-        1
+        0
       ],
       "r4Holes": [
         4,
@@ -113,7 +113,7 @@
         4,
         4,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -131,7 +131,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "United States",
-      "position": "T2",
+      "position": "T4",
       "scoreToPar": -10.0,
       "scoreDisplay": "-10",
       "thru": 11,
@@ -169,7 +169,7 @@
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
       "country": "England",
-      "position": "T2",
+      "position": "T4",
       "scoreToPar": -10.0,
       "scoreDisplay": "-10",
       "thru": 16,
@@ -400,7 +400,7 @@
       "position": "T11",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-12T17:08Z",
       "status": "active",
       "rounds": [
@@ -423,7 +423,7 @@
         4,
         3,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -735,44 +735,6 @@
       ]
     },
     {
-      "id": "4375972",
-      "name": "Ludvig Åberg",
-      "shortName": "L. Åberg",
-      "country": "Sweden",
-      "position": "T20",
-      "scoreToPar": -4.0,
-      "scoreDisplay": "-4",
-      "thru": 16,
-      "teeTime": "2026-04-12T16:24Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -2,
-        -3,
-        -1
-      ],
-      "r4Holes": [
-        3,
-        4,
-        3,
-        3,
-        4,
-        3,
-        4,
-        5,
-        4,
-        4,
-        4,
-        5,
-        5,
-        4,
-        4,
-        4,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "shortName": "M. Fitzpatrick",
@@ -780,9 +742,9 @@
       "position": "T20",
       "scoreToPar": -4.0,
       "scoreDisplay": "-4",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T16:13Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         2,
         -3,
@@ -807,7 +769,7 @@
         6,
         3,
         4,
-        null
+        4
       ]
     },
     {
@@ -891,7 +853,7 @@
       "name": "Ben Griffin",
       "shortName": "B. Griffin",
       "country": "United States",
-      "position": "T24",
+      "position": "T23",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 14,
@@ -929,7 +891,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T24",
+      "position": "T23",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -960,6 +922,44 @@
         2,
         4,
         3
+      ]
+    },
+    {
+      "id": "4375972",
+      "name": "Ludvig Åberg",
+      "shortName": "L. Åberg",
+      "country": "Sweden",
+      "position": "T23",
+      "scoreToPar": -3.0,
+      "scoreDisplay": "-3",
+      "thru": 17,
+      "teeTime": "2026-04-12T16:24Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -2,
+        -3,
+        0
+      ],
+      "r4Holes": [
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        null
       ]
     },
     {
@@ -1008,7 +1008,7 @@
       "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-12T16:24Z",
       "status": "active",
       "rounds": [
@@ -1034,7 +1034,7 @@
         4,
         5,
         3,
-        null,
+        4,
         null
       ]
     },
