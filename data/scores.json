@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T16:53:13.407363+00:00"
+    "lastUpdated": "2026-04-12T16:55:13.555906+00:00"
   },
   "players": [
     {
@@ -856,7 +856,7 @@
       "position": "T23",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 1,
+      "thru": 2,
       "teeTime": "2026-04-12T16:24Z",
       "status": "active",
       "rounds": [
@@ -867,7 +867,7 @@
       ],
       "r4Holes": [
         4,
-        null,
+        5,
         null,
         null,
         null,
@@ -1122,7 +1122,7 @@
       "position": "T29",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-12T15:18Z",
       "status": "active",
       "rounds": [
@@ -1138,7 +1138,7 @@
         3,
         5,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -1647,11 +1647,49 @@
       ]
     },
     {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "shortName": "S. Im",
+      "country": "South Korea",
+      "position": "T36",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 7,
+      "teeTime": "2026-04-12T15:18Z",
+      "status": "active",
+      "rounds": [
+        4,
+        -3,
+        -3,
+        2
+      ],
+      "r4Holes": [
+        6,
+        5,
+        4,
+        3,
+        4,
+        4,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4426181",
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T44",
+      "position": "45",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 8,
@@ -1672,44 +1710,6 @@
         3,
         3,
         5,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "shortName": "S. Im",
-      "country": "South Korea",
-      "position": "T44",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 6,
-      "teeTime": "2026-04-12T15:18Z",
-      "status": "active",
-      "rounds": [
-        4,
-        -3,
-        -3,
-        3
-      ],
-      "r4Holes": [
-        6,
-        5,
-        4,
-        3,
-        4,
-        4,
-        null,
-        null,
         null,
         null,
         null,
