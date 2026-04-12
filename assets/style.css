@@ -202,6 +202,172 @@ body {
   border-bottom-color: var(--green-primary);
 }
 
+/* ---------- Results / Settle-up tab ---------- */
+.results-header {
+  margin-bottom: 20px;
+}
+.results-header h2 {
+  margin: 0 0 6px;
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--green-deep);
+  letter-spacing: 0.6px;
+}
+.results-section {
+  background: white;
+  border: 1px solid var(--green-line);
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+}
+.results-section-title {
+  margin: 0 0 12px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--green-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.results-contest-card {
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--green-line);
+}
+.results-contest-card:last-child {
+  border-bottom: none;
+  padding-bottom: 2px;
+}
+.results-contest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 2px;
+}
+.results-contest-name {
+  font-weight: 700;
+  color: var(--text);
+}
+.results-contest-pot {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--green-primary);
+}
+.results-contest-meta {
+  margin: 0 0 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.results-winners {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: var(--text);
+}
+.results-winners .amount {
+  font-weight: 700;
+  color: var(--green-primary);
+}
+.results-winners.refund {
+  color: var(--muted);
+  font-style: italic;
+}
+.results-winners.pending {
+  color: var(--muted);
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.results-table th,
+.results-table td {
+  padding: 8px 10px;
+  text-align: left;
+}
+.results-table th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+  border-bottom: 1px solid var(--green-line);
+}
+.results-table td.num,
+.results-table th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.results-table tbody tr {
+  border-bottom: 1px solid var(--green-line);
+}
+.results-table tbody tr:last-child {
+  border-bottom: none;
+}
+.results-table tr.credit td.num {
+  color: var(--green-primary);
+}
+.results-table tr.debit td.num {
+  color: var(--red);
+}
+
+.results-txns {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+}
+.results-txns li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--green-line);
+  border-radius: 5px;
+  margin-bottom: 6px;
+  background: var(--cream);
+  font-size: 14px;
+}
+.results-txns li:last-child {
+  margin-bottom: 0;
+}
+.results-txns .from {
+  font-weight: 700;
+  color: var(--red);
+}
+.results-txns .to {
+  font-weight: 700;
+  color: var(--green-primary);
+}
+.results-txns .arrow {
+  color: var(--muted);
+}
+.results-txns .amount {
+  margin-left: auto;
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--green-deep);
+}
+
+/* Small gold pill for entry fees — shown inline next to each contest rule
+   and on the main pool hint. Uses the gold palette to stand out without
+   shouting. */
+.fee-tag {
+  display: inline-block;
+  background: var(--gold-soft);
+  color: var(--green-deep);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.4px;
+  border: 1px solid var(--gold-bright);
+  margin-left: 4px;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
 main {
   padding: 24px 0 60px;
 }

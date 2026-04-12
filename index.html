@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style.css?v=19" />
+    <link rel="stylesheet" href="assets/style.css?v=21" />
   </head>
   <body>
     <header class="site-header">
@@ -71,6 +71,7 @@
       <button class="tab" data-tab="pick" hidden>Make picks</button>
       <button class="tab" data-tab="showdown">Sunday Showdown</button>
       <button class="tab" data-tab="showdown-pick">Make Showdown picks</button>
+      <button class="tab" data-tab="results">Results</button>
       <button class="tab" data-tab="leaderboard">Tournament leaderboard</button>
       <button class="tab" data-tab="field" hidden>The field</button>
       <button class="tab" data-tab="rules" hidden>Rules &amp; how to enter</button>
@@ -84,6 +85,7 @@
           Lowest combined to-par for your <strong>best 4 of 6</strong> picks.
           Picks shaded in green are the four currently counting toward your team
           total; greyed picks are dropped.
+          <span class="fee-tag">$20 entry</span>
         </p>
         <div id="pool-standings"></div>
         <div id="pending-fixes"></div>
@@ -147,6 +149,10 @@
 
       <section id="tab-showdown-pick" class="tab-panel">
         <div id="showdown-picker"></div>
+      </section>
+
+      <section id="tab-results" class="tab-panel">
+        <div id="results"></div>
       </section>
 
       <section id="tab-leaderboard" class="tab-panel">
@@ -226,6 +232,6 @@
       <p id="last-updated"></p>
     </footer>
 
-    <script src="assets/app.js?v=19"></script>
+    <script src="assets/app.js?v=21"></script>
   </body>
 </html>

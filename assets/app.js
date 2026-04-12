@@ -42,6 +42,15 @@ const PICK3_REQUIRED = 3;
 const BOOM_HOLES = [12, 13, 15, 16, 18];
 const SHOWDOWN_PENALTY_WD = 10;
 
+// Entry fees for the Results tab (settlement math). Change these to update
+// the per-contest pot size and per-player settlement calculations.
+const FEES = {
+  mainPool: 20,
+  pick3: 20,
+  championCall: 10,
+  boomHoles: 10,
+};
+
 // Submission deadline for the showdown. Must match SUBMISSION_CUTOFF in
 // scripts/poll_showdown.py. 10:30 AM Eastern (EDT) on Sunday April 12, 2026
 // == 14:30 UTC April 12, 2026.
@@ -987,14 +996,16 @@ function renderShowdownExplainer() {
   ul.appendChild(
     el("li", {}, [
       el("strong", {}, "Pick 3: "),
-      "sum of three R4 to-pars. No drops. Lowest wins. Tiebreak: full R4 of pick #1.",
+      "sum of three R4 to-pars. No drops. Lowest wins. Tiebreak: full R4 of pick #1. ",
+      el("span", { class: "fee-tag" }, "$20 entry"),
     ]),
   );
   ul.appendChild(
     el("li", {}, [
       el("strong", {}, "Champion Call: "),
       "pick the outright winner + a winning to-par guess. Closest correct guess " +
-        "without going over (Price-Is-Right rules) wins.",
+        "without going over (Price-Is-Right rules) wins. ",
+      el("span", { class: "fee-tag" }, "$10 entry"),
     ]),
   );
   ul.appendChild(
@@ -1002,7 +1013,8 @@ function renderShowdownExplainer() {
       el("strong", {}, "Boom Holes: "),
       "one golfer's combined strokes-to-par on holes " +
         BOOM_HOLES.join(", ") +
-        ". Lowest wins. Tiebreak: full R4 to-par.",
+        ". Lowest wins. Tiebreak: full R4 to-par. ",
+      el("span", { class: "fee-tag" }, "$10 entry"),
     ]),
   );
   ul.appendChild(
@@ -1377,6 +1389,423 @@ function renderShowdownRejected(rejected) {
     wrap.appendChild(card);
   }
   return wrap;
+}
+
+// ---------- results: fees + payouts + settlement ----------
+// Computes each contest's pot, finds winners, rolls them up into a per-player
+// balance, and solves the min-transactions settlement problem. Everything is
+// done client-side on top of existing scoring functions — there's no separate
+// data file for this, it's pure derived state.
+//
+// Settlement approach: classic greedy (largest creditor ↔ largest debtor
+// repeatedly). For N people with nonzero net, this produces at most N-1
+// transfers. Not provably optimal for pathological inputs, but optimal for
+// the kind of numbers this pool produces.
+
+function normName(s) {
+  // Canonical key for matching display names across contests. Case/space
+  // insensitive — keep the first-seen original for display.
+  return (s || "").trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function computeMainPoolResults(entries, byId) {
+  if (!entries.length) {
+    return {
+      label: "Main pool",
+      entries: [],
+      winners: [],
+      pot: 0,
+      perWinner: 0,
+      fee: FEES.mainPool,
+      refunded: false,
+    };
+  }
+  const teams = entries.map((e) => computeTeam(e, byId));
+  teams.sort((a, b) => a.total - b.total);
+  const winningTotal = teams[0].total;
+  const winners = teams
+    .filter((t) => t.total === winningTotal)
+    .map((t) => t.displayName);
+  const pot = teams.length * FEES.mainPool;
+  return {
+    label: "Main pool",
+    entries: teams.map((t) => t.displayName),
+    winners,
+    pot,
+    perWinner: pot / winners.length,
+    fee: FEES.mainPool,
+    refunded: false,
+  };
+}
+
+function computePick3Results(entries, byId) {
+  if (!entries.length) {
+    return {
+      label: "Sunday Showdown: Pick 3",
+      entries: [],
+      winners: [],
+      pot: 0,
+      perWinner: 0,
+      fee: FEES.pick3,
+      refunded: false,
+    };
+  }
+  const teams = entries.map((e) => computeShowdownPick3(e, byId));
+  teams.sort((a, b) => {
+    if (a.total !== b.total) return a.total - b.total;
+    return a.tiebreak - b.tiebreak;
+  });
+  const wt = teams[0].total;
+  const wtb = teams[0].tiebreak;
+  const winners = teams
+    .filter((t) => t.total === wt && t.tiebreak === wtb)
+    .map((t) => t.displayName);
+  const pot = entries.length * FEES.pick3;
+  return {
+    label: "Sunday Showdown: Pick 3",
+    entries: entries.map((e) => e.displayName),
+    winners,
+    pot,
+    perWinner: pot / winners.length,
+    fee: FEES.pick3,
+    refunded: false,
+  };
+}
+
+function computeBoomHolesResults(entries, byId) {
+  if (!entries.length) {
+    return {
+      label: "Boom Holes",
+      entries: [],
+      winners: [],
+      pot: 0,
+      perWinner: 0,
+      fee: FEES.boomHoles,
+      refunded: false,
+    };
+  }
+  const scored = entries.map((e) => {
+    const player = byId.get(String((e.boomHoles || {}).id)) || null;
+    return {
+      displayName: e.displayName,
+      golfer: scoreShowdownBoomHoles(e.boomHoles || {}, player),
+    };
+  });
+  scored.sort((a, b) => {
+    if (a.golfer.score !== b.golfer.score)
+      return a.golfer.score - b.golfer.score;
+    return a.golfer.r4Total - b.golfer.r4Total;
+  });
+  const ws = scored[0].golfer.score;
+  const wtb = scored[0].golfer.r4Total;
+  const winners = scored
+    .filter((s) => s.golfer.score === ws && s.golfer.r4Total === wtb)
+    .map((s) => s.displayName);
+  const pot = entries.length * FEES.boomHoles;
+  return {
+    label: "Boom Holes",
+    entries: entries.map((e) => e.displayName),
+    winners,
+    pot,
+    perWinner: pot / winners.length,
+    fee: FEES.boomHoles,
+    refunded: false,
+  };
+}
+
+function computeChampionResults(entries, players, tournament) {
+  if (!entries.length) {
+    return {
+      label: "Champion Call",
+      entries: [],
+      winners: [],
+      pot: 0,
+      perWinner: 0,
+      fee: FEES.championCall,
+      refunded: false,
+    };
+  }
+  const scored = entries.map((e) =>
+    computeShowdownChampion(e, players, tournament),
+  );
+  // Eligible = picked the correct champion AND did not overshoot the guess.
+  // Among eligible, smallest absDiff wins (Price-Is-Right). No eligible →
+  // pot is refunded (each entry gets their own $10 back, zero-net).
+  const eligible = scored.filter(
+    (s) => s.correct && !s.overshot && s.absDiff != null,
+  );
+  let winners = [];
+  let refunded = false;
+  if (!eligible.length) {
+    refunded = true;
+  } else {
+    eligible.sort((a, b) => a.absDiff - b.absDiff);
+    const wd = eligible[0].absDiff;
+    winners = eligible
+      .filter((s) => s.absDiff === wd)
+      .map((s) => s.displayName);
+  }
+  const pot = entries.length * FEES.championCall;
+  return {
+    label: "Champion Call",
+    entries: entries.map((e) => e.displayName),
+    winners,
+    pot,
+    perWinner: refunded ? 0 : pot / winners.length,
+    fee: FEES.championCall,
+    refunded,
+  };
+}
+
+function buildBalances(contests) {
+  // Returns an array of { key, display, net } where net > 0 means the person
+  // is owed money (net winner) and net < 0 means they owe money (net loser).
+  const people = new Map();
+  function touch(displayName) {
+    const key = normName(displayName);
+    if (!people.has(key)) {
+      people.set(key, { key, display: (displayName || "").trim(), net: 0 });
+    }
+    return people.get(key);
+  }
+  for (const c of contests) {
+    for (const e of c.entries) {
+      touch(e).net -= c.fee;
+    }
+    if (c.refunded) {
+      // Refund: each entry gets their own fee back (zero-net for this contest).
+      for (const e of c.entries) {
+        touch(e).net += c.fee;
+      }
+    } else {
+      for (const w of c.winners) {
+        touch(w).net += c.perWinner;
+      }
+    }
+  }
+  return Array.from(people.values());
+}
+
+function settleTransactions(balances) {
+  // Classic greedy: match the biggest creditor with the biggest debtor, emit
+  // a transaction for min(both), decrement, repeat. Produces ≤ N-1 transfers.
+  const EPS = 0.005;
+  const creditors = balances
+    .filter((b) => b.net > EPS)
+    .map((b) => ({ name: b.display, amount: b.net }))
+    .sort((a, b) => b.amount - a.amount);
+  const debtors = balances
+    .filter((b) => b.net < -EPS)
+    .map((b) => ({ name: b.display, amount: -b.net }))
+    .sort((a, b) => b.amount - a.amount);
+
+  const txns = [];
+  let i = 0;
+  let j = 0;
+  while (i < creditors.length && j < debtors.length) {
+    const pay = Math.min(creditors[i].amount, debtors[j].amount);
+    txns.push({
+      from: debtors[j].name,
+      to: creditors[i].name,
+      amount: pay,
+    });
+    creditors[i].amount -= pay;
+    debtors[j].amount -= pay;
+    if (creditors[i].amount < EPS) i++;
+    if (debtors[j].amount < EPS) j++;
+  }
+  return txns;
+}
+
+function fmtMoney(n) {
+  const abs = Math.abs(n);
+  const cents = abs % 1 !== 0;
+  return "$" + abs.toFixed(cents ? 2 : 0);
+}
+
+function fmtMoneySigned(n) {
+  if (Math.abs(n) < 0.005) return "$0";
+  return (n > 0 ? "+" : "−") + fmtMoney(n);
+}
+
+function renderResults(entriesData, showdownData, byId, players, tournament) {
+  const root = document.getElementById("results");
+  root.innerHTML = "";
+
+  const mainEntries = (entriesData && entriesData.entries) || [];
+  // Only factor showdown contests in once the submission window has closed —
+  // pre-cutoff we're hiding showdown picks on the rest of the site too and
+  // we don't want the results page to leak partial in-flight submissions.
+  const sdEntries = isShowdownPastCutoff()
+    ? (showdownData && showdownData.entries) || []
+    : [];
+
+  // Header — explain whether this is live-projected or final.
+  const isFinal = tournament && tournament.status === "post";
+  const header = el("div", { class: "results-header" });
+  header.appendChild(el("h2", {}, "Settle up"));
+  header.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      isFinal
+        ? "Final results. Everyone owing money to the right should send it to the " +
+            "person on the left. Transfers are the minimum set needed to balance " +
+            "everything out."
+        : "Projected results based on the live leaderboard. These will keep " +
+            "updating until the tournament is final.",
+    ),
+  );
+  root.appendChild(header);
+
+  if (!mainEntries.length && !sdEntries.length) {
+    root.appendChild(
+      el(
+        "div",
+        { class: "empty" },
+        "No entries yet — nothing to settle.",
+      ),
+    );
+    return;
+  }
+
+  // Build per-contest results.
+  const contests = [];
+  if (mainEntries.length) {
+    contests.push(computeMainPoolResults(mainEntries, byId));
+  }
+  if (sdEntries.length) {
+    contests.push(computePick3Results(sdEntries, byId));
+    contests.push(computeChampionResults(sdEntries, players, tournament));
+    contests.push(computeBoomHolesResults(sdEntries, byId));
+  }
+
+  // ----- Prize pots card -----
+  const potsCard = el("div", { class: "results-section" });
+  potsCard.appendChild(
+    el("h3", { class: "results-section-title" }, "Prize pots"),
+  );
+  for (const c of contests) {
+    const card = el("div", { class: "results-contest-card" });
+    card.appendChild(
+      el("div", { class: "results-contest-header" }, [
+        el("span", { class: "results-contest-name" }, c.label),
+        el("span", { class: "results-contest-pot" }, fmtMoney(c.pot)),
+      ]),
+    );
+    card.appendChild(
+      el(
+        "p",
+        { class: "results-contest-meta" },
+        `${c.entries.length} ${c.entries.length === 1 ? "entry" : "entries"} × ${fmtMoney(c.fee)}`,
+      ),
+    );
+    if (c.refunded) {
+      card.appendChild(
+        el(
+          "p",
+          { class: "results-winners refund" },
+          "No one picked the correct winner — pot refunded.",
+        ),
+      );
+    } else if (c.winners.length === 0) {
+      card.appendChild(
+        el("p", { class: "results-winners pending" }, "Winner TBD"),
+      );
+    } else if (c.winners.length === 1) {
+      card.appendChild(
+        el("p", { class: "results-winners" }, [
+          el("strong", {}, c.winners[0]),
+          " wins ",
+          el("span", { class: "amount" }, fmtMoney(c.perWinner)),
+        ]),
+      );
+    } else {
+      card.appendChild(
+        el("p", { class: "results-winners" }, [
+          `Split ${c.winners.length} ways (${fmtMoney(c.perWinner)} each): `,
+          el("strong", {}, c.winners.join(", ")),
+        ]),
+      );
+    }
+    potsCard.appendChild(card);
+  }
+  root.appendChild(potsCard);
+
+  // ----- Per-player balance -----
+  const balances = buildBalances(contests);
+  balances.sort((a, b) => b.net - a.net);
+
+  const balanceCard = el("div", { class: "results-section" });
+  balanceCard.appendChild(
+    el("h3", { class: "results-section-title" }, "Per-player balance"),
+  );
+  balanceCard.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Total winnings minus entry fees for every contest each person played in.",
+    ),
+  );
+  const bt = el("table", { class: "results-table" });
+  bt.appendChild(
+    el(
+      "thead",
+      {},
+      el("tr", {}, [
+        el("th", {}, "Player"),
+        el("th", { class: "num" }, "Net"),
+      ]),
+    ),
+  );
+  const bbody = el("tbody");
+  for (const p of balances) {
+    const cls = p.net > 0.005 ? "credit" : p.net < -0.005 ? "debit" : "";
+    const row = el("tr", cls ? { class: cls } : {});
+    row.appendChild(el("td", { class: "name" }, p.display));
+    row.appendChild(el("td", { class: "num" }, fmtMoneySigned(p.net)));
+    bbody.appendChild(row);
+  }
+  bt.appendChild(bbody);
+  balanceCard.appendChild(bt);
+  root.appendChild(balanceCard);
+
+  // ----- Settlement transactions -----
+  const txns = settleTransactions(balances);
+  const settleCard = el("div", { class: "results-section" });
+  settleCard.appendChild(
+    el("h3", { class: "results-section-title" }, "Transfers"),
+  );
+  if (!txns.length) {
+    settleCard.appendChild(
+      el(
+        "p",
+        { class: "hint" },
+        "Everyone's even — no transfers needed.",
+      ),
+    );
+  } else {
+    settleCard.appendChild(
+      el(
+        "p",
+        { class: "hint" },
+        `${txns.length} transfer${txns.length === 1 ? "" : "s"} will balance the books.`,
+      ),
+    );
+    const list = el("ul", { class: "results-txns" });
+    for (const t of txns) {
+      list.appendChild(
+        el("li", {}, [
+          el("span", { class: "from" }, t.from),
+          el("span", { class: "arrow" }, " → "),
+          el("span", { class: "to" }, t.to),
+          el("span", { class: "amount" }, fmtMoney(t.amount)),
+        ]),
+      );
+    }
+    settleCard.appendChild(list);
+  }
+  root.appendChild(settleCard);
 }
 
 let allFieldPlayers = [];
@@ -2191,7 +2620,8 @@ function isTabSafeToRefresh(tabId) {
     tabId === "showdown" ||
     tabId === "leaderboard" ||
     tabId === "field" ||
-    tabId === "rules"
+    tabId === "rules" ||
+    tabId === "results"
   ) {
     return true;
   }
@@ -2274,6 +2704,7 @@ async function main() {
   initPicker(players);
   renderShowdown(showdownData, players, byId, scores.tournament);
   initShowdownPicker(players);
+  renderResults(entriesData, showdownData, byId, players, scores.tournament);
 }
 
 main();
