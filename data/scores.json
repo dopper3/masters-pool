@@ -4,12 +4,12 @@
     "name": "Masters Tournament",
     "startDate": "2026-04-09T04:00Z",
     "endDate": "2026-04-12T04:00Z",
-    "currentRound": 3,
+    "currentRound": 4,
     "status": "in",
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T13:09:09.713590+00:00"
+    "lastUpdated": "2026-04-12T13:11:11.568111+00:00"
   },
   "players": [
     {
@@ -1806,7 +1806,7 @@
       "position": "-",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -1824,7 +1824,7 @@
       "position": "-",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -1842,7 +1842,7 @@
       "position": "-",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -1860,7 +1860,7 @@
       "position": "-",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -1954,7 +1954,7 @@
       "position": "-",
       "scoreToPar": 5.0,
       "scoreDisplay": "+5",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2010,7 +2010,7 @@
       "position": "-",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2028,7 +2028,7 @@
       "position": "-",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2084,7 +2084,7 @@
       "position": "-",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2102,7 +2102,7 @@
       "position": "-",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2158,7 +2158,7 @@
       "position": "-",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2176,7 +2176,7 @@
       "position": "-",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2232,7 +2232,7 @@
       "position": "-",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2250,7 +2250,7 @@
       "position": "-",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2268,7 +2268,7 @@
       "position": "-",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2286,7 +2286,7 @@
       "position": "-",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2304,7 +2304,7 @@
       "position": "-",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2322,7 +2322,7 @@
       "position": "-",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2340,7 +2340,7 @@
       "position": "-",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2358,7 +2358,7 @@
       "position": "-",
       "scoreToPar": 8.0,
       "scoreDisplay": "+8",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2414,7 +2414,7 @@
       "position": "-",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2432,7 +2432,7 @@
       "position": "-",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2450,7 +2450,7 @@
       "position": "-",
       "scoreToPar": 9.0,
       "scoreDisplay": "+9",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2468,7 +2468,7 @@
       "position": "-",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2486,7 +2486,7 @@
       "position": "-",
       "scoreToPar": 10.0,
       "scoreDisplay": "+10",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2504,7 +2504,7 @@
       "position": "-",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2522,7 +2522,7 @@
       "position": "-",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2540,7 +2540,7 @@
       "position": "-",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2558,7 +2558,7 @@
       "position": "-",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2576,7 +2576,7 @@
       "position": "-",
       "scoreToPar": 11.0,
       "scoreDisplay": "+11",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2594,7 +2594,7 @@
       "position": "-",
       "scoreToPar": 12.0,
       "scoreDisplay": "+12",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2612,7 +2612,7 @@
       "position": "-",
       "scoreToPar": 13.0,
       "scoreDisplay": "+13",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2630,7 +2630,7 @@
       "position": "-",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2648,7 +2648,7 @@
       "position": "-",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2666,7 +2666,7 @@
       "position": "-",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2684,7 +2684,7 @@
       "position": "-",
       "scoreToPar": 15.0,
       "scoreDisplay": "+15",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2702,7 +2702,7 @@
       "position": "-",
       "scoreToPar": 16.0,
       "scoreDisplay": "+16",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
@@ -2720,7 +2720,7 @@
       "position": "-",
       "scoreToPar": 18.0,
       "scoreDisplay": "+18",
-      "thru": 0,
+      "thru": null,
       "teeTime": null,
       "status": "cut",
       "rounds": [
