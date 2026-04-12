@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T16:50:52.602568+00:00"
+    "lastUpdated": "2026-04-12T16:51:12.223676+00:00"
   },
   "players": [
     {
@@ -2115,7 +2115,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "51",
+      "position": "T51",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
       "thru": 16,
@@ -2180,6 +2180,44 @@
       "rounds": [
         8,
         -1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T51",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 15,
+      "teeTime": "2026-04-12T13:28Z",
+      "status": "active",
+      "rounds": [
+        0,
+        3,
+        2,
+        2
+      ],
+      "r4Holes": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        5,
+        4,
+        4,
+        4,
+        3,
+        5,
+        5,
+        4,
+        null,
         null,
         null
       ]
@@ -2288,44 +2326,6 @@
       "rounds": [
         3,
         5,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "52",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 14,
-      "teeTime": "2026-04-12T13:28Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
-        2,
-        3
-      ],
-      "r4Holes": [
-        5,
-        5,
-        5,
-        4,
-        4,
-        3,
-        3,
-        5,
-        4,
-        4,
-        4,
-        3,
-        5,
-        5,
-        4,
-        null,
         null,
         null
       ]
