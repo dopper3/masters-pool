@@ -37,9 +37,9 @@ SCORES_FILE = ROOT / "data" / "scores.json"
 PICK3_REQUIRED = 3
 
 # Submission deadline. Submissions with a parsed timestamp at or after this
-# moment are dropped. 10:30 AM Eastern (EDT) on Sunday April 12, 2026 ==
-# 14:30 UTC April 12, 2026. Must match SHOWDOWN_CUTOFF in assets/app.js.
-SUBMISSION_CUTOFF = datetime(2026, 4, 12, 14, 30, 0, tzinfo=timezone.utc)
+# moment are dropped. 11:00 AM Eastern (EDT) on Sunday April 12, 2026 ==
+# 15:00 UTC April 12, 2026. Must match SHOWDOWN_CUTOFF in assets/app.js.
+SUBMISSION_CUTOFF = datetime(2026, 4, 12, 15, 0, 0, tzinfo=timezone.utc)
 
 
 # ---------- helpers (intentionally duplicated from poll_form.py) ----------

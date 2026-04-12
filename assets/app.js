@@ -52,9 +52,9 @@ const FEES = {
 };
 
 // Submission deadline for the showdown. Must match SUBMISSION_CUTOFF in
-// scripts/poll_showdown.py. 10:30 AM Eastern (EDT) on Sunday April 12, 2026
-// == 14:30 UTC April 12, 2026.
-const SHOWDOWN_CUTOFF = new Date("2026-04-12T14:30:00Z");
+// scripts/poll_showdown.py. 11:00 AM Eastern (EDT) on Sunday April 12, 2026
+// == 15:00 UTC April 12, 2026.
+const SHOWDOWN_CUTOFF = new Date("2026-04-12T15:00:00Z");
 
 // Google Form prefill IDs for the Sunday Showdown form. PLACEHOLDERS — to
 // activate the picker, create a Google Form with these short-answer
