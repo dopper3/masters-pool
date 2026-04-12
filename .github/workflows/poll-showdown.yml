@@ -4,13 +4,14 @@ on:
   workflow_dispatch:
 
   # Tight cron during showdown submission window: every 2 minutes from
-  # Saturday 22:00 UTC through Sunday 14:30 UTC (the cutoff). This is a much
+  # Saturday 22:00 UTC through Sunday 14:58 UTC (cutoff is 14:30 UTC; the
+  # buffer past it catches any last-minute submissions). This is a much
   # narrower window than poll-form.yml because Sunday picks come in late
-  # and we want them visible on the leaderboard quickly.
-  # Uncomment to enable scheduled polling once SHOWDOWN_FORM_CSV_URL is set.
-  # schedule:
-  #   - cron: "*/2 22-23 11 4 *"
-  #   - cron: "*/2 0-14 12 4 *"
+  # and we want them visible on the leaderboard quickly. GitHub Actions
+  # cron is best-effort and may be delayed several minutes under load.
+  schedule:
+    - cron: "*/2 22-23 11 4 *"
+    - cron: "*/2 0-14 12 4 *"
 
 permissions:
   contents: write
