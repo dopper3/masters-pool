@@ -111,6 +111,34 @@
         "id": "3470",
         "name": "Rory McIlroy"
       }
+    },
+    {
+      "source": "form",
+      "displayName": "Ta Mere Ta Pelle",
+      "submittedAt": "2026-04-12T09:14:22+00:00",
+      "pick3": [
+        {
+          "id": "569",
+          "name": "Justin Rose"
+        },
+        {
+          "id": "9478",
+          "name": "Scottie Scheffler"
+        },
+        {
+          "id": "6007",
+          "name": "Patrick Cantlay"
+        }
+      ],
+      "champion": {
+        "id": "4587",
+        "name": "Shane Lowry"
+      },
+      "championGuess": -8,
+      "boomHoles": {
+        "id": "4587",
+        "name": "Shane Lowry"
+      }
     }
   ],
   "rejected": []
