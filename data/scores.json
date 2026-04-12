@@ -5,11 +5,11 @@
     "startDate": "2026-04-09T04:00Z",
     "endDate": "2026-04-12T04:00Z",
     "currentRound": 4,
-    "status": "in",
-    "statusDescription": "In Progress",
+    "status": "post",
+    "statusDescription": "Final",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T23:05:12.376125+00:00"
+    "lastUpdated": "2026-04-12T23:07:10.478035+00:00"
   },
   "players": [
     {
