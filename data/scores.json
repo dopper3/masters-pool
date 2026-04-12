@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T22:43:09.354542+00:00"
+    "lastUpdated": "2026-04-12T22:45:09.585209+00:00"
   },
   "players": [
     {
@@ -1115,49 +1115,11 @@
       ]
     },
     {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T24",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 17,
-      "teeTime": "2026-04-12T18:14Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        -4,
-        7
-      ],
-      "r4Holes": [
-        5,
-        4,
-        4,
-        4,
-        6,
-        3,
-        4,
-        5,
-        4,
-        4,
-        6,
-        4,
-        4,
-        5,
-        4,
-        5,
-        4,
-        null
-      ]
-    },
-    {
       "id": "3832",
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -1195,7 +1157,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 18,
@@ -1226,6 +1188,44 @@
         3,
         4,
         4
+      ]
+    },
+    {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T30",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 18,
+      "teeTime": "2026-04-12T18:14Z",
+      "status": "final",
+      "rounds": [
+        -2,
+        -3,
+        -4,
+        8
+      ],
+      "r4Holes": [
+        5,
+        4,
+        4,
+        4,
+        6,
+        3,
+        4,
+        5,
+        4,
+        4,
+        6,
+        4,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5
       ]
     },
     {
