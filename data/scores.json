@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:23:12.147366+00:00"
+    "lastUpdated": "2026-04-12T15:25:11.633602+00:00"
   },
   "players": [
     {
@@ -1689,7 +1689,7 @@
       "name": "Dustin Johnson",
       "shortName": "D. Johnson",
       "country": "United States",
-      "position": "45",
+      "position": "T45",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
       "thru": 7,
@@ -1723,11 +1723,49 @@
       ]
     },
     {
+      "id": "9780",
+      "name": "Jon Rahm",
+      "shortName": "J. Rahm",
+      "country": "Spain",
+      "position": "T45",
+      "scoreToPar": 2.0,
+      "scoreDisplay": "+2",
+      "thru": 9,
+      "teeTime": "2026-04-12T13:28Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        1,
+        -3
+      ],
+      "r4Holes": [
+        4,
+        4,
+        3,
+        3,
+        5,
+        4,
+        3,
+        4,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 9,
@@ -1761,49 +1799,11 @@
       ]
     },
     {
-      "id": "9780",
-      "name": "Jon Rahm",
-      "shortName": "J. Rahm",
-      "country": "Spain",
-      "position": "T46",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 8,
-      "teeTime": "2026-04-12T13:28Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        1,
-        -2
-      ],
-      "r4Holes": [
-        4,
-        4,
-        3,
-        3,
-        5,
-        4,
-        3,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "7081",
       "name": "Si Woo Kim",
       "shortName": "S. Kim",
       "country": "South Korea",
-      "position": "T46",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 8,
@@ -2230,7 +2230,7 @@
       "position": "T52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 8,
+      "thru": 9,
       "teeTime": "2026-04-12T13:28Z",
       "status": "active",
       "rounds": [
@@ -2248,7 +2248,7 @@
         3,
         3,
         5,
-        null,
+        4,
         null,
         null,
         null,
