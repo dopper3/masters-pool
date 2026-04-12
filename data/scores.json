@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T14:45:14.657227+00:00"
+    "lastUpdated": "2026-04-12T14:47:09.384552+00:00"
   },
   "players": [
     {
@@ -1969,10 +1969,10 @@
       "name": "Aaron Rai",
       "shortName": "A. Rai",
       "country": "England",
-      "position": "50",
+      "position": "T50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-12T13:06Z",
       "status": "active",
       "rounds": [
@@ -2034,6 +2034,44 @@
       "rounds": [
         4,
         2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "shortName": "K. Kitayama",
+      "country": "United States",
+      "position": "T50",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 7,
+      "teeTime": "2026-04-12T13:17Z",
+      "status": "active",
+      "rounds": [
+        -3,
+        7,
+        3,
+        -1
+      ],
+      "r4Holes": [
+        3,
+        5,
+        4,
+        4,
+        4,
+        3,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
@@ -2106,44 +2144,6 @@
       "rounds": [
         2,
         5,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "shortName": "K. Kitayama",
-      "country": "United States",
-      "position": "51",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 6,
-      "teeTime": "2026-04-12T13:17Z",
-      "status": "active",
-      "rounds": [
-        -3,
-        7,
-        3,
-        0
-      ],
-      "r4Holes": [
-        3,
-        5,
-        4,
-        4,
-        4,
-        3,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ]
@@ -2477,6 +2477,44 @@
       ]
     },
     {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "shortName": "C. Schwartzel",
+      "country": "South Africa",
+      "position": "54",
+      "scoreToPar": 11.0,
+      "scoreDisplay": "+11",
+      "thru": 8,
+      "teeTime": "2026-04-12T13:06Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        5,
+        2
+      ],
+      "r4Holes": [
+        4,
+        6,
+        6,
+        4,
+        4,
+        2,
+        4,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5327297",
       "name": "Fifa Laopakdee",
       "shortName": "F. Laopakdee",
@@ -2544,44 +2582,6 @@
       "rounds": [
         8,
         3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "shortName": "C. Schwartzel",
-      "country": "South Africa",
-      "position": "54",
-      "scoreToPar": 12.0,
-      "scoreDisplay": "+12",
-      "thru": 7,
-      "teeTime": "2026-04-12T13:06Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        5,
-        3
-      ],
-      "r4Holes": [
-        4,
-        6,
-        6,
-        4,
-        4,
-        2,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ]
