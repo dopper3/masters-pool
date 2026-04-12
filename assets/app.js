@@ -32,9 +32,71 @@ const FORM_PREFILL = {
 // 10:00 AM Eastern on Thursday April 9, 2026 == 14:00 UTC April 9, 2026.
 const SUBMISSION_CUTOFF = new Date("2026-04-09T14:00:00Z");
 
-// Augusta National par per hole, used as a fallback when no rounds have been
-// played yet (so we can still draw the par row in the scorecard modal).
-const AUGUSTA_PAR = [4, 5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 5, 3, 4, 5, 3, 4, 4];
+// ---------- Sunday Showdown sidecar ----------
+// Three sub-contests on a single secondary form, all scored on R4 only:
+//   1. Pick 3:        sum of three R4 to-pars, lowest wins (no drops).
+//   2. Champion Call: pick the winner + a winning to-par tiebreak guess.
+//   3. Boom Holes:    one golfer's combined strokes-to-par on a fixed set
+//                     of "boom" holes (the back-nine drama holes).
+const PICK3_REQUIRED = 3;
+const BOOM_HOLES = [12, 13, 15, 16, 18];
+const SHOWDOWN_PENALTY_WD = 10;
+
+// Submission deadline for the showdown. Must match SUBMISSION_CUTOFF in
+// scripts/poll_showdown.py. 10:30 AM Eastern (EDT) on Sunday April 12, 2026
+// == 14:30 UTC April 12, 2026.
+const SHOWDOWN_CUTOFF = new Date("2026-04-12T14:30:00Z");
+
+// Google Form prefill IDs for the Sunday Showdown form. PLACEHOLDERS — to
+// activate the picker, create a Google Form with these short-answer
+// questions in this order:
+//   Display name, Pick 1, Pick 2, Pick 3, Champion,
+//   Winning to-par guess, Boom Holes pick
+// Then "Get pre-filled link", fill in any values, copy the URL, and replace
+// the entry IDs below with the ones from that URL. The picker auto-hides
+// itself until the base URL is changed away from the placeholder.
+const SHOWDOWN_FORM_PREFILL = {
+  base: "https://docs.google.com/forms/d/e/REPLACE_WITH_SHOWDOWN_FORM_ID/viewform",
+  displayName: "entry.REPLACE_DISPLAY_NAME",
+  pick3: [
+    "entry.REPLACE_PICK_1",
+    "entry.REPLACE_PICK_2",
+    "entry.REPLACE_PICK_3",
+  ],
+  champion: "entry.REPLACE_CHAMPION",
+  championGuess: "entry.REPLACE_GUESS",
+  boomHoles: "entry.REPLACE_BOOM_HOLES",
+};
+
+function isShowdownConfigured() {
+  return !SHOWDOWN_FORM_PREFILL.base.includes("REPLACE_");
+}
+
+function isShowdownPastCutoff() {
+  return Date.now() >= SHOWDOWN_CUTOFF.getTime();
+}
+
+function formatShowdownCutoffLocal() {
+  try {
+    return SHOWDOWN_CUTOFF.toLocaleString(undefined, {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
+  } catch (e) {
+    return SHOWDOWN_CUTOFF.toString();
+  }
+}
+
+// Augusta National par per hole. Used as a fallback when no rounds have
+// been played yet (so we can still draw the par row in the scorecard modal),
+// and as the authoritative par source for Boom Holes scoring before any R4
+// holes have been posted. Hole 12 (Golden Bell) is par 3 and hole 13
+// (Azalea) is par 5 — get the order right or the back nine math breaks.
+const AUGUSTA_PAR = [4, 5, 4, 3, 4, 3, 4, 5, 4, 4, 4, 3, 5, 4, 5, 3, 4, 4];
 
 // ESPN core API exposes per-competitor hole-by-hole linescores. CORS-open.
 const SCORECARD_URL = (eventId, athleteId) =>
@@ -407,6 +469,186 @@ function computeTeam(entry, byId) {
   return { ...entry, picks, total };
 }
 
+// ---------- showdown scoring ----------
+// Three sub-contests, all scored against R4 only. Each compute* function
+// takes a raw entry from data/showdown.json and returns a scored shape that
+// the corresponding renderer knows how to draw.
+
+function scoreShowdownGolferR4(pk, player) {
+  // Returns the R4 to-par for one golfer pick, with WD/DQ penalty.
+  if (!player) {
+    return {
+      id: pk.id,
+      name: pk.name,
+      score: PENALTY_NULL,
+      label: "Not in field",
+      penalty: true,
+      status: "missing",
+      thru: null,
+    };
+  }
+  const r4 = (player.rounds || [])[3];
+  const status = player.status;
+  if (status === "wd" || status === "dq") {
+    const base = r4 == null ? 0 : r4;
+    return {
+      id: pk.id,
+      name: player.name,
+      score: base + SHOWDOWN_PENALTY_WD,
+      label: `${fmtToPar(base)} (${status.toUpperCase()})`,
+      penalty: true,
+      status,
+      thru: player.thru,
+    };
+  }
+  if (r4 == null) {
+    return {
+      id: pk.id,
+      name: player.name,
+      score: 0,
+      label: "—",
+      penalty: false,
+      status,
+      thru: player.thru,
+    };
+  }
+  return {
+    id: pk.id,
+    name: player.name,
+    score: r4,
+    label: fmtToPar(r4),
+    penalty: false,
+    status,
+    thru: player.thru,
+  };
+}
+
+function computeShowdownPick3(entry, byId) {
+  const picks = (entry.pick3 || []).map((pk) => {
+    const player = byId.get(String(pk.id)) || null;
+    return scoreShowdownGolferR4(pk, player);
+  });
+  const total = picks.reduce((s, p) => s + p.score, 0);
+  // Tiebreak = full R4 of pick #1 (lower is better). Used by the standings
+  // render to break ties; surfaced as `tiebreak` for display.
+  const firstPickFull = picks[0] ? picks[0].score : 0;
+  return { ...entry, scoredPicks: picks, total, tiebreak: firstPickFull };
+}
+
+function scoreShowdownBoomHoles(pk, player) {
+  // Returns combined strokes-to-par on BOOM_HOLES, plus per-hole detail for
+  // the standings table. Holes the golfer hasn't played yet are simply
+  // omitted from the running total — partial scores are shown live.
+  if (!player) {
+    return {
+      id: pk.id,
+      name: pk.name,
+      score: PENALTY_NULL,
+      label: "Not in field",
+      penalty: true,
+      holesPlayed: 0,
+      holes: [],
+      r4Total: PENALTY_NULL,
+    };
+  }
+  const status = player.status;
+  if (status === "wd" || status === "dq") {
+    return {
+      id: pk.id,
+      name: player.name,
+      score: SHOWDOWN_PENALTY_WD,
+      label: `${status.toUpperCase()} +${SHOWDOWN_PENALTY_WD}`,
+      penalty: true,
+      holesPlayed: 0,
+      holes: [],
+      r4Total: SHOWDOWN_PENALTY_WD,
+    };
+  }
+  const r4Holes = player.r4Holes || new Array(18).fill(null);
+  let total = 0;
+  let played = 0;
+  const holes = [];
+  for (const holeNum of BOOM_HOLES) {
+    const idx = holeNum - 1;
+    const strokes = r4Holes[idx];
+    const par = AUGUSTA_PAR[idx];
+    if (strokes != null) {
+      total += strokes - par;
+      played += 1;
+    }
+    holes.push({ hole: holeNum, strokes, par });
+  }
+  const r4 = (player.rounds || [])[3];
+  return {
+    id: pk.id,
+    name: player.name,
+    score: total,
+    label: played === 0 ? "—" : fmtToPar(total),
+    penalty: false,
+    holesPlayed: played,
+    holes,
+    r4Total: r4 == null ? 0 : r4, // tiebreak: full R4 to-par
+    status,
+    thru: player.thru,
+  };
+}
+
+function computeShowdownChampion(entry, players, tournament) {
+  // Determine the actual winner. We only crown a winner if the tournament is
+  // marked "post" (final). Mid-tournament we still compute predicted-correct
+  // and signed diff so the live leaderboard shows current standings.
+  const isFinal = tournament && tournament.status === "post";
+  let actualWinner = null;
+  let actualWinningToPar = null;
+  if (players && players.length) {
+    const eligible = players
+      .filter(
+        (p) =>
+          p.scoreToPar != null &&
+          p.status !== "cut" &&
+          p.status !== "wd" &&
+          p.status !== "dq",
+      )
+      .sort((a, b) => a.scoreToPar - b.scoreToPar);
+    if (eligible.length) {
+      actualWinner = eligible[0];
+      actualWinningToPar = eligible[0].scoreToPar;
+    }
+  }
+
+  const champ = entry.champion || {};
+  const correct =
+    actualWinner && String(actualWinner.id) === String(champ.id);
+
+  let signedDiff = null;
+  let absDiff = null;
+  let overshot = false;
+  if (actualWinningToPar != null && entry.championGuess != null) {
+    // signedDiff = guess - actual (in to-par space).
+    // Positive = predicted a worse score than they actually shot
+    //           (acceptable / "didn't go over" in PriceIsRight rules).
+    // Negative = predicted a better score than they actually shot
+    //           ("went over" — disqualified for tiebreak unless nobody is OK).
+    signedDiff = entry.championGuess - actualWinningToPar;
+    absDiff = Math.abs(signedDiff);
+    overshot = signedDiff < 0;
+  }
+
+  return {
+    displayName: entry.displayName,
+    pickName: champ.name || "—",
+    pickId: champ.id,
+    guess: entry.championGuess,
+    actualWinner,
+    actualWinningToPar,
+    isFinal,
+    correct: !!correct,
+    signedDiff,
+    absDiff,
+    overshot,
+  };
+}
+
 // ---------- renderers ----------
 function renderHeader(t) {
   const status = document.getElementById("tournament-status");
@@ -680,6 +922,461 @@ function renderRejected(rejected) {
 
     root.appendChild(card);
   }
+}
+
+// ---------- showdown renderers ----------
+// One top-level entry point (`renderShowdown`) that paints the full Sunday
+// Showdown tab, then three sub-renderers — one per sub-contest.
+
+function renderShowdown(showdownData, players, byId, tournament) {
+  const entries = (showdownData && showdownData.entries) || [];
+  const rejected = (showdownData && showdownData.rejected) || [];
+  const root = document.getElementById("showdown-content");
+  if (!root) return;
+  root.innerHTML = "";
+
+  // Always-visible explainer card so the boys remember what game this is.
+  root.appendChild(renderShowdownExplainer());
+
+  // Pre-cutoff: just show the entrant list (no picks leaked).
+  if (!isShowdownPastCutoff()) {
+    root.appendChild(renderShowdownPreCutoff(entries));
+    if (rejected.length) {
+      root.appendChild(renderShowdownRejected(rejected));
+    }
+    return;
+  }
+
+  if (!entries.length) {
+    root.appendChild(
+      el(
+        "div",
+        { class: "empty" },
+        "No showdown entries yet. Picks are due by " +
+          formatShowdownCutoffLocal() +
+          ".",
+      ),
+    );
+    if (rejected.length) {
+      root.appendChild(renderShowdownRejected(rejected));
+    }
+    return;
+  }
+
+  root.appendChild(renderPick3Standings(entries, byId));
+  root.appendChild(renderBoomHolesStandings(entries, byId));
+  root.appendChild(renderChampionStandings(entries, players, tournament));
+
+  if (rejected.length) {
+    root.appendChild(renderShowdownRejected(rejected));
+  }
+}
+
+function renderShowdownExplainer() {
+  const card = el("div", { class: "showdown-explainer" });
+  card.appendChild(el("h2", {}, "Sunday Showdown"));
+  card.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Three secondary contests, all scored on Sunday's final round only. " +
+        "One Google Form, one set of picks, three leaderboards.",
+    ),
+  );
+  const ul = el("ul", { class: "showdown-rules" });
+  ul.appendChild(
+    el("li", {}, [
+      el("strong", {}, "Pick 3: "),
+      "sum of three R4 to-pars. No drops. Lowest wins. Tiebreak: full R4 of pick #1.",
+    ]),
+  );
+  ul.appendChild(
+    el("li", {}, [
+      el("strong", {}, "Champion Call: "),
+      "pick the outright winner + a winning to-par guess. Closest correct guess " +
+        "without going over (Price-Is-Right rules) wins.",
+    ]),
+  );
+  ul.appendChild(
+    el("li", {}, [
+      el("strong", {}, "Boom Holes: "),
+      "one golfer's combined strokes-to-par on holes " +
+        BOOM_HOLES.join(", ") +
+        ". Lowest wins. Tiebreak: full R4 to-par.",
+    ]),
+  );
+  ul.appendChild(
+    el("li", {}, [
+      el("strong", {}, "Cut survivors only: "),
+      "you can't pick a golfer who got cut.",
+    ]),
+  );
+  card.appendChild(ul);
+  return card;
+}
+
+function renderShowdownPreCutoff(entries) {
+  const card = el("div", { class: "precutoff" });
+  card.appendChild(
+    el(
+      "h2",
+      { class: "precutoff-title" },
+      "Showdown picks are hidden until the deadline",
+    ),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "precutoff-body" },
+      `Teams unlock at ${formatShowdownCutoffLocal()}. Until then you'll just ` +
+        "see who has entered.",
+    ),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "precutoff-count" },
+      `${entries.length} ${entries.length === 1 ? "entry" : "entries"} submitted so far`,
+    ),
+  );
+  const list = el("ul", { class: "precutoff-list" });
+  const names = entries
+    .map((e) => e.displayName || "(no name)")
+    .sort((a, b) => a.localeCompare(b));
+  for (const name of names) {
+    list.appendChild(el("li", {}, name));
+  }
+  card.appendChild(list);
+  return card;
+}
+
+function renderPick3Standings(entries, byId) {
+  const wrap = el("div", { class: "showdown-section" });
+  wrap.appendChild(el("h2", { class: "showdown-section-title" }, "Pick 3"));
+  wrap.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Sum of all 3 R4 to-pars. Lowest wins. Tiebreak: full R4 of pick #1.",
+    ),
+  );
+
+  const teams = entries.map((e) => computeShowdownPick3(e, byId));
+  // Sort: total asc, then tiebreak asc, then displayName for stability
+  teams.sort((a, b) => {
+    if (a.total !== b.total) return a.total - b.total;
+    if (a.tiebreak !== b.tiebreak) return a.tiebreak - b.tiebreak;
+    return (a.displayName || "").localeCompare(b.displayName || "");
+  });
+
+  // Assign ranks (ties share a rank, no skip-ahead)
+  let lastTotal = null;
+  let lastRank = 0;
+  teams.forEach((t, i) => {
+    if (t.total !== lastTotal) {
+      lastRank = i + 1;
+      lastTotal = t.total;
+    }
+    t.rank = lastRank;
+  });
+  const tieCounts = {};
+  teams.forEach((t) => (tieCounts[t.rank] = (tieCounts[t.rank] || 0) + 1));
+
+  for (const t of teams) {
+    const rankLabel = (tieCounts[t.rank] > 1 ? "T" : "") + t.rank;
+    const card = el("div", { class: "pool-entry" });
+    card.appendChild(
+      el("div", { class: "pool-entry-header" }, [
+        el("span", { class: "rank" }, rankLabel),
+        el("span", { class: "name" }, t.displayName),
+        el("span", { class: "total" }, fmtToPar(t.total)),
+      ]),
+    );
+
+    const table = el("table");
+    table.appendChild(
+      el("thead", {}, [
+        el("tr", {}, [
+          el("th", {}, "Golfer"),
+          el("th", {}, "Pos"),
+          el("th", { class: "num" }, "Thru"),
+          el("th", { class: "num" }, "R4"),
+        ]),
+      ]),
+    );
+    const tbody = el("tbody");
+    t.scoredPicks.forEach((p, idx) => {
+      const row = el("tr");
+      const nameCell = el("td", { class: "name" });
+      const fullPlayer = byId.get(String(p.id)) || p;
+      nameCell.appendChild(playerNameLink(fullPlayer));
+      if (idx === 0) {
+        nameCell.appendChild(
+          el("span", { class: "badge-tiebreak" }, "TB"),
+        );
+      }
+      if (p.penalty) {
+        nameCell.appendChild(el("span", { class: "badge-penalty" }, "PEN"));
+      }
+      row.appendChild(nameCell);
+      const fp = byId.get(String(p.id));
+      row.appendChild(el("td", {}, (fp && fp.position) || "—"));
+      row.appendChild(
+        el(
+          "td",
+          { class: "num" },
+          p.thru != null ? String(p.thru) : "—",
+        ),
+      );
+      row.appendChild(el("td", { class: "num" }, p.label));
+      tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+    card.appendChild(table);
+    wrap.appendChild(card);
+  }
+  return wrap;
+}
+
+function renderBoomHolesStandings(entries, byId) {
+  const wrap = el("div", { class: "showdown-section" });
+  wrap.appendChild(
+    el("h2", { class: "showdown-section-title" }, "Boom Holes"),
+  );
+  wrap.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "One golfer, sum of strokes-to-par on holes " +
+        BOOM_HOLES.join(", ") +
+        ". Lowest wins. Tiebreak: full R4 to-par.",
+    ),
+  );
+
+  const scored = entries.map((e) => {
+    const player = byId.get(String((e.boomHoles || {}).id)) || null;
+    return {
+      displayName: e.displayName,
+      golfer: scoreShowdownBoomHoles(e.boomHoles || {}, player),
+    };
+  });
+  scored.sort((a, b) => {
+    if (a.golfer.score !== b.golfer.score)
+      return a.golfer.score - b.golfer.score;
+    if (a.golfer.r4Total !== b.golfer.r4Total)
+      return a.golfer.r4Total - b.golfer.r4Total;
+    return (a.displayName || "").localeCompare(b.displayName || "");
+  });
+
+  let lastScore = null;
+  let lastRank = 0;
+  scored.forEach((s, i) => {
+    if (s.golfer.score !== lastScore) {
+      lastRank = i + 1;
+      lastScore = s.golfer.score;
+    }
+    s.rank = lastRank;
+  });
+  const tieCounts = {};
+  scored.forEach((s) => (tieCounts[s.rank] = (tieCounts[s.rank] || 0) + 1));
+
+  const table = el("table", { class: "boom-table" });
+  const headRow = el("tr", {}, [
+    el("th", {}, "Rank"),
+    el("th", {}, "Player"),
+    el("th", {}, "Golfer"),
+  ]);
+  for (const h of BOOM_HOLES) {
+    headRow.appendChild(el("th", { class: "num" }, "H" + h));
+  }
+  headRow.appendChild(el("th", { class: "num" }, "To Par"));
+  headRow.appendChild(el("th", { class: "num" }, "Full R4"));
+  table.appendChild(el("thead", {}, headRow));
+
+  const tbody = el("tbody");
+  for (const s of scored) {
+    const rankLabel = (tieCounts[s.rank] > 1 ? "T" : "") + s.rank;
+    const row = el("tr");
+    row.appendChild(el("td", { class: "rank" }, rankLabel));
+    row.appendChild(el("td", { class: "name" }, s.displayName));
+    const golferCell = el("td", { class: "name" });
+    const fullPlayer = byId.get(String(s.golfer.id)) || s.golfer;
+    golferCell.appendChild(playerNameLink(fullPlayer));
+    if (s.golfer.penalty) {
+      golferCell.appendChild(el("span", { class: "badge-penalty" }, "PEN"));
+    }
+    row.appendChild(golferCell);
+    for (const h of s.golfer.holes) {
+      const td = el("td", { class: "num" });
+      if (h.strokes == null) {
+        td.textContent = "—";
+      } else {
+        const diff = h.strokes - h.par;
+        td.textContent = String(h.strokes);
+        td.classList.add(holeClassFromDiff(diff));
+      }
+      row.appendChild(td);
+    }
+    row.appendChild(el("td", { class: "num" }, s.golfer.label));
+    row.appendChild(
+      el(
+        "td",
+        { class: "num" },
+        s.golfer.r4Total === SHOWDOWN_PENALTY_WD || s.golfer.score === PENALTY_NULL
+          ? "—"
+          : fmtToPar(s.golfer.r4Total),
+      ),
+    );
+    tbody.appendChild(row);
+  }
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+  return wrap;
+}
+
+function holeClassFromDiff(diff) {
+  if (diff <= -2) return "hole-eagle";
+  if (diff === -1) return "hole-birdie";
+  if (diff === 0) return "hole-par";
+  if (diff === 1) return "hole-bogey";
+  return "hole-double";
+}
+
+function renderChampionStandings(entries, players, tournament) {
+  const wrap = el("div", { class: "showdown-section" });
+  wrap.appendChild(
+    el("h2", { class: "showdown-section-title" }, "Champion Call"),
+  );
+  wrap.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Pick the outright winner + a winning to-par guess. Among entries that " +
+        "picked the actual winner, closest guess without going over (Price-Is-Right) wins.",
+    ),
+  );
+
+  const scored = entries.map((e) =>
+    computeShowdownChampion(e, players, tournament),
+  );
+
+  // Surface the actual winner state at the top of the section.
+  const first = scored[0];
+  if (first && first.actualWinner) {
+    wrap.appendChild(
+      el(
+        "p",
+        { class: "champion-actual" },
+        first.isFinal
+          ? `Winner: ${first.actualWinner.name} at ${fmtToPar(first.actualWinningToPar)}`
+          : `Current leader: ${first.actualWinner.name} at ${fmtToPar(first.actualWinningToPar)} (not final yet)`,
+      ),
+    );
+  }
+
+  // Sort: correct picks first, then by (not-overshot, abs diff)
+  // Among incorrect picks, sort by abs diff so the live board still ranks them.
+  scored.sort((a, b) => {
+    if (a.correct !== b.correct) return a.correct ? -1 : 1;
+    if (a.absDiff == null && b.absDiff == null) return 0;
+    if (a.absDiff == null) return 1;
+    if (b.absDiff == null) return -1;
+    if (a.overshot !== b.overshot) return a.overshot ? 1 : -1;
+    return a.absDiff - b.absDiff;
+  });
+
+  const table = el("table", { class: "champion-table" });
+  table.appendChild(
+    el("thead", {}, [
+      el("tr", {}, [
+        el("th", {}, "Rank"),
+        el("th", {}, "Player"),
+        el("th", {}, "Their Pick"),
+        el("th", { class: "num" }, "Guess"),
+        el("th", { class: "num" }, "Diff"),
+        el("th", {}, "Status"),
+      ]),
+    ]),
+  );
+  const tbody = el("tbody");
+  scored.forEach((s, i) => {
+    const row = el("tr");
+    row.appendChild(el("td", { class: "rank" }, String(i + 1)));
+    row.appendChild(el("td", { class: "name" }, s.displayName));
+    row.appendChild(el("td", {}, s.pickName));
+    row.appendChild(
+      el("td", { class: "num" }, s.guess == null ? "—" : fmtToPar(s.guess)),
+    );
+    row.appendChild(
+      el(
+        "td",
+        { class: "num" },
+        s.signedDiff == null
+          ? "—"
+          : (s.signedDiff > 0 ? "+" : "") + s.signedDiff,
+      ),
+    );
+    let statusText = "—";
+    if (s.actualWinner == null) {
+      statusText = "pending";
+    } else if (!s.correct) {
+      statusText = "wrong winner";
+    } else if (s.overshot) {
+      statusText = "overshot";
+    } else {
+      statusText = s.signedDiff === 0 ? "exact!" : "in contention";
+    }
+    row.appendChild(el("td", {}, statusText));
+    tbody.appendChild(row);
+  });
+  table.appendChild(tbody);
+  wrap.appendChild(table);
+  return wrap;
+}
+
+function renderShowdownRejected(rejected) {
+  const wrap = el("div", { class: "showdown-section" });
+  wrap.appendChild(
+    el("h2", { class: "pending-header" }, [
+      "Pending fixes ",
+      el("span", { class: "pending-count" }, `(${rejected.length})`),
+    ]),
+  );
+  wrap.appendChild(
+    el(
+      "p",
+      { class: "pending-hint" },
+      "These showdown submissions couldn't be matched. Resubmit using the " +
+        "same display name (latest submission replaces the old one).",
+    ),
+  );
+  for (const r of rejected) {
+    const card = el("div", { class: "rejected-entry" });
+    card.appendChild(
+      el("div", { class: "rejected-entry-header" }, [
+        el("span", { class: "name" }, r.displayName || "(no name)"),
+        r.submittedAt
+          ? el(
+              "span",
+              { class: "ts" },
+              new Date(r.submittedAt).toLocaleString(),
+            )
+          : null,
+      ]),
+    );
+    const list = el("ul", { class: "rejected-picks" });
+    for (const e of r.errors || []) {
+      list.appendChild(
+        el("li", { class: "bad" }, [
+          el("span", { class: "input" }, `${e.field}: ${e.input || "(empty)"}`),
+          el("span", { class: "msg" }, e.message),
+        ]),
+      );
+    }
+    card.appendChild(list);
+    wrap.appendChild(card);
+  }
+  return wrap;
 }
 
 let allFieldPlayers = [];
@@ -963,6 +1660,443 @@ function handlePickerSubmit() {
   );
 }
 
+// ---------- showdown picker ----------
+// Independent state from the main picker so the two pickers don't fight over
+// each other's selections. Picker is a one-time DOM build (initShowdownPicker
+// is called once in main); the standings/explainer block above it is the
+// only thing that re-renders on data refresh.
+
+let showdownPick3Selected = []; // ordered list of golfer ids (max 3)
+let showdownChampionId = null;
+let showdownBoomHolesId = null;
+let showdownPlayers = []; // cut survivors, sorted by leaderboard position
+let showdownFiltered = [];
+let showdownStatusTimer = null;
+
+function initShowdownPicker(players) {
+  const root = document.getElementById("showdown-picker");
+  if (!root) return;
+  root.innerHTML = "";
+
+  if (isShowdownPastCutoff()) {
+    root.appendChild(renderShowdownPickerClosed());
+    return;
+  }
+  if (!isShowdownConfigured()) {
+    root.appendChild(renderShowdownPickerNotConfigured());
+    return;
+  }
+
+  // Cut survivors only, sorted by leaderboard position (lowest scoreToPar
+  // first). This is intentionally different from the main picker, which
+  // alphabetizes — here, the leaders are at the top so they're easy to find.
+  showdownPlayers = (players || [])
+    .filter(
+      (p) =>
+        p.status !== "cut" &&
+        p.status !== "wd" &&
+        p.status !== "dq" &&
+        p.status !== "dns",
+    )
+    .slice()
+    .sort((a, b) => {
+      const sa = a.scoreToPar == null ? 999 : a.scoreToPar;
+      const sb = b.scoreToPar == null ? 999 : b.scoreToPar;
+      if (sa !== sb) return sa - sb;
+      return (a.name || "").localeCompare(b.name || "");
+    });
+  showdownFiltered = showdownPlayers;
+
+  if (!showdownPlayers.length) {
+    root.appendChild(
+      el(
+        "div",
+        { class: "empty" },
+        "No cut-survivors in the field yet. The showdown picker opens after the Friday cut.",
+      ),
+    );
+    return;
+  }
+
+  buildShowdownPickerDOM(root);
+}
+
+function renderShowdownPickerClosed() {
+  const card = el("div", { class: "picker-closed" });
+  card.appendChild(
+    el(
+      "h2",
+      { class: "picker-closed-title" },
+      "Showdown submissions are closed",
+    ),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "picker-closed-body" },
+      `The deadline was ${formatShowdownCutoffLocal()}. New picks won't count.`,
+    ),
+  );
+  return card;
+}
+
+function renderShowdownPickerNotConfigured() {
+  const card = el("div", { class: "picker-closed" });
+  card.appendChild(
+    el(
+      "h2",
+      { class: "picker-closed-title" },
+      "Showdown form not yet configured",
+    ),
+  );
+  card.appendChild(
+    el(
+      "p",
+      { class: "picker-closed-body" },
+      "The Sunday Showdown picker will appear here once the secondary " +
+        "Google Form has been created and SHOWDOWN_FORM_PREFILL is filled " +
+        "in inside assets/app.js. See the README for setup steps.",
+    ),
+  );
+  return card;
+}
+
+function buildShowdownPickerDOM(root) {
+  // Header card
+  const header = el("div", { class: "showdown-picker-header" });
+  header.appendChild(el("h2", {}, "Make your Sunday Showdown picks"));
+  header.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      `Three contests on one form. Deadline: ${formatShowdownCutoffLocal()}.`,
+    ),
+  );
+  root.appendChild(header);
+
+  // Display name
+  const nameWrap = el("div", { class: "picker-form" });
+  nameWrap.appendChild(
+    el(
+      "label",
+      { class: "picker-label", for: "showdown-name" },
+      "Your display name",
+    ),
+  );
+  const nameInput = document.createElement("input");
+  nameInput.id = "showdown-name";
+  nameInput.type = "text";
+  nameInput.placeholder = "e.g. Pat M.";
+  nameInput.autocomplete = "off";
+  nameInput.maxLength = 40;
+  nameWrap.appendChild(nameInput);
+  root.appendChild(nameWrap);
+
+  // ===== PICK 3 section =====
+  const pick3Section = el("section", { class: "showdown-picker-section" });
+  pick3Section.appendChild(
+    el("h3", {}, `Pick 3 — choose ${PICK3_REQUIRED} golfers`),
+  );
+  pick3Section.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Sum of all 3 R4 to-pars. No drops. Lowest wins.",
+    ),
+  );
+
+  const pickerBar = el("div", { class: "picker-bar" });
+  const counter = el(
+    "span",
+    { id: "showdown-pick3-count", class: "picker-count" },
+    `0 / ${PICK3_REQUIRED} picked`,
+  );
+  pickerBar.appendChild(counter);
+  pick3Section.appendChild(pickerBar);
+
+  const search = document.createElement("input");
+  search.id = "showdown-pick3-search";
+  search.type = "search";
+  search.placeholder = "Search the field…";
+  search.autocomplete = "off";
+  search.addEventListener("input", () => {
+    const q = search.value.trim().toLowerCase();
+    showdownFiltered = q
+      ? showdownPlayers.filter(
+          (p) =>
+            (p.name || "").toLowerCase().includes(q) ||
+            (p.country || "").toLowerCase().includes(q),
+        )
+      : showdownPlayers;
+    drawShowdownPick3Field();
+  });
+  pick3Section.appendChild(search);
+
+  const grid = el("div", {
+    id: "showdown-pick3-field",
+    class: "picker-field",
+  });
+  pick3Section.appendChild(grid);
+  root.appendChild(pick3Section);
+
+  // ===== CHAMPION CALL section =====
+  const champSection = el("section", { class: "showdown-picker-section" });
+  champSection.appendChild(el("h3", {}, "Champion Call"));
+  champSection.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Pick the outright winner + a winning to-par guess.",
+    ),
+  );
+
+  const champLabel = el(
+    "label",
+    { class: "picker-label", for: "showdown-champion" },
+    "Champion",
+  );
+  champSection.appendChild(champLabel);
+  const champSelect = document.createElement("select");
+  champSelect.id = "showdown-champion";
+  champSelect.className = "showdown-select";
+  populateGolferSelect(champSelect, "(choose a golfer)");
+  champSelect.addEventListener("change", () => {
+    showdownChampionId = champSelect.value || null;
+  });
+  champSection.appendChild(champSelect);
+
+  const guessLabel = el(
+    "label",
+    { class: "picker-label", for: "showdown-guess" },
+    "Predicted winning to-par (e.g. -12)",
+  );
+  champSection.appendChild(guessLabel);
+  const guessInput = document.createElement("input");
+  guessInput.id = "showdown-guess";
+  guessInput.type = "number";
+  guessInput.step = "1";
+  guessInput.min = "-30";
+  guessInput.max = "20";
+  guessInput.placeholder = "-10";
+  guessInput.className = "showdown-number";
+  champSection.appendChild(guessInput);
+  root.appendChild(champSection);
+
+  // ===== BOOM HOLES section =====
+  const boomSection = el("section", { class: "showdown-picker-section" });
+  boomSection.appendChild(el("h3", {}, "Boom Holes"));
+  boomSection.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      `One golfer, sum of strokes-to-par on holes ${BOOM_HOLES.join(", ")}. Lowest wins.`,
+    ),
+  );
+
+  const boomLabel = el(
+    "label",
+    { class: "picker-label", for: "showdown-boom" },
+    "Boom Holes pick",
+  );
+  boomSection.appendChild(boomLabel);
+  const boomSelect = document.createElement("select");
+  boomSelect.id = "showdown-boom";
+  boomSelect.className = "showdown-select";
+  populateGolferSelect(boomSelect, "(choose a golfer)");
+  boomSelect.addEventListener("change", () => {
+    showdownBoomHolesId = boomSelect.value || null;
+  });
+  boomSection.appendChild(boomSelect);
+  root.appendChild(boomSection);
+
+  // Submit + status
+  const submitBar = el("div", { class: "picker-bar" });
+  const submitBtn = document.createElement("button");
+  submitBtn.type = "button";
+  submitBtn.className = "picker-submit";
+  submitBtn.textContent = "Submit showdown picks";
+  submitBtn.addEventListener("click", handleShowdownSubmit);
+  submitBar.appendChild(submitBtn);
+  root.appendChild(submitBar);
+
+  const status = el(
+    "p",
+    { id: "showdown-status", class: "picker-status" },
+    "",
+  );
+  root.appendChild(status);
+
+  drawShowdownPick3Field();
+}
+
+function populateGolferSelect(select, placeholder) {
+  const blank = document.createElement("option");
+  blank.value = "";
+  blank.textContent = placeholder;
+  select.appendChild(blank);
+  for (const p of showdownPlayers) {
+    const opt = document.createElement("option");
+    opt.value = String(p.id);
+    const score = p.scoreToPar != null ? ` (${fmtToPar(p.scoreToPar)})` : "";
+    opt.textContent = `${p.name}${score}`;
+    select.appendChild(opt);
+  }
+}
+
+function drawShowdownPick3Field() {
+  const root = document.getElementById("showdown-pick3-field");
+  if (!root) return;
+  root.innerHTML = "";
+
+  if (!showdownFiltered.length) {
+    root.appendChild(
+      el("div", { class: "empty" }, "No players match that search."),
+    );
+    return;
+  }
+
+  const atMax = showdownPick3Selected.length >= PICK3_REQUIRED;
+  for (const p of showdownFiltered) {
+    const id = String(p.id);
+    const isChecked = showdownPick3Selected.includes(id);
+    const label = document.createElement("label");
+    label.className = "picker-row" + (isChecked ? " checked" : "");
+
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.className = "picker-checkbox";
+    cb.value = id;
+    cb.checked = isChecked;
+    cb.disabled = atMax && !isChecked;
+    cb.addEventListener("change", () => handleShowdownCheckbox(id, cb));
+
+    const nameSpan = document.createElement("span");
+    nameSpan.className = "picker-row-name";
+    nameSpan.textContent = p.name || "—";
+
+    label.appendChild(cb);
+    const av = playerAvatar(p.id);
+    if (av) label.appendChild(av);
+    label.appendChild(nameSpan);
+
+    if (p.scoreToPar != null) {
+      const scoreSpan = document.createElement("span");
+      scoreSpan.className = "picker-row-country";
+      scoreSpan.textContent = fmtToPar(p.scoreToPar);
+      label.appendChild(scoreSpan);
+    }
+    root.appendChild(label);
+  }
+}
+
+function handleShowdownCheckbox(id, cb) {
+  if (cb.checked) {
+    if (showdownPick3Selected.length >= PICK3_REQUIRED) {
+      cb.checked = false;
+      flashShowdownStatus(
+        `You've already picked ${PICK3_REQUIRED}. Uncheck one before adding another.`,
+        "error",
+      );
+      return;
+    }
+    showdownPick3Selected.push(id);
+  } else {
+    const idx = showdownPick3Selected.indexOf(id);
+    if (idx >= 0) showdownPick3Selected.splice(idx, 1);
+  }
+  updateShowdownCount();
+  drawShowdownPick3Field();
+}
+
+function updateShowdownCount() {
+  const counter = document.getElementById("showdown-pick3-count");
+  if (counter) {
+    counter.textContent = `${showdownPick3Selected.length} / ${PICK3_REQUIRED} picked`;
+  }
+}
+
+function flashShowdownStatus(msg, kind) {
+  const status = document.getElementById("showdown-status");
+  if (!status) return;
+  status.textContent = msg;
+  status.className = "picker-status visible " + (kind || "info");
+  if (showdownStatusTimer) clearTimeout(showdownStatusTimer);
+  showdownStatusTimer = setTimeout(() => {
+    status.classList.remove("visible");
+  }, 5000);
+}
+
+function handleShowdownSubmit() {
+  if (isShowdownPastCutoff()) {
+    flashShowdownStatus(
+      `Submissions closed at ${formatShowdownCutoffLocal()}.`,
+      "error",
+    );
+    return;
+  }
+
+  const nameEl = document.getElementById("showdown-name");
+  const name = (nameEl && nameEl.value.trim()) || "";
+  const guessEl = document.getElementById("showdown-guess");
+  const guess = (guessEl && guessEl.value.trim()) || "";
+
+  if (!name) {
+    flashShowdownStatus("Enter a display name first.", "error");
+    if (nameEl) nameEl.focus();
+    return;
+  }
+  if (showdownPick3Selected.length !== PICK3_REQUIRED) {
+    flashShowdownStatus(
+      `Pick exactly ${PICK3_REQUIRED} golfers — you have ${showdownPick3Selected.length}.`,
+      "error",
+    );
+    return;
+  }
+  if (!showdownChampionId) {
+    flashShowdownStatus("Pick your Champion Call winner.", "error");
+    return;
+  }
+  if (!guess) {
+    flashShowdownStatus(
+      "Enter a winning to-par guess for Champion Call.",
+      "error",
+    );
+    if (guessEl) guessEl.focus();
+    return;
+  }
+  if (!showdownBoomHolesId) {
+    flashShowdownStatus("Pick your Boom Holes golfer.", "error");
+    return;
+  }
+
+  const byId = new Map(showdownPlayers.map((p) => [String(p.id), p]));
+  const params = new URLSearchParams();
+  params.set("usp", "pp_url");
+  params.set(SHOWDOWN_FORM_PREFILL.displayName, name);
+  showdownPick3Selected.forEach((id, i) => {
+    const p = byId.get(id);
+    params.set(SHOWDOWN_FORM_PREFILL.pick3[i], (p && p.name) || id);
+  });
+  const champPlayer = byId.get(showdownChampionId);
+  params.set(
+    SHOWDOWN_FORM_PREFILL.champion,
+    (champPlayer && champPlayer.name) || showdownChampionId,
+  );
+  params.set(SHOWDOWN_FORM_PREFILL.championGuess, guess);
+  const boomPlayer = byId.get(showdownBoomHolesId);
+  params.set(
+    SHOWDOWN_FORM_PREFILL.boomHoles,
+    (boomPlayer && boomPlayer.name) || showdownBoomHolesId,
+  );
+
+  const url = `${SHOWDOWN_FORM_PREFILL.base}?${params.toString()}`;
+  window.open(url, "_blank", "noopener");
+  flashShowdownStatus(
+    "Form opened in a new tab — click Submit on the form to finalize.",
+    "success",
+  );
+}
+
 // ---------- tabs + setup ----------
 function wireTabs() {
   const tabs = document.querySelectorAll(".tab");
@@ -1019,11 +2153,12 @@ async function main() {
   wireRepoLinks();
   wireFieldSearch();
 
-  let scores, entriesData;
+  let scores, entriesData, showdownData;
   try {
-    [scores, entriesData] = await Promise.all([
+    [scores, entriesData, showdownData] = await Promise.all([
       loadJson("data/scores.json"),
       loadJson("data/entries.json").catch(() => ({ entries: [] })),
+      loadJson("data/showdown.json").catch(() => ({ entries: [], rejected: [] })),
     ]);
   } catch (e) {
     const err = document.getElementById("error");
@@ -1043,6 +2178,8 @@ async function main() {
   renderLeaderboard(players);
   renderField(players);
   initPicker(players);
+  renderShowdown(showdownData, players, byId, scores.tournament);
+  initShowdownPicker(players);
 }
 
 main();

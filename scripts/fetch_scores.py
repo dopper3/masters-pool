@@ -7,11 +7,21 @@ Uses only the Python standard library so it runs on any plain Python install
 import json
 import sys
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
 ENDPOINT = "https://site.api.espn.com/apis/site/v2/sports/golf/leaderboard"
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "scores.json"
+
+# Per-competitor hole-by-hole linescores (CORS-open). Used to populate the
+# r4Holes field on each non-cut player so the Sunday Showdown's Boom Holes
+# contest can score against specific holes without each browser hitting
+# ESPN N times on every page load.
+SCORECARD_URL_TEMPLATE = (
+    "https://sports.core.api.espn.com/v2/sports/golf/leagues/pga/events/"
+    "{event_id}/competitions/{event_id}/competitors/{athlete_id}/linescores"
+)
 
 
 def fetch():
@@ -138,11 +148,79 @@ def parse_event(ev):
     }
 
 
+def fetch_scorecard(event_id, athlete_id):
+    url = SCORECARD_URL_TEMPLATE.format(event_id=event_id, athlete_id=athlete_id)
+    req = urllib.request.Request(
+        url, headers={"User-Agent": "masters-pool/1.0 (github actions)"}
+    )
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return json.load(r)
+
+
+def parse_round_holes(scorecard, round_period):
+    """Return an 18-length list of strokes per hole for the given round.
+
+    Holes the player hasn't played yet (or that ESPN didn't return) are null.
+    Used to feed the Boom Holes sidecar — we always pull round 4."""
+    holes = [None] * 18
+    for round_item in scorecard.get("items") or []:
+        if round_item.get("period") != round_period:
+            continue
+        for ls in round_item.get("linescores") or []:
+            hole = ls.get("period")
+            if isinstance(hole, int) and 1 <= hole <= 18:
+                val = ls.get("value")
+                if isinstance(val, (int, float)):
+                    holes[hole - 1] = int(val)
+        break
+    return holes
+
+
+def attach_r4_holes(out):
+    """Mutate parse_event() output: add r4Holes to every non-cut/non-WD player.
+
+    Skipped before the tournament starts (the linescores endpoint returns
+    nothing useful pre-event). Failures per player are non-fatal — we log and
+    leave that player's r4Holes as a 18-length null list so the renderer never
+    has to handle a missing field."""
+    tournament = out["tournament"]
+    status = tournament.get("status") or "pre"
+    event_id = tournament.get("id")
+    if status not in ("in", "post") or not event_id:
+        return
+
+    targets = [
+        p for p in out["players"]
+        if p.get("status") not in ("cut", "wd", "dq", "dns") and p.get("id")
+    ]
+    print(
+        f"Fetching R4 hole data for {len(targets)} active players...",
+        file=sys.stderr,
+    )
+
+    def worker(p):
+        try:
+            sc = fetch_scorecard(event_id, p["id"])
+            p["r4Holes"] = parse_round_holes(sc, 4)
+        except Exception as e:
+            print(
+                f"  scorecard fetch failed for {p.get('name')!r}: {e}",
+                file=sys.stderr,
+            )
+            p["r4Holes"] = [None] * 18
+
+    # ThreadPoolExecutor keeps the workflow runtime under a few seconds even
+    # for the full 50-ish cut survivor field.
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(worker, targets))
+
+
 def main():
     print(f"Fetching {ENDPOINT}", file=sys.stderr)
     raw = fetch()
     ev = find_masters(raw)
     out = parse_event(ev)
+    attach_r4_holes(out)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)

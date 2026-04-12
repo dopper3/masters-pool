@@ -18,13 +18,16 @@ the data lives in JSON files committed to the repo.
 │   └── style.css
 ├── data/
 │   ├── scores.json         # auto-updated by the fetch workflow
-│   └── entries.json        # auto-updated by the form-poll workflow
+│   ├── entries.json        # auto-updated by the form-poll workflow
+│   └── showdown.json       # auto-updated by the Sunday Showdown poll workflow
 ├── scripts/
 │   ├── fetch_scores.py     # pulls from ESPN, writes data/scores.json
-│   └── poll_form.py        # pulls from the Google Form sheet, writes entries.json
+│   ├── poll_form.py        # pulls from the main Google Form sheet, writes entries.json
+│   └── poll_showdown.py    # pulls from the showdown Google Form sheet, writes showdown.json
 └── .github/workflows/
     ├── update-scores.yml   # cron every ~15 min during Masters week
-    └── poll-form.yml       # cron every ~5 min, polls the form
+    ├── poll-form.yml       # cron every ~5 min, polls the main form
+    └── poll-showdown.yml   # cron every ~2 min during the Sunday submission window
 ```
 
 ## One-time setup
@@ -124,6 +127,73 @@ the friend can self-diagnose and resubmit.
 The poll workflow also logs every row's verdict in the workflow run. If you
 want a more granular view: `Actions → Poll Google Form → most recent run →
 poll job`.
+
+## The Sunday Showdown (secondary R4-only contests)
+
+Three sub-contests sit on top of the main pool, all scored on **Sunday's
+final round only**. Friends submit a single secondary form on Sunday morning
+and their picks are entered in all three contests at once.
+
+| Contest | Picks | Scoring | Tiebreaker |
+| --- | --- | --- | --- |
+| **Pick 3** | 3 golfers | Sum of all three R4 to-pars (no drops). Lowest wins. | Full R4 of pick #1 |
+| **Champion Call** | 1 winner + a guess | Must pick the actual winner. Closest winning to-par guess **without going over** (Price-Is-Right) wins. | Smallest absolute diff |
+| **Boom Holes** | 1 golfer | Combined strokes-to-par on holes **12, 13, 15, 16, 18** in R4. Lowest wins. | Full R4 to-par |
+
+**Cut survivors only** — the showdown picker filters out anyone who got cut,
+WD'd, or DQ'd. The submission deadline is **10:30 AM Eastern on Sunday**
+(constants in `assets/app.js` and `scripts/poll_showdown.py` — both must
+match if you change one).
+
+### Setting up the showdown form
+
+1. **Create a second Google Form** (separate from the main pool form) with
+   these short-answer questions in this exact order:
+   - `Display name`
+   - `Pick 1`
+   - `Pick 2`
+   - `Pick 3`
+   - `Champion`
+   - `Winning to-par guess`
+   - `Boom Holes pick`
+
+   Mark all required.
+
+2. **Link a sheet** and **publish it as CSV** (`File → Share → Publish to
+   web → Entire document → Comma-separated values`). Copy the URL.
+
+3. **Set the repo variable.** `Settings → Secrets and variables → Actions →
+   Variables tab → New repository variable`. Name it `SHOWDOWN_FORM_CSV_URL`
+   and paste the published-CSV URL.
+
+4. **Get the prefill entry IDs.** In the form's three-dot menu, choose
+   `Get pre-filled link`, fill in any answers, then `Get link`. Copy the
+   resulting URL — you'll see segments like `entry.1234567890=foo`. Note
+   each `entry.NNNN` ID and which question it belongs to.
+
+5. **Update `SHOWDOWN_FORM_PREFILL` in `assets/app.js`.** Replace the seven
+   `REPLACE_*` placeholder values with your form's base URL and entry IDs.
+   The picker auto-hides itself until the base URL no longer contains
+   `REPLACE_`, so the site will quietly skip the showdown picker until you
+   wire it up.
+
+6. **Trigger the first poll.** `Actions → Poll Sunday Showdown form →
+   Run workflow → main`. Any test entries already in the sheet show up on
+   the Sunday Showdown tab.
+
+The poll workflow ships with its scheduled cron commented out — uncomment
+the `schedule:` block in `.github/workflows/poll-showdown.yml` once you've
+verified the form works end-to-end. The default schedule polls every 2
+minutes from Saturday 22:00 UTC through the Sunday cutoff.
+
+### How Boom Holes scoring gets its data
+
+`scripts/fetch_scores.py` pulls per-hole R4 strokes for every cut survivor
+from ESPN's per-competitor `linescores` endpoint and stores them as an
+18-length `r4Holes` array on each player in `data/scores.json`. The renderer
+sums the boom-hole strokes-vs-par client-side, so changing the boom hole
+set is a one-line edit to `BOOM_HOLES` in `assets/app.js` (no script
+changes required).
 
 ## Scoring rules
 

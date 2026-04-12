@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style.css?v=10" />
+    <link rel="stylesheet" href="assets/style.css?v=11" />
   </head>
   <body>
     <header class="site-header">
@@ -72,6 +72,7 @@
     <nav class="tabs wrap">
       <button class="tab active" data-tab="pool">Pool standings</button>
       <button class="tab" data-tab="pick">Make picks</button>
+      <button class="tab" data-tab="showdown">Sunday Showdown</button>
       <button class="tab" data-tab="leaderboard">Tournament leaderboard</button>
       <button class="tab" data-tab="field">The field</button>
       <button class="tab" data-tab="rules">Rules &amp; how to enter</button>
@@ -140,6 +141,11 @@
           >
           and type your picks by hand.
         </p>
+      </section>
+
+      <section id="tab-showdown" class="tab-panel">
+        <div id="showdown-picker"></div>
+        <div id="showdown-content"></div>
       </section>
 
       <section id="tab-leaderboard" class="tab-panel">
@@ -219,6 +225,6 @@
       <p id="last-updated"></p>
     </footer>
 
-    <script src="assets/app.js?v=10"></script>
+    <script src="assets/app.js?v=11"></script>
   </body>
 </html>
