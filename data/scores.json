@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T13:55:13.862396+00:00"
+    "lastUpdated": "2026-04-12T13:57:15.602070+00:00"
   },
   "players": [
     {
@@ -2151,44 +2151,6 @@
       ]
     },
     {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "shortName": "A. Rai",
-      "country": "England",
-      "position": "53",
-      "scoreToPar": 7.0,
-      "scoreDisplay": "+7",
-      "thru": 3,
-      "teeTime": "2026-04-12T13:06Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        2,
-        6,
-        0
-      ],
-      "r4Holes": [
-        4,
-        5,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11332",
       "name": "Andrew Novak",
       "shortName": "A. Novak",
@@ -2274,6 +2236,44 @@
       "rounds": [
         3,
         4,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "shortName": "A. Rai",
+      "country": "England",
+      "position": "53",
+      "scoreToPar": 8.0,
+      "scoreDisplay": "+8",
+      "thru": 4,
+      "teeTime": "2026-04-12T13:06Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        6,
+        1
+      ],
+      "r4Holes": [
+        4,
+        5,
+        4,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
@@ -2569,7 +2569,7 @@
         4,
         6,
         6,
-        null,
+        4,
         null,
         null,
         null,
