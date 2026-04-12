@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T14:53:10.580211+00:00"
+    "lastUpdated": "2026-04-12T14:55:18.472065+00:00"
   },
   "players": [
     {
@@ -1502,7 +1502,7 @@
       "position": "T38",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-12T14:12Z",
       "status": "active",
       "rounds": [
@@ -1514,7 +1514,7 @@
       "r4Holes": [
         3,
         5,
-        null,
+        4,
         null,
         null,
         null,
@@ -1761,49 +1761,11 @@
       ]
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
-      "shortName": "C. Conners",
-      "country": "Canada",
-      "position": "T47",
-      "scoreToPar": 3.0,
-      "scoreDisplay": "+3",
-      "thru": 3,
-      "teeTime": "2026-04-12T14:01Z",
-      "status": "active",
-      "rounds": [
-        3,
-        1,
-        -1,
-        0
-      ],
-      "r4Holes": [
-        5,
-        4,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T47",
+      "position": "47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 7,
@@ -1837,6 +1799,44 @@
       ]
     },
     {
+      "id": "9780",
+      "name": "Jon Rahm",
+      "shortName": "J. Rahm",
+      "country": "Spain",
+      "position": "48",
+      "scoreToPar": 4.0,
+      "scoreDisplay": "+4",
+      "thru": 7,
+      "teeTime": "2026-04-12T13:28Z",
+      "status": "active",
+      "rounds": [
+        6,
+        -2,
+        1,
+        -1
+      ],
+      "r4Holes": [
+        4,
+        4,
+        3,
+        3,
+        5,
+        4,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "780",
       "name": "Bubba Watson",
       "shortName": "B. Watson",
@@ -1850,6 +1850,44 @@
       "rounds": [
         4,
         1,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "9126",
+      "name": "Corey Conners",
+      "shortName": "C. Conners",
+      "country": "Canada",
+      "position": "49",
+      "scoreToPar": 5.0,
+      "scoreDisplay": "+5",
+      "thru": 4,
+      "teeTime": "2026-04-12T14:01Z",
+      "status": "active",
+      "rounds": [
+        3,
+        1,
+        -1,
+        2
+      ],
+      "r4Holes": [
+        5,
+        4,
+        4,
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
@@ -1904,44 +1942,6 @@
       "rounds": [
         2,
         3,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9780",
-      "name": "Jon Rahm",
-      "shortName": "J. Rahm",
-      "country": "Spain",
-      "position": "49",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 6,
-      "teeTime": "2026-04-12T13:28Z",
-      "status": "active",
-      "rounds": [
-        6,
-        -2,
-        1,
-        0
-      ],
-      "r4Holes": [
-        4,
-        4,
-        3,
-        3,
-        5,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ]
@@ -2185,6 +2185,44 @@
       ]
     },
     {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "52",
+      "scoreToPar": 7.0,
+      "scoreDisplay": "+7",
+      "thru": 7,
+      "teeTime": "2026-04-12T13:28Z",
+      "status": "active",
+      "rounds": [
+        0,
+        3,
+        2,
+        2
+      ],
+      "r4Holes": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4348444",
       "name": "Tom McKibbin",
       "shortName": "T. McKibbin",
@@ -2288,44 +2326,6 @@
       "rounds": [
         3,
         5,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "52",
-      "scoreToPar": 8.0,
-      "scoreDisplay": "+8",
-      "thru": 6,
-      "teeTime": "2026-04-12T13:28Z",
-      "status": "active",
-      "rounds": [
-        0,
-        3,
-        2,
-        3
-      ],
-      "r4Holes": [
-        5,
-        5,
-        5,
-        4,
-        4,
-        3,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null
       ]
