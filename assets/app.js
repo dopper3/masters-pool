@@ -1949,8 +1949,20 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
   }
   root.appendChild(potsCard);
 
-  // ----- Per-player balance -----
-  const balances = buildBalances(contests);
+  // ----- Per-player balance (consolidated by real name) -----
+  const rawBalances = buildBalances(contests);
+  // Merge entries that map to the same real name so one person with multiple
+  // teams shows a single row and a single transfer instead of several.
+  const mergedMap = new Map();
+  for (const b of rawBalances) {
+    const rn = resolvedName(b.display);
+    if (mergedMap.has(rn)) {
+      mergedMap.get(rn).net += b.net;
+    } else {
+      mergedMap.set(rn, { display: rn, net: b.net });
+    }
+  }
+  const balances = Array.from(mergedMap.values());
   balances.sort((a, b) => b.net - a.net);
 
   const balanceCard = el("div", { class: "results-section" });
@@ -1979,7 +1991,7 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
   for (const p of balances) {
     const cls = p.net > 0.005 ? "credit" : p.net < -0.005 ? "debit" : "";
     const row = el("tr", cls ? { class: cls } : {});
-    row.appendChild(el("td", { class: "name" }, resolvedName(p.display)));
+    row.appendChild(el("td", { class: "name" }, p.display));
     row.appendChild(el("td", { class: "num" }, fmtMoneySigned(p.net)));
     bbody.appendChild(row);
   }
@@ -1987,19 +1999,22 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
   balanceCard.appendChild(bt);
   root.appendChild(balanceCard);
 
-  // ----- Name mapping UI -----
+  // ----- Name mapping UI (collapsible) -----
   const mapCard = el("div", { class: "results-section" });
-  mapCard.appendChild(
-    el("h3", { class: "results-section-title" }, "Name mapping"),
-  );
-  mapCard.appendChild(
+  const mapDetails = document.createElement("details");
+  const mapSummary = document.createElement("summary");
+  mapSummary.className = "results-section-title collapsible-title";
+  mapSummary.textContent = "Name mapping";
+  mapDetails.appendChild(mapSummary);
+  const mapInner = document.createDocumentFragment();
+  mapInner.appendChild(
     el(
       "p",
       { class: "hint" },
       "Assign real names to team names. Saved in your browser.",
     ),
   );
-  const allDisplayNames = balances.map((b) => b.display);
+  const allDisplayNames = rawBalances.map((b) => b.display);
   const currentMap = getNameMap();
   const mapTable = el("table", { class: "results-table name-map-table" });
   mapTable.appendChild(
@@ -2041,7 +2056,9 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
     mapBody.appendChild(row);
   }
   mapTable.appendChild(mapBody);
-  mapCard.appendChild(mapTable);
+  mapInner.appendChild(mapTable);
+  mapDetails.appendChild(mapInner);
+  mapCard.appendChild(mapDetails);
   root.appendChild(mapCard);
 
   // ----- Settlement transactions -----
