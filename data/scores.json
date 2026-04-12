@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T13:39:11.229598+00:00"
+    "lastUpdated": "2026-04-12T13:41:11.939835+00:00"
   },
   "players": [
     {
@@ -1965,44 +1965,6 @@
       ]
     },
     {
-      "id": "158",
-      "name": "Sergio García",
-      "shortName": "S. García",
-      "country": "Spain",
-      "position": "T48",
-      "scoreToPar": 5.0,
-      "scoreDisplay": "+5",
-      "thru": 0,
-      "teeTime": "2026-04-12T13:28Z",
-      "status": "scheduled",
-      "rounds": [
-        0,
-        3,
-        2,
-        null
-      ],
-      "r4Holes": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "4419142",
       "name": "Akshay Bhatia",
       "shortName": "A. Bhatia",
@@ -2043,7 +2005,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "T51",
+      "position": "T50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -2081,7 +2043,7 @@
       "name": "Kurt Kitayama",
       "shortName": "K. Kitayama",
       "country": "United States",
-      "position": "T51",
+      "position": "T50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
       "thru": 1,
@@ -2128,6 +2090,44 @@
       "rounds": [
         4,
         2,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Sergio García",
+      "shortName": "S. García",
+      "country": "Spain",
+      "position": "T50",
+      "scoreToPar": 6.0,
+      "scoreDisplay": "+6",
+      "thru": 1,
+      "teeTime": "2026-04-12T13:28Z",
+      "status": "active",
+      "rounds": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "r4Holes": [
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
