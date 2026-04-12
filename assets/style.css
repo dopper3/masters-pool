@@ -185,6 +185,22 @@ body {
   border-bottom-color: var(--gold-bright);
   background: white;
 }
+/* Highlight the Sunday Showdown picker tab so it catches the eye — uses the
+   gold palette to stand out against the cream tab bar without breaking the
+   Masters skin. */
+.tab[data-tab="showdown-pick"] {
+  background: var(--gold-soft);
+  color: var(--green-primary);
+}
+.tab[data-tab="showdown-pick"]:hover {
+  background: var(--gold-bright);
+  color: var(--green-deep);
+}
+.tab[data-tab="showdown-pick"].active {
+  background: var(--gold-bright);
+  color: var(--green-deep);
+  border-bottom-color: var(--green-primary);
+}
 
 main {
   padding: 24px 0 60px;
