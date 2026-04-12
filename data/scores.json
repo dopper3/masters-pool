@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T21:57:07.427783+00:00"
+    "lastUpdated": "2026-04-12T21:59:10.432620+00:00"
   },
   "players": [
     {
@@ -134,7 +134,7 @@
       "position": "T4",
       "scoreToPar": -10.0,
       "scoreDisplay": "-10",
-      "thru": 13,
+      "thru": 14,
       "teeTime": "2026-04-12T18:25Z",
       "status": "active",
       "rounds": [
@@ -157,7 +157,7 @@
         4,
         3,
         5,
-        null,
+        4,
         null,
         null,
         null,
@@ -172,9 +172,9 @@
       "position": "T4",
       "scoreToPar": -10.0,
       "scoreDisplay": "-10",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T17:41Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         1,
         -1,
@@ -199,7 +199,7 @@
         5,
         3,
         4,
-        null
+        4
       ]
     },
     {
@@ -431,49 +431,11 @@
       ]
     },
     {
-      "id": "6007",
-      "name": "Patrick Cantlay",
-      "shortName": "P. Cantlay",
-      "country": "United States",
-      "position": "12",
-      "scoreToPar": -6.0,
-      "scoreDisplay": "-6",
-      "thru": 17,
-      "teeTime": "2026-04-12T17:41Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -5,
-        -6,
-        0
-      ],
-      "r4Holes": [
-        4,
-        5,
-        3,
-        3,
-        4,
-        4,
-        4,
-        5,
-        4,
-        4,
-        5,
-        3,
-        5,
-        4,
-        4,
-        3,
-        4,
-        null
-      ]
-    },
-    {
       "id": "6798",
       "name": "Brooks Koepka",
       "shortName": "B. Koepka",
       "country": "United States",
-      "position": "T13",
+      "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
@@ -511,7 +473,7 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T13",
+      "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
@@ -549,7 +511,7 @@
       "name": "Jason Day",
       "shortName": "J. Day",
       "country": "Australia",
-      "position": "T13",
+      "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 15,
@@ -587,7 +549,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T13",
+      "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
@@ -621,11 +583,49 @@
       ]
     },
     {
+      "id": "6007",
+      "name": "Patrick Cantlay",
+      "shortName": "P. Cantlay",
+      "country": "United States",
+      "position": "T12",
+      "scoreToPar": -5.0,
+      "scoreDisplay": "-5",
+      "thru": 18,
+      "teeTime": "2026-04-12T17:41Z",
+      "status": "final",
+      "rounds": [
+        5,
+        -5,
+        -6,
+        1
+      ],
+      "r4Holes": [
+        4,
+        5,
+        3,
+        3,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        5,
+        3,
+        5,
+        4,
+        4,
+        3,
+        4,
+        5
+      ]
+    },
+    {
       "id": "5579",
       "name": "Patrick Reed",
       "shortName": "P. Reed",
       "country": "United States",
-      "position": "T13",
+      "position": "T12",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
       "thru": 18,
