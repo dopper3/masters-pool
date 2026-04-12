@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T22:27:08.480337+00:00"
+    "lastUpdated": "2026-04-12T22:29:07.720527+00:00"
   },
   "players": [
     {
@@ -203,44 +203,6 @@
       ]
     },
     {
-      "id": "9938",
-      "name": "Sam Burns",
-      "shortName": "S. Burns",
-      "country": "United States",
-      "position": "T3",
-      "scoreToPar": -10.0,
-      "scoreDisplay": "-10",
-      "thru": 16,
-      "teeTime": "2026-04-12T18:14Z",
-      "status": "active",
-      "rounds": [
-        -5,
-        -1,
-        -4,
-        0
-      ],
-      "r4Holes": [
-        3,
-        7,
-        5,
-        3,
-        4,
-        3,
-        4,
-        5,
-        4,
-        5,
-        4,
-        3,
-        4,
-        3,
-        5,
-        2,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5553",
       "name": "Tyrrell Hatton",
       "shortName": "T. Hatton",
@@ -283,7 +245,7 @@
       "name": "Collin Morikawa",
       "shortName": "C. Morikawa",
       "country": "United States",
-      "position": "8",
+      "position": "T7",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
       "thru": 18,
@@ -314,6 +276,44 @@
         2,
         4,
         4
+      ]
+    },
+    {
+      "id": "9938",
+      "name": "Sam Burns",
+      "shortName": "S. Burns",
+      "country": "United States",
+      "position": "T7",
+      "scoreToPar": -9.0,
+      "scoreDisplay": "-9",
+      "thru": 17,
+      "teeTime": "2026-04-12T18:14Z",
+      "status": "active",
+      "rounds": [
+        -5,
+        -1,
+        -4,
+        1
+      ],
+      "r4Holes": [
+        3,
+        7,
+        5,
+        3,
+        4,
+        3,
+        4,
+        5,
+        4,
+        5,
+        4,
+        3,
+        4,
+        3,
+        5,
+        2,
+        5,
+        null
       ]
     },
     {
@@ -1122,7 +1122,7 @@
       "position": "T24",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 16,
+      "thru": 17,
       "teeTime": "2026-04-12T18:14Z",
       "status": "active",
       "rounds": [
@@ -1148,7 +1148,7 @@
         5,
         4,
         5,
-        null,
+        4,
         null
       ]
     },
