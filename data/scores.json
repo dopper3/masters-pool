@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T16:37:12.821504+00:00"
+    "lastUpdated": "2026-04-12T16:39:14.395631+00:00"
   },
   "players": [
     {
@@ -929,17 +929,17 @@
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
       "country": "Japan",
-      "position": "T23",
+      "position": "T30",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-12T15:18Z",
       "status": "active",
       "rounds": [
         0,
         -2,
         0,
-        -1
+        0
       ],
       "r4Holes": [
         3,
@@ -947,7 +947,7 @@
         3,
         3,
         5,
-        null,
+        4,
         null,
         null,
         null,
@@ -1157,7 +1157,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 8,
@@ -1195,7 +1195,7 @@
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
       "thru": 6,
@@ -1233,10 +1233,10 @@
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T31",
+      "position": "T30",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-12T14:23Z",
       "status": "active",
       "rounds": [
@@ -1255,7 +1255,7 @@
         4,
         4,
         4,
-        null,
+        4,
         null,
         null,
         null,
