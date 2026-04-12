@@ -1808,11 +1808,11 @@ function settleTransactions(balances) {
   const EPS = 0.005;
   const creditors = balances
     .filter((b) => b.net > EPS)
-    .map((b) => ({ name: resolvedName(b.display), amount: b.net }))
+    .map((b) => ({ name: b.display, amount: b.net }))
     .sort((a, b) => b.amount - a.amount);
   const debtors = balances
     .filter((b) => b.net < -EPS)
-    .map((b) => ({ name: resolvedName(b.display), amount: -b.net }))
+    .map((b) => ({ name: b.display, amount: -b.net }))
     .sort((a, b) => b.amount - a.amount);
 
   const txns = [];
@@ -1938,7 +1938,7 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
         list.appendChild(
           el("li", {}, [
             el("span", { class: "role" }, p.role),
-            el("span", { class: "name" }, resolvedName(p.displayName)),
+            el("span", { class: "name" }, p.displayName),
             el("span", { class: "amount" }, fmtMoney(p.amount)),
           ]),
         );
@@ -1988,7 +1988,8 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
     ),
   );
   const bbody = el("tbody");
-  for (const p of balances) {
+  const sortedRaw = [...rawBalances].sort((a, b) => b.net - a.net);
+  for (const p of sortedRaw) {
     const cls = p.net > 0.005 ? "credit" : p.net < -0.005 ? "debit" : "";
     const row = el("tr", cls ? { class: cls } : {});
     row.appendChild(el("td", { class: "name" }, p.display));
