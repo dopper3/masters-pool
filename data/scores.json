@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T19:03:24.867845+00:00"
+    "lastUpdated": "2026-04-12T19:05:15.624410+00:00"
   },
   "players": [
     {
@@ -96,7 +96,7 @@
       "position": "T3",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-12T17:52Z",
       "status": "active",
       "rounds": [
@@ -110,7 +110,7 @@
         5,
         3,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -149,44 +149,6 @@
         4,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "9221",
-      "name": "Haotong Li",
-      "shortName": "H. Li",
-      "country": "China",
-      "position": "T5",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 4,
-      "teeTime": "2026-04-12T17:52Z",
-      "status": "active",
-      "rounds": [
-        -1,
-        -3,
-        -3,
-        -1
-      ],
-      "r4Holes": [
-        5,
-        4,
-        3,
-        3,
-        5,
         null,
         null,
         null,
@@ -355,6 +317,44 @@
       ]
     },
     {
+      "id": "9221",
+      "name": "Haotong Li",
+      "shortName": "H. Li",
+      "country": "China",
+      "position": "9",
+      "scoreToPar": -7.0,
+      "scoreDisplay": "-7",
+      "thru": 5,
+      "teeTime": "2026-04-12T17:52Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        -3,
+        -3,
+        0
+      ],
+      "r4Holes": [
+        5,
+        4,
+        3,
+        3,
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5860",
       "name": "Hideki Matsuyama",
       "shortName": "H. Matsuyama",
@@ -400,7 +400,7 @@
       "position": "T10",
       "scoreToPar": -6.0,
       "scoreDisplay": "-6",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-12T17:08Z",
       "status": "active",
       "rounds": [
@@ -417,7 +417,7 @@
         5,
         4,
         3,
-        null,
+        5,
         null,
         null,
         null,
@@ -552,7 +552,7 @@
       "position": "T15",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-12T17:08Z",
       "status": "active",
       "rounds": [
@@ -569,7 +569,7 @@
         5,
         3,
         3,
-        null,
+        5,
         null,
         null,
         null,
@@ -590,7 +590,7 @@
       "position": "T15",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 6,
+      "thru": 7,
       "teeTime": "2026-04-12T17:30Z",
       "status": "active",
       "rounds": [
@@ -1008,7 +1008,7 @@
       "position": "T25",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-12T16:46Z",
       "status": "active",
       "rounds": [
@@ -1027,7 +1027,7 @@
         4,
         5,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -1198,9 +1198,9 @@
       "position": "T28",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T14:56Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         0,
         2,
@@ -1225,7 +1225,7 @@
         4,
         2,
         4,
-        null
+        4
       ]
     },
     {
@@ -1312,9 +1312,9 @@
       "position": "T34",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 17,
+      "thru": 18,
       "teeTime": "2026-04-12T14:56Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         1,
         -1,
@@ -1339,7 +1339,7 @@
         5,
         3,
         4,
-        null
+        4
       ]
     },
     {
