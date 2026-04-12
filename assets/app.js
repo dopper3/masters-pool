@@ -2118,6 +2118,43 @@ function wireTabs() {
   );
 }
 
+// Auto-refresh: full page reload every 30s, but ONLY on tabs where there's
+// no in-flight picker state to lose. Picker tabs (Make picks, Sunday
+// Showdown) hold unsaved selections in JS globals — reloading mid-pick
+// would nuke them and frustrate the boys.
+//
+// Picker tabs become safe to refresh once their submission cutoff passes
+// (the picker UI gets replaced with a "submissions closed" card and the
+// only thing on the tab is read-only data).
+//
+// Implemented as setInterval rather than meta http-equiv so the active-tab
+// check happens at fire time, not schedule time. Worst case: user switches
+// to a safe tab right before a tick, sees a refresh shortly after — fine.
+function isTabSafeToRefresh(tabId) {
+  // Read-only tabs (no picker state) are always safe.
+  if (
+    tabId === "pool" ||
+    tabId === "leaderboard" ||
+    tabId === "field" ||
+    tabId === "rules"
+  ) {
+    return true;
+  }
+  // Picker tabs are only safe once their cutoff has passed.
+  if (tabId === "pick") return isPastCutoff();
+  if (tabId === "showdown") return isShowdownPastCutoff();
+  return false;
+}
+
+function startAutoRefresh() {
+  setInterval(() => {
+    const activeTab = document.querySelector(".tab.active");
+    if (activeTab && isTabSafeToRefresh(activeTab.dataset.tab)) {
+      location.reload();
+    }
+  }, 30000);
+}
+
 function wireRepoLinks() {
   // Detect repo from the current GitHub Pages URL so the footer link works
   // wherever this site is deployed.
@@ -2152,6 +2189,7 @@ async function main() {
   wireTabs();
   wireRepoLinks();
   wireFieldSearch();
+  startAutoRefresh();
 
   let scores, entriesData, showdownData;
   try {
