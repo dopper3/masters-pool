@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T19:37:05.536718+00:00"
+    "lastUpdated": "2026-04-12T19:39:27.895847+00:00"
   },
   "players": [
     {
@@ -20,7 +20,7 @@
       "position": "1",
       "scoreToPar": -12.0,
       "scoreDisplay": "-12",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-12T18:25Z",
       "status": "active",
       "rounds": [
@@ -34,9 +34,47 @@
         4,
         4,
         3,
+        4,
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "569",
+      "name": "Justin Rose",
+      "shortName": "J. Rose",
+      "country": "England",
+      "position": "T2",
+      "scoreToPar": -10.0,
+      "scoreDisplay": "-10",
+      "thru": 7,
+      "teeTime": "2026-04-12T18:03Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -3,
+        -3,
+        -2
+      ],
+      "r4Holes": [
+        3,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3,
         null,
         null,
         null,
@@ -127,49 +165,11 @@
       ]
     },
     {
-      "id": "569",
-      "name": "Justin Rose",
-      "shortName": "J. Rose",
-      "country": "England",
-      "position": "T4",
-      "scoreToPar": -9.0,
-      "scoreDisplay": "-9",
-      "thru": 6,
-      "teeTime": "2026-04-12T18:03Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        -3,
-        -1
-      ],
-      "r4Holes": [
-        3,
-        5,
-        5,
-        3,
-        3,
-        3,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9478",
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "T4",
+      "position": "5",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
       "thru": 7,
