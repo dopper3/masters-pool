@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T21:31:08.344519+00:00"
+    "lastUpdated": "2026-04-12T21:33:10.730403+00:00"
   },
   "players": [
     {
@@ -735,6 +735,44 @@
       ]
     },
     {
+      "id": "4587",
+      "name": "Shane Lowry",
+      "shortName": "S. Lowry",
+      "country": "Ireland",
+      "position": "T17",
+      "scoreToPar": -4.0,
+      "scoreDisplay": "-4",
+      "thru": 13,
+      "teeTime": "2026-04-12T18:14Z",
+      "status": "active",
+      "rounds": [
+        -2,
+        -3,
+        -4,
+        5
+      ],
+      "r4Holes": [
+        5,
+        4,
+        4,
+        4,
+        6,
+        3,
+        4,
+        5,
+        4,
+        4,
+        6,
+        4,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
@@ -777,7 +815,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -815,7 +853,7 @@
       "name": "Ludvig Åberg",
       "shortName": "L. Åberg",
       "country": "Sweden",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
@@ -849,49 +887,11 @@
       ]
     },
     {
-      "id": "4587",
-      "name": "Shane Lowry",
-      "shortName": "S. Lowry",
-      "country": "Ireland",
-      "position": "T21",
-      "scoreToPar": -3.0,
-      "scoreDisplay": "-3",
-      "thru": 12,
-      "teeTime": "2026-04-12T18:14Z",
-      "status": "active",
-      "rounds": [
-        -2,
-        -3,
-        -4,
-        6
-      ],
-      "r4Holes": [
-        5,
-        4,
-        4,
-        4,
-        6,
-        3,
-        4,
-        5,
-        4,
-        4,
-        6,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "11119",
       "name": "Wyndham Clark",
       "shortName": "W. Clark",
       "country": "United States",
-      "position": "T21",
+      "position": "T22",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
       "thru": 18,
