@@ -2104,6 +2104,29 @@ function handleShowdownSubmit() {
 }
 
 // ---------- tabs + setup ----------
+// localStorage key for the active tab. Persisted across page reloads (and
+// browser restarts) so the auto-refresh — and any manual refresh — keeps
+// the user on whichever tab they were last looking at instead of dumping
+// them back on Pool standings every 30 seconds.
+const ACTIVE_TAB_STORAGE_KEY = "masters-pool:active-tab";
+
+function saveActiveTab(tabId) {
+  try {
+    localStorage.setItem(ACTIVE_TAB_STORAGE_KEY, tabId);
+  } catch (e) {
+    // localStorage may be unavailable (private browsing, disabled, etc.).
+    // Ignore — falling back to the HTML default tab is fine.
+  }
+}
+
+function loadActiveTab() {
+  try {
+    return localStorage.getItem(ACTIVE_TAB_STORAGE_KEY);
+  } catch (e) {
+    return null;
+  }
+}
+
 function wireTabs() {
   const tabs = document.querySelectorAll(".tab");
   const panels = document.querySelectorAll(".tab-panel");
@@ -2113,6 +2136,7 @@ function wireTabs() {
       panels.forEach((p) => p.classList.remove("active"));
       tab.classList.add("active");
       document.getElementById("tab-" + tab.dataset.tab).classList.add("active");
+      saveActiveTab(tab.dataset.tab);
     }),
   );
   document.querySelectorAll("[data-jump]").forEach((a) =>
@@ -2122,6 +2146,17 @@ function wireTabs() {
       document.querySelector(`.tab[data-tab="${target}"]`).click();
     }),
   );
+
+  // Restore the saved tab from localStorage if there is one. Skip if the
+  // saved tab no longer exists (e.g. removed in a code update) or has been
+  // hidden — falling back to the HTML default in either case.
+  const saved = loadActiveTab();
+  if (saved) {
+    const savedTab = document.querySelector(`.tab[data-tab="${saved}"]`);
+    if (savedTab && !savedTab.hidden) {
+      savedTab.click();
+    }
+  }
 }
 
 // Auto-refresh: full page reload every 30s, but ONLY on tabs where there's
