@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:07:13.138785+00:00"
+    "lastUpdated": "2026-04-12T15:09:11.375666+00:00"
   },
   "players": [
     {
@@ -1267,44 +1267,6 @@
       ]
     },
     {
-      "id": "5408",
-      "name": "Harris English",
-      "shortName": "H. English",
-      "country": "United States",
-      "position": "T33",
-      "scoreToPar": -1.0,
-      "scoreDisplay": "-1",
-      "thru": 0,
-      "teeTime": "2026-04-12T14:56Z",
-      "status": "scheduled",
-      "rounds": [
-        1,
-        -1,
-        -1,
-        null
-      ],
-      "r4Holes": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -1423,7 +1385,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -1457,11 +1419,49 @@
       ]
     },
     {
+      "id": "5408",
+      "name": "Harris English",
+      "shortName": "H. English",
+      "country": "United States",
+      "position": "T37",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 1,
+      "teeTime": "2026-04-12T14:56Z",
+      "status": "active",
+      "rounds": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "r4Holes": [
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4848",
       "name": "Justin Thomas",
       "shortName": "J. Thomas",
       "country": "United States",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 4,
@@ -1499,7 +1499,7 @@
       "name": "Marco Penge",
       "shortName": "M. Penge",
       "country": "England",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 1,
@@ -1537,7 +1537,7 @@
       "name": "Matt McCarty",
       "shortName": "M. McCarty",
       "country": "United States",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
       "thru": 5,
@@ -1575,20 +1575,20 @@
       "name": "Sam Stevens",
       "shortName": "S. Stevens",
       "country": "United States",
-      "position": "T38",
+      "position": "T37",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-12T14:56Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         2,
         -2,
-        null
+        0
       ],
       "r4Holes": [
-        null,
+        4,
         null,
         null,
         null,
