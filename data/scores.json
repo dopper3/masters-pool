@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T17:19:16.665415+00:00"
+    "lastUpdated": "2026-04-12T17:21:15.303045+00:00"
   },
   "players": [
     {
@@ -552,17 +552,17 @@
       "position": "T15",
       "scoreToPar": -5.0,
       "scoreDisplay": "-5",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-12T17:08Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         -3,
         -2,
-        null
+        0
       ],
       "r4Holes": [
-        null,
+        4,
         null,
         null,
         null,
@@ -1115,44 +1115,6 @@
       ]
     },
     {
-      "id": "9037",
-      "name": "Matt Fitzpatrick",
-      "shortName": "M. Fitzpatrick",
-      "country": "England",
-      "position": "T27",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 4,
-      "teeTime": "2026-04-12T16:13Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -3,
-        -2,
-        1
-      ],
-      "r4Holes": [
-        4,
-        5,
-        4,
-        4,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
@@ -1233,7 +1195,7 @@
       "name": "Keegan Bradley",
       "shortName": "K. Bradley",
       "country": "United States",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 15,
@@ -1271,7 +1233,7 @@
       "name": "Kristoffer Reitan",
       "shortName": "K. Reitan",
       "country": "Norway",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -1305,11 +1267,49 @@
       ]
     },
     {
+      "id": "9037",
+      "name": "Matt Fitzpatrick",
+      "shortName": "M. Fitzpatrick",
+      "country": "England",
+      "position": "T32",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 5,
+      "teeTime": "2026-04-12T16:13Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -3,
+        -2,
+        2
+      ],
+      "r4Holes": [
+        4,
+        5,
+        4,
+        4,
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "8961",
       "name": "Sepp Straka",
       "shortName": "S. Straka",
       "country": "Austria",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 7,
@@ -1730,7 +1730,7 @@
       "position": "46",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
-      "thru": 10,
+      "thru": 11,
       "teeTime": "2026-04-12T14:45Z",
       "status": "active",
       "rounds": [
@@ -1750,7 +1750,7 @@
         4,
         4,
         5,
-        null,
+        4,
         null,
         null,
         null,
