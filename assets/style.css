@@ -414,6 +414,17 @@ body {
 details[open] > .collapsible-title::before {
   content: "▼ ";
 }
+.btn-copy-map {
+  margin-top: 8px;
+  padding: 6px 14px;
+  border: 1px solid var(--green-line);
+  border-radius: 4px;
+  background: var(--cream);
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+}
+.btn-copy-map:hover { background: var(--green-line); }
 
 /* Small gold pill for entry fees — shown inline next to each contest rule
    and on the main pool hint. Uses the gold palette to stand out without

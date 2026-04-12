@@ -50,8 +50,19 @@ const REAL_NAMES = [
   "Pat Friend1", "Pat Friend 2",
 ];
 
+// Shared name map loaded from data/nameMap.json (committed to repo, visible to all).
+// localStorage overrides let individual users tweak locally.
+let _sharedNameMap = {};
+async function loadSharedNameMap() {
+  try {
+    _sharedNameMap = await loadJson("data/nameMap.json");
+  } catch { _sharedNameMap = {}; }
+}
 function getNameMap() {
-  try { return JSON.parse(localStorage.getItem("nameMap") || "{}"); } catch { return {}; }
+  const local = (() => {
+    try { return JSON.parse(localStorage.getItem("nameMap") || "{}"); } catch { return {}; }
+  })();
+  return { ..._sharedNameMap, ...local };
 }
 function setNameMap(map) {
   localStorage.setItem("nameMap", JSON.stringify(map));
@@ -1988,8 +1999,7 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
     ),
   );
   const bbody = el("tbody");
-  const sortedRaw = [...rawBalances].sort((a, b) => b.net - a.net);
-  for (const p of sortedRaw) {
+  for (const p of balances) {
     const cls = p.net > 0.005 ? "credit" : p.net < -0.005 ? "debit" : "";
     const row = el("tr", cls ? { class: cls } : {});
     row.appendChild(el("td", { class: "name" }, p.display));
@@ -2012,7 +2022,7 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
     el(
       "p",
       { class: "hint" },
-      "Assign real names to team names. Saved in your browser.",
+      "Assign real names to team names. Shared mappings load from data/nameMap.json; local overrides saved in your browser.",
     ),
   );
   const allDisplayNames = rawBalances.map((b) => b.display);
@@ -2058,6 +2068,17 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
   }
   mapTable.appendChild(mapBody);
   mapInner.appendChild(mapTable);
+  const copyBtn = document.createElement("button");
+  copyBtn.textContent = "Copy mapping JSON";
+  copyBtn.className = "btn-copy-map";
+  copyBtn.addEventListener("click", () => {
+    const full = getNameMap();
+    navigator.clipboard.writeText(JSON.stringify(full, null, 2)).then(() => {
+      copyBtn.textContent = "Copied!";
+      setTimeout(() => { copyBtn.textContent = "Copy mapping JSON"; }, 2000);
+    });
+  });
+  mapInner.appendChild(copyBtn);
   mapDetails.appendChild(mapInner);
   mapCard.appendChild(mapDetails);
   root.appendChild(mapCard);
@@ -2978,6 +2999,7 @@ async function main() {
       loadJson("data/scores.json"),
       loadJson("data/entries.json").catch(() => ({ entries: [] })),
       loadJson("data/showdown.json").catch(() => ({ entries: [], rejected: [] })),
+      loadSharedNameMap(),
     ]);
   } catch (e) {
     const err = document.getElementById("error");
