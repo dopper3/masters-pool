@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T20:13:10.075796+00:00"
+    "lastUpdated": "2026-04-12T20:15:10.872508+00:00"
   },
   "players": [
     {
@@ -18,16 +18,16 @@
       "shortName": "J. Rose",
       "country": "England",
       "position": "1",
-      "scoreToPar": -11.0,
-      "scoreDisplay": "-11",
-      "thru": 8,
+      "scoreToPar": -12.0,
+      "scoreDisplay": "-12",
+      "thru": 9,
       "teeTime": "2026-04-12T18:03Z",
       "status": "active",
       "rounds": [
         -2,
         -3,
         -3,
-        -3
+        -4
       ],
       "r4Holes": [
         3,
@@ -38,7 +38,7 @@
         3,
         3,
         4,
-        null,
+        3,
         null,
         null,
         null,
@@ -169,10 +169,10 @@
       "name": "Scottie Scheffler",
       "shortName": "S. Scheffler",
       "country": "United States",
-      "position": "5",
+      "position": "T5",
       "scoreToPar": -9.0,
       "scoreDisplay": "-9",
-      "thru": 9,
+      "thru": 10,
       "teeTime": "2026-04-12T17:52Z",
       "status": "active",
       "rounds": [
@@ -191,7 +191,7 @@
         4,
         5,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -203,11 +203,49 @@
       ]
     },
     {
+      "id": "5553",
+      "name": "Tyrrell Hatton",
+      "shortName": "T. Hatton",
+      "country": "England",
+      "position": "T5",
+      "scoreToPar": -9.0,
+      "scoreDisplay": "-9",
+      "thru": 15,
+      "teeTime": "2026-04-12T16:35Z",
+      "status": "active",
+      "rounds": [
+        2,
+        -6,
+        0,
+        -5
+      ],
+      "r4Holes": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        2,
+        4,
+        4,
+        5,
+        4,
+        3,
+        4,
+        3,
+        4,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9938",
       "name": "Sam Burns",
       "shortName": "S. Burns",
       "country": "United States",
-      "position": "T6",
+      "position": "7",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 8,
@@ -234,44 +272,6 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "5553",
-      "name": "Tyrrell Hatton",
-      "shortName": "T. Hatton",
-      "country": "England",
-      "position": "T6",
-      "scoreToPar": -8.0,
-      "scoreDisplay": "-8",
-      "thru": 14,
-      "teeTime": "2026-04-12T16:35Z",
-      "status": "active",
-      "rounds": [
-        2,
-        -6,
-        0,
-        -4
-      ],
-      "r4Holes": [
-        4,
-        4,
-        4,
-        4,
-        4,
-        3,
-        2,
-        4,
-        4,
-        5,
-        4,
-        3,
-        4,
-        3,
         null,
         null,
         null,
@@ -894,7 +894,7 @@
       "position": "T24",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 12,
+      "thru": 13,
       "teeTime": "2026-04-12T17:08Z",
       "status": "active",
       "rounds": [
@@ -916,7 +916,7 @@
         5,
         4,
         3,
-        null,
+        5,
         null,
         null,
         null,
@@ -1008,7 +1008,7 @@
       "position": "T26",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 15,
+      "thru": 16,
       "teeTime": "2026-04-12T16:24Z",
       "status": "active",
       "rounds": [
@@ -1033,7 +1033,7 @@
         5,
         4,
         5,
-        null,
+        3,
         null,
         null
       ]
@@ -1312,7 +1312,7 @@
       "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 14,
+      "thru": 15,
       "teeTime": "2026-04-12T16:35Z",
       "status": "active",
       "rounds": [
@@ -1336,7 +1336,7 @@
         3,
         5,
         4,
-        null,
+        5,
         null,
         null,
         null
