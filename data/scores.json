@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T14:23:08.039966+00:00"
+    "lastUpdated": "2026-04-12T14:25:09.887605+00:00"
   },
   "players": [
     {
@@ -1381,6 +1381,44 @@
       ]
     },
     {
+      "id": "4848",
+      "name": "Justin Thomas",
+      "shortName": "J. Thomas",
+      "country": "United States",
+      "position": "T36",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 1,
+      "teeTime": "2026-04-12T14:12Z",
+      "status": "active",
+      "rounds": [
+        0,
+        2,
+        -1,
+        -1
+      ],
+      "r4Holes": [
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "4585549",
       "name": "Marco Penge",
       "shortName": "M. Penge",
@@ -1499,7 +1537,7 @@
       "name": "Alex Noren",
       "shortName": "A. Noren",
       "country": "Sweden",
-      "position": "T40",
+      "position": "T41",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -1533,49 +1571,11 @@
       ]
     },
     {
-      "id": "4848",
-      "name": "Justin Thomas",
-      "shortName": "J. Thomas",
-      "country": "United States",
-      "position": "T40",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 0,
-      "teeTime": "2026-04-12T14:12Z",
-      "status": "scheduled",
-      "rounds": [
-        0,
-        2,
-        -1,
-        null
-      ],
-      "r4Holes": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T40",
+      "position": "T41",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
       "thru": 0,
@@ -1613,20 +1613,20 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T40",
+      "position": "T41",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-12T14:12Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         3,
         -1,
         -1,
-        null
+        0
       ],
       "r4Holes": [
-        null,
+        4,
         null,
         null,
         null,
@@ -2080,7 +2080,7 @@
       "position": "50",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-12T13:17Z",
       "status": "active",
       "rounds": [
@@ -2094,7 +2094,7 @@
         5,
         4,
         4,
-        null,
+        4,
         null,
         null,
         null,
