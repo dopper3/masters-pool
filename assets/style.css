@@ -384,6 +384,24 @@ body {
   color: var(--green-deep);
 }
 
+.name-map-table {
+  max-width: 420px;
+}
+.name-map-select {
+  padding: 4px 8px;
+  border: 1px solid var(--green-line);
+  border-radius: 4px;
+  background: var(--cream);
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+  width: 100%;
+}
+.name-map-select:focus {
+  outline: 2px solid var(--green-primary);
+  outline-offset: -1px;
+}
+
 /* Small gold pill for entry fees — shown inline next to each contest rule
    and on the main pool hint. Uses the gold palette to stand out without
    shouting. */

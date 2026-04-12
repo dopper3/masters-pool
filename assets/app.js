@@ -42,6 +42,26 @@ const PICK3_REQUIRED = 3;
 const BOOM_HOLES = [12, 13, 15, 16, 18];
 const SHOWDOWN_PENALTY_WD = 10;
 
+// Real names for the settlement/transfer section. Each team name (display name)
+// can be mapped to a real name via dropdowns on the Results tab. The mapping is
+// stored in localStorage so it persists across page loads.
+const REAL_NAMES = [
+  "Dan", "Lucas", "Alx", "Cleo", "Pat", "JayByrd", "Chad",
+  "Pat Friend1", "Pat Friend 2",
+];
+
+function getNameMap() {
+  try { return JSON.parse(localStorage.getItem("nameMap") || "{}"); } catch { return {}; }
+}
+function setNameMap(map) {
+  localStorage.setItem("nameMap", JSON.stringify(map));
+}
+function resolvedName(displayName) {
+  const map = getNameMap();
+  const real = map[(displayName || "").trim()];
+  return real || displayName;
+}
+
 // Entry fees for the Results tab (settlement math). Change these to update
 // the per-contest pot size and per-player settlement calculations.
 const FEES = {
@@ -1788,11 +1808,11 @@ function settleTransactions(balances) {
   const EPS = 0.005;
   const creditors = balances
     .filter((b) => b.net > EPS)
-    .map((b) => ({ name: b.display, amount: b.net }))
+    .map((b) => ({ name: resolvedName(b.display), amount: b.net }))
     .sort((a, b) => b.amount - a.amount);
   const debtors = balances
     .filter((b) => b.net < -EPS)
-    .map((b) => ({ name: b.display, amount: -b.net }))
+    .map((b) => ({ name: resolvedName(b.display), amount: -b.net }))
     .sort((a, b) => b.amount - a.amount);
 
   const txns = [];
@@ -1825,6 +1845,13 @@ function fmtMoneySigned(n) {
 }
 
 function renderResults(entriesData, showdownData, byId, players, tournament) {
+  // Stash args so name-map dropdown change handlers can re-render.
+  window._lastEntriesData = entriesData;
+  window._lastShowdownData = showdownData;
+  window._lastById = byId;
+  window._lastPlayers = players;
+  window._lastTournament = tournament;
+
   const root = document.getElementById("results");
   root.innerHTML = "";
 
@@ -1911,7 +1938,7 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
         list.appendChild(
           el("li", {}, [
             el("span", { class: "role" }, p.role),
-            el("span", { class: "name" }, p.displayName),
+            el("span", { class: "name" }, resolvedName(p.displayName)),
             el("span", { class: "amount" }, fmtMoney(p.amount)),
           ]),
         );
@@ -1952,13 +1979,70 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
   for (const p of balances) {
     const cls = p.net > 0.005 ? "credit" : p.net < -0.005 ? "debit" : "";
     const row = el("tr", cls ? { class: cls } : {});
-    row.appendChild(el("td", { class: "name" }, p.display));
+    row.appendChild(el("td", { class: "name" }, resolvedName(p.display)));
     row.appendChild(el("td", { class: "num" }, fmtMoneySigned(p.net)));
     bbody.appendChild(row);
   }
   bt.appendChild(bbody);
   balanceCard.appendChild(bt);
   root.appendChild(balanceCard);
+
+  // ----- Name mapping UI -----
+  const mapCard = el("div", { class: "results-section" });
+  mapCard.appendChild(
+    el("h3", { class: "results-section-title" }, "Name mapping"),
+  );
+  mapCard.appendChild(
+    el(
+      "p",
+      { class: "hint" },
+      "Assign real names to team names. Saved in your browser.",
+    ),
+  );
+  const allDisplayNames = balances.map((b) => b.display);
+  const currentMap = getNameMap();
+  const mapTable = el("table", { class: "results-table name-map-table" });
+  mapTable.appendChild(
+    el("thead", {}, el("tr", {}, [
+      el("th", {}, "Team name"),
+      el("th", {}, "Real name"),
+    ])),
+  );
+  const mapBody = el("tbody");
+  for (const dn of allDisplayNames) {
+    const row = el("tr");
+    row.appendChild(el("td", { class: "name" }, dn));
+    const sel = document.createElement("select");
+    sel.className = "name-map-select";
+    const blank = document.createElement("option");
+    blank.value = "";
+    blank.textContent = "— select —";
+    sel.appendChild(blank);
+    for (const rn of REAL_NAMES) {
+      const opt = document.createElement("option");
+      opt.value = rn;
+      opt.textContent = rn;
+      if (currentMap[dn] === rn) opt.selected = true;
+      sel.appendChild(opt);
+    }
+    sel.addEventListener("change", () => {
+      const m = getNameMap();
+      if (sel.value) m[dn] = sel.value; else delete m[dn];
+      setNameMap(m);
+      // Re-render results to apply the new mapping everywhere
+      renderResults(
+        window._lastEntriesData, window._lastShowdownData,
+        window._lastById, window._lastPlayers, window._lastTournament,
+      );
+    });
+    const td = el("td");
+    td.appendChild(sel);
+    row.appendChild(td);
+    mapBody.appendChild(row);
+  }
+  mapTable.appendChild(mapBody);
+  mapCard.appendChild(mapTable);
+  root.appendChild(mapCard);
 
   // ----- Settlement transactions -----
   const txns = settleTransactions(balances);
