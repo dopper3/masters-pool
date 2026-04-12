@@ -288,7 +288,7 @@ won), and shows the minimum set of transfers needed to settle up.
 
 | Contest | Entry fee | Payout |
 | --- | --- | --- |
-| Main Pool | $20 | 70/30 split (1st/2nd) |
+| Main Pool | $20 | 70/30 split (1st/2nd), 3rd gets entry fee back |
 | Pick 3 | $20 | Winner-take-all |
 | Champion Call | $10 | Winner-take-all (full refund if no eligible winner) |
 | Boom Holes | $10 | Winner-take-all |
