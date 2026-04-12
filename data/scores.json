@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:39:12.738132+00:00"
+    "lastUpdated": "2026-04-12T15:41:12.527140+00:00"
   },
   "players": [
     {
@@ -1115,44 +1115,6 @@
       ]
     },
     {
-      "id": "5054388",
-      "name": "Jacob Bridgeman",
-      "shortName": "J. Bridgeman",
-      "country": "United States",
-      "position": "T30",
-      "scoreToPar": -2.0,
-      "scoreDisplay": "-2",
-      "thru": 0,
-      "teeTime": "2026-04-12T15:29Z",
-      "status": "scheduled",
-      "rounds": [
-        -1,
-        2,
-        -3,
-        null
-      ],
-      "r4Holes": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
       "id": "5467",
       "name": "Jordan Spieth",
       "shortName": "J. Spieth",
@@ -1198,17 +1160,17 @@
       "position": "T30",
       "scoreToPar": -2.0,
       "scoreDisplay": "-2",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-12T15:29Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         1,
         0,
         -3,
-        null
+        0
       ],
       "r4Holes": [
-        null,
+        4,
         null,
         null,
         null,
@@ -1233,7 +1195,7 @@
       "name": "Adam Scott",
       "shortName": "A. Scott",
       "country": "Australia",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 4,
@@ -1271,7 +1233,7 @@
       "name": "Brian Harman",
       "shortName": "B. Harman",
       "country": "United States",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -1309,7 +1271,7 @@
       "name": "Harris English",
       "shortName": "H. English",
       "country": "United States",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 2,
@@ -1343,11 +1305,49 @@
       ]
     },
     {
+      "id": "5054388",
+      "name": "Jacob Bridgeman",
+      "shortName": "J. Bridgeman",
+      "country": "United States",
+      "position": "T32",
+      "scoreToPar": -1.0,
+      "scoreDisplay": "-1",
+      "thru": 1,
+      "teeTime": "2026-04-12T15:29Z",
+      "status": "active",
+      "rounds": [
+        -1,
+        2,
+        -3,
+        1
+      ],
+      "r4Holes": [
+        5,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "9530",
       "name": "Maverick McNealy",
       "shortName": "M. McNealy",
       "country": "United States",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -1385,7 +1385,7 @@
       "name": "Viktor Hovland",
       "shortName": "V. Hovland",
       "country": "Norway",
-      "position": "T33",
+      "position": "T32",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
       "thru": 6,
@@ -1426,7 +1426,7 @@
       "position": "T38",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 5,
+      "thru": 6,
       "teeTime": "2026-04-12T14:23Z",
       "status": "active",
       "rounds": [
@@ -1441,7 +1441,7 @@
         5,
         2,
         4,
-        null,
+        3,
         null,
         null,
         null,
@@ -1540,7 +1540,7 @@
       "position": "T38",
       "scoreToPar": 0.0,
       "scoreDisplay": "E",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-12T14:56Z",
       "status": "active",
       "rounds": [
@@ -1552,7 +1552,7 @@
       "r4Holes": [
         4,
         5,
-        null,
+        4,
         null,
         null,
         null,
