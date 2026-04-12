@@ -1562,7 +1562,7 @@ function computePick3Results(entries, byId) {
       fee,
       pot: 0,
       payouts: [],
-      structure: "Winner takes all",
+      structure: "Top 3 paid: 1st 70% / 2nd 30% / 3rd refund",
       note: null,
     };
   }
@@ -1571,19 +1571,92 @@ function computePick3Results(entries, byId) {
     if (a.total !== b.total) return a.total - b.total;
     return a.tiebreak - b.tiebreak;
   });
-  const wt = teams[0].total;
-  const wtb = teams[0].tiebreak;
-  const winners = teams
-    .filter((t) => t.total === wt && t.tiebreak === wtb)
-    .map((t) => t.displayName);
-  const pot = entries.length * fee;
+
+  // Assign sparse ranks (1, 2, 3 …)
+  teams[0].rank = 1;
+  for (let i = 1; i < teams.length; i++) {
+    const prev = teams[i - 1];
+    teams[i].rank =
+      teams[i].total === prev.total && teams[i].tiebreak === prev.tiebreak
+        ? prev.rank
+        : i + 1;
+  }
+
+  const N = teams.length;
+  const pot = N * fee;
+  const rank1 = teams.filter((t) => t.rank === 1);
+  const rank2 = teams.filter((t) => t.rank === 2);
+  const rank3 = teams.filter((t) => t.rank === 3);
+  const payouts = [];
+
+  // Fewer than 3 entries → winner-take-all.
+  if (N < 3) {
+    const share = pot / rank1.length;
+    for (const t of rank1) {
+      payouts.push({
+        displayName: t.displayName,
+        amount: share,
+        role: rank1.length > 1 ? "winner (tie)" : "winner",
+      });
+    }
+    return {
+      label: "Sunday Showdown: Pick 3",
+      entries: teams.map((t) => t.displayName),
+      fee,
+      pot,
+      payouts,
+      structure: "Fewer than 3 entries — winner takes all",
+      note: null,
+    };
+  }
+
+  // 3+ entries: 70/30 split of 1st+2nd money, 3rd gets a $fee refund.
+  const hasRank2 = rank2.length > 0;
+  const hasRank3 = rank3.length > 0;
+  const refundTotal = hasRank3 ? rank3.length * fee : 0;
+  const firstSecondPool = pot - refundTotal;
+
+  let firstShareTotal;
+  let secondShareTotal;
+  if (hasRank2) {
+    firstShareTotal = 0.7 * firstSecondPool;
+    secondShareTotal = 0.3 * firstSecondPool;
+  } else {
+    firstShareTotal = firstSecondPool;
+    secondShareTotal = 0;
+  }
+
+  const firstEach = firstShareTotal / rank1.length;
+  const firstRole =
+    rank1.length > 1
+      ? hasRank2
+        ? "1st (tie)"
+        : "1st+2nd (tie)"
+      : "1st";
+  for (const t of rank1) {
+    payouts.push({ displayName: t.displayName, amount: firstEach, role: firstRole });
+  }
+  if (hasRank2 && secondShareTotal > 0) {
+    const secondEach = secondShareTotal / rank2.length;
+    const secondRole = rank2.length > 1 ? "2nd (tie)" : "2nd";
+    for (const t of rank2) {
+      payouts.push({ displayName: t.displayName, amount: secondEach, role: secondRole });
+    }
+  }
+  if (hasRank3) {
+    const thirdRole = rank3.length > 1 ? "3rd refund (tie)" : "3rd refund";
+    for (const t of rank3) {
+      payouts.push({ displayName: t.displayName, amount: fee, role: thirdRole });
+    }
+  }
+
   return {
     label: "Sunday Showdown: Pick 3",
-    entries: entries.map((e) => e.displayName),
+    entries: teams.map((t) => t.displayName),
     fee,
     pot,
-    payouts: buildWinnerTakeAllPayouts(winners, pot),
-    structure: "Winner takes all",
+    payouts,
+    structure: "Top 3 paid: 1st 70% / 2nd 30% / 3rd refund",
     note: null,
   };
 }
