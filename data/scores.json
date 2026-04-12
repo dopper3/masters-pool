@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:09:11.375666+00:00"
+    "lastUpdated": "2026-04-12T15:11:13.087145+00:00"
   },
   "players": [
     {
@@ -1419,6 +1419,44 @@
       ]
     },
     {
+      "id": "3832",
+      "name": "Alex Noren",
+      "shortName": "A. Noren",
+      "country": "Sweden",
+      "position": "T37",
+      "scoreToPar": 0.0,
+      "scoreDisplay": "E",
+      "thru": 4,
+      "teeTime": "2026-04-12T14:23Z",
+      "status": "active",
+      "rounds": [
+        5,
+        -1,
+        -3,
+        -1
+      ],
+      "r4Holes": [
+        4,
+        4,
+        5,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "id": "5408",
       "name": "Harris English",
       "shortName": "H. English",
@@ -1591,44 +1629,6 @@
         4,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "3832",
-      "name": "Alex Noren",
-      "shortName": "A. Noren",
-      "country": "Sweden",
-      "position": "43",
-      "scoreToPar": 1.0,
-      "scoreDisplay": "+1",
-      "thru": 3,
-      "teeTime": "2026-04-12T14:23Z",
-      "status": "active",
-      "rounds": [
-        5,
-        -1,
-        -3,
-        0
-      ],
-      "r4Holes": [
-        4,
-        4,
-        5,
         null,
         null,
         null,
