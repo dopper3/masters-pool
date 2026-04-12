@@ -1003,8 +1003,8 @@ function renderShowdownExplainer() {
   ul.appendChild(
     el("li", {}, [
       el("strong", {}, "Champion Call: "),
-      "pick the outright winner + a winning to-par guess. Closest correct guess " +
-        "without going over (Price-Is-Right rules) wins. ",
+      "pick the outright winner + a winning to-par guess. Closest guess that " +
+        "wasn't too optimistic wins. ",
       el("span", { class: "fee-tag" }, "$10 entry"),
     ]),
   );
@@ -1264,7 +1264,7 @@ function renderChampionStandings(entries, players, tournament) {
       "p",
       { class: "hint" },
       "Pick the outright winner + a winning to-par guess. Among entries that " +
-        "picked the actual winner, closest guess without going over (Price-Is-Right) wins.",
+        "picked the actual winner, closest guess that wasn't too optimistic wins.",
     ),
   );
 

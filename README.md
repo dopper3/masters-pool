@@ -137,7 +137,7 @@ and their picks are entered in all three contests at once.
 | Contest | Picks | Scoring | Tiebreaker |
 | --- | --- | --- | --- |
 | **Pick 3** | 3 golfers | Sum of all three R4 to-pars (no drops). Lowest wins. | Full R4 of pick #1 |
-| **Champion Call** | 1 winner + a guess | Must pick the actual winner. Closest winning to-par guess **without going over** (Price-Is-Right) wins. | Smallest absolute diff |
+| **Champion Call** | 1 winner + a guess | Must pick the actual winner. Closest winning to-par guess **that wasn't too optimistic** wins (i.e., can't guess a better score than the winner actually shot). | Smallest absolute diff |
 | **Boom Holes** | 1 golfer | Combined strokes-to-par on holes **12, 13, 15, 16, 18** in R4. Lowest wins. | Full R4 to-par |
 
 **Cut survivors only** — the showdown picker filters out anyone who got cut,
