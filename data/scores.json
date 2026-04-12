@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:11:13.087145+00:00"
+    "lastUpdated": "2026-04-12T15:13:17.590779+00:00"
   },
   "players": [
     {
@@ -1312,7 +1312,7 @@
       "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 3,
+      "thru": 4,
       "teeTime": "2026-04-12T14:23Z",
       "status": "active",
       "rounds": [
@@ -1325,7 +1325,7 @@
         3,
         4,
         4,
-        null,
+        3,
         null,
         null,
         null,
@@ -1765,7 +1765,7 @@
       "name": "Gary Woodland",
       "shortName": "G. Woodland",
       "country": "United States",
-      "position": "47",
+      "position": "T47",
       "scoreToPar": 3.0,
       "scoreDisplay": "+3",
       "thru": 8,
@@ -1803,17 +1803,17 @@
       "name": "Jon Rahm",
       "shortName": "J. Rahm",
       "country": "Spain",
-      "position": "48",
-      "scoreToPar": 4.0,
-      "scoreDisplay": "+4",
-      "thru": 7,
+      "position": "T47",
+      "scoreToPar": 3.0,
+      "scoreDisplay": "+3",
+      "thru": 8,
       "teeTime": "2026-04-12T13:28Z",
       "status": "active",
       "rounds": [
         6,
         -2,
         1,
-        -1
+        -2
       ],
       "r4Holes": [
         4,
@@ -1823,7 +1823,7 @@
         5,
         4,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -2192,7 +2192,7 @@
       "position": "52",
       "scoreToPar": 7.0,
       "scoreDisplay": "+7",
-      "thru": 7,
+      "thru": 8,
       "teeTime": "2026-04-12T13:28Z",
       "status": "active",
       "rounds": [
@@ -2209,7 +2209,7 @@
         4,
         3,
         3,
-        null,
+        5,
         null,
         null,
         null,
