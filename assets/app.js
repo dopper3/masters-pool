@@ -1678,6 +1678,12 @@ function initShowdownPicker(players) {
   if (!root) return;
   root.innerHTML = "";
 
+  // Show the rules card at top of every state (closed / not-configured /
+  // active picker) so anyone landing on this tab can read the rules without
+  // having to bounce over to the standings tab. The same explainer is also
+  // rendered on the standings tab — duplication is intentional.
+  root.appendChild(renderShowdownExplainer());
+
   if (isShowdownPastCutoff()) {
     root.appendChild(renderShowdownPickerClosed());
     return;
