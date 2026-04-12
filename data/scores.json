@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": 4,
     "cutCount": 50,
-    "lastUpdated": "2026-04-12T15:51:13.517033+00:00"
+    "lastUpdated": "2026-04-12T15:53:09.362081+00:00"
   },
   "players": [
     {
@@ -932,17 +932,17 @@
       "position": "T21",
       "scoreToPar": -3.0,
       "scoreDisplay": "-3",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-12T15:40Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         0,
         -4,
         1,
-        null
+        0
       ],
       "r4Holes": [
-        null,
+        4,
         null,
         null,
         null,
@@ -1274,7 +1274,7 @@
       "position": "T33",
       "scoreToPar": -1.0,
       "scoreDisplay": "-1",
-      "thru": 2,
+      "thru": 3,
       "teeTime": "2026-04-12T15:07Z",
       "status": "active",
       "rounds": [
@@ -1286,7 +1286,7 @@
       "r4Holes": [
         5,
         4,
-        null,
+        4,
         null,
         null,
         null,
@@ -1654,7 +1654,7 @@
       "position": "T43",
       "scoreToPar": 1.0,
       "scoreDisplay": "+1",
-      "thru": 4,
+      "thru": 5,
       "teeTime": "2026-04-12T14:45Z",
       "status": "active",
       "rounds": [
@@ -1668,7 +1668,7 @@
         6,
         4,
         3,
-        null,
+        4,
         null,
         null,
         null,
@@ -1692,7 +1692,7 @@
       "position": "T45",
       "scoreToPar": 2.0,
       "scoreDisplay": "+2",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-12T13:17Z",
       "status": "active",
       "rounds": [
@@ -1713,7 +1713,7 @@
         4,
         3,
         4,
-        null,
+        3,
         null,
         null,
         null,
@@ -2008,7 +2008,7 @@
       "position": "50",
       "scoreToPar": 6.0,
       "scoreDisplay": "+6",
-      "thru": 11,
+      "thru": 12,
       "teeTime": "2026-04-12T13:17Z",
       "status": "active",
       "rounds": [
@@ -2029,7 +2029,7 @@
         4,
         4,
         5,
-        null,
+        3,
         null,
         null,
         null,
