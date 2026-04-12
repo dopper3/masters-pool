@@ -1017,12 +1017,6 @@ function renderShowdownExplainer() {
       el("span", { class: "fee-tag" }, "$10 entry"),
     ]),
   );
-  ul.appendChild(
-    el("li", {}, [
-      el("strong", {}, "Cut survivors only: "),
-      "you can't pick a golfer who got cut.",
-    ]),
-  );
   card.appendChild(ul);
   return card;
 }
