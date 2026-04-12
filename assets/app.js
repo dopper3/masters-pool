@@ -1402,46 +1402,168 @@ function normName(s) {
   return (s || "").trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+// All compute*Results functions return the same shape:
+//   { label, entries, fee, pot, payouts, structure, note }
+// where `payouts` is an array of { displayName, amount, role } records. Any
+// non-entry-fee money flowing to a player goes through this array (prizes,
+// refunds, splits) so buildBalances can stay dead simple.
+
 function computeMainPoolResults(entries, byId) {
+  const fee = FEES.mainPool;
   if (!entries.length) {
     return {
       label: "Main pool",
       entries: [],
-      winners: [],
+      fee,
       pot: 0,
-      perWinner: 0,
-      fee: FEES.mainPool,
-      refunded: false,
+      payouts: [],
+      structure: "Top 3 paid: 1st 70% / 2nd 30% / 3rd refund",
+      note: null,
     };
   }
   const teams = entries.map((e) => computeTeam(e, byId));
   teams.sort((a, b) => a.total - b.total);
-  const winningTotal = teams[0].total;
-  const winners = teams
-    .filter((t) => t.total === winningTotal)
-    .map((t) => t.displayName);
-  const pot = teams.length * FEES.mainPool;
+
+  // Sparse ranking: tied 1st, tied 1st, 3, 4, … (same as the standings tab).
+  let lastTotal = null;
+  let lastRank = 0;
+  teams.forEach((t, i) => {
+    if (t.total !== lastTotal) {
+      lastRank = i + 1;
+      lastTotal = t.total;
+    }
+    t.rank = lastRank;
+  });
+
+  const N = teams.length;
+  const pot = N * fee;
+  const rank1 = teams.filter((t) => t.rank === 1);
+  const rank2 = teams.filter((t) => t.rank === 2);
+  const rank3 = teams.filter((t) => t.rank === 3);
+
+  const payouts = [];
+
+  // Fewer than 3 entries → winner-take-all (split among any tied 1sts).
+  if (N < 3) {
+    const share = pot / rank1.length;
+    for (const t of rank1) {
+      payouts.push({
+        displayName: t.displayName,
+        amount: share,
+        role: rank1.length > 1 ? "winner (tie)" : "winner",
+      });
+    }
+    return {
+      label: "Main pool",
+      entries: teams.map((t) => t.displayName),
+      fee,
+      pot,
+      payouts,
+      structure: "Fewer than 3 entries — winner takes all",
+      note: null,
+    };
+  }
+
+  // 3+ entries: 70/30 split of 1st+2nd money, 3rd gets a $fee refund.
+  //
+  // Tied-3rd edge case: each tied 3rd still gets their own fee back. This
+  // effectively removes them from the 1st+2nd pot entirely (they break even),
+  // so firstSecondPool shrinks by rank3.length * fee.
+  //
+  // Tied-1st edge case: sparse ranking puts the next group at rank 3 (not 2),
+  // so rank2 is empty. In that case the tied 1sts split the combined 1st+2nd
+  // money (= firstSecondPool); no 2nd-place payout happens.
+  //
+  // Tied-2nd edge case: rank3 ends up empty (pushed off the podium), so no
+  // refund happens — the full pot goes to 1st + the tied 2nds.
+  const hasRank2 = rank2.length > 0;
+  const hasRank3 = rank3.length > 0;
+  const refundTotal = hasRank3 ? rank3.length * fee : 0;
+  const firstSecondPool = pot - refundTotal;
+
+  let firstShareTotal;
+  let secondShareTotal;
+  if (hasRank2) {
+    firstShareTotal = 0.7 * firstSecondPool;
+    secondShareTotal = 0.3 * firstSecondPool;
+  } else {
+    // Tied 1sts → combined 1st+2nd money goes to the tied group.
+    firstShareTotal = firstSecondPool;
+    secondShareTotal = 0;
+  }
+
+  const firstEach = firstShareTotal / rank1.length;
+  const firstRole =
+    rank1.length > 1
+      ? hasRank2
+        ? "1st (tie)"
+        : "1st+2nd (tie)"
+      : "1st";
+  for (const t of rank1) {
+    payouts.push({
+      displayName: t.displayName,
+      amount: firstEach,
+      role: firstRole,
+    });
+  }
+  if (hasRank2 && secondShareTotal > 0) {
+    const secondEach = secondShareTotal / rank2.length;
+    const secondRole = rank2.length > 1 ? "2nd (tie)" : "2nd";
+    for (const t of rank2) {
+      payouts.push({
+        displayName: t.displayName,
+        amount: secondEach,
+        role: secondRole,
+      });
+    }
+  }
+  if (hasRank3) {
+    const thirdRole = rank3.length > 1 ? "3rd refund (tie)" : "3rd refund";
+    for (const t of rank3) {
+      payouts.push({
+        displayName: t.displayName,
+        amount: fee,
+        role: thirdRole,
+      });
+    }
+  }
+
   return {
     label: "Main pool",
     entries: teams.map((t) => t.displayName),
-    winners,
+    fee,
     pot,
-    perWinner: pot / winners.length,
-    fee: FEES.mainPool,
-    refunded: false,
+    payouts,
+    structure: "Top 3 paid: 1st 70% / 2nd 30% / 3rd refund",
+    note: null,
   };
 }
 
+// Helper for the three showdown contests that are winner-take-all. Takes a
+// pre-ranked list of winner display names and builds a payouts array split
+// evenly among them.
+function buildWinnerTakeAllPayouts(winnerNames, pot) {
+  if (!winnerNames.length) return [];
+  const share = pot / winnerNames.length;
+  const role = winnerNames.length > 1 ? "winner (tie)" : "winner";
+  return winnerNames.map((name) => ({
+    displayName: name,
+    amount: share,
+    role,
+  }));
+}
+
 function computePick3Results(entries, byId) {
+  const fee = FEES.pick3;
   if (!entries.length) {
     return {
       label: "Sunday Showdown: Pick 3",
       entries: [],
-      winners: [],
+      fee,
       pot: 0,
-      perWinner: 0,
-      fee: FEES.pick3,
-      refunded: false,
+      payouts: [],
+      structure: "Winner takes all",
+      note: null,
     };
   }
   const teams = entries.map((e) => computeShowdownPick3(e, byId));
@@ -1454,28 +1576,29 @@ function computePick3Results(entries, byId) {
   const winners = teams
     .filter((t) => t.total === wt && t.tiebreak === wtb)
     .map((t) => t.displayName);
-  const pot = entries.length * FEES.pick3;
+  const pot = entries.length * fee;
   return {
     label: "Sunday Showdown: Pick 3",
     entries: entries.map((e) => e.displayName),
-    winners,
+    fee,
     pot,
-    perWinner: pot / winners.length,
-    fee: FEES.pick3,
-    refunded: false,
+    payouts: buildWinnerTakeAllPayouts(winners, pot),
+    structure: "Winner takes all",
+    note: null,
   };
 }
 
 function computeBoomHolesResults(entries, byId) {
+  const fee = FEES.boomHoles;
   if (!entries.length) {
     return {
       label: "Boom Holes",
       entries: [],
-      winners: [],
+      fee,
       pot: 0,
-      perWinner: 0,
-      fee: FEES.boomHoles,
-      refunded: false,
+      payouts: [],
+      structure: "Winner takes all",
+      note: null,
     };
   }
   const scored = entries.map((e) => {
@@ -1495,59 +1618,72 @@ function computeBoomHolesResults(entries, byId) {
   const winners = scored
     .filter((s) => s.golfer.score === ws && s.golfer.r4Total === wtb)
     .map((s) => s.displayName);
-  const pot = entries.length * FEES.boomHoles;
+  const pot = entries.length * fee;
   return {
     label: "Boom Holes",
     entries: entries.map((e) => e.displayName),
-    winners,
+    fee,
     pot,
-    perWinner: pot / winners.length,
-    fee: FEES.boomHoles,
-    refunded: false,
+    payouts: buildWinnerTakeAllPayouts(winners, pot),
+    structure: "Winner takes all",
+    note: null,
   };
 }
 
 function computeChampionResults(entries, players, tournament) {
+  const fee = FEES.championCall;
   if (!entries.length) {
     return {
       label: "Champion Call",
       entries: [],
-      winners: [],
+      fee,
       pot: 0,
-      perWinner: 0,
-      fee: FEES.championCall,
-      refunded: false,
+      payouts: [],
+      structure: "Winner takes all",
+      note: null,
     };
   }
   const scored = entries.map((e) =>
     computeShowdownChampion(e, players, tournament),
   );
-  // Eligible = picked the correct champion AND did not overshoot the guess.
-  // Among eligible, smallest absDiff wins (Price-Is-Right). No eligible →
-  // pot is refunded (each entry gets their own $10 back, zero-net).
+  // Eligible = picked the correct champion AND didn't overshoot the guess.
+  // Among eligible, smallest absDiff wins. No eligible → full refund (each
+  // entry gets their own $10 back, zero-net).
   const eligible = scored.filter(
     (s) => s.correct && !s.overshot && s.absDiff != null,
   );
-  let winners = [];
-  let refunded = false;
+  const pot = entries.length * fee;
+
   if (!eligible.length) {
-    refunded = true;
-  } else {
-    eligible.sort((a, b) => a.absDiff - b.absDiff);
-    const wd = eligible[0].absDiff;
-    winners = eligible
-      .filter((s) => s.absDiff === wd)
-      .map((s) => s.displayName);
+    const payouts = entries.map((e) => ({
+      displayName: e.displayName,
+      amount: fee,
+      role: "refund",
+    }));
+    return {
+      label: "Champion Call",
+      entries: entries.map((e) => e.displayName),
+      fee,
+      pot,
+      payouts,
+      structure: "Winner takes all",
+      note: "No one picked the correct winner — pot refunded.",
+    };
   }
-  const pot = entries.length * FEES.championCall;
+
+  eligible.sort((a, b) => a.absDiff - b.absDiff);
+  const wd = eligible[0].absDiff;
+  const winners = eligible
+    .filter((s) => s.absDiff === wd)
+    .map((s) => s.displayName);
   return {
     label: "Champion Call",
     entries: entries.map((e) => e.displayName),
-    winners,
+    fee,
     pot,
-    perWinner: refunded ? 0 : pot / winners.length,
-    fee: FEES.championCall,
-    refunded,
+    payouts: buildWinnerTakeAllPayouts(winners, pot),
+    structure: "Winner takes all",
+    note: null,
   };
 }
 
@@ -1566,15 +1702,8 @@ function buildBalances(contests) {
     for (const e of c.entries) {
       touch(e).net -= c.fee;
     }
-    if (c.refunded) {
-      // Refund: each entry gets their own fee back (zero-net for this contest).
-      for (const e of c.entries) {
-        touch(e).net += c.fee;
-      }
-    } else {
-      for (const w of c.winners) {
-        touch(w).net += c.perWinner;
-      }
+    for (const p of c.payouts) {
+      touch(p.displayName).net += p.amount;
     }
   }
   return Array.from(people.values());
@@ -1691,36 +1820,30 @@ function renderResults(entriesData, showdownData, byId, players, tournament) {
       el(
         "p",
         { class: "results-contest-meta" },
-        `${c.entries.length} ${c.entries.length === 1 ? "entry" : "entries"} × ${fmtMoney(c.fee)}`,
+        `${c.entries.length} ${c.entries.length === 1 ? "entry" : "entries"} × ${fmtMoney(c.fee)} · ${c.structure}`,
       ),
     );
-    if (c.refunded) {
+    if (c.note) {
       card.appendChild(
-        el(
-          "p",
-          { class: "results-winners refund" },
-          "No one picked the correct winner — pot refunded.",
-        ),
+        el("p", { class: "results-winners refund" }, c.note),
       );
-    } else if (c.winners.length === 0) {
+    }
+    if (!c.payouts.length) {
       card.appendChild(
-        el("p", { class: "results-winners pending" }, "Winner TBD"),
-      );
-    } else if (c.winners.length === 1) {
-      card.appendChild(
-        el("p", { class: "results-winners" }, [
-          el("strong", {}, c.winners[0]),
-          " wins ",
-          el("span", { class: "amount" }, fmtMoney(c.perWinner)),
-        ]),
+        el("p", { class: "results-winners pending" }, "Payouts TBD"),
       );
     } else {
-      card.appendChild(
-        el("p", { class: "results-winners" }, [
-          `Split ${c.winners.length} ways (${fmtMoney(c.perWinner)} each): `,
-          el("strong", {}, c.winners.join(", ")),
-        ]),
-      );
+      const list = el("ul", { class: "results-payouts" });
+      for (const p of c.payouts) {
+        list.appendChild(
+          el("li", {}, [
+            el("span", { class: "role" }, p.role),
+            el("span", { class: "name" }, p.displayName),
+            el("span", { class: "amount" }, fmtMoney(p.amount)),
+          ]),
+        );
+      }
+      card.appendChild(list);
     }
     potsCard.appendChild(card);
   }

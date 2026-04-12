@@ -276,6 +276,41 @@ body {
   color: var(--muted);
 }
 
+.results-payouts {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+.results-payouts li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--green-line);
+  font-size: 14px;
+}
+.results-payouts li:last-child {
+  border-bottom: none;
+}
+.results-payouts .role {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--green-primary);
+  min-width: 95px;
+}
+.results-payouts .name {
+  flex: 1;
+  color: var(--text);
+}
+.results-payouts .amount {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--green-deep);
+}
+
 .results-table {
   width: 100%;
   border-collapse: collapse;
