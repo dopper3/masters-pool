@@ -143,29 +143,29 @@
     {
       "source": "form",
       "displayName": "Cleo",
-      "submittedAt": "2026-04-12T10:21:12+00:00",
+      "submittedAt": "2026-04-12T10:27:43+00:00",
       "pick3": [
+        {
+          "id": "3470",
+          "name": "Rory McIlroy"
+        },
         {
           "id": "9221",
           "name": "Haotong Li"
         },
         {
-          "id": "9843",
-          "name": "Jake Knapp"
-        },
-        {
-          "id": "5054388",
-          "name": "Jacob Bridgeman"
+          "id": "9478",
+          "name": "Scottie Scheffler"
         }
       ],
       "champion": {
-        "id": "9938",
-        "name": "Sam Burns"
-      },
-      "championGuess": -13,
-      "boomHoles": {
         "id": "3470",
         "name": "Rory McIlroy"
+      },
+      "championGuess": -14,
+      "boomHoles": {
+        "id": "9478",
+        "name": "Scottie Scheffler"
       }
     }
   ],
