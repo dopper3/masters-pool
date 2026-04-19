@@ -4,12 +4,12 @@
     "name": "RBC Heritage",
     "startDate": "2026-04-16T04:00Z",
     "endDate": "2026-04-19T04:00Z",
-    "currentRound": 4,
-    "status": "in",
-    "statusDescription": "In Progress",
+    "currentRound": 5,
+    "status": "post",
+    "statusDescription": "Final",
     "cutScore": 0,
     "cutCount": 0,
-    "lastUpdated": "2026-04-19T21:46:09.586279+00:00"
+    "lastUpdated": "2026-04-19T22:45:40.950321+00:00"
   },
   "players": [
     {
@@ -18,16 +18,16 @@
       "shortName": "M. Fitzpatrick",
       "country": "England",
       "position": "1",
-      "scoreToPar": -19.0,
-      "scoreDisplay": "-19",
-      "thru": 17,
-      "teeTime": "2026-04-19T17:50Z",
-      "status": "active",
+      "scoreToPar": -18.0,
+      "scoreDisplay": "-18",
+      "thru": 1,
+      "teeTime": "2026-04-19T22:02Z",
+      "status": "final",
       "rounds": [
         -6,
         -8,
         -3,
-        -2
+        -1
       ],
       "r4Holes": [
         3,
@@ -47,7 +47,7 @@
         5,
         4,
         3,
-        null
+        5
       ]
     },
     {
@@ -58,9 +58,9 @@
       "position": "2",
       "scoreToPar": -18.0,
       "scoreDisplay": "-18",
-      "thru": 17,
-      "teeTime": "2026-04-19T17:50Z",
-      "status": "active",
+      "thru": 0,
+      "teeTime": "2026-04-19T22:02Z",
+      "status": "final",
       "rounds": [
         -3,
         -4,
@@ -85,7 +85,7 @@
         4,
         3,
         3,
-        null
+        4
       ]
     },
     {
@@ -94,16 +94,16 @@
       "shortName": "S. Kim",
       "country": "South Korea",
       "position": "3",
-      "scoreToPar": -17.0,
-      "scoreDisplay": "-17",
-      "thru": 17,
+      "scoreToPar": -16.0,
+      "scoreDisplay": "-16",
+      "thru": 18,
       "teeTime": "2026-04-19T17:40Z",
-      "status": "active",
+      "status": "final",
       "rounds": [
         -5,
         -3,
         -5,
-        -4
+        -3
       ],
       "r4Holes": [
         4,
@@ -123,7 +123,7 @@
         4,
         4,
         3,
-        null
+        5
       ]
     },
     {
@@ -659,44 +659,6 @@
       ]
     },
     {
-      "id": "1225",
-      "name": "Brian Harman",
-      "shortName": "B. Harman",
-      "country": "USA",
-      "position": "T16",
-      "scoreToPar": -9.0,
-      "scoreDisplay": "-9",
-      "thru": 17,
-      "teeTime": "2026-04-19T17:40Z",
-      "status": "active",
-      "rounds": [
-        0,
-        -5,
-        -8,
-        4
-      ],
-      "r4Holes": [
-        4,
-        4,
-        4,
-        3,
-        5,
-        4,
-        4,
-        6,
-        4,
-        5,
-        4,
-        4,
-        5,
-        3,
-        5,
-        4,
-        3,
-        null
-      ]
-    },
-    {
       "id": "9506",
       "name": "Jordan Smith",
       "shortName": "J. Smith",
@@ -967,7 +929,7 @@
       "name": "Aldrich Potgieter",
       "shortName": "A. Potgieter",
       "country": "South Africa",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
@@ -1001,11 +963,49 @@
       ]
     },
     {
+      "id": "1225",
+      "name": "Brian Harman",
+      "shortName": "B. Harman",
+      "country": "USA",
+      "position": "T25",
+      "scoreToPar": -8.0,
+      "scoreDisplay": "-8",
+      "thru": 18,
+      "teeTime": "2026-04-19T17:40Z",
+      "status": "final",
+      "rounds": [
+        0,
+        -5,
+        -8,
+        5
+      ],
+      "r4Holes": [
+        4,
+        4,
+        4,
+        3,
+        5,
+        4,
+        4,
+        6,
+        4,
+        5,
+        4,
+        4,
+        5,
+        3,
+        5,
+        4,
+        3,
+        5
+      ]
+    },
+    {
       "id": "4425906",
       "name": "Cameron Young",
       "shortName": "C. Young",
       "country": "USA",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
@@ -1043,7 +1043,7 @@
       "name": "Chris Gotterup",
       "shortName": "C. Gotterup",
       "country": "USA",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
@@ -1081,7 +1081,7 @@
       "name": "J.J. Spaun",
       "shortName": "J.J. Spaun",
       "country": "USA",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
@@ -1119,7 +1119,7 @@
       "name": "Michael Kim",
       "shortName": "M. Kim",
       "country": "USA",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
@@ -1157,7 +1157,7 @@
       "name": "Russell Henley",
       "shortName": "R. Henley",
       "country": "USA",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
@@ -1195,7 +1195,7 @@
       "name": "Sahith Theegala",
       "shortName": "S. Theegala",
       "country": "USA",
-      "position": "T26",
+      "position": "T25",
       "scoreToPar": -8.0,
       "scoreDisplay": "-8",
       "thru": 18,
