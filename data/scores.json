@@ -9,7 +9,7 @@
     "statusDescription": "Scheduled",
     "cutScore": 0,
     "cutCount": 0,
-    "lastUpdated": "2026-04-21T22:25:59.189562+00:00"
+    "lastUpdated": "2026-04-21T23:10:02.301239+00:00"
   },
   "players": [
     {
@@ -687,24 +687,6 @@
       "scoreToPar": 0.0,
       "scoreDisplay": "-",
       "thru": 0,
-      "teeTime": "2026-04-23T12:13Z",
-      "status": "scheduled",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": null,
-      "name": null,
-      "shortName": null,
-      "country": null,
-      "position": "-",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
       "teeTime": "2026-04-23T18:34Z",
       "status": "scheduled",
       "rounds": [
@@ -868,24 +850,6 @@
       "scoreDisplay": "-",
       "thru": 0,
       "teeTime": "2026-04-23T17:03Z",
-      "status": "scheduled",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": null,
-      "name": null,
-      "shortName": null,
-      "country": null,
-      "position": "-",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
-      "teeTime": "2026-04-23T18:21Z",
       "status": "scheduled",
       "rounds": [
         null,
@@ -1336,24 +1300,6 @@
       "scoreDisplay": "-",
       "thru": 0,
       "teeTime": "2026-04-23T17:42Z",
-      "status": "scheduled",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": null,
-      "name": null,
-      "shortName": null,
-      "country": null,
-      "position": "-",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
-      "teeTime": "2026-04-23T18:21Z",
       "status": "scheduled",
       "rounds": [
         null,
