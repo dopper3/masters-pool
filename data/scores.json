@@ -9,7 +9,7 @@
     "statusDescription": "Scheduled",
     "cutScore": 0,
     "cutCount": 0,
-    "lastUpdated": "2026-04-21T23:53:20.124182+00:00"
+    "lastUpdated": "2026-04-22T03:30:43.931112+00:00"
   },
   "players": [
     {
@@ -865,9 +865,9 @@
       "country": null,
       "position": "-",
       "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": null,
-      "teeTime": null,
+      "scoreDisplay": "-",
+      "thru": 0,
+      "teeTime": "2026-04-23T18:21Z",
       "status": "scheduled",
       "rounds": [
         null,
@@ -1315,9 +1315,9 @@
       "country": null,
       "position": "-",
       "scoreToPar": 0.0,
-      "scoreDisplay": "E",
-      "thru": null,
-      "teeTime": null,
+      "scoreDisplay": "-",
+      "thru": 0,
+      "teeTime": "2026-04-23T18:21Z",
       "status": "scheduled",
       "rounds": [
         null,
