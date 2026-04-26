@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": -10,
     "cutCount": 35,
-    "lastUpdated": "2026-04-26T15:59:34.339314+00:00"
+    "lastUpdated": "2026-04-26T16:58:14.772768+00:00"
   },
   "players": [
     {
@@ -164,6 +164,24 @@
       "position": "T5",
       "scoreToPar": -23.0,
       "scoreDisplay": "-23",
+      "thru": 1,
+      "teeTime": "2026-04-26T16:41Z",
+      "status": "active",
+      "rounds": [
+        -9,
+        -1,
+        -12,
+        -1
+      ]
+    },
+    {
+      "id": null,
+      "name": null,
+      "shortName": null,
+      "country": null,
+      "position": "T5",
+      "scoreToPar": -23.0,
+      "scoreDisplay": "-23",
       "thru": 0,
       "teeTime": "2026-04-26T17:25Z",
       "status": "scheduled",
@@ -179,7 +197,7 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
@@ -197,7 +215,7 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
@@ -215,7 +233,7 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
@@ -233,7 +251,7 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
@@ -251,17 +269,17 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T10",
+      "position": "T11",
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
-      "thru": 0,
-      "teeTime": "2026-04-26T16:41Z",
-      "status": "scheduled",
+      "thru": 2,
+      "teeTime": "2026-04-26T16:30Z",
+      "status": "active",
       "rounds": [
-        -9,
-        -1,
-        -12,
-        null
+        -7,
+        -3,
+        -11,
+        -1
       ]
     },
     {
@@ -269,7 +287,25 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T10",
+      "position": "T11",
+      "scoreToPar": -22.0,
+      "scoreDisplay": "-22",
+      "thru": 2,
+      "teeTime": "2026-04-26T16:30Z",
+      "status": "active",
+      "rounds": [
+        -9,
+        -4,
+        -8,
+        -1
+      ]
+    },
+    {
+      "id": null,
+      "name": null,
+      "shortName": null,
+      "country": null,
+      "position": "T11",
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
@@ -287,17 +323,35 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T16",
+      "position": "T18",
       "scoreToPar": -21.0,
       "scoreDisplay": "-21",
-      "thru": 0,
+      "thru": 2,
+      "teeTime": "2026-04-26T17:58Z",
+      "status": "active",
+      "rounds": [
+        -8,
+        -3,
+        -9,
+        -1
+      ]
+    },
+    {
+      "id": null,
+      "name": null,
+      "shortName": null,
+      "country": null,
+      "position": "T18",
+      "scoreToPar": -21.0,
+      "scoreDisplay": "-21",
+      "thru": 1,
       "teeTime": "2026-04-26T16:41Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -7,
         -4,
         -10,
-        null
+        0
       ]
     },
     {
@@ -305,35 +359,17 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T16",
+      "position": "T18",
       "scoreToPar": -21.0,
       "scoreDisplay": "-21",
-      "thru": 0,
-      "teeTime": "2026-04-26T16:30Z",
-      "status": "scheduled",
+      "thru": 2,
+      "teeTime": "2026-04-26T17:58Z",
+      "status": "active",
       "rounds": [
-        -7,
-        -3,
-        -11,
-        null
-      ]
-    },
-    {
-      "id": null,
-      "name": null,
-      "shortName": null,
-      "country": null,
-      "position": "T16",
-      "scoreToPar": -21.0,
-      "scoreDisplay": "-21",
-      "thru": 0,
-      "teeTime": "2026-04-26T16:30Z",
-      "status": "scheduled",
-      "rounds": [
-        -9,
-        -4,
+        -10,
+        -2,
         -8,
-        null
+        -1
       ]
     },
     {
@@ -341,17 +377,17 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T19",
+      "position": "T21",
       "scoreToPar": -20.0,
       "scoreDisplay": "-20",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-26T17:47Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -5,
         -6,
         -9,
-        null
+        0
       ]
     },
     {
@@ -359,53 +395,17 @@
       "name": null,
       "shortName": null,
       "country": null,
-      "position": "T19",
+      "position": "T21",
       "scoreToPar": -20.0,
       "scoreDisplay": "-20",
-      "thru": 0,
-      "teeTime": "2026-04-26T17:58Z",
-      "status": "scheduled",
-      "rounds": [
-        -8,
-        -3,
-        -9,
-        null
-      ]
-    },
-    {
-      "id": null,
-      "name": null,
-      "shortName": null,
-      "country": null,
-      "position": "T19",
-      "scoreToPar": -20.0,
-      "scoreDisplay": "-20",
-      "thru": 0,
+      "thru": 1,
       "teeTime": "2026-04-26T17:47Z",
-      "status": "scheduled",
+      "status": "active",
       "rounds": [
         -9,
         -2,
         -9,
-        null
-      ]
-    },
-    {
-      "id": null,
-      "name": null,
-      "shortName": null,
-      "country": null,
-      "position": "T19",
-      "scoreToPar": -20.0,
-      "scoreDisplay": "-20",
-      "thru": 0,
-      "teeTime": "2026-04-26T17:58Z",
-      "status": "scheduled",
-      "rounds": [
-        -10,
-        -2,
-        -8,
-        null
+        0
       ]
     },
     {
