@@ -9,7 +9,7 @@
     "statusDescription": "In Progress",
     "cutScore": -10,
     "cutCount": 35,
-    "lastUpdated": "2026-04-26T15:11:27.110677+00:00"
+    "lastUpdated": "2026-04-26T15:59:34.339314+00:00"
   },
   "players": [
     {
@@ -21,7 +21,7 @@
       "scoreToPar": -30.0,
       "scoreDisplay": "-30",
       "thru": 0,
-      "teeTime": "2026-04-26T17:50Z",
+      "teeTime": "2026-04-26T17:58Z",
       "status": "scheduled",
       "rounds": [
         -8,
@@ -39,7 +39,7 @@
       "scoreToPar": -26.0,
       "scoreDisplay": "-26",
       "thru": 0,
-      "teeTime": "2026-04-26T17:50Z",
+      "teeTime": "2026-04-26T17:58Z",
       "status": "scheduled",
       "rounds": [
         -13,
@@ -57,7 +57,7 @@
       "scoreToPar": -26.0,
       "scoreDisplay": "-26",
       "thru": 0,
-      "teeTime": "2026-04-26T17:39Z",
+      "teeTime": "2026-04-26T17:47Z",
       "status": "scheduled",
       "rounds": [
         -14,
@@ -75,7 +75,7 @@
       "scoreToPar": -25.0,
       "scoreDisplay": "-25",
       "thru": 0,
-      "teeTime": "2026-04-26T17:39Z",
+      "teeTime": "2026-04-26T17:47Z",
       "status": "scheduled",
       "rounds": [
         -11,
@@ -93,7 +93,7 @@
       "scoreToPar": -23.0,
       "scoreDisplay": "-23",
       "thru": 0,
-      "teeTime": "2026-04-26T17:28Z",
+      "teeTime": "2026-04-26T17:36Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -111,7 +111,7 @@
       "scoreToPar": -23.0,
       "scoreDisplay": "-23",
       "thru": 0,
-      "teeTime": "2026-04-26T17:17Z",
+      "teeTime": "2026-04-26T17:25Z",
       "status": "scheduled",
       "rounds": [
         -11,
@@ -129,7 +129,7 @@
       "scoreToPar": -23.0,
       "scoreDisplay": "-23",
       "thru": 0,
-      "teeTime": "2026-04-26T17:28Z",
+      "teeTime": "2026-04-26T17:36Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -147,7 +147,7 @@
       "scoreToPar": -23.0,
       "scoreDisplay": "-23",
       "thru": 0,
-      "teeTime": "2026-04-26T17:06Z",
+      "teeTime": "2026-04-26T17:14Z",
       "status": "scheduled",
       "rounds": [
         -11,
@@ -165,7 +165,7 @@
       "scoreToPar": -23.0,
       "scoreDisplay": "-23",
       "thru": 0,
-      "teeTime": "2026-04-26T17:17Z",
+      "teeTime": "2026-04-26T17:25Z",
       "status": "scheduled",
       "rounds": [
         -12,
@@ -183,7 +183,7 @@
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
-      "teeTime": "2026-04-26T16:48Z",
+      "teeTime": "2026-04-26T17:03Z",
       "status": "scheduled",
       "rounds": [
         -12,
@@ -201,7 +201,7 @@
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
-      "teeTime": "2026-04-26T16:37Z",
+      "teeTime": "2026-04-26T16:52Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -219,7 +219,7 @@
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
-      "teeTime": "2026-04-26T17:06Z",
+      "teeTime": "2026-04-26T17:14Z",
       "status": "scheduled",
       "rounds": [
         -8,
@@ -237,7 +237,7 @@
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
-      "teeTime": "2026-04-26T16:48Z",
+      "teeTime": "2026-04-26T17:03Z",
       "status": "scheduled",
       "rounds": [
         -11,
@@ -255,7 +255,7 @@
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
-      "teeTime": "2026-04-26T16:26Z",
+      "teeTime": "2026-04-26T16:41Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -273,7 +273,7 @@
       "scoreToPar": -22.0,
       "scoreDisplay": "-22",
       "thru": 0,
-      "teeTime": "2026-04-26T16:37Z",
+      "teeTime": "2026-04-26T16:52Z",
       "status": "scheduled",
       "rounds": [
         -12,
@@ -291,7 +291,7 @@
       "scoreToPar": -21.0,
       "scoreDisplay": "-21",
       "thru": 0,
-      "teeTime": "2026-04-26T16:26Z",
+      "teeTime": "2026-04-26T16:41Z",
       "status": "scheduled",
       "rounds": [
         -7,
@@ -309,7 +309,7 @@
       "scoreToPar": -21.0,
       "scoreDisplay": "-21",
       "thru": 0,
-      "teeTime": "2026-04-26T16:15Z",
+      "teeTime": "2026-04-26T16:30Z",
       "status": "scheduled",
       "rounds": [
         -7,
@@ -327,7 +327,7 @@
       "scoreToPar": -21.0,
       "scoreDisplay": "-21",
       "thru": 0,
-      "teeTime": "2026-04-26T16:15Z",
+      "teeTime": "2026-04-26T16:30Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -345,7 +345,7 @@
       "scoreToPar": -20.0,
       "scoreDisplay": "-20",
       "thru": 0,
-      "teeTime": "2026-04-26T15:53Z",
+      "teeTime": "2026-04-26T17:47Z",
       "status": "scheduled",
       "rounds": [
         -5,
@@ -363,7 +363,7 @@
       "scoreToPar": -20.0,
       "scoreDisplay": "-20",
       "thru": 0,
-      "teeTime": "2026-04-26T16:04Z",
+      "teeTime": "2026-04-26T17:58Z",
       "status": "scheduled",
       "rounds": [
         -8,
@@ -381,7 +381,7 @@
       "scoreToPar": -20.0,
       "scoreDisplay": "-20",
       "thru": 0,
-      "teeTime": "2026-04-26T15:53Z",
+      "teeTime": "2026-04-26T17:47Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -399,7 +399,7 @@
       "scoreToPar": -20.0,
       "scoreDisplay": "-20",
       "thru": 0,
-      "teeTime": "2026-04-26T16:04Z",
+      "teeTime": "2026-04-26T17:58Z",
       "status": "scheduled",
       "rounds": [
         -10,
@@ -417,7 +417,7 @@
       "scoreToPar": -19.0,
       "scoreDisplay": "-19",
       "thru": 0,
-      "teeTime": "2026-04-26T15:14Z",
+      "teeTime": "2026-04-26T17:14Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -435,7 +435,7 @@
       "scoreToPar": -19.0,
       "scoreDisplay": "-19",
       "thru": 0,
-      "teeTime": "2026-04-26T15:25Z",
+      "teeTime": "2026-04-26T17:25Z",
       "status": "scheduled",
       "rounds": [
         -7,
@@ -453,7 +453,7 @@
       "scoreToPar": -19.0,
       "scoreDisplay": "-19",
       "thru": 0,
-      "teeTime": "2026-04-26T15:36Z",
+      "teeTime": "2026-04-26T17:36Z",
       "status": "scheduled",
       "rounds": [
         -8,
@@ -471,7 +471,7 @@
       "scoreToPar": -19.0,
       "scoreDisplay": "-19",
       "thru": 0,
-      "teeTime": "2026-04-26T15:25Z",
+      "teeTime": "2026-04-26T17:25Z",
       "status": "scheduled",
       "rounds": [
         -8,
@@ -489,7 +489,7 @@
       "scoreToPar": -19.0,
       "scoreDisplay": "-19",
       "thru": 0,
-      "teeTime": "2026-04-26T15:36Z",
+      "teeTime": "2026-04-26T17:36Z",
       "status": "scheduled",
       "rounds": [
         -10,
@@ -507,7 +507,7 @@
       "scoreToPar": -19.0,
       "scoreDisplay": "-19",
       "thru": 0,
-      "teeTime": "2026-04-26T15:14Z",
+      "teeTime": "2026-04-26T17:14Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -525,7 +525,7 @@
       "scoreToPar": -18.0,
       "scoreDisplay": "-18",
       "thru": 0,
-      "teeTime": "2026-04-26T14:52Z",
+      "teeTime": "2026-04-26T16:52Z",
       "status": "scheduled",
       "rounds": [
         -8,
@@ -543,7 +543,7 @@
       "scoreToPar": -18.0,
       "scoreDisplay": "-18",
       "thru": 0,
-      "teeTime": "2026-04-26T15:03Z",
+      "teeTime": "2026-04-26T17:03Z",
       "status": "scheduled",
       "rounds": [
         -6,
@@ -561,7 +561,7 @@
       "scoreToPar": -18.0,
       "scoreDisplay": "-18",
       "thru": 0,
-      "teeTime": "2026-04-26T15:03Z",
+      "teeTime": "2026-04-26T17:03Z",
       "status": "scheduled",
       "rounds": [
         -6,
@@ -579,7 +579,7 @@
       "scoreToPar": -17.0,
       "scoreDisplay": "-17",
       "thru": 0,
-      "teeTime": "2026-04-26T14:52Z",
+      "teeTime": "2026-04-26T16:52Z",
       "status": "scheduled",
       "rounds": [
         -6,
@@ -597,7 +597,7 @@
       "scoreToPar": -15.0,
       "scoreDisplay": "-15",
       "thru": 0,
-      "teeTime": "2026-04-26T14:41Z",
+      "teeTime": "2026-04-26T16:41Z",
       "status": "scheduled",
       "rounds": [
         -7,
@@ -615,7 +615,7 @@
       "scoreToPar": -14.0,
       "scoreDisplay": "-14",
       "thru": 0,
-      "teeTime": "2026-04-26T14:41Z",
+      "teeTime": "2026-04-26T16:41Z",
       "status": "scheduled",
       "rounds": [
         -9,
@@ -633,7 +633,7 @@
       "scoreToPar": -13.0,
       "scoreDisplay": "-13",
       "thru": 0,
-      "teeTime": "2026-04-26T14:30Z",
+      "teeTime": "2026-04-26T16:30Z",
       "status": "scheduled",
       "rounds": [
         -8,
