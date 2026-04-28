@@ -9,7 +9,7 @@
     "statusDescription": "Scheduled",
     "cutScore": 0,
     "cutCount": 0,
-    "lastUpdated": "2026-04-28T19:57:24.556298+00:00"
+    "lastUpdated": "2026-04-28T21:14:49.712441+00:00"
   },
   "players": [
     {
@@ -849,7 +849,7 @@
       "scoreToPar": 0.0,
       "scoreDisplay": "-",
       "thru": 0,
-      "teeTime": null,
+      "teeTime": "2026-04-30T17:30Z",
       "status": "scheduled",
       "rounds": [
         null,
@@ -922,24 +922,6 @@
       "scoreDisplay": "-",
       "thru": 0,
       "teeTime": "2026-04-30T17:10Z",
-      "status": "scheduled",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ]
-    },
-    {
-      "id": "6007",
-      "name": "Patrick Cantlay",
-      "shortName": "P. Cantlay",
-      "country": "USA",
-      "position": "-",
-      "scoreToPar": 0.0,
-      "scoreDisplay": "-",
-      "thru": 0,
-      "teeTime": "2026-04-30T17:30Z",
       "status": "scheduled",
       "rounds": [
         null,
